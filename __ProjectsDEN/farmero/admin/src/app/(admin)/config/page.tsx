@@ -5,7 +5,7 @@
  */
 
 export default function ConfigPage() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://api.farme.ro'
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000'
   const appEnv = process.env.NEXT_PUBLIC_APP_ENV || 'development'
 
   return (

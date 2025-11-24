@@ -61,7 +61,48 @@
     "systemGdpr": "GDPR & Data",
     "systemContracts": "Contracts & Invoices",
     "systemSubscriptions": "Promotion subscriptions",
-    "systemMonitoring": "Post-Launch Monitoring"
+    "systemMonitoring": "Post-Launch Monitoring",
+    "systemPostLaunch": "Post-Launch Dashboard"
+  },
+  "postLaunch": {
+    "title": "Post-Launch Dashboard",
+    "subtitle": "Monitoring, optimization and post-launch testing",
+    "tabs": {
+      "monitoring": "Monitoring",
+      "performance": "Performance",
+      "analytics": "Analytics",
+      "security": "Security",
+      "qa": "QA"
+    },
+    "monitoring": {
+      "title": "Monitoring & Stability"
+    },
+    "performance": {
+      "title": "Performance & SEO Optimization",
+      "metrics": "Performance Metrics",
+      "seo": "SEO Metrics",
+      "recommendations": "Optimization Recommendations"
+    },
+    "analytics": {
+      "title": "Analytics & Conversions",
+      "conversions": "Conversion Metrics",
+      "funnel": "Conversion Funnel"
+    },
+    "security": {
+      "title": "Hardening & Security",
+      "metrics": "Security Metrics",
+      "runAudit": "Run Audit",
+      "auditResults": "Security Audit Results",
+      "recommendations": "Security Recommendations"
+    },
+    "qa": {
+      "title": "Complete Functional Tests",
+      "runAll": "Run All Tests",
+      "functional": "Functional Tests",
+      "load": "Load Tests",
+      "regression": "Regression Tests",
+      "allTests": "All Tests"
+    }
   },
   "monitoring": {
     "title": "Post-Launch Monitoring",

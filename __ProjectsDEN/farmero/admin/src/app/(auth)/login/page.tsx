@@ -6,12 +6,12 @@
  * Admin authentication page
  */
 
-import { useState, FormEvent } from 'react'
+import { useState, FormEvent, Suspense } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useAdminAuth } from '@/lib/auth/admin-auth-context'
 import { LogIn } from 'lucide-react'
 
-export default function LoginPage() {
+function LoginForm() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState<string | null>(null)
@@ -105,3 +105,14 @@ export default function LoginPage() {
   )
 }
 
+export default function LoginPage() {
+  return (
+    <Suspense fallback={
+      <div className="flex min-h-screen items-center justify-center">
+        <div className="h-8 w-8 animate-spin rounded-full border-2 border-farmero-olive-600 border-t-transparent"></div>
+      </div>
+    }>
+      <LoginForm />
+    </Suspense>
+  )
+}
