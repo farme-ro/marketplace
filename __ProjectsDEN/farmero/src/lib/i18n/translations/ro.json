@@ -1,0 +1,4040 @@
+{
+  "common": {
+    "loading": "Se încarcă...",
+    "error": "Eroare",
+    "success": "Succes",
+    "cancel": "Anulează",
+    "save": "Salvează",
+    "delete": "Șterge",
+    "edit": "Editează",
+    "back": "Înapoi",
+    "next": "Următor",
+    "previous": "Anterior",
+    "search": "Caută",
+    "filter": "Filtrează",
+    "sort": "Sortează",
+    "products": "Produse",
+    "producers": "Producători",
+    "add": "Adaugă",
+    "remove": "Elimină",
+    "close": "Închide",
+    "confirm": "Confirmă",
+    "yes": "Da",
+    "no": "Nu",
+    "ok": "OK",
+    "retry": "Încearcă din nou",
+    "continue": "Continuă",
+    "skip": "Sari peste",
+    "viewAll": "Vezi toate",
+    "download": "Descarcă",
+    "skipToContent": "Sari la conținut",
+    "always": "Întotdeauna",
+    "processing": "Se procesează...",
+    "backToHomepage": "Înapoi la homepage",
+    "theme": {
+      "toggle": "Schimbă tema",
+      "toggleToLight": "Schimbă la modul deschis",
+      "toggleToDark": "Schimbă la modul închis"
+    },
+    "language": {
+      "select": "Selectează limba"
+    }
+  },
+  "actions": {
+    "addToCart": "Adaugă în coș",
+    "viewDetails": "Vezi detalii",
+    "viewProductDetails": "Vezi detalii produs",
+    "viewOrderDetails": "Vezi detalii comandă",
+    "viewProducerPage": "Vezi pagina producătorului",
+    "buyNow": "Cumpără acum",
+    "save": "Salvează",
+    "cancel": "Anulează",
+    "delete": "Șterge",
+    "edit": "Editează",
+    "continue": "Continuă",
+    "back": "Înapoi",
+    "close": "Închide",
+    "confirm": "Confirmă",
+    "login": "Autentificare",
+    "register": "Înregistrare",
+    "logout": "Deconectare",
+    "placeOrder": "Plasează comanda",
+    "proceedToCheckout": "Continuă la checkout",
+    "removeItem": "Elimină produs",
+    "clearCart": "Golește coșul",
+    "addProduct": "Adaugă produs",
+    "updateQuantity": "Actualizează cantitatea",
+    "viewCart": "Vezi coșul",
+    "continueShopping": "Continuă cumpărăturile",
+    "reorder": "Comandă din nou",
+    "addToFavorites": "Adaugă la favorite",
+    "removeFromFavorites": "Elimină din favorite",
+    "exploreProducts": "Explorează produse",
+    "seeProducers": "Vezi producătorii",
+    "learnMore": "Află mai multe",
+    "startShopping": "Începe să cumperi",
+    "viewAll": "Vezi toate",
+    "viewAllProducts": "Vezi toate produsele",
+    "viewAllProducers": "Vezi toți producători",
+    "viewAllOrders": "Vezi toate comenzile",
+    "trackOrder": "Urmărește comanda",
+    "confirmDelete": "Confirmă ștergerea",
+    "confirmCancel": "Confirmă anularea",
+    "confirmCancelOrder": "Confirmă anularea comenzii",
+    "confirmDeleteProduct": "Confirmă ștergerea produsului",
+    "confirmClearCart": "Ești sigur că vrei să golești coșul?",
+    "confirmDeleteTitle": "Confirmă ștergerea",
+    "confirmCancelTitle": "Confirmă anularea",
+    "confirmCancelOrderTitle": "Anulează comanda",
+    "confirmDeleteProductTitle": "Șterge produs",
+    "confirmCancelOrderMessage": "Ești sigur că vrei să anulezi această comandă? Această acțiune nu poate fi anulată.",
+    "confirmDeleteProductMessage": "Ești sigur că vrei să ștergi acest produs? Această acțiune nu poate fi anulată.",
+    "yesDelete": "Da, șterge",
+    "yesCancel": "Da, anulează",
+    "noKeep": "Nu, păstrează",
+    "subscribe": "Abonează-mă",
+    "unsubscribe": "Dezabonează-mă",
+    "download": "Descarcă",
+    "upload": "Încarcă",
+    "search": "Caută",
+    "filter": "Filtrează",
+    "reset": "Resetează",
+    "apply": "Aplică",
+    "clear": "Șterge",
+    "select": "Selectează",
+    "create": "Creează",
+    "update": "Actualizează",
+    "submit": "Trimite",
+    "send": "Trimite",
+    "retry": "Încearcă din nou",
+    "refresh": "Actualizează",
+    "loadMore": "Încarcă mai multe",
+    "showMore": "Afișează mai multe",
+    "showLess": "Afișează mai puțin"
+  },
+  "navbar": {
+    "home": "Acasă",
+    "login": "Autentificare",
+    "register": "Înregistrare",
+    "signIn": "Conectare",
+    "signUp": "Înregistrare",
+    "about": "Cine suntem",
+    "howItWorks": "Cum funcționează",
+    "joinUs": "Soluțiile noastre",
+    "logout": "Deconectare",
+    "dashboard": "Dashboard",
+    "cart": "Coș",
+    "orders": "Comenzi",
+    "searchPlaceholder": "Caută produse...",
+    "goToHome": "Mergi la pagina principală",
+    "yourArea": "Zona ta",
+    "becomePartner": "Devino partener",
+    "forProducers": "Pentru producători",
+    "forBusiness": "Pentru afacerea ta",
+    "forInvestors": "Pentru investitori",
+    "forLogistics": "Logistică și transport",
+    "forImporters": "Pentru importatori",
+    "openMenu": "Deschide meniul",
+    "openCart": "Deschide coșul"
+  },
+  "footer": {
+    "tagline": "farmero – marketplace corect între producători locali și oameni care vor să mănânce mai bine.",
+    "subtitle": "Prețuri de producător, comerț corect și zero risipă acolo unde putem ajuta.",
+    "forClients": "Pentru clienți",
+    "forProducers": "Pentru producători",
+    "aboutFarmero": "Despre farmero",
+    "legal": "Legal & info",
+    "howItWorks": "Cum funcționează farmero",
+    "localProducers": "Producători locali",
+    "products": "Produse",
+    "socialImpact": "Impact social & donații",
+    "faq": "Întrebări frecvente (FAQ)",
+    "becomeProducer": "Devino producător partener",
+    "producerLogin": "Autentificare producători",
+    "commissions": "Comisioane & taxe",
+    "subscriptions": "Abonamente & promovare",
+    "shippingGuide": "Ghid livrări & logistică",
+    "whySell": "De ce să vinzi pe farme.ro",
+    "about": "Despre noi",
+    "mission": "Misiune & valori",
+    "contact": "Contact",
+    "terms": "Termeni și condiții",
+    "privacy": "Politica de confidențialitate",
+    "cookies": "Politica de cookies",
+    "anpc": "ANPC / Soluționare litigii",
+    "gdpr": "Protecția datelor",
+    "supportFarmero": "Susține Farmero",
+    "copyright": "© {year} farmero. Toate drepturile rezervate.",
+    "madeWith": "Făcut cu",
+    "inRomania": "în România",
+    "socialTitle": "Suntem și aici",
+    "newsletterTitle": "Primești noutăți de la producători",
+    "newsletterDescription": "Rețete, producători noi și oferte direct în inbox. Fără spam.",
+    "newsletterButton": "Mă abonez",
+    "trustDescription": "Plăți securizate. Producători verificați. Livrare gestionată de fiecare producător în parte.",
+    "trustProducerPrice": "Prețuri de producător",
+    "trustVerifiedProducers": "Producători verificați",
+    "trustNoHiddenContracts": "Fără contracte ascunse",
+    "trustSupportLocal": "Sprijini economia locală"
+  },
+  "cart": {
+    "empty": "Coșul tău este gol",
+    "startShopping": "Începe să cumperi",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "shipping": "Transport",
+    "viewCart": "Vezi coșul",
+    "checkout": "Checkout",
+    "clearCart": "Golește coșul",
+    "removeItem": "Elimină produs",
+    "addToCart": "Adaugă în coș",
+    "addedToCart": "Produs adăugat în coș!",
+    "updateQuantity": "Actualizează cantitatea",
+    "loading": "Se încarcă coșul...",
+    "confirmClear": "Ești sigur că vrei să golești coșul?",
+    "quantity": "Cantitate",
+    "price": "Preț",
+    "proceedToCheckout": "Continuă la checkout",
+    "inCart": "în coș",
+    "fromProducer": "de la",
+    "decreaseQuantity": "Scade cantitatea",
+    "increaseQuantity": "Crește cantitatea",
+    "removeProduct": "Șterge produsul",
+    "redirectToLogin": "Vei fi redirecționat la autentificare",
+    "continueShopping": "Continuă cumpărăturile"
+  },
+  "checkout": {
+    "title": "Finalizează comanda",
+    "deliveryMethod": "Metodă de livrare",
+    "paymentMethod": "Metodă de plată",
+    "shippingAddress": "Adresă de livrare",
+    "name": "Nume complet",
+    "email": "Email",
+    "phone": "Telefon",
+    "city": "Oraș",
+    "address": "Adresă",
+    "postalCode": "Cod poștal",
+    "notes": "Note (opțional)",
+    "required": "Câmp obligatoriu",
+    "selectDelivery": "Te rugăm să selectezi un mod de livrare",
+    "fillRequired": "Te rugăm să completezi toate câmpurile obligatorii",
+    "agreeTerms": "Te rugăm să confirmi că ai înțeles termenii",
+    "placeOrder": "Plasează comanda",
+    "processing": "Se procesează comanda...",
+    "orderPlaced": "Comandă plasată cu succes!",
+    "errorPlacingOrder": "A apărut o problemă la plasarea comenzii. Te rugăm să încerci din nou.",
+    "cartEmpty": "Coșul este gol. Adaugă produse înainte de a plasa comanda.",
+    "fullAddress": "Adresă completă",
+    "notesPlaceholder": "Instrucțiuni speciale pentru livrare...",
+    "thankYou": "Fiecare comandă contează. Mulțumim.",
+    "confirmTerms": "Confirm că am înțeles",
+    "termsLink": "termenul de ridicare și politica privind produsele alimentare perisabile",
+    "header": {
+      "title": "Comanda ta sprijină producătorii locali și comunitățile vulnerabile",
+      "subtitle": "Fiecare comandă plasată pe Farme.ro înseamnă produse mai proaspete pentru tine și susținere reală pentru economia locală."
+    },
+    "delivery": {
+      "title": "Mod de livrare",
+      "address": {
+        "title": "Livrare la adresă",
+        "description": "Produsele sunt livrate direct la adresa ta"
+      },
+      "easybox": {
+        "title": "Livrare în Easybox / punct ridicare",
+        "description": "Ridică comanda din punctul de pick-up ales",
+        "warning": "Produsele alimentare sunt sensibile. Te rugăm să le ridici în intervalul indicat pentru a menține calitatea."
+      }
+    },
+    "responsibility": {
+      "title": "Impactul tău contează",
+      "description": "Dacă o comandă nu este ridicată la timp, aceasta poate fi redirecționată către centre sociale sau persoane vulnerabile.",
+      "highlight": "Nu aruncăm alimente. Le transformăm în sprijin.",
+      "zeroWaste": "Zero risipă",
+      "solidarity": "Solidaritate",
+      "community": "Comunitate",
+      "learnMore": "Află mai multe despre impactul social →"
+    },
+    "paymentRules": {
+      "firstOrder": "Prima ta comandă: Pentru siguranță, acceptăm doar plăți online cu cardul.",
+      "goodHistory": "Istoric pozitiv: Ai acces la toate metodele de plată disponibile.",
+      "restriction": "Pentru a menține calitatea serviciului, anumite plăți pot fi temporar disponibile doar online."
+    },
+    "impactBox": {
+      "title": "Ai avut comenzi neridicate anterior",
+      "description": "Pentru transparență, următoarele comenzi pot include o taxă logistică suplimentară temporară."
+    },
+    "impactSection": {
+      "title": "Impactul tău în cifre",
+      "supportProducers": "Susții producători locali",
+      "redirectWaste": "Redirecționezi risipa alimentară",
+      "contributeCommunity": "Contribui la sprijin comunitar"
+    },
+    "impactSidebar": {
+      "title": "Impactul comenzii tale",
+      "supportDirect": "Susții direct producători locali",
+      "reduceWaste": "Reduci risipa alimentară",
+      "contributeDonations": "Contribui la donații sociale",
+      "pricesNote": "Prețurile sunt stabilite de producători, nu de platformă.",
+      "securePayment": "Plată 100% securizată"
+    },
+    "trustBar": {
+      "message1": "Comanda ta susține direct producătorul",
+      "message2": "Plată sigură, fără taxe ascunse",
+      "message3": "Preț corect, muncă respectată"
+    },
+    "detailsTitle": "Detalii livrare",
+    "payment": {
+      "title": "Finalizează plata",
+      "stripeUnavailable": "Plata Stripe nu este disponibilă momentan. Contactează administratorul.",
+      "errorCreatingSession": "Eroare la crearea sesiunii de plată"
+    }
+  },
+  "orders": {
+    "title": "Comenzile mele",
+    "noOrders": "Nu ai comenzi",
+    "noOrdersDescription": "Începe să cumperi pentru a vedea comenzile tale aici.",
+    "orderNumber": "Comandă",
+    "date": "Dată",
+    "status": "Status",
+    "total": "Total",
+    "viewDetails": "Vezi detalii",
+    "reorder": "Comandă din nou",
+    "statusPending": "În așteptare",
+    "statusPaid": "Plătită",
+    "statusProcessing": "În pregătire",
+    "statusShipped": "În livrare",
+    "statusDelivered": "Livrată",
+    "statusCanceled": "Anulată",
+    "statusUncollected": "Neridicată",
+    "errorLoading": "Eroare la încărcarea comenzilor",
+    "loading": "Se încarcă comenzile...",
+    "items": "Produse",
+    "reorderWarning": "Unele produse din această comandă nu mai sunt disponibile",
+    "status": {
+      "pending": "În așteptare",
+      "paid": "Plătită",
+      "processing": "În procesare",
+      "shipped": "În livrare",
+      "delivered": "Livrată",
+      "canceled": "Anulată",
+      "uncollected": "Neridicată"
+    },
+    "detail": {
+      "title": "Comanda #{number}",
+      "placedOn": "Plasată pe",
+      "loading": "Se încarcă detaliile comenzii...",
+      "notFound": "Comanda nu a fost găsită",
+      "backToOrders": "Înapoi la comenzi",
+      "productsTitle": "Produse comandate",
+      "summaryTitle": "Sumar comandă",
+      "subtotal": "Subtotal",
+      "shipping": "Transport",
+      "total": "Total",
+      "deliveryTitle": "Detalii livrare",
+      "name": "Nume",
+      "phone": "Telefon",
+      "address": "Adresă",
+      "reordering": "Se adaugă...",
+      "reorder": "Comandă din nou"
+    }
+  },
+  "product": {
+    "addToCart": "Adaugă în coș",
+    "inStock": "În stoc",
+    "limitedStock": "Stoc limitat",
+    "outOfStock": "Stoc epuizat",
+    "quantity": "Cantitate",
+    "producer": "Producător",
+    "category": "Categorie",
+    "description": "Descriere",
+    "similarProducts": "Produse similare de la alți producători",
+    "noSimilarProducts": "Nu există produse similare disponibile",
+    "descriptionTitle": "Descriere produs",
+    "aboutProducer": "Despre producător",
+    "producerFrom": "Producător din zona {region}",
+    "producerDescription": "Producător local specializat în produse de calitate, direct de la sursă.",
+    "viewProducerPage": "Vezi pagina producătorului",
+    "deliveryInfo": "Info livrare",
+    "deliveryTime": "Livrare în 2-3 zile lucrătoare",
+    "coveredArea": "Zona acoperită",
+    "deliveryAvailable": "Livrare disponibilă în toată România prin curier.",
+    "deliveryOptions": "Opțiuni de livrare",
+    "deliveryHome": "Livrare la adresă (curier)",
+    "deliveryEasybox": "Easybox / Pachetomat (pentru anumite produse, acestea pot fi lăsate în pachetomat, în limita timpului de siguranță alimentară)",
+    "subscriptionsComing": "Curând: abonamente recurente",
+    "subscriptionsDescription": "Cosul tău preferat livrat automat, la intervalul ales de tine.",
+    "notifyWhenAvailable": "Anunță-mă când e disponibil",
+    "reviews": "Recenzii",
+    "reviewsComingSoon": "Recenziile vor fi disponibile în curând.",
+    "priceProducer": "Preț de producător (fără adaos de supermarket).",
+    "stockUpdate": "Producătorul își actualizează stocurile înainte de comandă.",
+    "orderHelpsProducer": "Comanda ta îl ajută pe producător să-și planifice mai bine producția.",
+    "addToFavorites": "Adaugă la favorite"
+  },
+  "producers": {
+    "available": "Producători disponibili",
+    "chooseDescription": "Alege producătorii preferați și comandă direct din gospodăriile lor.",
+    "viewAll": "Vezi toți producători",
+    "errors": {
+      "loadFailed": "Eroare la încărcarea producătorilor"
+    },
+    "filters": {
+      "ariaLabel": "Filtre producători",
+      "searchPlaceholder": "Caută producător sau produs…",
+      "allRegions": "Toată țara",
+      "regions": {
+        "transilvania": "Transilvania",
+        "moldova": "Moldova",
+        "muntenia": "Muntenia",
+        "oltenia": "Oltenia",
+        "dobrogea": "Dobrogea"
+      },
+      "types": {
+        "bio": "Bio",
+        "traditional": "Tradițional",
+        "artisanal": "Artizanal",
+        "national": "Livrare națională"
+      },
+      "sort": {
+        "relevance": "Relevanță",
+        "rating": "Rating",
+        "popular": "Cele mai populare"
+      },
+      "bio": "Bio",
+      "traditional": "Tradițional",
+      "artisanal": "Artizanal",
+      "sortLabel": "Sortează după",
+      "sortRelevance": "Relevanță",
+      "sortRating": "Rating",
+      "sortPopular": "Cele mai populare"
+    },
+    "hero": {
+      "title": "Producători locali din toată România",
+      "description": "Descoperă producători de încredere, cu prețuri direct de la sursă și produse atent selectate. Susții gospodăriile locale de fiecare dată când comanzi.",
+      "badge1": "Preț de producător",
+      "badge2": "Produse locale & tradiționale",
+      "badge3": "Sprijini direct gospodăriile din România",
+      "stats": {
+        "producers": "producători",
+        "counties": "județe acoperite",
+        "products": "produse active"
+      },
+      "example": {
+        "label": "Exemplu producător",
+        "name": "Stâna de sub munte",
+        "location": "Brașov, zona montană",
+        "product1": "Brânză maturată – de la 25 lei",
+        "product2": "Telemea de casă – de la 22 lei",
+        "product3": "Urda proaspătă – de la 18 lei",
+        "note": "Produse făcute în gospodărie, livrate direct către tine, fără intermediari.",
+        "verified": "Producător verificat"
+      }
+    },
+    "card": {
+      "exampleProduct1": "Brânză maturată de capră",
+      "exampleProduct2": "Miere polifloră",
+      "deliveryCourier": "Livrare curier",
+      "deliveryLocal": "Ridicare locală"
+    },
+    "detail": {
+      "storyTitle": "Povestea producătorului",
+      "howWorksTitle": "Cum lucrează",
+      "howWorks1": "Produse făcute în gospodărie, în loturi limitate.",
+      "howWorks2": "Rețete tradiționale și ingrediente locale, acolo unde este posibil.",
+      "howWorks3": "Focus pe calitate, nu pe cantitate – stocurile se pot epuiza rapid.",
+      "howWorksNote": "Notă: disponibilitatea produselor poate varia în funcție de sezon și de producție. Dacă un produs nu mai este în stoc, producătorul îl poate dezactiva rapid din platformă.",
+      "impactTitle": "Impactul tău social",
+      "impactDescription": "Când comanzi de la acest producător:",
+      "impact1": "Susții direct o gospodărie locală, nu un lanț de retail.",
+      "impact2": "Contribui la reducerea risipei alimentare prin comenzi planificate.",
+      "impact3": "Ajuți la păstrarea rețetelor și obiceiurilor culinare tradiționale.",
+      "productsTitle": "Produse disponibile",
+      "productsSubtitle": "Toate prețurile sunt direct de la producător.",
+      "productsEmpty": "Momentan nu sunt produse active. Revino în curând sau urmărește acest producător pentru noutăți.",
+      "deliveryTitle": "Livrare & ambalare",
+      "delivery1": "Livrarea se face direct de către producător sau prin curier partener.",
+      "delivery2": "Produsele sensibile sunt ambalate corespunzător pentru transport.",
+      "delivery3": "Pentru anumite comenzi, livrarea se poate face la pachetomat / easybox (unde este disponibil).",
+      "badgeProducerPrice": "Preț de producător",
+      "badgeSmallBatches": "Loturi mici, proaspete",
+      "badgeSupportHousehold": "Susții direct gospodăria",
+      "backToProfile": "Înapoi la profilul producătorului",
+      "productsFrom": "Produse de la {name}",
+      "partnerSince": "Partener din {year}",
+      "productsCount": "{count} {count, plural, one {produs disponibil} other {produse disponibile}}",
+      "productsAvailable": "Produse Disponibile",
+      "productsEmpty": "Nu există produse disponibile momentan."
+    }
+  },
+  "portal": {
+    "comingSoon": "În curând",
+    "underConstruction": "Portalul {portal} este în construcție. Vom reveni în curând!",
+    "underConstructionGeneric": "Această secțiune este în construcție. Vom reveni în curând!",
+    "backToHomepage": "Înapoi la homepage"
+  },
+  "thankYou": {
+    "title": "Mulțumim pentru comandă!",
+    "orderPlaced": "Comanda ta a fost plasată cu succes",
+    "orderNumber": "Număr comandă",
+    "confirmationEmail": "Îți mulțumim pentru comanda ta. Vei primi un email de confirmare în scurt timp.",
+    "trackOrder": "Urmărește comanda",
+    "viewOrders": "Vezi toate comenzile",
+    "continueShopping": "Continuă cumpărăturile",
+    "orderDetails": "Detalii comandă",
+    "status": "Status",
+    "total": "Total",
+    "deliveryTo": "Livrare la:",
+    "products": "Produse:",
+    "trackOrderNumber": "Poți folosi acest număr pentru a urmări statusul comenzii tale.",
+    "loading": "Se încarcă confirmarea comenzii..."
+  },
+  "errors": {
+    "generic": "Ceva nu a mers bine",
+    "genericMessage": "A apărut o eroare neașteptată. Te rugăm să încerci din nou.",
+    "unauthorized": "Trebuie să fii autentificat",
+    "unauthorizedMessage": "Pentru a accesa această pagină, trebuie să te autentifici.",
+    "forbidden": "Acces restricționat",
+    "forbiddenMessage": "Nu ai permisiunea de a accesa această pagină.",
+    "notFound": "Pagina nu a fost găsită",
+    "notFoundMessage": "Pagina pe care o cauți nu există sau a fost mutată.",
+    "serverError": "Eroare server",
+    "serverErrorMessage": "A apărut o eroare pe server. Te rugăm să încerci din nou mai târziu.",
+    "networkError": "Eroare de rețea",
+    "networkErrorMessage": "Nu s-a putut conecta la server. Verifică conexiunea la internet.",
+    "loadFailed": "Eroare la încărcare",
+    "loadFailedMessage": "Nu am putut încărca datele. Te rugăm să încerci din nou.",
+    "saveError": "Eroare la salvare",
+    "saveErrorMessage": "Nu am putut salva datele. Te rugăm să încerci din nou.",
+    "deleteError": "Eroare la ștergere",
+    "deleteErrorMessage": "Nu am putut șterge resursa. Te rugăm să încerci din nou.",
+    "validation": "Date invalide",
+    "validationMessage": "Date invalide. Te rugăm să verifici și să încerci din nou.",
+    "auth": "Trebuie să fii autentificat.",
+    "tryAgain": "Încearcă din nou",
+    "goHome": "Mergi la homepage",
+    "goToLogin": "Mergi la login",
+    "contactSupport": "Contactează suportul",
+    "loadingError": "Eroare la încărcare",
+    "boundary": {
+      "title": "Ceva nu a mers bine",
+      "description": "A apărut o eroare neașteptată. Te rugăm să încerci din nou.",
+      "details": "Detalii eroare (development)",
+      "retry": "Încearcă din nou",
+      "goHome": "Mergi la homepage"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Produse direct de la",
+      "titleHighlight": "producători locali.",
+      "titleSubtitle": "Fără intermediari.",
+      "description": "Prețuri corecte, gust autentic și impact real pentru comunitățile românești.",
+      "ctaExplore": "Explorează produse",
+      "ctaProducers": "Vezi producătorii",
+      "badgeProducerPrice": "Preț de producător",
+      "badgeLocal": "100% local",
+      "badgeSustainable": "Sustenabil",
+      "imagePlaceholder": "Imagine atmosferică premium",
+      "imagePlaceholderSub": "Cutii produse naturale, lumină naturală"
+    },
+    "difference": {
+      "title": "Diferența Farme.ro",
+      "subtitle": "Mai mult decât un marketplace. O platformă care conectează producători reali cu oameni care vor să mănânce mai bine.",
+      "card1": {
+        "title": "De la fermă la tine",
+        "description": "Produse autentice, direct de la producători români. Fără lanțuri comerciale complexe, fără distribuitori care umflă prețurile."
+      },
+      "card2": {
+        "title": "Susții producătorii români",
+        "description": "Bani rămân în comunitate. Când cumperi de la Farme.ro, susții direct micii producători și economia locală."
+      },
+      "card3": {
+        "title": "Reduci risipa alimentară",
+        "description": "Produsele neridicate sunt donate către centre sociale, nu aruncate. Fiecare comandă contează pentru comunitate."
+      }
+    },
+    "howItWorks": {
+      "title": "Cum funcționează",
+      "subtitle": "Proces simplu, transparent și eficient. De la comandă la livrare, totul este clar.",
+      "step1": {
+        "title": "Alegi produse",
+        "description": "Browșează produsele de la producători locali. Filtrează după categorie, regiune sau preferințe."
+      },
+      "step2": {
+        "title": "Producătorul pregătește",
+        "description": "Producătorul primește comanda și pregătește produsele proaspete, cu grijă și respect."
+      },
+      "step3": {
+        "title": "Curierul livrează",
+        "description": "Livrare rapidă și sigură direct la tine sau la un punct de ridicare convenabil."
+      },
+      "step4": {
+        "title": "Tu te bucuri",
+        "description": "Primești produse autentice, de calitate, cu preț corect. Și știi că ai făcut bine."
+      }
+    },
+    "steps": {
+      "title": "Cum funcționează farme.ro",
+      "subtitle": "Proces simplu în 4 pași pentru a cumpăra produse tradiționale direct de la producători",
+      "step1": {
+        "title": "Descoperi producători locali",
+        "description": "Explorează gama variată de produse tradiționale și bio de la producători verificați din toată România."
+      },
+      "step2": {
+        "title": "Plasezi comanda online",
+        "description": "Adaugă produsele preferate în coș și finalizează comanda cu plăți securizate și procesare rapidă."
+      },
+      "step3": {
+        "title": "Producătorul pregătește produsele",
+        "description": "Producătorul local pregătește comanda ta cu grijă și atenție la detalii, asigurând calitatea și proaspătatea."
+      },
+      "step4": {
+        "title": "Primești coletul acasă",
+        "description": "Livrare directă de la producător, asigurând proaspătatea și calitatea produselor până la ușa ta."
+      }
+    },
+    "socialImpact": {
+      "badge": "Impact real",
+      "title": "Comanda ta face bine.",
+      "description": "Produsele neridicate sunt donate către centre sociale.",
+      "descriptionHighlight": "Tu ajuți comunitatea și reduci risipa.",
+      "cta": "Află mai multe",
+      "statsDonated": "produse donate",
+      "statsCenters": "centre ajutate",
+      "illustration": "Ilustrație: mână care oferă alimente"
+    },
+    "testimonials": {
+      "title": "Ce spun clienții noștri",
+      "subtitle": "Povești reale despre experiențele clienților cu producători de pe farme.ro",
+      "testimonial1": "Produse excelente, direct de la producător. Am comandat miere și brânzeturi și au fost exact cum mi le-am imaginat. Livrare rapidă și prețuri corecte.",
+      "testimonial2": "Îmi place că pot susține producători locali și în același timp să primesc produse de calitate. Sistemul de donații pentru comenzile neridicate este o idee excelentă.",
+      "testimonial3": "Am descoperit producători noi prin platformă. Produsele sunt autentice, tradiționale, exact ce căutam. Recomand cu încredere!"
+    },
+    "newsletter": {
+      "title": "Primește oferte direct de la producători",
+      "subtitle": "Reduceri exclusive, rețete tradiționale și noutăți despre producători noi. Fără spam, doar conținut valoros.",
+      "placeholder": "Adresa ta de email",
+      "submit": "Abonează-mă",
+      "submitting": "Se abonează...",
+      "submitted": "Abonat!",
+      "success": "✓ Te-ai abonat cu succes!",
+      "privacy": "Nu trimitem spam. Te poți dezabona oricând."
+    },
+    "story": {
+      "title": "Povestea farme.ro",
+      "paragraph1": "farme.ro a apărut din dorința de a conecta producătorii locali cu clienții care caută produse autentice și tradiționale. Înțelegem că alimentele tradiționale românești sunt mai mult decât produse - sunt parte din identitatea noastră culturală.",
+      "paragraph2": "Platforma noastră oferă producătorilor o cale directă către piață, fără intermediari, iar clienților le oferim acces la produse de calitate, verificate și autentice.",
+      "paragraph3": "Susținem economia locală și promovăm practici agricole durabile, creând o comunitate care valorifică tradițiile românești.",
+      "impactNote": "Comanda ta susține producători locali și poate reduce risipa alimentară.",
+      "cta": "Află povestea noastră"
+    },
+    "regions": {
+      "title": "Explorează după regiune",
+      "subtitle": "Descoperă producători locali din diferite regiuni ale României"
+    },
+    "categories": {
+      "title": "Caută după categorie",
+      "subtitle": "Descoperă produse de la producători locali",
+      "honey": "Miere & apicole",
+      "dairy": "Lactate",
+      "vegetables": "Legume",
+      "fruits": "Fructe",
+      "vegetablesFruits": "Legume & fructe",
+      "vegetablesFruitsDesc": "Produse proaspete de sezon",
+      "dairyDesc": "Lactate și brânzeturi locale",
+      "meatDesc": "Carne și mezeluri tradiționale",
+      "sweetsDesc": "Dulciuri și conserve tradiționale",
+      "localDrinksDesc": "Sucuri și băuturi naturale",
+      "otherDesc": "Alte produse locale",
+      "preserves": "Conserve & dulcețuri",
+      "meat": "Carne & mezeluri",
+      "sweets": "Dulciuri",
+      "localDrinks": "Băuturi locale",
+      "other": "Altele",
+      "selected": "Selectat",
+      "cereals": "Cereale & făină",
+      "oils": "Uleiuri & unturi",
+      "categoryAria": "Vezi produse din categoria {{category}}"
+    },
+    "subscriptions": {
+      "title": "Abonamente de la producători",
+      "subtitle": "Coșuri periodice cu produse proaspete, direct de la producătorii tăi preferați.",
+      "comingSoon": "Abonamentele Farmero vor fi disponibile în curând. Înscrie-te la newsletter ca să afli când lansăm."
+    },
+    "producers": {
+      "title": "Producători Recomandați",
+      "subtitle": "Descoperă producătorii noștri parteneri",
+      "viewAll": "Vezi toți producătorii"
+    },
+    "products": {
+      "title": "Produse populare",
+      "subtitle": "Descoperă cele mai căutate produse tradiționale",
+      "viewAll": "Vezi toate produsele"
+    }
+  },
+  "ui": {
+    "noProducers": "Nu există producători disponibili",
+    "noProducts": "Nu există produse disponibile",
+    "noResults": "Nu s-au găsit rezultate",
+    "loading": "Se încarcă...",
+    "noData": "Nu există date",
+    "selectOption": "Selectează o opțiune"
+  },
+  "emptyStates": {
+    "producers": {
+      "title": "Nu am găsit producători pentru filtrele selectate",
+      "description": "Resetează filtrele sau încearcă o altă regiune.",
+      "resetFilters": "Resetează filtrele"
+    },
+    "products": {
+      "title": "Nu există produse disponibile",
+      "description": "Încearcă să modifici filtrele sau să revii mai târziu.",
+      "clearFilters": "Șterge filtre"
+    },
+    "orders": {
+      "title": "Nu ai comenzi",
+      "description": "Începe să cumperi pentru a vedea comenzile tale aici.",
+      "startShopping": "Începe să cumperi"
+    },
+    "cart": {
+      "title": "Coșul tău este gol",
+      "description": "Adaugă produse în coș pentru a continua.",
+      "startShopping": "Începe să cumperi"
+    },
+    "favorites": {
+      "title": "Nu ai produse favorite",
+      "description": "Adaugă produse la favorite pentru a le găsi mai ușor.",
+      "browseProducts": "Explorează produsele"
+    },
+    "subscriptions": {
+      "title": "Nu ai abonamente active",
+      "description": "Creează un abonament pentru a primi produsele tale favorite la intervale regulate.",
+      "createSubscription": "Creează abonament"
+    },
+    "statements": {
+      "title": "Nu există extrase disponibile",
+      "description": "Extrasele vor apărea aici după prima vânzare.",
+      "viewProducts": "Vezi produsele"
+    },
+    "contracts": {
+      "title": "Nu ai contracte",
+      "description": "Contractele tale vor apărea aici după ce vor fi semnate.",
+      "viewDocuments": "Vezi documentele"
+    },
+    "donations": {
+      "title": "Nu există donații încă",
+      "description": "Sistemul de donații este în pregătire. Îți vom spune imediat ce este disponibil.",
+      "learnMore": "Află mai multe"
+    },
+    "notifications": {
+      "title": "Nu ai notificări",
+      "description": "Notificările tale vor apărea aici.",
+      "viewSettings": "Vezi setările"
+    },
+    "offline": {
+      "title": "Ești offline",
+      "description": "Nu ai conexiune la internet. Poți reveni în Farmero când ai conexiune la internet.",
+      "whatYouCanDo": "Ce poți face:",
+      "checkConnection": "Verifică conexiunea la internet",
+      "tryAgain": "Încearcă din nou mai târziu",
+      "cachedContent": "Unele pagini pot fi disponibile din cache dacă le-ai vizitat recent",
+      "retry": "Încearcă din nou",
+      "goHome": "Mergi la pagina principală"
+    },
+    "search": {
+      "title": "Nu am găsit rezultate",
+      "description": "Încearcă să modifici termenii de căutare sau să folosești filtre diferite.",
+      "clearSearch": "Șterge căutarea"
+    },
+    "generic": {
+      "title": "Nu există date",
+      "description": "Nu există date disponibile momentan.",
+      "refresh": "Actualizează"
+    }
+  },
+  "pagination": {
+    "previous": "Anterior",
+    "next": "Următor",
+    "page": "Pagina {current} din {total}",
+    "showing": "Afișând {from}-{to} din {total}"
+  },
+  "toast": {
+    "orderConfirmed": "Comandă confirmată!",
+    "orderPreparing": "Comandă marcată ca în pregătire!",
+    "orderShipped": "Comandă marcată ca trimisă!",
+    "orderDelivered": "Comandă marcată ca livrată!",
+    "statusUpdated": "Status actualizat cu succes!",
+    "errorUpdatingOrder": "Eroare la actualizarea comenzii",
+    "errorConfirmingOrder": "Eroare la confirmarea comenzii",
+    "errorUpdatingStatus": "Eroare la actualizarea statusului",
+    "productAdded": "Produs adăugat cu succes!",
+    "productRemoved": "Produs eliminat!",
+    "cartCleared": "Coșul a fost golit!",
+    "profileUpdated": "Profilul a fost actualizat!",
+    "errorLoading": "Eroare la încărcare",
+    "errorSaving": "Eroare la salvare"
+  },
+  "producer": {
+    "portal": {
+      "dashboard": "Dashboard producător",
+      "orders": "Comenzi",
+      "products": "Produse",
+      "settings": "Setări",
+      "finances": "Finanțe",
+      "support": "Suport",
+      "insights": "Insights",
+      "commissions": "Comisioane"
+    },
+    "dashboard": {
+      "salesThisMonth": "Vânzări luna aceasta",
+      "activeOrders": "Comenzi active",
+      "activeProducts": "Produse active",
+      "avgOrderValue": "Valoare medie comandă",
+      "inPreparation": "În pregătire",
+      "inDelivery": "În livrare",
+      "notVisible": "Nu este vizibil",
+      "lowStock": "Stoc redus"
+    },
+    "settings": {
+      "saveChanges": "Salvează modificările",
+      "saving": "Se salvează...",
+      "uploadLogo": "Încarcă logo",
+      "changeLogo": "Schimbă logo",
+      "uploadCover": "Încarcă copertă",
+      "changeCover": "Schimbă copertă",
+      "profileUpdated": "Profilul a fost actualizat cu succes!",
+      "errorLoading": "Eroare la încărcarea profilului",
+      "errorSaving": "Eroare la salvarea profilului"
+    },
+    "orders": {
+      "confirmOrder": "Confirmă comandă",
+      "markAsShipped": "Marchează ca trimisă",
+      "markAsDelivered": "Marchează ca livrată"
+    },
+    "finances": {
+      "availableBalance": "Sold disponibil: {amount} {currency}",
+      "fromCurrentMonth": "Din vânzările lunii curente",
+      "errorLoading": "Nu am putut încărca datele financiare. Te rugăm să încerci din nou.",
+      "errorDownload": "Nu am putut descărca factura. Te rugăm să încerci din nou.",
+      "paid": "Plătită",
+      "pending": "În așteptare",
+      "failed": "Eșuată",
+      "refunded": "Rambursată",
+      "unknown": "Necunoscut"
+    },
+    "products": {
+      "title": "Produse",
+      "description": "Gestionează produsele tale",
+      "addProduct": "Adaugă produs",
+      "saveProduct": "Salvează produsul",
+      "toggleActive": "Activează/Dezactivează",
+      "errorToggle": "Eroare la schimbarea statusului",
+      "errorUpdate": "Eroare la actualizarea produsului",
+      "errorUpdateRetry": "Eroare la actualizarea produsului. Te rugăm să încerci din nou."
+    },
+    "subscriptions": {
+      "activePlan": "Plan activ",
+      "selectPlan": "Alege acest plan"
+    },
+    "support": {
+      "title": "Suport Producători",
+      "description": "Ajutor și asistență pentru producători",
+      "sendMessage": "Trimite un mesaj",
+      "subject": "Subiect",
+      "selectSubject": "Selectează un subiect",
+      "priority": "Prioritate",
+      "priorityNormal": "Normal",
+      "priorityHigh": "Ridicată",
+      "descriptionLabel": "Descriere detaliată",
+      "descriptionPlaceholder": "Descrie problema sau întrebarea ta în detaliu...",
+      "attachment": "Atașament (opțional)",
+      "selectFile": "Selectează fișier",
+      "attachmentHint": "Poți atașa screenshot-uri sau documente relevante (max 5MB)",
+      "submit": "Trimite mesaj",
+      "submitting": "Se trimite...",
+      "submitted": "Mesaj trimis!",
+      "submittedMessage": "Vom răspunde în cel mai scurt timp posibil.",
+      "submitAnother": "Trimite alt mesaj",
+      "errorRequired": "Completează toate câmpurile obligatorii.",
+      "errorSubmit": "Eroare la trimiterea mesajului. Te rugăm să încerci din nou.",
+      "emailSupport": "Email suport",
+      "emailResponse": "Răspundem în maximum 24 de ore",
+      "usefulResources": "Resurse utile",
+      "faq": "Întrebări frecvente",
+      "subjectOrderIssues": "Probleme comenzi",
+      "subjectPaymentIssues": "Probleme plăți",
+      "subjectProductIssues": "Probleme produse",
+      "subjectSuggestions": "Sugestii / feedback",
+      "subjectOther": "Altele",
+      "faqAddProduct": {
+        "question": "Cum adaug un produs nou?",
+        "answer": "Mergi la secțiunea Produse din dashboard și apasă butonul \"Adaugă produs nou\". Completează informațiile despre produs și salvează."
+      },
+      "faqManageOrders": {
+        "question": "Cum gestionez comenzile?",
+        "answer": "Toate comenzile tale apar în secțiunea Comenzi. Poți confirma, marca ca trimisă sau livrată direct din dashboard."
+      },
+      "faqCommission": {
+        "question": "Cum funcționează comisionul?",
+        "answer": "Comisionul este calculat din vânzările efectiv plătite. Pe măsură ce vinzi mai mult, comisionul scade. Vezi detalii în secțiunea Comisioane."
+      },
+      "faqUncollected": {
+        "question": "Ce se întâmplă cu comenzile neridicate?",
+        "answer": "Platforma gestionează redirecționarea către donații (acolo unde este posibil). Tu nu rămâi cu marfa stricată."
+      },
+      "linkHowItWorks": "Cum funcționează farme.ro",
+      "linkShippingGuide": "Ghid livrări & logistică",
+      "linkCommissions": "Comisioane & abonamente",
+      "linkContact": "Contact general",
+      "uploadComingSoon": "Funcționalitatea de upload fișier va fi disponibilă în curând."
+    },
+    "inventory": {
+      "title": "Stoc & Logistică",
+      "description": "Modulul de gestionare a stocurilor și logisticii este în curs de dezvoltare. În curând vei putea urmări aici stocul, rezerva produse pentru comenzi recurente și vedea ce ai de pregătit pentru următoarele zile.",
+      "emptyTitle": "Modulul de stoc este în pregătire",
+      "emptyDescription": "În curând vei putea gestiona stocul produselor, rezerva produse pentru comenzi recurente și vedea ce ai de pregătit pentru următoarele zile."
+    },
+    "messages": {
+      "title": "Mesaje de la clienți",
+      "description": "Aici vei putea vedea mesajele primite de la clienți, întrebări despre produse și feedback direct. Modulul este în curs de pregătire.",
+      "emptyTitle": "Modulul de mesaje este în pregătire",
+      "emptyDescription": "În curând vei putea vedea mesajele primite de la clienți, întrebări despre produse și feedback direct."
+    },
+    "impact": {
+      "title": "Impact social & comunitar",
+      "description": "În viitor, aici vei putea vedea cum contribuie activitatea ta la comunitate: comenzi locale, produse salvate de la risipă, proiecte sociale și inițiative susținute pe Farmero.",
+      "emptyTitle": "Modulul de impact social este în pregătire",
+      "emptyDescription": "În curând vei putea vedea cum contribuie activitatea ta la comunitate: comenzi locale, produse salvate de la risipă, proiecte sociale și inițiative susținute pe Farmero."
+    }
+  },
+  "orders": {
+    "title": "Comenzi",
+    "noOrders": "Nu ai comenzi",
+    "orderNumber": "Comandă #{number}",
+    "status": {
+      "pending": "În așteptare",
+      "confirmed": "Confirmată",
+      "preparing": "În pregătire",
+      "shipped": "În livrare",
+      "delivered": "Livrată",
+      "cancelled": "Anulată"
+    },
+    "reorder": "Comandă din nou",
+    "viewDetails": "Vezi detalii"
+  },
+  "forms": {
+    "required": "Acest câmp este obligatoriu",
+    "invalidEmail": "Email invalid",
+    "passwordMinLength": "Parola trebuie să aibă minim {min} caractere",
+    "passwordsDontMatch": "Parolele nu se potrivesc",
+    "allFieldsRequired": "Toate câmpurile sunt obligatorii"
+  },
+  "megaMenu": {
+    "forProducers": {
+      "title": "De ce să vinzi pe farme.ro",
+      "description": "Află beneficiile",
+      "commissions": {
+        "title": "Comisioane și taxe",
+        "description": "Model transparent"
+      },
+      "shipping": {
+        "title": "Ghid livrări & logistică",
+        "description": "Cum funcționează"
+      },
+      "guide": {
+        "title": "Ghid producător",
+        "description": "Începe aici"
+      }
+    },
+    "producerPortal": {
+      "title": "Portal producători",
+      "dashboard": {
+        "title": "Dashboard producător",
+        "description": "Panou de control"
+      },
+      "products": {
+        "title": "Gestionează produse",
+        "description": "Adaugă și editează"
+      },
+      "orders": {
+        "description": "Gestionează comenzile"
+      },
+      "insights": {
+        "description": "Analizează performanța"
+      }
+    },
+    "more": {
+      "title": "Și mai mult",
+      "visibility": {
+        "description": "Vizibilitate crescută"
+      },
+      "commissions": {
+        "title": "Comisioane în portal",
+        "description": "Detalii comisioane"
+      },
+      "support": {
+        "title": "Suport producători",
+        "description": "Ajutor și asistență"
+      },
+      "login": {
+        "title": "Autentificare producători",
+        "description": "Accesează portalul"
+      }
+    },
+    "business": {
+      "title": "Pentru afaceri",
+      "why": {
+        "title": "De ce farme.ro pentru afacerea ta",
+        "description": "Beneficii pentru restaurante"
+      },
+      "bulk": {
+        "title": "Cumpărări în cantități mari",
+        "description": "Prețuri speciale B2B"
+      },
+      "scheduled": {
+        "title": "Livrări programate",
+        "description": "Logistică dedicată"
+      },
+      "billing": {
+        "title": "Facturare și contracte",
+        "description": "Soluții profesionale"
+      }
+    },
+    "account": {
+      "title": "Cont",
+      "personal": "Personal",
+      "business": "Business",
+      "switchAccount": "Schimbă cont",
+      "activeAccount": "Cont activ",
+      "addBusinessAccount": "Adaugă cont business",
+      "createBusinessAccount": "Creează cont business",
+      "noAccounts": "Nu există conturi",
+      "loading": "Se încarcă conturile...",
+      "error": "Eroare la încărcarea conturilor",
+      "personalAccount": "Cont Personal",
+      "businessAccount": "Cont Business",
+      "defaultAccount": "Cont implicit"
+    },
+    "favorites": {
+      "title": "Favorite",
+      "myFavorites": "Favoritele mele",
+      "add": "Adaugă la favorite",
+      "remove": "Elimină din favorite",
+      "added": "Adăugat la favorite",
+      "addedDescription": "Produsul a fost adăugat la favorite.",
+      "removed": "Eliminat din favorite",
+      "removedDescription": "Produsul a fost eliminat din favorite.",
+      "authRequired": "Autentificare necesară",
+      "authRequiredDescription": "Trebuie să fii autentificat pentru a adăuga la favorite.",
+      "error": "Eroare",
+      "errorDescription": "A apărut o eroare. Te rugăm să încerci din nou.",
+      "loading": "Se încarcă favoritele...",
+      "empty": "Nu ai favorite încă",
+      "emptyDescription": "Adaugă produse și producători la favorite pentru a-i găsi rapid.",
+      "emptyProducts": "Nu ai produse favorite",
+      "emptyProducers": "Nu ai producători favoriți",
+      "products": "Produse favorite",
+      "producers": "Producători favoriți",
+      "viewProduct": "Vezi produs",
+      "viewProducer": "Vezi producător",
+      "removeFromFavorites": "Elimină din favorite"
+    },
+    "subscriptions": {
+      "title": "Abonamente",
+      "mySubscriptions": "Abonamentele mele",
+      "comingSoon": "În curând",
+      "comingSoonDescription": "Funcționalitatea de abonamente va fi disponibilă în curând. Poți comanda automat produsele favorite la intervale regulate.",
+      "createFromFavorites": "Creează abonament din favorite",
+      "noSubscriptions": "Nu ai abonamente",
+      "noSubscriptionsDescription": "Creează un abonament pentru a comanda automat produsele favorite.",
+      "frequency": {
+        "weekly": "Săptămânal",
+        "biweekly": "La două săptămâni",
+        "monthly": "Lunar"
+      }
+    },
+    "alerts": {
+      "title": "Notificări",
+      "alertPreferences": "Preferințe notificări",
+      "notifyMe": "Notifică-mă când",
+      "priceDrop": "scade prețul",
+      "backInStock": "revine în stoc",
+      "priceDropDescription": "Te anunțăm discret când acest produs intră la promoție.",
+      "backInStockDescription": "Te anunțăm discret când acest produs revine în stoc.",
+      "savePreferences": "Salvează preferințe",
+      "preferencesSaved": "Preferințele au fost salvate",
+      "preferencesSavedDescription": "Vei primi notificări conform preferințelor tale.",
+      "notAvailable": "Notificările nu sunt disponibile încă",
+      "notAvailableDescription": "Funcționalitatea va fi disponibilă în curând.",
+      "updateError": "Eroare la actualizarea preferințelor."
+    }
+  },
+  "auth": {
+    "login": "Autentificare",
+    "loginDescription": "Conectează-te pentru a accesa contul tău",
+    "email": "Email",
+    "emailPlaceholder": "nume@exemplu.ro",
+    "password": "Parolă",
+    "passwordPlaceholder": "Parola ta",
+    "forgotPassword": "Ai uitat parola?",
+    "forgotPasswordPage": {
+      "title": "Resetare parolă",
+      "description": "Introdu adresa ta de email și îți vom trimite un link pentru resetarea parolei.",
+      "error": "Eroare la trimiterea link-ului de resetare",
+      "sending": "Se trimite...",
+      "sendLink": "Trimite link de resetare",
+      "linkSent": "Link trimis!",
+      "linkSentDescription": "Dacă există un cont cu acest email, vei primi un link de resetare parolă. Verifică inbox-ul și urmează instrucțiunile."
+    },
+    "loggingIn": "Se autentifică...",
+    "noAccount": "Nu ai cont?",
+    "register": "Înregistrează-te",
+    "emailPasswordRequired": "Email și parolă sunt obligatorii",
+    "loginError": "Eroare la autentificare. Te rugăm să încerci din nou.",
+    "backToLogin": "Înapoi la autentificare"
+  },
+  "selectAccount": {
+    "title": "Selectează contul",
+    "description": "Ai acces la mai multe conturi. Alege unul pentru a continua.",
+    "select": "Selectează",
+    "loading": "Se încarcă...",
+    "noRoles": "Nu ai roluri disponibile. Te rugăm să contactezi suportul.",
+    "loadError": "Eroare la încărcarea rolurilor. Te rugăm să reîncerci.",
+    "roles": {
+      "client": {
+        "name": "Client",
+        "description": "Accesează contul tău personal"
+      },
+      "business": {
+        "name": "Business",
+        "description": "Portal pentru afacerea ta"
+      },
+      "producer": {
+        "name": "Producător",
+        "description": "Portal producător"
+      },
+      "logistics": {
+        "name": "Logistică",
+        "description": "Portal logistică și transport"
+      },
+      "investor": {
+        "name": "Investitor",
+        "description": "Portal investitori"
+      },
+      "importer": {
+        "name": "Importator",
+        "description": "Portal importatori"
+      },
+      "admin": {
+        "name": "Administrator",
+        "description": "Panou de administrare"
+      }
+    }
+  },
+  "register": {
+    "title": "Creează cont",
+    "description": "Alege tipul de cont pe care vrei să-l creezi",
+    "select": "Selectează",
+    "alreadyHaveAccount": "Ai deja cont?",
+    "options": {
+      "client": {
+        "name": "Client",
+        "description": "Creează cont pentru a cumpăra produse direct de la producători locali"
+      },
+      "producer": {
+        "name": "Producător",
+        "description": "Devino producător partener și vinde produsele tale direct clienților"
+      },
+      "business": {
+        "name": "Business",
+        "description": "Cont pentru restaurante, hoteluri, cafenele și alte afaceri"
+      },
+      "logistics": {
+        "name": "Logistică",
+        "description": "Devino partener de logistică și transport"
+      },
+      "investor": {
+        "name": "Investitor",
+        "description": "Investește în platforma Farme.ro"
+      },
+      "importer": {
+        "name": "Importator",
+        "description": "Importă produse de calitate în România"
+      }
+    }
+  },
+  "business": {
+    "portal": {
+      "dashboard": "Dashboard",
+      "documents": "Documente",
+      "commissions": "Comisioane",
+      "contracts": "Contracte",
+      "settings": "Setări",
+      "role": "Business",
+      "active": "Activ"
+    },
+    "dashboard": {
+      "title": "Dashboard Business",
+      "welcome": "Bun venit, {name}!",
+      "loading": "Se încarcă dashboard-ul...",
+      "totalOrders": "Comenzi totale",
+      "totalRevenue": "Venit total",
+      "pendingOrders": "Comenzi în așteptare",
+      "activeSubscriptions": "Abonamente active",
+      "orderFlow": "Flow Comenzi",
+      "recentOrders": "Comenzi recente",
+      "noOrders": "Nu există comenzi încă",
+      "thisMonth": "Luna aceasta",
+      "ordersThisMonth": "Comenzi",
+      "revenueThisMonth": "Venit",
+      "averageOrderValue": "Valoare medie comandă",
+      "quickActions": "Acțiuni rapide",
+      "viewOrders": "Vezi toate comenzile",
+      "viewSubscriptions": "Vezi abonamentele"
+    },
+    "orders": {
+      "orderNumber": "Comandă #{number}",
+      "status": {
+        "new": "Noi",
+        "confirmed": "Confirmate",
+        "preparing": "În pregătire",
+        "shipped": "Expediate",
+        "delivered": "Livrate",
+        "canceled": "Anulate"
+      }
+    },
+    "documents": {
+      "title": "Documente",
+      "subtitle": "Gestionează-ți facturile și contractele pentru comenzile tale Farmero.",
+      "invoices": "Facturi",
+      "invoicesDescription": "Aici vei găsi toate facturile emise pentru comenzile tale Farmero.",
+      "invoicesComingSoon": "Funcționalitatea de facturare va fi disponibilă în curând.",
+      "exportInvoices": "Exportă facturi",
+      "contracts": "Contracte",
+      "noContracts": "Nu ai contracte încă",
+      "contractsDescription": "Contractele generate pentru parteneriatul tău cu Farmero vor apărea aici.",
+      "signedAt": "Semnat la",
+      "pendingSignature": "În așteptarea semnăturii",
+      "infoTitle": "Informații importante",
+      "infoDescription": "Toate funcționalitățile de documente sunt în curs de dezvoltare. Vom anunța când vor fi disponibile. Pentru întrebări, contactează echipa de suport."
+    }
+  },
+  "logistics": {
+    "portal": {
+      "dashboard": "Dashboard",
+      "commissions": "Comisioane",
+      "contracts": "Contracte",
+      "shipments": "Livrări & AWB",
+      "settings": "Setări",
+      "role": "Logistică",
+      "active": "Activ"
+    },
+    "dashboard": {
+      "title": "Dashboard Logistică",
+      "welcome": "Bun venit, {name}!",
+      "loading": "Se încarcă dashboard-ul...",
+      "totalDeliveries": "Livrări totale",
+      "totalRevenue": "Venit total",
+      "inTransit": "În tranzit",
+      "pending": "În așteptare",
+      "deliveryStatus": "Status Livrări",
+      "recentDeliveries": "Livrări recente",
+      "noDeliveries": "Nu există livrări încă",
+      "thisMonth": "Luna aceasta",
+      "deliveriesThisMonth": "Livrări",
+      "revenueThisMonth": "Venit",
+      "completed": "Finalizate",
+      "onTimeRate": "Rata la timp",
+      "quickActions": "Acțiuni rapide",
+      "viewDeliveries": "Vezi toate livrările",
+      "viewRoutes": "Vezi rutele"
+    },
+    "deliveries": {
+      "deliveryNumber": "Livrare #{number}",
+      "status": {
+        "pending": "În așteptare",
+        "assigned": "Atribuite",
+        "inTransit": "În tranzit",
+        "delivered": "Livrate",
+        "failed": "Eșuate",
+        "canceled": "Anulate"
+      }
+    }
+  },
+  "investor": {
+    "dashboard": {
+      "title": "Panou investitor",
+      "subtitle": "Statistici agregate despre utilizarea platformei și evoluția Farmero.",
+      "welcome": "Bun venit, {name}!",
+      "loading": "Se încarcă dashboard-ul...",
+      "comingSoonTitle": "Dashboard-ul de investitor este în curs de pregătire",
+      "comingSoonDescription": "În curând vei vedea aici date agregate despre activitatea din platformă.",
+      "errorTitle": "Eroare la încărcare",
+      "errorGeneric": "A apărut o problemă la încărcarea datelor. Încearcă din nou mai târziu.",
+      "errorForbidden": "Nu ai încă acces la acest dashboard. Verifică permisiunile contului tău.",
+      "noDataTitle": "Nu există date disponibile",
+      "noDataDescription": "Încă nu există suficientă activitate pentru a afișa statistici relevante.",
+      "totalRevenue": "Venit total",
+      "totalTransactions": "Tranzacții totale",
+      "totalOrders": "Comenzi totale",
+      "totalGMV": "GMV total",
+      "totalFees": "Comisioane Farmero",
+      "activeProducers": "Producători activi",
+      "activeClients": "Clienți activi",
+      "activeUsers": "Utilizatori activi",
+      "activeRegions": "Regiuni active",
+      "platformCommission": "Comision platformă",
+      "transactionVolume": "Volume Tranzacții",
+      "orderEvolution": "Evoluție Comenzi",
+      "topProducts": "Top Produse",
+      "topRegions": "Top Regiuni",
+      "topProducers": "Top Producători",
+      "financialFlow": "Flux Financiar",
+      "totalVolume": "Volum total",
+      "completed": "Finalizate",
+      "averageValue": "Valoare medie",
+      "producers": "producători",
+      "products": "produse",
+      "producer": "Producător",
+      "commission": "Comision",
+      "payouts": "Plăți producători",
+      "netRevenue": "Venit net",
+      "growthTitle": "Creștere & retenție",
+      "newClients": "Clienți noi",
+      "returningClients": "Clienți recurenți",
+      "repeatRate": "Rata de revenire",
+      "averageOrderValue": "Valoare medie comandă",
+      "newProducers": "Producători noi",
+      "segmentsTitle": "Segmente",
+      "regionsTitle": "Regiuni",
+      "segment": "Segment",
+      "region": "Regiune",
+      "orders": "Comenzi",
+      "gmv": "GMV",
+      "fees": "Fees",
+      "noSegments": "Nu există date de segmente disponibile.",
+      "noRegions": "Nu există date de regiuni disponibile."
+    },
+    "period": {
+      "daily": "Zilnic",
+      "weekly": "Săptămânal",
+      "monthly": "Lunar"
+    }
+  },
+  "notifications": {
+    "title": "Notificări",
+    "empty": "Nu ai notificări noi",
+    "emptyDescription": "Notificările tale vor apărea aici.",
+    "markAsRead": "Marchează ca citită",
+    "markAllRead": "Marchează toate ca citite",
+    "markAllAsRead": "Marchează toate ca citite",
+    "archive": "Arhivează",
+    "viewAll": "Vezi toate notificările",
+    "unreadCount": "{count} notificări necitite",
+    "priceDrop": {
+      "title": "Preț redus",
+      "message": "{productName} a scăzut la preț cu {percentage}%"
+    },
+    "backInStock": {
+      "title": "Produs disponibil",
+      "message": "{productName} este din nou în stoc"
+    },
+    "subscriptionReminder": {
+      "title": "Reminder abonament",
+      "message": "Abonamentul tău {subscriptionName} va fi livrat pe {date}"
+    },
+    "subscriptionDelivery": {
+      "title": "Abonament livrat",
+      "message": "Abonamentul tău {subscriptionName} a fost livrat"
+    },
+    "orderStatus": {
+      "title": "Status comandă",
+      "message": "Comanda #{orderNumber} este acum {status}"
+    },
+    "systemMessage": {
+      "title": "Mesaj sistem",
+      "message": "{message}"
+    },
+    "promotion": {
+      "title": "Promoție",
+      "message": "{message}"
+    }
+  },
+  "producer": {
+    "badge": {
+      "featured": "Recomandat",
+      "boosted": "Vizibilitate crescută",
+      "sponsored": "Partener Farmero"
+    },
+    "marketing": {
+      "title": "Marketing & Promovare",
+      "subtitle": "Gestionează-ți vizibilitatea și promovarea pe platformă și pe rețelele sociale.",
+      "promotionSubscription": "Abonament de promovare",
+      "currentPlan": "Plan curent",
+      "planBasic": "Basic",
+      "viewPlans": "Vezi pachetele de promovare",
+      "hidePlans": "Ascunde pachetele",
+      "availablePlans": "Pachete disponibile",
+      "current": "Curent",
+      "perMonth": "lună",
+      "noSubscription": "Nu ai un abonament de promovare activ. Alege un plan pentru mai multă vizibilitate.",
+      "socialAutoPosting": "Postări automate pe social media",
+      "enableAutoPost": "Activează postările automate",
+      "enableAutoPostDescription": "Produsele tale vor fi postate automat pe platformele conectate.",
+      "postFrequency": "Frecvența postărilor",
+      "frequencyWeekly": "Săptămânal",
+      "frequencyBiweekly": "Bilunar",
+      "frequencyMonthly": "Lunar",
+      "socialPlatforms": "Platforme sociale",
+      "connected": "Conectat",
+      "connectedSince": "Conectat din",
+      "notConnected": "Neconectat",
+      "connect": "Conectează",
+      "disconnect": "Deconectează",
+      "confirmDisconnect": "Ești sigur că vrei să deconectezi această platformă?",
+      "platformDisconnected": "Platforma a fost deconectată",
+      "autoPostEnabled": "Postările automate au fost activate",
+      "autoPostDisabled": "Postările automate au fost dezactivate",
+      "frequencyUpdated": "Frecvența postărilor a fost actualizată",
+      "socialComingSoon": "Integrările cu social media vor fi disponibile în curând.",
+      "platform": {
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "tiktok": "TikTok"
+      },
+      "campaigns": "Campanii de promovare",
+      "createCampaign": "Creează campanie",
+      "campaignComingSoon": "În curând",
+      "campaignComingSoonDescription": "Funcționalitatea de creare campanii va fi disponibilă în curând.",
+      "noCampaigns": "Nu ai campanii încă",
+      "campaignsDescription": "Creează campanii de promovare pentru produsele tale pe marketplace, newsletter sau social media.",
+      "channel": {
+        "marketplace": "Marketplace",
+        "newsletter": "Newsletter",
+        "social_media": "Social Media"
+      },
+      "campaignStatus": {
+        "active": "Activă",
+        "paused": "Pauzată",
+        "ended": "Terminată"
+      },
+      "startDate": "Început",
+      "endDate": "Sfârșit",
+      "budget": "Buget",
+      "impressions": "Impresii",
+      "clicks": "Click-uri"
+    },
+    "subscriptions": {
+      "title": "Abonament & Vizibilitate",
+      "subtitle": "Mai multă vizibilitate, mai mult control și unelte care te ajută să ajungi la clienții tăi, nu doar să apari într-o listă.",
+      "currentPlan": "Pachetul tău Farmero",
+      "plan": "Plan curent",
+      "planBasic": "Basic",
+      "validUntil": "Valabil până la",
+      "autoRenew": "Reînnoire automată activă",
+      "noSubscription": "Nu ai un abonament activ. Alege un plan de mai jos pentru a începe.",
+      "noTiers": "Funcționalitatea de abonamente pentru producători este în dezvoltare.",
+      "perMonth": "lună",
+      "selectPlan": "Alege acest plan",
+      "confirmUpgrade": "Ești sigur că vrei să faci upgrade la acest plan?",
+      "upgraded": "Abonamentul a fost actualizat cu succes",
+      "whySubscriptions": "De ce abonamente și nu doar comision?",
+      "commission": "Comisionul",
+      "commissionDescription": "acoperă funcționarea de bază a platformei.",
+      "subscriptions": "Abonamentele",
+      "subscriptionsDescription": "sunt pentru producători care vor mai mult: vizibilitate, unelte, predictibilitate.",
+      "flexibility": "Fără obligație, fără contracte pe ani — totul flexibil."
+    },
+    "documents": {
+      "title": "Documente & Facturare",
+      "subtitle": "Gestionează-ți facturile, avizele de însoțire și documentele de livrare.",
+      "invoices": "Facturi",
+      "invoicesComingSoon": "Facturile electronice vor fi disponibile în curând în contul tău Farmero.",
+      "invoicesDescription": "Vei putea genera, descărca și gestiona toate facturile emise pentru comenzile tale.",
+      "exportInvoices": "Exportă facturi",
+      "deliveryNotes": "Avize de însoțire a mărfii",
+      "deliveryNotesDescription": "Avizele de însoțire sunt documente care însoțesc mărfurile în timpul transportului. Acestea vor fi generate automat pentru comenzile tale.",
+      "deliveryNotesComingSoon": "Generatorul de avize este în lucru.",
+      "awbDeliveries": "AWB & Livrări",
+      "awbDescription": "Gestionează AWB-urile pentru comenzile tale. Poți adăuga manual AWB-urile primite de la curier sau, în viitor, vor fi generate automat.",
+      "addAwbManual": "Adaugă AWB manual",
+      "awbComingSoon": "Funcționalitatea de adăugare AWB manual va fi disponibilă în curând.",
+      "noAwb": "Nu ai AWB-uri încă",
+      "awbInstructions": "Adaugă AWB-urile primite de la curier pentru a urmări comenzile tale.",
+      "infoTitle": "Informații importante",
+      "infoDescription": "Toate funcționalitățile de documente și facturare sunt în curs de dezvoltare. Vom anunța când vor fi disponibile. Pentru întrebări, contactează echipa de suport."
+    }
+  },
+  "subscriptions": {
+    "frequency": {
+      "weekly": "Săptămânal",
+      "biweekly": "La 2 săptămâni",
+      "monthly": "Lunar"
+    },
+    "recommended": "Recomandat",
+    "byProducer": "De la",
+    "learnMore": "Află mai multe",
+    "product": "produs",
+    "products": "produse"
+  },
+  "account": {
+    "title": "Contul meu",
+    "description": "Gestionează datele personale și adresele de livrare",
+    "loading": "Se încarcă datele contului...",
+    "personalInfo": {
+      "title": "Date personale",
+      "fullName": "Nume complet",
+      "fullNamePlaceholder": "Nume complet",
+      "email": "Email",
+      "emailCannotBeChanged": "Email-ul nu poate fi modificat",
+      "phone": "Telefon",
+      "phonePlaceholder": "07xxxxxxxx"
+    },
+    "addresses": {
+      "title": "Adrese de livrare",
+      "addButton": "Adaugă",
+      "loading": "Se încarcă adresele...",
+      "addTitle": "Adaugă adresă nouă",
+      "editTitle": "Editează adresa",
+      "namePlaceholder": "Nume complet",
+      "phonePlaceholder": "Telefon",
+      "emailPlaceholder": "Email (opțional)",
+      "cityPlaceholder": "Oraș",
+      "addressPlaceholder": "Adresă completă",
+      "postalCodePlaceholder": "Cod poștal (opțional)",
+      "notesPlaceholder": "Notițe (opțional)",
+      "empty": "Nu ai adrese de livrare salvate",
+      "emptyDescription": "Adaugă o adresă pentru a accelera procesul de comandă",
+      "default": "Adresă principală"
+    },
+    "subscriptions": {
+      "title": "Abonamentele mele",
+      "empty": "Nu ai încă abonamente active. În curând vei putea primi coșuri recurente direct de la producătorii tăi preferați.",
+      "plan": "Plan abonament",
+      "fromProducer": "De la",
+      "frequency": "Frecvență",
+      "nextDelivery": "Următoarea livrare",
+      "pause": "Pauză",
+      "resume": "Reluare",
+      "cancel": "Anulează",
+      "confirmPause": "Ești sigur că vrei să pui abonamentul în pauză?",
+      "confirmCancel": "Ești sigur că vrei să anulezi abonamentul? Această acțiune nu poate fi anulată.",
+      "paused": "Abonamentul a fost pus în pauză",
+      "resumed": "Abonamentul a fost reluat",
+      "canceled": "Abonamentul a fost anulat"
+    },
+    "points": {
+      "title": "Farmero Points & Farm Rewards",
+      "yourPoints": "Punctele tale",
+      "level": "Nivel",
+      "levelBronze": "Bronze",
+      "levelSilver": "Silver",
+      "levelGold": "Gold",
+      "progressToNext": "Progres către următorul nivel",
+      "pointsNeeded": "puncte până la următorul nivel",
+      "description": "Primești Farmero Points când comanzi constant și ridici comenzile la timp. Un scor bun îți poate aduce mai multe beneficii în viitor."
+    },
+    "privacy": {
+      "title": "Date & confidențialitate",
+      "description": "Poți afla cum îți folosim datele în Politica de confidențialitate și în pagina dedicată protecției datelor.",
+      "privacyLink": "Politica de confidențialitate",
+      "gdprLink": "Drepturile tale (GDPR)",
+      "closeAccount": "Închide contul",
+      "closeAccountDialog": {
+        "title": "Închidere cont",
+        "content": "Închiderea contului și ștergerea datelor se va face în baza unei cereri către echipa Farmero. Această funcționalitate va fi disponibilă direct din contul tău în curând.",
+        "ok": "OK"
+      }
+    }
+  },
+  "contracts": {
+    "title": "Contracte",
+    "subtitle": "Vizualizează și gestionează contractele tale cu Farmero și partenerii.",
+    "empty": "Nu ai contracte încă",
+    "emptyDescription": "Contractele tale cu Farmero și partenerii vor apărea aici.",
+    "notSigned": "Nesemnat",
+    "viewDetails": "Vezi detalii",
+    "backToList": "Înapoi la listă",
+    "download": "Descarcă contractul",
+    "errorLoading": "Eroare la încărcarea contractului",
+    "notFound": "Contractul nu a fost găsit",
+    "types": {
+      "producerPlatform": "Contract producător – Farmero",
+      "logisticsPlatform": "Contract logistică – Farmero",
+      "businessPlatform": "Contract business – Farmero",
+      "producerBusiness": "Contract producător – Business",
+      "donorPlatform": "Contract donator – Farmero"
+    },
+    "status": {
+      "active": "Activ",
+      "suspended": "Suspendat",
+      "terminated": "Terminat",
+      "draft": "Draft"
+    },
+    "table": {
+      "type": "Tip contract",
+      "status": "Status",
+      "signedAt": "Data semnării",
+      "reference": "Referință",
+      "actions": "Acțiuni"
+    },
+    "details": {
+      "status": "Status",
+      "parties": "Părți contractante",
+      "signedAt": "Data semnării",
+      "validFrom": "Valabil de la",
+      "validUntil": "Valabil până la",
+      "infoTitle": "Informații",
+      "infoDescription": "Acest contract este momentan doar pentru consultare. Pentru întrebări sau modificări, contactează echipa de suport."
+    },
+    "infoTitle": "Informații importante",
+    "infoDescription": "Contractele sunt momentan doar pentru consultare. Pentru întrebări despre contracte sau pentru a solicita modificări, contactează echipa de suport."
+  },
+  "producer": {
+    "salesCommissions": {
+      "title": "Vânzări & Comisioane",
+      "subtitle": "Vizualizează rezumatul vânzărilor tale și comisioanele Farmero.",
+      "comingSoon": "În curând vei putea vedea aici un rezumat clar al vânzărilor tale și al comisioanelor Farmero.",
+      "comingSoonDescription": "Funcționalitatea este în curs de dezvoltare. Vom anunța când va fi disponibilă.",
+      "currentPeriod": "Rezumat perioadă curentă",
+      "totalGross": "Total vânzări brute",
+      "totalFees": "Total comisioane Farmero",
+      "totalNet": "Total de încasat (net)",
+      "period": "Perioadă",
+      "noSummary": "Nu există încă suficiente date pentru un rezumat.",
+      "statements": "Extrase",
+      "noStatements": "Nu ai extrase încă",
+      "viewDetails": "Vezi detalii",
+      "backToList": "Înapoi la listă",
+      "errorLoading": "Eroare la încărcarea extrasului",
+      "notFound": "Extrasul nu a fost găsit",
+      "statementDetails": "Detalii extras",
+      "summary": "Rezumat",
+      "lines": "Detalii tranzacții",
+      "noLines": "Nu există tranzacții în acest extras",
+      "referenceType": {
+        "order": "Comandă",
+        "subscription": "Abonament",
+        "delivery": "Livrare",
+        "marketing": "Marketing"
+      },
+      "table": {
+        "period": "Perioadă",
+        "totalGross": "Total brut",
+        "totalFees": "Total comision",
+        "totalNet": "Total net",
+        "actions": "Acțiuni",
+        "date": "Data",
+        "reference": "Referință",
+        "description": "Descriere",
+        "gross": "Brut",
+        "fee": "Comision",
+        "net": "Net"
+      }
+    }
+  },
+  "logistics": {
+    "commissions": {
+      "title": "Curse & Comisioane",
+      "subtitle": "Vizualizează rezumatul cursei tale și comisioanele Farmero.",
+      "comingSoon": "În curând vei putea vedea aici un rezumat clar al cursei tale și al comisioanelor Farmero.",
+      "currentPeriod": "Rezumat perioadă curentă",
+      "totalGross": "Total brut",
+      "totalFees": "Total comisioane",
+      "totalNet": "Total de încasat (net)",
+      "statements": "Extrase",
+      "noStatements": "Nu ai extrase încă",
+      "viewDetails": "Vezi detalii",
+      "table": {
+        "period": "Perioadă",
+        "totalGross": "Total brut",
+        "totalFees": "Total comision",
+        "totalNet": "Total net",
+        "actions": "Acțiuni",
+        "date": "Data",
+        "reference": "Referință",
+        "description": "Descriere",
+        "gross": "Brut",
+        "fee": "Comision",
+        "net": "Net"
+      },
+      "errorLoading": "Eroare la încărcarea extrasului",
+      "notFound": "Extrasul nu a fost găsit",
+      "backToList": "Înapoi la listă",
+      "statementDetails": "Detalii extras",
+      "summary": "Rezumat",
+      "lines": "Detalii tranzacții",
+      "noLines": "Nu există tranzacții în acest extras",
+      "referenceType": {
+        "order": "Comandă",
+        "subscription": "Abonament",
+        "delivery": "Livrare",
+        "marketing": "Marketing"
+      }
+    }
+  },
+  "business": {
+    "payments": {
+      "title": "Plăți & Facturare",
+      "comingSoon": "În curând vei putea vedea aici extrasele cu facturile plătite și comisioanele.",
+      "comingSoonDescription": "Funcționalitatea este în curs de dezvoltare. Vom anunța când va fi disponibilă."
+    }
+  },
+  "donations": {
+    "title": "Susține Farmero",
+    "subtitle": "Ajută-ne să construim un sistem prin care produsele locale ajung mai ușor la oameni.",
+    "whySupport": "De ce contează susținerea ta",
+    "infrastructure": "Infrastructură & dezvoltare",
+    "infrastructureDescription": "Susținem continuu dezvoltarea platformei pentru a oferi o experiență mai bună utilizatorilor și producătorilor.",
+    "smallProducers": "Suport pentru producători mici",
+    "smallProducersDescription": "Ajutăm producătorii locali să-și găsească clienții și să-și dezvolte afacerea.",
+    "socialProjects": "Proiecte sociale & sustenabile",
+    "socialProjectsDescription": "În viitor, vom dezvolta proiecte care sprijină comunitatea și sustenabilitatea.",
+    "statistics": "Statistică donații",
+    "thisMonth": "Luna aceasta, comunitatea Farmero a donat",
+    "donors": "persoane au ales să contribuie",
+    "systemInPreparation": "Sistemul de donații este în pregătire. Îți vom spune imediat ce este disponibil.",
+    "wantToDonate": "Vreau să donez",
+    "selectAmount": "Selectează suma",
+    "selectAmountAria": "Selectează suma de {{amount}} lei",
+    "customAmount": "Sau introdu o sumă personalizată",
+    "customAmountAria": "Sumă personalizată",
+    "amountPlaceholder": "Suma în RON",
+    "donate": "Donează",
+    "donateAria": "Donează",
+    "infoTitle": "Informații importante",
+    "infoDescription": "Donațiile sunt anonime implicit și nu oferă beneficii comerciale. Ele susțin dezvoltarea platformei și comunitatea.",
+    "invalidAmount": "Sumă invalidă",
+    "invalidAmountDescription": "Te rugăm să introduci o sumă validă.",
+    "thankYou": "Mulțumim!",
+    "developmentMessage": "Sistemul de donații este în dezvoltare. Îți mulțumim că vrei să susții Farmero.",
+    "error": "Eroare",
+    "errorDescription": "A apărut o eroare. Te rugăm să încerci din nou.",
+    "supportLink": "Susține Farmero",
+    "supportLinkAria": "Susține Farmero",
+    "preferences": {
+      "title": "Preferințe donații",
+      "description": "Gestionează preferințele tale pentru donații.",
+      "showNamePublicly": "Afișează numele meu public",
+      "showNamePubliclyDescription": "Dacă donez, sunt de acord ca numele meu să fie afișat în anumite liste publice (opțional).",
+      "comingSoon": "Funcționalitatea de preferințe pentru donații va fi disponibilă în curând."
+    }
+  },
+  "terms": {
+    "title": "Termeni și condiții",
+    "lastUpdated": "Ultima actualizare",
+    "section1": {
+      "title": "1. Acceptarea termenilor",
+      "content": "Prin accesarea și utilizarea platformei farme.ro, accepti să fii legat de acești termeni și condiții. Dacă nu ești de acord cu oricare dintre acești termeni, te rugăm să nu utilizezi platforma."
+    },
+    "section2": {
+      "title": "2. Utilizarea platformei",
+      "content": "farme.ro este o platformă online care conectează producătorii de produse agricole tradiționale cu clienții. Platforma este destinată utilizării legale și în conformitate cu toate legile și reglementările aplicabile.",
+      "list1": "Nu poți utiliza platforma în scopuri ilegale sau frauduloase",
+      "list2": "Nu poți încerca să accesezi zone restricționate ale platformei",
+      "list3": "Nu poți utiliza platforma pentru a transmite malware sau cod dăunător",
+      "list4": "Ești responsabil pentru toate activitățile care au loc sub contul tău"
+    },
+    "section3": {
+      "title": "3. Conturi de utilizator",
+      "content": "Pentru a utiliza anumite funcționalități ale platformei, poți fi nevoit să creezi un cont. Ești responsabil pentru:",
+      "list1": "Menținerea confidențialității informațiilor de conectare",
+      "list2": "Toate activitățile care au loc sub contul tău",
+      "list3": "Notificarea imediată a oricărei utilizări neautorizate a contului tău"
+    },
+    "section4": {
+      "title": "4. Produse și comenzi",
+      "content": "farme.ro acționează ca intermediar între producători și clienți. Nu suntem responsabili pentru:",
+      "list1": "Calitatea produselor vândute de producători",
+      "list2": "Livrarea produselor (responsabilitatea producătorului)",
+      "list3": "Orice dispută între producători și clienți",
+      "note": "Toate comenzile sunt supuse disponibilității produselor și confirmării de către producător."
+    },
+    "section5": {
+      "title": "5. Plăți",
+      "content": "Plățile pentru produse sunt procesate prin intermediul unor servicii terțe sigure. farme.ro nu stochează informații despre cardurile de credit sau metodele de plată."
+    },
+    "section6": {
+      "title": "6. Proprietate intelectuală",
+      "content": "Toate conținuturile platformei, inclusiv texte, imagini, logo-uri și design, sunt proprietatea farme.ro sau a licențiatorilor săi și sunt protejate de legile privind drepturile de autor."
+    },
+    "section7": {
+      "title": "7. Limitarea răspunderii",
+      "content": "farme.ro nu este responsabil pentru:",
+      "list1": "Daune directe, indirecte, accidentale sau consecvente rezultate din utilizarea platformei",
+      "list2": "Pierzări de date sau întreruperi ale serviciului",
+      "list3": "Acțiuni ale terților, inclusiv producători sau furnizori de servicii"
+    },
+    "section8": {
+      "title": "8. Modificări ale termenilor",
+      "content": "Ne rezervăm dreptul de a modifica acești termeni și condiții în orice moment. Modificările vor intra în vigoare imediat ce sunt publicate pe platformă. Continuarea utilizării platformei după modificări constituie acceptarea noilor termeni."
+    },
+    "section9": {
+      "title": "9. Contact",
+      "content": "Pentru întrebări despre acești termeni și condiții, te rugăm să ne contactezi la:",
+      "email": "contact@farme.ro"
+    }
+  },
+  "privacy": {
+    "title": "Politica de confidențialitate",
+    "lastUpdated": "Ultima actualizare",
+    "section1": {
+      "title": "1. Introducere",
+      "content": "farme.ro respectă confidențialitatea utilizatorilor și se angajează să protejeze datele personale colectate prin intermediul platformei. Această politică de confidențialitate explică cum colectăm, utilizăm, stocăm și protejăm informațiile tale personale."
+    },
+    "section2": {
+      "title": "2. Datele pe care le colectăm",
+      "subtitle": "Colectăm următoarele tipuri de date:",
+      "identification": {
+        "title": "Date de identificare",
+        "list1": "Nume complet",
+        "list2": "Adresă de email",
+        "list3": "Număr de telefon (opțional)"
+      },
+      "usage": {
+        "title": "Date de utilizare",
+        "list1": "Istoricul comenzilor",
+        "list2": "Preferințe de produse",
+        "list3": "Date de navigare pe platformă"
+      },
+      "technical": {
+        "title": "Date tehnice",
+        "list1": "Adresă IP",
+        "list2": "Tip de browser",
+        "list3": "Dispozitiv utilizat"
+      }
+    },
+    "section3": {
+      "title": "3. Cum utilizăm datele",
+      "subtitle": "Utilizăm datele tale pentru:",
+      "list1": "Procesarea și livrarea comenzilor",
+      "list2": "Comunicarea cu tine despre comenzi și servicii",
+      "list3": "Îmbunătățirea experienței tale pe platformă",
+      "list4": "Prevenirea fraudelor și asigurarea securității",
+      "list5": "Conformarea cu obligațiile legale"
+    },
+    "section4": {
+      "title": "4. Partajarea datelor",
+      "content": "Nu vindem datele tale personale către terți. Putem partaja datele doar în următoarele situații:",
+      "list1": "Producători: Pentru procesarea și livrarea comenzilor",
+      "list2": "Furnizori de servicii: Pentru procesarea plăților, livrare, etc.",
+      "list3": "Obligații legale: Când este necesar conform legii"
+    },
+    "section5": {
+      "title": "5. Securitatea datelor",
+      "content": "Implementăm măsuri de securitate tehnice și organizaționale pentru a proteja datele tale personale împotriva accesului neautorizat, pierderii sau distrugerii."
+    },
+    "section6": {
+      "title": "6. Cookie-uri",
+      "content": "Utilizăm cookie-uri pentru a îmbunătăți experiența ta pe platformă. Pentru mai multe detalii, vezi",
+      "link": "Politica de cookie-uri"
+    },
+    "section7": {
+      "title": "7. Drepturile tale (GDPR)",
+      "subtitle": "Conform GDPR, ai următoarele drepturi:",
+      "right1": "Dreptul de acces: Poți solicita o copie a datelor tale personale",
+      "right2": "Dreptul de rectificare: Poți solicita corectarea datelor incorecte",
+      "right3": "Dreptul de ștergere: Poți solicita ștergerea datelor tale",
+      "right4": "Dreptul de opoziție: Poți te opune procesării datelor tale",
+      "right5": "Dreptul la portabilitate: Poți solicita transferul datelor tale",
+      "moreInfo": "Pentru mai multe detalii, vezi",
+      "link": "Pagina GDPR"
+    },
+    "section8": {
+      "title": "8. Contact",
+      "content": "Pentru întrebări despre această politică de confidențialitate sau pentru a-ți exercita drepturile, te rugăm să ne contactezi la:",
+      "email": "privacy@farme.ro"
+    }
+  },
+  "cookies": {
+    "title": "Politica de cookie-uri",
+    "lastUpdated": "Ultima actualizare",
+    "section1": {
+      "title": "1. Ce sunt cookie-urile?",
+      "content": "Cookie-urile sunt fișiere text mici stocate pe dispozitivul tău când vizitezi un site web. Acestea permit site-ului să-ți amintească preferințele și să îmbunătățească experiența ta de navigare."
+    },
+    "section2": {
+      "title": "2. Tipuri de cookie-uri folosite",
+      "essential": {
+        "title": "Cookie-uri esențiale",
+        "content": "Aceste cookie-uri sunt necesare pentru funcționarea platformei și nu pot fi dezactivate. Ele includ autentificarea, securitatea și funcționalitățile de bază."
+      },
+      "performance": {
+        "title": "Cookie-uri de performanță",
+        "content": "Aceste cookie-uri ne ajută să înțelegem cum utilizatorii interacționează cu platforma, permițându-ne să îmbunătățim funcționalitatea și performanța."
+      },
+      "functionality": {
+        "title": "Cookie-uri de funcționalitate",
+        "content": "Aceste cookie-uri permit platformei să-ți amintească preferințele (de exemplu, limba selectată) pentru a oferi o experiență personalizată."
+      },
+      "marketing": {
+        "title": "Cookie-uri de marketing",
+        "content": "Aceste cookie-uri sunt folosite pentru a-ți afișa conținut relevant și pentru a măsura eficacitatea campaniilor de marketing."
+      }
+    },
+    "section3": {
+      "title": "3. Gestionarea cookie-urilor",
+      "subtitle": "Poți gestiona preferințele cookie-urilor în setările browser-ului tău. Poți:",
+      "list1": "Bloca toate cookie-urile",
+      "list2": "Permite doar cookie-uri de la site-uri de încredere",
+      "list3": "Șterge cookie-urile existente",
+      "list4": "Configura notificări când sunt setate cookie-uri",
+      "note": "Notă: Blocarea anumitor cookie-uri poate afecta funcționalitatea platformei."
+    },
+    "section4": {
+      "title": "4. Cookie-uri terțe",
+      "subtitle": "Utilizăm servicii terțe care pot seta cookie-uri pe dispozitivul tău:",
+      "list1": "Analiză: Pentru a înțelege cum este utilizată platforma",
+      "list2": "Plăți: Pentru procesarea plăților securizate",
+      "list3": "Marketing: Pentru a măsura eficacitatea campaniilor"
+    },
+    "section5": {
+      "title": "5. Contact",
+      "content": "Pentru întrebări despre politica de cookie-uri, te rugăm să ne contactezi la:",
+      "email": "contact@farme.ro"
+    }
+  },
+  "status": {
+    "title": "System Status",
+    "subtitle": "Diagnostic page to check backend API and database connectivity",
+    "serviceStatus": "Service Status",
+    "backendApi": "Backend API",
+    "database": "Database (Neon)",
+    "connectionStatus": "Connection status from backend",
+    "responseTime": "Response time",
+    "httpStatus": "HTTP",
+    "checking": "CHECKING...",
+    "ok": "OK",
+    "error": "ERROR",
+    "errorDetails": "Error Details",
+    "solutions": "Posibile soluții:",
+    "solution1": "Verifică că backend-ul rulează și este accesibil la",
+    "solution2": "Verifică că backend-ul are implementat un endpoint de health check (/status, /health sau /health/db)",
+    "solution3": "Verifică configurația CORS pe backend pentru a permite request-uri de la frontend",
+    "solution4": "Verifică în browser console (F12) pentru detalii despre eroarea de rețea",
+    "timestamp": "Timestamp",
+    "allSystemsOk": "Toate sistemele funcționează",
+    "allSystemsOkDesc": "Backend API și baza de date sunt accesibile și funcționează corect.",
+    "lastCheck": "Ultima verificare",
+    "environmentInfo": "Environment Info",
+    "environment": "Environment",
+    "apiUrl": "API URL",
+    "frontend": "Frontend",
+    "frontendValue": "Next.js App Router",
+    "refreshStatus": "Refresh Status",
+    "checkingStatus": "Se verifică...",
+    "autoRefresh": "Auto-refresh (30s)",
+    "autoRefreshDesc": "Status-ul se va actualiza automat la fiecare 30 de secunde",
+    "couldNotConnect": "Nu s-a putut conecta la server",
+    "checkAccessible": "Verifică că {url} este accesibil."
+  },
+  "gdpr": {
+    "title": "Drepturile tale (GDPR)",
+    "subtitle": "Conform Regulamentului General privind Protecția Datelor (GDPR), ai următoarele drepturi privind datele tale personale",
+    "rights": {
+      "access": {
+        "title": "Dreptul de acces",
+        "description": "Ai dreptul să primești o copie a datelor tale personale pe care le deținem."
+      },
+      "rectification": {
+        "title": "Dreptul de rectificare",
+        "description": "Poți solicita corectarea datelor tale personale care sunt incorecte sau incomplete."
+      },
+      "deletion": {
+        "title": "Dreptul de ștergere",
+        "description": "Poți solicita ștergerea datelor tale personale în anumite circumstanțe (dreptul de a fi uitat)."
+      },
+      "opposition": {
+        "title": "Dreptul de opoziție",
+        "description": "Poți te opune procesării datelor tale personale pentru anumite scopuri, cum ar fi marketingul direct."
+      },
+      "portability": {
+        "title": "Dreptul la portabilitate",
+        "description": "Poți solicita transferul datelor tale personale într-un format structurat și utilizat frecvent."
+      },
+      "restriction": {
+        "title": "Dreptul de restricționare",
+        "description": "Poți solicita restricționarea procesării datelor tale personale în anumite circumstanțe."
+      }
+    },
+    "howToExercise": {
+      "title": "Cum îți exercită drepturile",
+      "content": "Pentru a-ți exercita oricare dintre aceste drepturi, te rugăm să ne contactezi la:",
+      "email": "privacy@farmero.ro",
+      "response": "Vom răspunde la solicitarea ta în termen de 30 de zile și te vom informa despre acțiunile întreprinse. În anumite cazuri, putem solicita informații suplimentare pentru a verifica identitatea ta."
+    }
+  },
+  "donations": {
+    "privacyNote": "Donațiile sunt procesate în condiții de siguranță. Vom folosi datele tale doar pentru a procesa plata și pentru obligațiile legale. În mod implicit, donațiile tale nu sunt afișate public altor utilizatori.",
+    "privacyLink": "Politica de confidențialitate"
+  },
+  "fees": {
+    "hero": {
+      "badge": "Transparent pentru clienți și producători",
+      "title": "Comisioane & taxe explicate simplu",
+      "subtitle": "Pe farme.ro, plătești produse la preț de producător și vezi clar ce înseamnă costul de livrare și comisionul platformei. Fără surprize ascunse.",
+      "pill1": {
+        "title": "Preț de producător",
+        "description": "Produsele sunt listate de producători reali, iar prețurile sunt stabilite de ei."
+      },
+      "pill2": {
+        "title": "Comision transparent",
+        "description": "O parte mică din valoarea comenzii merge către farme.ro, pentru funcționarea și dezvoltarea platformei."
+      },
+      "pill3": {
+        "title": "Fără costuri ascunse",
+        "description": "Vezi costul final înainte să confirmi comanda, inclusiv livrarea."
+      }
+    },
+    "producerPrice": {
+      "title": "Ce înseamnă \"preț de producător\"?",
+      "description": "farme.ro este un marketplace. Asta înseamnă că nu noi stabilim prețurile produselor, ci producătorii. Ei își setează prețul corect pentru munca lor, iar tu vezi acele prețuri direct în platformă. farme.ro reține doar un comision transparent pentru a putea funcționa și a promova produsele lor.",
+      "forClient": {
+        "title": "Pentru tine, ca și client",
+        "description": "Plătești un preț corect, direct de la sursă, fără adaosuri neclare pe drum."
+      },
+      "forProducer": {
+        "title": "Pentru producător",
+        "description": "Primește mai mult din valoarea finală a coșului și poate să își planifice mai bine producția și livrările."
+      }
+    },
+    "orderBreakdown": {
+      "title": "Ce plătești atunci când comanzi",
+      "subtitle": "Structura unei comenzi tipice",
+      "products": {
+        "label": "1. Valoarea produselor",
+        "destination": "→ producător",
+        "description": "Suma produselor pe care le alegi. Acești bani merg, în cea mai mare parte, direct la producător."
+      },
+      "shipping": {
+        "label": "2. Costul de livrare",
+        "destination": "→ curier / logistică",
+        "description": "Stabilit în funcție de distanță, greutate și metoda de livrare (livrare la adresă sau punct de ridicare, acolo unde este disponibil)."
+      },
+      "commission": {
+        "label": "3. Comision farme.ro",
+        "destination": "→ platformă",
+        "description": "Un procent mic din valoarea comenzii, folosit pentru operarea platformei, suport, dezvoltare, promovarea producătorilor și proiectele de impact social."
+      },
+      "important": {
+        "title": "Important:",
+        "points": {
+          "0": "Vezi întotdeauna costul final înainte să confirmi comanda.",
+          "1": "Nu adăugăm comisioane ascunse în ultimul pas.",
+          "2": "În timp, vom afișa și mai clar cât merge la producător și cât către platformă."
+        }
+      }
+    },
+    "payment": {
+      "title": "Plata cu cardul vs plata ramburs",
+      "card": {
+        "title": "Plata cu cardul (recomandat)",
+        "badge": "Recomandat",
+        "description": "Este cea mai sigură și eficientă variantă atât pentru tine, cât și pentru producători. Comanda este confirmată, iar riscul de produse neridicate este mai mic.",
+        "points": {
+          "0": "Proces mai rapid la livrare.",
+          "1": "Mai puțin risc de risipă alimentară.",
+          "2": "Poate veni cu beneficii suplimentare (recompense, oferte), pe viitor."
+        }
+      },
+      "cash": {
+        "title": "Plata ramburs (acolo unde este disponibilă)",
+        "badge": "Limitată / în funcție de zonă",
+        "description": "În anumite situații, poți plăti direct la livrare. Pentru a proteja producătorii de comenzi neridicate, pot exista taxe suplimentare de logistică pentru acest tip de plată.",
+        "points": {
+          "0": "Pot exista taxe suplimentare de manipulare/transport în cazul rambursului.",
+          "1": "Opțiunea poate fi limitată pentru utilizatori cu multe comenzi neridicate.",
+          "2": "Detaliile exacte vor fi afișate clar în pagina de checkout."
+        }
+      }
+    },
+    "earnings": {
+      "title": "Cum câștigă producătorii. Cum câștigă farme.ro.",
+      "producers": {
+        "title": "Producătorii",
+        "description": "Producătorii încasează suma produselor vândute, minus un comision clar al platformei. În schimb, primesc acces la clienți noi, vizibilitate online, instrumente de gestionare a comenzilor și, în viitor, opțiuni de promovare."
+      },
+      "platform": {
+        "title": "farme.ro",
+        "description": "Platforma câștigă dintr-un comision mic pe tranzacție și, eventual, din abonamente pentru producători sau servicii extra. Scopul este să rămânem un loc corect și echilibrat pentru toată lumea: clienți, producători și comunitate."
+      }
+    },
+    "faq": {
+      "title": "Întrebări frecvente",
+      "q1": {
+        "question": "Mai plătesc și altceva în afară de ce văd la checkout?",
+        "answer": "Nu. Tot ce vezi în pagina de checkout este tot ce plătești. Nu adăugăm comisioane ascunse sau taxe suplimentare după ce confirmi comanda."
+      },
+      "q2": {
+        "question": "De ce costă livrarea atât?",
+        "answer": "Costul de livrare depinde de distanță, greutate și metoda de livrare. Fiecare producător gestionează propriile livrări, iar costurile sunt stabilite de ei sau de partenerii lor de logistică. Vei vedea costul exact înainte să confirmi comanda."
+      },
+      "q3": {
+        "question": "Pot să văd cât primește producătorul din comanda mea?",
+        "answer": "În prezent, vezi valoarea totală a produselor și costul de livrare. Pe măsură ce dezvoltăm platforma, vom afișa și mai clar distribuția exactă: cât merge la producător, cât către livrare și cât către platformă."
+      },
+      "q4": {
+        "question": "Comisionul se schimbă pentru anumite comenzi?",
+        "answer": "Comisionul platformei este consistent și transparent. Nu variază în funcție de tipul de produs sau de valoarea comenzii. Dacă există diferențe (de exemplu, pentru plata ramburs), acestea vor fi afișate clar înainte să confirmi comanda."
+      },
+      "q5": {
+        "question": "Există costuri ascunse sau taxe suplimentare?",
+        "answer": "Nu. Tot ce plătești este afișat clar în pagina de checkout: valoarea produselor, costul de livrare și comisionul platformei. Nu există costuri ascunse sau taxe suplimentare care să apară după ce confirmi comanda."
+      }
+    }
+  },
+  "ui": {
+    "currency": {
+      "symbol": "lei",
+      "code": "RON"
+    },
+    "payment": {
+      "method": {
+        "card": "Card",
+        "cod": "Ramburs",
+        "bankTransfer": "Transfer bancar",
+        "other": "Altă metodă"
+      }
+    },
+    "units": {
+      "piece": "buc",
+      "kg": "kg",
+      "g": "g",
+      "l": "l",
+      "ml": "ml"
+    },
+    "price": {
+      "from": "de la"
+    },
+    "badges": {
+      "bio": "Bio",
+      "traditional": "Tradițional",
+      "limitedBatch": "Lot limitat"
+    },
+    "loading": {
+      "default": "Se încarcă...",
+      "saving": "Se salvează...",
+      "processing": "Se procesează...",
+      "submitting": "Se trimite...",
+      "deleting": "Se șterge...",
+      "updating": "Se actualizează..."
+    }
+  },
+  "errors": {
+    "generic": "Ceva nu a mers bine. Te rugăm să încerci din nou.",
+    "network": "Nu ne putem conecta. Verifică conexiunea la internet și încearcă din nou.",
+    "notFound": "Nu am găsit ceea ce cauți",
+    "unauthorized": "Nu ai permisiunea să accesezi această pagină",
+    "forbidden": "Acces interzis",
+    "serverError": "Ceva nu a mers bine pe server. Te rugăm să încerci mai târziu.",
+    "validation": {
+      "required": "Acest câmp este obligatoriu",
+      "email": "Adresa de email nu este validă",
+      "minLength": "Textul este prea scurt",
+      "maxLength": "Textul este prea lung",
+      "passwordMismatch": "Parolele nu se potrivesc"
+    },
+    "cart": {
+      "addFailed": "Nu am putut adăuga produsul în coș. Te rugăm să încerci din nou.",
+      "updateFailed": "Nu am putut actualiza coșul. Te rugăm să încerci din nou.",
+      "clearFailed": "Nu am putut goli coșul. Te rugăm să încerci din nou."
+    },
+    "orders": {
+      "loadFailed": "Nu am putut încărca comenzile. Te rugăm să încerci din nou.",
+      "createFailed": "Nu am putut plasa comanda. Te rugăm să încerci din nou.",
+      "cancelFailed": "Nu am putut anula comanda. Te rugăm să încerci din nou.",
+      "reorderFailed": "Nu am putut comanda din nou. Te rugăm să încerci din nou."
+    },
+    "products": {
+      "loadFailed": "Nu am putut încărca produsele. Te rugăm să încerci din nou.",
+      "notFound": "Produsul nu a fost găsit"
+    },
+    "producers": {
+      "loadFailed": "Nu am putut încărca producătorii. Te rugăm să încerci din nou.",
+      "notFound": "Producătorul nu a fost găsit"
+    }
+  },
+  "emptyStates": {
+    "orders": {
+      "title": "Momentan nu ai comenzi",
+      "description": "Începe să cumperi pentru a vedea comenzile tale aici.",
+      "action": "Vezi produsele"
+    },
+    "products": {
+      "title": "Nu am găsit produse în acest moment",
+      "description": "Poți încerca să ajustezi filtrele sau să revii mai târziu.",
+      "action": "Resetează filtrele"
+    },
+    "producers": {
+      "title": "Nu am găsit producători în acest moment",
+      "description": "Poți încerca să ajustezi filtrele sau să revii mai târziu.",
+      "action": "Resetează filtrele",
+      "resetFilters": "Resetează filtrele"
+    },
+    "subscriptions": {
+      "title": "Nu ai abonamente active",
+      "description": "Abonează-te la producătorii tăi preferați pentru a primi produse regulate.",
+      "action": "Explorează abonamente"
+    },
+    "cart": {
+      "title": "Coșul tău este gol",
+      "description": "Adaugă produse în coș pentru a continua.",
+      "action": "Începe să cumperi"
+    },
+    "favorites": {
+      "title": "Nu ai produse favorite",
+      "description": "Adaugă produse la favorite pentru a le găsi mai ușor.",
+      "action": "Explorează produsele"
+    },
+    "campaigns": {
+      "title": "Nu ai campanii active",
+      "description": "Creează prima ta campanie de marketing pentru a-ți crește vizibilitatea.",
+      "action": "Creează campanie"
+    }
+  },
+  "notifications": {
+    "success": {
+      "saved": "Modificările tale au fost salvate",
+      "deleted": "Elementul a fost șters",
+      "created": "Elementul a fost creat",
+      "updated": "Modificările tale au fost actualizate",
+      "orderPlaced": "Comanda ta a fost plasată!",
+      "addedToCart": "Produsul a fost adăugat în coș"
+    },
+    "error": {
+      "generic": "Ceva nu a mers bine. Te rugăm să încerci din nou.",
+      "saveFailed": "Nu am putut salva modificările. Te rugăm să încerci din nou.",
+      "deleteFailed": "Nu am putut șterge elementul. Te rugăm să încerci din nou.",
+      "loadFailed": "Nu am putut încărca datele. Te rugăm să încerci din nou."
+    },
+    "warning": {
+      "unsavedChanges": "Ai modificări nesalvate. Ești sigur că vrei să părăsești pagina?",
+      "itemUnavailable": "Unele produse din această comandă nu mai sunt disponibile"
+    },
+    "info": {
+      "newFeature": "Funcționalitate nouă disponibilă",
+      "updateAvailable": "Actualizare disponibilă"
+    }
+  },
+  "cookies": {
+    "banner": {
+      "title": "Folosim cookie-uri pentru ca Farmero să fie mai ușor de folosit și mai relevant pentru tine",
+      "description": "Ne ajută să îți oferim o experiență personalizată și să îmbunătățim constant platforma. Poți alege ce tipuri de cookie-uri accepți.",
+      "acceptAll": "Accept toate",
+      "rejectAll": "Resping opționalele",
+      "customize": "Personalizează",
+      "learnMore": "Află mai multe despre cookie-uri"
+    },
+    "modal": {
+      "title": "Setările tale privind confidențialitatea",
+      "intro": "Alege ce tipuri de cookie-uri dorești să permiți pe Farmero. Poți modifica oricând aceste opțiuni.",
+      "necessary": {
+        "label": "Necesare (obligatorii)",
+        "description": "Asigură funcționarea de bază a platformei, logarea în cont și securitatea. Aceste cookie-uri nu pot fi dezactivate."
+      },
+      "analytics": {
+        "label": "Analiză",
+        "description": "Ne ajută să înțelegem cum este folosit site-ul pentru a-l îmbunătăți."
+      },
+      "functional": {
+        "label": "Funcționalitate",
+        "description": "Memorează preferințe precum limba sau setările tale, pentru o experiență mai plăcută."
+      },
+      "marketing": {
+        "label": "Marketing",
+        "description": "Permite afișarea de conținut relevant și oferte personalizate."
+      },
+      "save": "Salvează preferințele",
+      "acceptAll": "Accept toate"
+    },
+    "footer": {
+      "settings": "Setări cookie-uri"
+    }
+  },
+  "producer": {
+    "dashboard": {
+      "loading": "Se încarcă dashboard-ul...",
+      "errorLoading": "Nu am putut încărca datele dashboard-ului. Te rugăm să încerci din nou.",
+      "salesThisMonth": "Vânzări luna aceasta",
+      "growthMonth": "{value}% față de luna trecută",
+      "activeOrders": "Comenzi active",
+      "activeProducts": "Produse active",
+      "avgOrderValue": "Valoare medie comandă",
+      "inPreparation": "În pregătire",
+      "notVisible": "Nu este vizibil",
+      "lowStock": "Stoc redus"
+    },
+    "products": {
+      "title": "Produse",
+      "searchPlaceholder": "Caută după nume, descriere...",
+      "statusAll": "Toate statusurile",
+      "statusActive": "✅ Active",
+      "statusInactive": "⏸️ Inactive",
+      "statusLowStock": "⚠️ Stoc scăzut",
+      "stockAll": "Toate stocurile",
+      "stockInStock": "În stoc",
+      "stockLowStock": "Stoc scăzut (<5)",
+      "stockOutOfStock": "Stoc epuizat",
+      "sortName": "Sortează: Nume A-Z",
+      "sortNameDesc": "Sortează: Nume Z-A",
+      "sortPrice": "Sortează: Preț ↑",
+      "sortPriceDesc": "Sortează: Preț ↓",
+      "sortStock": "Sortează: Stoc ↑",
+      "sortStockDesc": "Sortează: Stoc ↓",
+      "sortRecent": "Cele mai recente",
+      "advancedFilters": "Filtre avansate",
+      "resetFilters": "Resetează",
+      "addProduct": "+ Adaugă produs",
+      "showing": "Afișez {filtered} din {total} produse",
+      "total": "{total} produse în total",
+      "categoryAll": "Toate categoriile",
+      "categoryLactate": "Lactate",
+      "categoryCarne": "Carne",
+      "categoryLegume": "Legume",
+      "categoryFructe": "Fructe",
+      "categoryMiere": "Miere",
+      "categoryOua": "Ouă",
+      "priceRange": "Interval preț",
+      "priceMin": "Min",
+      "priceMax": "Max",
+      "productType": "Tip produs",
+      "productTypeBio": "Bio",
+      "productTypeTraditional": "Tradițional",
+      "errorLoading": "Nu am putut încărca produsele. Te rugăm să încerci din nou.",
+      "errorAuth": "Trebuie să fii autentificat pentru a vedea produsele.",
+      "errorGeneric": "Nu am putut încărca produsele. Te rugăm să încerci din nou.",
+      "successActivated": "Produs activat!",
+      "successDeactivated": "Produs dezactivat!",
+      "errorToggle": "Nu am putut schimba statusul produsului. Te rugăm să încerci din nou.",
+      "errorDelete": "Nu am putut șterge produsul. Te rugăm să încerci din nou.",
+      "successDelete": "Produs șters!",
+      "confirmDelete": "Ești sigur că vrei să ștergi acest produs? Nu vom putea să-l recuperăm."
+    },
+    "orders": {
+      "errorLoading": "Nu am putut încărca comenzile. Te rugăm să încerci din nou.",
+      "errorAuth": "Trebuie să fii autentificat pentru a vedea comenzile.",
+      "errorGeneric": "Nu am putut încărca comenzile. Te rugăm să încerci din nou.",
+      "successConfirmed": "Comandă confirmată!",
+      "errorConfirm": "Nu am putut confirma comanda. Te rugăm să încerci din nou.",
+      "successPreparing": "Comandă marcată ca în pregătire!",
+      "errorPreparing": "Nu am putut marca comanda ca în pregătire. Te rugăm să încerci din nou.",
+      "successShipped": "Comandă marcată ca expediată!",
+      "errorShip": "Nu am putut marca comanda ca expediată. Te rugăm să încerci din nou.",
+      "successDelivered": "Comandă marcată ca livrată!",
+      "errorDelivered": "Nu am putut marca comanda ca livrată. Te rugăm să încerci din nou.",
+      "successCanceled": "Comandă anulată!",
+      "errorCancel": "Nu am putut anula comanda. Te rugăm să încerci din nou.",
+      "confirmCancel": "Ești sigur că vrei să anulezi această comandă? Nu vom putea să o recuperăm.",
+      "status": {
+        "all": "Toate",
+        "pending": "În așteptare",
+        "confirmed": "Confirmate",
+        "preparing": "În pregătire",
+        "shipped": "Trimise",
+        "delivered": "Livrate",
+        "canceled": "Anulate",
+        "uncollected": "Neridicate"
+      },
+      "title": "Comenzi",
+      "titleDesktop": "Comenzile tale",
+      "description": "Gestionează comenzile primite și statusul livrărilor.",
+      "loading": "Se încarcă comenzile...",
+      "empty": "Nu ai comenzi încă.",
+      "emptyFiltered": "Nu există comenzi cu statusul \"{status}\".",
+      "orderSingular": "comandă",
+      "orderPlural": "comenzi"
+    },
+    "settings": {
+      "title": "Setări & Profil",
+      "description": "Gestionează informațiile despre fermă și profilul tău public",
+      "loading": "Se încarcă profilul...",
+      "errorLoading": "Nu am putut încărca profilul. Te rugăm să încerci din nou.",
+      "errorSaving": "Nu am putut salva profilul. Te rugăm să încerci din nou.",
+      "successUpdate": "Profilul tău a fost actualizat!",
+      "basicInfo": "Informații de bază",
+      "brandName": "Nume brand / Fermă",
+      "brandNamePlaceholder": "Ex: Ferma Popescu",
+      "shortDescription": "Descriere scurtă",
+      "shortDescriptionPlaceholder": "O scurtă descriere a fermei tale (apare pe pagina publică)",
+      "fullStory": "Povestea completă",
+      "fullStoryPlaceholder": "Povestea completă a fermei tale, tradițiile, practicile, etc. (apare pe pagina publică)",
+      "location": "Locație",
+      "county": "Județ",
+      "countyPlaceholder": "Ex: Cluj",
+      "city": "Localitate",
+      "cityPlaceholder": "Ex: Cluj-Napoca",
+      "address": "Adresă completă",
+      "addressPlaceholder": "Strada, număr, etc.",
+      "contactInfo": "Date de contact",
+      "phone": "Telefon",
+      "phonePlaceholder": "07xxxxxxxx",
+      "email": "Email (opțional pentru afișare publică)",
+      "emailPlaceholder": "contact@ferma.ro",
+      "emailNote": "Email-ul tău de cont ({email}) este folosit pentru autentificare și nu poate fi modificat aici.",
+      "website": "Website",
+      "websitePlaceholder": "https://ferma.ro",
+      "socialMedia": "Link-uri social media",
+      "logoCover": "Logo & Imagine de copertă",
+      "logo": "Logo",
+      "changeLogo": "Schimbă logo",
+      "uploadLogo": "Încarcă logo",
+      "logoNote": "Funcționalitatea de upload logo va fi disponibilă când backend-ul suportă file upload.",
+      "coverImage": "Imagine de copertă",
+      "changeCover": "Schimbă copertă",
+      "uploadCover": "Încarcă copertă",
+      "coverNote": "Funcționalitatea de upload imagine de copertă va fi disponibilă când backend-ul suportă file upload.",
+      "saving": "Se salvează...",
+      "saveChanges": "Salvează modificările",
+      "viewPublicPage": "Vezi pagina publică"
+    }
+  },
+  "nav": {
+    "contact": "Contact",
+    "contactPage": {
+      "title": "Contactează-ne",
+      "subtitle": "Ai întrebări? Suntem aici să te ajutăm. Trimite-ne un mesaj și îți vom răspunde în cel mai scurt timp.",
+      "email": "Email",
+      "schedule": "Program",
+      "scheduleWeekdays": "Luni - Vineri: 9:00 - 18:00",
+      "scheduleWeekend": "Sâmbătă - Duminică: Închis",
+      "response": "Răspuns",
+      "responseTime": "Răspundem la toate mesajele în maximum 24 de ore.",
+      "support": "Suport",
+      "supportDescription": "Pentru întrebări despre comenzi, produse sau contul tău, te rugăm să folosești formularul de contact.",
+      "supportProducers": "Pentru producători:",
+      "supportProducersLink": "Vezi pagina pentru producători",
+      "formTitle": "Trimite un mesaj",
+      "formName": "Nume complet",
+      "formNamePlaceholder": "Ion Popescu",
+      "formEmail": "Email",
+      "formEmailPlaceholder": "ion@example.com",
+      "formSubject": "Subiect",
+      "formSubjectPlaceholder": "Despre ce este mesajul tău?",
+      "formMessage": "Mesaj",
+      "formMessagePlaceholder": "Scrie mesajul tău aici...",
+      "formSubmit": "Trimite mesaj",
+      "formSubmitting": "Se trimite...",
+      "formSuccess": "✓ Mesajul tău a fost trimis cu succes! Vom răspunde în cel mai scurt timp.",
+      "formError": "✗ A apărut o eroare. Te rugăm să încerci din nou."
+    }
+  },
+  "howItWorks": {
+    "hero": {
+      "title": "Cum funcționează Farme.ro și cum transformăm fiecare comandă într-un impact real",
+      "subtitle": "Marketplace-ul care conectează producători locali, clienți responsabili și comunități care au nevoie de sprijin.",
+      "chain": {
+        "producer": "Producător",
+        "client": "Client",
+        "community": "Comunitate"
+      },
+      "button1": "Vezi cum funcționează",
+      "button2": "Impactul tău social"
+    },
+    "steps": {
+      "step1": {
+        "title": "Alegi produse locale",
+        "description": "Explorează gama variată de produse tradiționale și bio de la producători verificați din toată România."
+      },
+      "step2": {
+        "title": "Comanzi direct de la producători",
+        "description": "Fără intermediari. Comanda ta ajunge direct la producător, asigurând prețuri corecte și prospețime maximă."
+      },
+      "step3": {
+        "title": "Livrarea este gestionată de aceștia",
+        "description": "Producătorii gestionează propriile livrări, asigurând control total asupra calității și prospețimii produselor."
+      },
+      "step4": {
+        "title": "Tu contribui la economia locală",
+        "description": "Fiecare comandă susține direct fermierii și producătorii locali, creând un impact real în comunități."
+      }
+    },
+    "howItWorksSection": {
+      "title": "Cum funcționează platforma",
+      "subtitle": "Simplu și transparent",
+      "note": "Pe Farme.ro, produsele sunt livrate direct de producători, ceea ce susține economia locală și menține prospețimea alimentelor."
+    },
+    "uncollectedOrders": {
+      "title": "Când o comandă nu este ridicată, apare o oportunitate socială",
+      "intro": "Clientul este informat clar la checkout despre termenul limită de ridicare.",
+      "ifNotPicked": "Dacă produsul nu este preluat la timp:",
+      "point1": "nu este aruncat",
+      "point2": "nu este irosit",
+      "point3": "este redirecționat către centre sociale / cantine / persoane vulnerabile",
+      "quote": "Uneori, o comandă neridicată poate deveni o masă caldă pentru cineva care chiar are nevoie.",
+      "badge1": "Zero risipă",
+      "badge2": "Trasabilitate transparentă",
+      "badge3": "Impact real"
+    },
+    "impact": {
+      "scenario1": {
+        "title": "Susținere directă",
+        "description": "Comenzile tale susțin fermierii locali, permițându-le să continue tradițiile și să dezvolte afaceri sustenabile."
+      },
+      "scenario2": {
+        "title": "Zero risipă",
+        "description": "Produsele neridicate devin sprijin pentru alții. Transformăm fiecare comandă într-o oportunitate de solidaritate."
+      },
+      "scenario3": {
+        "title": "Comunități mai puternice",
+        "description": "Consumul responsabil creează comunități. Fiecare achiziție contribuie la o economie locală mai rezilientă."
+      }
+    },
+    "socialImpact": {
+      "title": "Impactul tău merge mai departe"
+    },
+    "policy": {
+      "title": "Politică responsabilă privind comenzile neridicate",
+      "description1": "Pentru a menține sustenabilitatea platformei și echilibrul logistic, comenzile neridicate pot atrage temporar o taxă logistică suplimentară la următoarele comenzi.",
+      "description2": "Această măsură nu este punitivă, ci menită să asigure echitatea pentru producători și eficiența serviciului."
+    },
+    "producerBenefits": {
+      "title": "De ce producătorii aleg Farme.ro",
+      "benefit1": "Control total asupra stocului",
+      "benefit2": "Posibilitatea de a dezactiva produse instant",
+      "benefit3": "Transparență asupra comenzilor",
+      "benefit4": "Expunere națională",
+      "benefit5": "Instrumente digitale pentru promovare"
+    },
+    "mission": {
+      "title": "Misiunea Farme.ro",
+      "description": "Farme.ro nu este doar o platformă de vânzare. Este o inițiativă care îmbină comerțul corect, sustenabilitatea alimentară și solidaritatea socială."
+    },
+    "cta": {
+      "title": "Gata să faci parte din schimbare?",
+      "button1": "Cumpără responsabil",
+      "button2": "Devino producător partener"
+    }
+  },
+  "faq": {
+    "categories": {
+      "platform": {
+        "title": "Despre platformă",
+        "q1": {
+          "question": "Ce este farme.ro?",
+          "answer": "farme.ro este un marketplace online care conectează producătorii locali de produse agricole tradiționale cu clienții care caută produse autentice și de calitate. Oferim o platformă directă, fără intermediari, pentru a susține economia locală și a promova tradițiile românești."
+        },
+        "q2": {
+          "question": "Cum funcționează farme.ro?",
+          "answer": "Producătorii înregistrați pot adăuga produsele lor pe platformă. Clienții pot căuta, filtra și comanda produse direct de la producători. Fiecare comandă este procesată și livrată direct de la producător la client, asigurând proaspătatea și calitatea produselor."
+        },
+        "q3": {
+          "question": "Sunt produsele verificate?",
+          "answer": "Da, toți producătorii sunt verificați înainte de a-și putea lista produsele. Verificăm documentele, calitatea produselor și respectarea standardelor de siguranță alimentară."
+        },
+        "q4": {
+          "question": "Cum pot găsi produsele pe care le caut?",
+          "answer": "Poți căuta produse folosind bara de căutare, filtrarea după categorie, regiune sau preț. De asemenea, poți explora producătorii și produsele lor direct din paginile dedicate."
+        }
+      },
+      "orders": {
+        "title": "Comenzi și livrare",
+        "q1": {
+          "question": "Cum pot plasa o comandă?",
+          "answer": "Poți plasa o comandă selectând produsele dorite, adăugându-le în coș și finalizând comanda prin procesul de checkout. Vei primi confirmarea comenzii prin email și vei fi contactat de producător pentru detalii despre livrare."
+        },
+        "q2": {
+          "question": "Cum se face livrarea?",
+          "answer": "Livrarea este gestionată direct de către producător. Fiecare producător are propriile opțiuni de livrare și costuri. Detaliile despre livrare vor fi comunicate după plasarea comenzii."
+        },
+        "q3": {
+          "question": "Pot anula o comandă?",
+          "answer": "Anularea comenzii depinde de stadiul acesteia. Dacă comanda nu a fost încă procesată de producător, poți contacta producătorul direct sau echipa noastră de suport pentru anulare."
+        },
+        "q4": {
+          "question": "Cât durează livrarea?",
+          "answer": "Timpul de livrare variază în funcție de producător și locația ta. De obicei, comenzile sunt livrate în 2-7 zile lucrătoare. Producătorul te va informa despre timpul exact de livrare după plasarea comenzii."
+        },
+        "q5": {
+          "question": "Pot urmări comanda mea?",
+          "answer": "Da, vei primi notificări prin email despre statusul comenzii tale. De asemenea, poți verifica statusul comenzii din contul tău pe platformă."
+        }
+      },
+      "payments": {
+        "title": "Plăți",
+        "q1": {
+          "question": "Ce metode de plată acceptați?",
+          "answer": "Acceptăm plăți prin card bancar, transfer bancar și alte metode de plată securizate. Toate plățile sunt procesate prin intermediul unor servicii terțe sigure și certificate."
+        },
+        "q2": {
+          "question": "Când se procesează plata?",
+          "answer": "Plata este procesată după confirmarea comenzii de către producător. În cazul unor produse cu livrare precomandă, plata poate fi procesată parțial sau integral în funcție de politica producătorului."
+        },
+        "q3": {
+          "question": "Este sigur să plătesc online?",
+          "answer": "Da, toate plățile sunt procesate prin intermediul unor servicii terțe sigure și certificate. Nu stocăm informații despre cardurile de credit sau metodele de plată."
+        },
+        "q4": {
+          "question": "Pot primi factură fiscală?",
+          "answer": "Da, poți solicita factură fiscală la momentul plasării comenzii. Factura va fi emisă de către producător și trimisă împreună cu produsele sau prin email."
+        },
+        "q5": {
+          "question": "Ce se întâmplă dacă plata nu este acceptată?",
+          "answer": "Dacă plata nu este acceptată, vei primi o notificare și vei putea încerca din nou cu o altă metodă de plată. Comanda nu va fi procesată până când plata nu este confirmată."
+        }
+      },
+      "producers": {
+        "title": "Pentru producători",
+        "q1": {
+          "question": "Cum mă pot înregistra ca producător?",
+          "answer": "Poți crea un cont de producător accesând pagina \"Pentru producători\" și completând formularul de înregistrare. Vei fi contactat de echipa noastră pentru verificare și aprobare."
+        },
+        "q2": {
+          "question": "Care sunt comisioanele?",
+          "answer": "Comisioanele variază în funcție de tipul de produs și volumul de vânzări. Detaliile complete despre comisioane și plăți sunt disponibile în portalul producătorilor după înregistrare."
+        },
+        "q3": {
+          "question": "Cum gestionez comenzile?",
+          "answer": "După înregistrare, vei avea acces la un portal dedicat unde poți gestiona produsele, comenzile, stocurile și plățile. Vei primi notificări pentru fiecare comandă nouă."
+        },
+        "q4": {
+          "question": "Cum primesc plata pentru produsele vândute?",
+          "answer": "Plata este transferată în contul tău bancar după finalizarea și livrarea comenzii. Frecvența plăților poate fi configurată în portalul producătorilor."
+        },
+        "q5": {
+          "question": "Ce documente sunt necesare pentru înregistrare?",
+          "answer": "Pentru înregistrare ca producător, vei avea nevoie de documente de identificare, documente care atestă activitatea ta agricolă și, dacă este cazul, autorizații sanitare pentru produsele tale."
+        }
+      }
+    },
+    "hero": {
+      "title": "Întrebări frecvente",
+      "description": "Găsește răspunsuri rapide la cele mai frecvente întrebări despre farme.ro. Dacă nu găsești ce cauți, suntem aici să te ajutăm.",
+      "button1": "Contactează-ne",
+      "button2": "Pentru producători"
+    },
+    "cta": {
+      "title": "Ai nevoie de ajutor suplimentar?",
+      "description": "Dacă ai întrebări specifice sau ai nevoie de asistență personalizată, echipa noastră este aici să te ajute. Contactează-ne și îți vom răspunde în cel mai scurt timp posibil.",
+      "button1": "Contactează-ne",
+      "button2": "Devino producător"
+    },
+    "stats": {
+      "responseTime": "Răspuns garantat",
+      "dedicatedSupport": "Suport dedicat"
+    },
+    "resources": {
+      "title": "Resurse suplimentare",
+      "description": "Explorează mai multe informații despre farme.ro și cum poți beneficia de platforma noastră",
+      "about": {
+        "title": "Despre noi",
+        "description": "Află mai multe despre misiunea și valorile farme.ro"
+      },
+      "producers": {
+        "title": "Pentru producători",
+        "description": "Devino producător și vinde produsele tale pe platformă"
+      },
+      "contact": {
+        "title": "Contact",
+        "description": "Trimite-ne un mesaj și îți vom răspunde rapid"
+      }
+    }
+  },
+  "products": {
+    "header": {
+      "title": "Produse de la producători locali",
+      "description": "Alege din produse de sezon, direct de la producători. Preț de producător, fără supermarket între voi.",
+      "subtitle": "Alege din produse de sezon, direct de la producători. Preț de producător, fără supermarket între voi."
+    },
+    "filters": {
+      "searchLabel": "Caută produs / producător",
+      "searchBadgeLabel": "Căutare",
+      "searchPlaceholder": "Caută produs / producător...",
+      "categoryLabel": "Categorie",
+      "allCategories": "Toate categoriile",
+      "category": {
+        "fruits": "Fructe",
+        "vegetables": "Legume",
+        "dairy": "Lactate",
+        "meat": "Carne",
+        "honey": "Miere & Dulcețuri",
+        "mixed": "Pachet mixt"
+      },
+      "regionLabel": "Regiune",
+      "allRegions": "Toate regiunile",
+      "minPriceLabel": "Preț minim (RON)",
+      "minPricePlaceholder": "Min",
+      "maxPriceLabel": "Preț maxim (RON)",
+      "maxPricePlaceholder": "Max",
+      "applyFilters": "Aplică filtre",
+      "clearFilters": "Șterge filtre",
+      "activeFilters": "Filtre active:",
+      "priceRange": "Preț:"
+    },
+    "foundCount": "{count} produse găsite",
+    "results": {
+      "count": "{{count}} {{label}}",
+      "product": "produs găsit",
+      "products": "produse găsite"
+    },
+    "errors": {
+      "title": "Eroare",
+      "loadFailed": "Eroare la încărcarea produselor"
+    },
+    "metadata": {
+      "producerLocal": "producător local",
+      "buy": "Cumpără",
+      "from": "de la",
+      "onPlatform": "pe farme.ro",
+      "bio": "Produs bio",
+      "traditional": "Produs tradițional",
+      "price": "Preț",
+      "notFound": "Produs negăsit",
+      "notFoundDescription": "Produsul căutat nu a fost găsit.",
+      "keywords": {
+        "agricultural": "produse agricole",
+        "traditional": "produse tradiționale",
+        "bio": "produse bio"
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Despre farme.ro",
+      "subtitle": "Conectăm producătorii locali cu clienții care caută produse autentice și tradiționale, susținând economia locală și promovând valorile agriculturii durabile din România.",
+      "description": "Conectăm producătorii locali cu clienții care caută produse autentice și tradiționale, susținând economia locală și promovând valorile agriculturii durabile din România.",
+      "feature1": "Producători verificați",
+      "feature2": "Livrare rapidă",
+      "feature3": "Prețuri corecte",
+      "badge1": "Producători verificați",
+      "badge2": "Livrare rapidă",
+      "badge3": "Prețuri corecte"
+    },
+    "story": {
+      "title": "Povestea noastră",
+      "paragraph1": "farme.ro a apărut din observația că există o nevoie reală de a conecta producătorii locali din România cu clienții care caută produse autentice, tradiționale și de calitate. Mulți fermieri și producători mici nu au acces la piață sau resursele necesare pentru a-și promova produsele.",
+      "paragraph2": "În același timp, clienții din orașe mari au dificultăți în a găsi produse tradiționale autentice, fără intermediari care să mărească prețurile sau să compromită calitatea.",
+      "paragraph3": "Platforma noastră rezolvă această problemă oferind un marketplace direct, transparent și ușor de folosit, unde producătorii pot vinde direct clienților, iar clienții pot descoperi și cumpăra produse tradiționale românești cu încredere."
+    },
+    "missionValues": {
+      "title": "Misiunea și valorile noastre",
+      "subtitle": "Principiile care ne ghidează în construirea unei comunități durabile de producători și clienți, bazate pe încredere, transparență și respect pentru tradițiile românești.",
+      "values": {
+        "0": {
+          "title": "Produse autentice",
+          "description": "Verificăm și promovăm doar produse tradiționale și bio de la producători verificați, asigurând autenticitatea și calitatea fiecărui produs."
+        },
+        "1": {
+          "title": "Sprijin pentru producători locali",
+          "description": "Oferim producătorilor o platformă accesibilă pentru a-și vinde produsele direct clienților, fără intermediari costisitori sau comisioane ascunse."
+        },
+        "2": {
+          "title": "Transparență și calitate",
+          "description": "Fiecare producător este verificat, iar produsele sunt evaluate pentru a asigura standarde ridicate de calitate și transparență totală."
+        },
+        "3": {
+          "title": "Agricultură durabilă",
+          "description": "Promovăm practici agricole durabile și respectuoase față de mediu, susținând producătorii care adoptă astfel de metode responsabile."
+        }
+      }
+    },
+    "howWeWork": {
+      "title": "Cum lucrăm",
+      "subtitle": "Procesele noastre interne care asigură calitatea și transparența platformei",
+      "step1": {
+        "title": "Verificare producători",
+        "description": "Fiecare producător este verificat, documentele sunt analizate și produsele sunt evaluate pentru calitate și autenticitate."
+      },
+      "step2": {
+        "title": "Listare produse",
+        "description": "Producătorii pot încărca produsele cu detalii complete, imagini și prețuri transparente, fără comisioane ascunse."
+      },
+      "step3": {
+        "title": "Plăți securizate",
+        "description": "Sistem de plăți securizat care protejează atât producătorii cât și clienții, cu procesare rapidă și transparentă."
+      },
+      "step4": {
+        "title": "Logistică și livrare",
+        "description": "Coordonăm livrarea directă de la producător la client, asigurând că produsele ajung proaspete și în condiții optime."
+      },
+      "step5": {
+        "title": "Suport continuu",
+        "description": "Echipa noastră oferă suport atât producătorilor cât și clienților, asigurând o experiență pozitivă pentru toți."
+      }
+    },
+    "cta": {
+      "client": {
+        "title": "Începe să cumperi",
+        "description": "Explorează gama variată de produse tradiționale și bio de la producători locali verificați",
+        "button": "Vezi produsele"
+      },
+      "producer": {
+        "title": "Devino producător",
+        "description": "Intră în programul farme.ro și vinde produsele tale direct clienților, fără intermediari",
+        "button": "Află mai multe"
+      }
+    }
+  },
+  "producers": {
+    "hero": {
+      "title": "Producători locali din toată România",
+      "description": "Descoperă producători de încredere, cu prețuri direct de la sursă și produse atent selectate. Susții gospodăriile locale de fiecare dată când comanzi.",
+      "badge1": "Preț de producător",
+      "badge2": "Produse locale & tradiționale",
+      "badge3": "Sprijini direct gospodăriile din România",
+      "stats": {
+        "producers": "producători",
+        "counties": "județe acoperite",
+        "products": "produse active"
+      },
+      "example": {
+        "label": "Exemplu producător",
+        "name": "Stâna de sub munte",
+        "location": "Brașov, zona montană",
+        "product1": "Brânză maturată – de la 25 lei",
+        "product2": "Telemea de casă – de la 22 lei",
+        "product3": "Urda proaspătă – de la 18 lei",
+        "note": "Produse făcute în gospodărie, livrate direct către tine, fără intermediari.",
+        "verified": "Producător verificat"
+      }
+    },
+    "filters": {
+      "ariaLabel": "Filtre producători",
+      "searchLabel": "Căutare",
+      "searchPlaceholder": "Caută producător sau produs…",
+      "allRegions": "Toată țara",
+      "regions": {
+        "transilvania": "Transilvania",
+        "moldova": "Moldova",
+        "muntenia": "Muntenia",
+        "oltenia": "Oltenia",
+        "dobrogea": "Dobrogea"
+      },
+      "types": {
+        "bio": "Bio",
+        "traditional": "Tradițional",
+        "artisanal": "Artizanal",
+        "national": "Livrare națională"
+      },
+      "bio": "Bio",
+      "traditional": "Tradițional",
+      "artisanal": "Artizanal",
+      "sortLabel": "Sortează după",
+      "sort": {
+        "relevance": "Relevanță",
+        "rating": "Rating",
+        "popular": "Cele mai populare"
+      },
+      "sortRelevance": "Relevanță",
+      "sortRating": "Rating",
+      "sortPopular": "Cele mai populare",
+      "activeFilters": "Filtre active:",
+      "clearAll": "Șterge toate filtrele"
+    },
+    "available": "Producători disponibili",
+    "chooseDescription": "Alege producătorii preferați și comandă direct din gospodăriile lor.",
+    "card": {
+      "exampleProduct1": "Brânză maturată de capră",
+      "exampleProduct2": "Miere polifloră",
+      "deliveryCourier": "Livrare curier",
+      "deliveryLocal": "Ridicare locală"
+    },
+    "errors": {
+      "loadFailed": "A apărut o problemă la încărcarea producătorilor",
+      "retryMessage": "Te rugăm să încerci din nou în câteva momente.",
+      "retry": "Reîncearcă"
+    },
+    "metadata": {
+      "notFound": "Producător negăsit",
+      "notFoundDescription": "Producătorul căutat nu a fost găsit.",
+      "producerLocal": "producător local",
+      "discover": "Descoperă produsele de la",
+      "from": "din",
+      "romania": "România",
+      "traditionalBio": "Produse tradiționale și bio livrate direct de la sursă.",
+      "productsFrom": "Produse de la",
+      "discoverAll": "Descoperă toate produsele de la",
+      "fromRomania": "din România",
+      "keywords": {
+        "traditional": "produse tradiționale",
+        "bio": "produse bio"
+      },
+      "producerLocalFrom": "Producător local din"
+    },
+    "badge": "Creat special pentru producători locali români",
+    "hero": {
+      "title1": "Vinde simplu.",
+      "title2": "Crește sănătos.",
+      "title3": "Fără compromisuri.",
+      "subtitle": "farme.ro este platforma care îți aduce clienți reali, stabilitate și respect pentru produsele tale.",
+      "cta1": "Devino producător",
+      "cta2": "Vezi cum funcționează"
+    },
+    "problems": {
+      "title": "Știm prin ce treci",
+      "problem1": {
+        "title": "Vânzări imprevizibile",
+        "description": "Nu știi când și cât vei vinde. Dependența de piețe și evenimente te face vulnerabil."
+      },
+      "problem2": {
+        "title": "Clienți neserioși",
+        "description": "Comenzi anulate, neprezentări, negocieri interminabile. Timp și energie irosite."
+      },
+      "problem3": {
+        "title": "Timp pierdut pe social media",
+        "description": "Trebuie să fii prezent constant, să creezi conținut, să răspunzi la mesaje. Nu ai timp pentru producție."
+      },
+      "problem4": {
+        "title": "Intermediari care îți micșorează profitul",
+        "description": "Fiecare intermediar ia o parte din profitul tău. La final, rămâi cu prețuri mici și marje mici."
+      },
+      "footer": "farme.ro elimină aceste probleme și îți oferă un sistem stabil și predictibil."
+    },
+    "benefits": {
+      "title": "Ce îți oferă farme.ro",
+      "subtitle": "O platformă gândită pentru tine, nu pentru intermediari",
+      "benefit1": {
+        "title": "Comenzi centralizate",
+        "description": "Toate comenzile într-un singur loc. Nu mai pierzi timp cu telefoane și mesaje pe mai multe platforme."
+      },
+      "benefit2": {
+        "title": "Control total asupra stocului",
+        "description": "Poți activa sau dezactiva produsele instant. Când nu mai ai stoc, clienții nu pot comanda."
+      },
+      "benefit3": {
+        "title": "Poți activa/dezactiva produsele instant",
+        "description": "Fără așteptări, fără apeluri. Un click și produsul tău apare sau dispare din listă."
+      },
+      "benefit4": {
+        "title": "Clienți care plătesc în avans (card)",
+        "description": "Plăți securizate online. Nu mai ai riscul de neplată sau de comenzi anulate la ultimul moment."
+      },
+      "benefit5": {
+        "title": "Sistem anti-risipă (colete neridicate → donații)",
+        "description": "Dacă un client nu ridică comanda, produsele merg spre donație. Tu primești banii, comunitatea primește hrană."
+      },
+      "benefit6": {
+        "title": "Creștere organică prin platformă",
+        "description": "Clienții te găsesc, comanda, revin. Construiești o bază de clienți recurenți fără efort de marketing."
+      },
+      "benefit7": {
+        "title": "Vizibilitate națională",
+        "description": "Produsele tale sunt vizibile în toată țara. Nu mai depinzi doar de piața locală."
+      }
+    },
+    "howItWorks": {
+      "title": "Cum funcționează pentru tine",
+      "step1": {
+        "title": "Te înregistrezi",
+        "description": "Creezi contul în câteva minute. Verificăm rapid și ești gata să vinzi."
+      },
+      "step2": {
+        "title": "Îți adaugi produsele",
+        "description": "Adaugi produsele, prețurile, pozele și stocul. Totul într-un singur loc."
+      },
+      "step3": {
+        "title": "Primești comenzi",
+        "description": "Clienții comanda direct. Tu primești notificări și vezi totul în dashboard."
+      },
+      "step4": {
+        "title": "Livrezi și câștigi",
+        "description": "Livrezi comanda și primești banii. Simplu, transparent, predictibil."
+      },
+      "dashboard": {
+        "title": "Dashboard producător",
+        "monthlySales": "Vânzări lunare",
+        "activeOrders": "Comenzi active",
+        "paymentStatus": "Status plăți",
+        "onTime": "On time",
+        "footer": "Exemplu de interfață. Datele reale vor fi afișate în contul tău."
+      }
+    },
+    "subscriptions": {
+      "title": "Abonamente care îți aduc stabilitate și vizibilitate",
+      "recommended": "Recomandat",
+      "plan1": {
+        "name": "PLAN START",
+        "price": "19€/lună",
+        "feature1": "listare produse",
+        "feature2": "profil producător",
+        "feature3": "comenzi Nelimitate",
+        "feature4": "tool auto-postare social media",
+        "feature5": "statistici de bază"
+      },
+      "plan2": {
+        "name": "PLAN PRO",
+        "price": "39€/lună",
+        "feature1": "promovare în homepage",
+        "feature2": "comision preferențial",
+        "feature3": "statistici avansate",
+        "feature4": "recomandări SEO",
+        "feature5": "toate funcțiile din START"
+      },
+      "footer": "Comisionul scade pe măsură ce vinzi mai mult.",
+      "cta": "Vezi planurile complete"
+    },
+    "testimonial": {
+      "quote": "De când vând pe farme.ro, nu mai depind de piețe și intermediari. Vând constant și corect.",
+      "author": "Producător local, Prahova"
+    },
+    "finalCta": {
+      "title": "E timpul ca produsele tale să ajungă unde merită.",
+      "button": "Devino producător farme.ro",
+      "subtitle": "Înscrierea durează sub 5 minute."
+    }
+  },
+  "anpc": {
+    "title": "Soluționare litigii / ANPC",
+    "subtitle": "Informații despre drepturile tale ca consumator și modalitățile de soluționare a litigiilor",
+    "consumerRights": {
+      "title": "Drepturile tale ca consumator",
+      "intro": "Conform legislației române, ai dreptul la:",
+      "list1": "Produse conforme cu descrierea și calitatea promisă",
+      "list2": "Informații clare despre prețuri, caracteristici și termeni de livrare",
+      "list3": "Protecție împotriva practicilor comerciale neloiale",
+      "list4": "Dreptul de retur în termenul legal (14 zile pentru distanță)",
+      "list5": "Garanție pentru produsele defecte"
+    },
+    "amicableResolution": {
+      "title": "Rezolvare amiabilă",
+      "intro": "Înainte de a contacta ANPC, te rugăm să ne contactezi direct pentru a rezolva orice problemă:",
+      "contactLabel": "Contact farme.ro",
+      "responseTime": "Răspundem în maximum 48 de ore și ne străduim să rezolvăm orice problemă rapid și corect."
+    },
+    "anpc": {
+      "title": "Autoritatea Națională pentru Protecția Consumatorilor (ANPC)",
+      "intro": "Dacă nu am reușit să rezolvăm problema în mod amiabil, poți contacta ANPC:",
+      "officialSite": "Site oficial ANPC",
+      "odrPlatform": "Platformă ODR (Online Dispute Resolution)",
+      "odrDescription": "Platformă europeană pentru soluționarea online a litigiilor între consumatori și comercianți."
+    },
+    "companyInfo": {
+      "title": "Informații despre farme.ro",
+      "nameLabel": "Denumire",
+      "emailLabel": "Email",
+      "websiteLabel": "Website"
+    }
+  },
+  "b2b": {
+    "hero": {
+      "badge": "Soluții B2B pentru restaurante, hoteluri și afaceri",
+      "title": "Produse proaspete",
+      "titleHighlight": "pentru afacerea ta",
+      "titleSubtitle": "cu transport inclus.",
+      "description": "Comandă produse direct de la producători locali, gestionează comenzile pentru angajați și beneficiază de prețuri speciale B2B cu livrare inclusă.",
+      "feature1": "Coșuri pentru angajați",
+      "feature2": "Gestionare centralizată",
+      "feature3": "Livrare inclusă",
+      "ctaCreate": "Creează cont B2B",
+      "ctaLearnMore": "Află mai multe"
+    },
+    "benefits": {
+      "title": "De ce să alegi farme.ro pentru afacerea ta?",
+      "subtitle": "Soluții complete pentru restaurante, hoteluri și alte afaceri care au nevoie de produse proaspete",
+      "carts": {
+        "title": "Coșuri pentru angajați",
+        "description": "Creează coșuri personalizate pentru fiecare angajat sau departament"
+      },
+      "management": {
+        "title": "Gestionare centralizată",
+        "description": "Controlează toate comenzile și cheltuielile într-un singur loc"
+      },
+      "delivery": {
+        "title": "Livrare inclusă",
+        "description": "Transport gratuit pentru comenzile peste o anumită valoare"
+      },
+      "pricing": {
+        "title": "Prețuri speciale B2B",
+        "description": "Beneficiază de reduceri pentru volume mari și comenzi recurente"
+      },
+      "fresh": {
+        "title": "Produse proaspete",
+        "description": "Acces direct la producători locali cu produse de calitate superioară"
+      },
+      "scheduled": {
+        "title": "Livrări programate",
+        "description": "Planifică livrările în avans pentru o organizare perfectă"
+      }
+    },
+    "howItWorks": {
+      "title": "Cum funcționează?",
+      "subtitle": "Proces simplu în 4 pași pentru a începe să folosești farme.ro pentru afacerea ta",
+      "step1": {
+        "title": "Creează cont B2B",
+        "description": "Înregistrează-ți afacerea și obține acces la platformă"
+      },
+      "step2": {
+        "title": "Comandă produse",
+        "description": "Alege produsele și creează coșuri pentru angajați sau departamente"
+      },
+      "step3": {
+        "title": "Livrare inclusă",
+        "description": "Produsele sunt livrate direct la locația ta, cu transport inclus"
+      },
+      "step4": {
+        "title": "Gestionare simplă",
+        "description": "Urmărește comenzile, cheltuielile și istoricul într-un singur loc"
+      }
+    },
+    "cta": {
+      "title": "Pregătește-ți afacerea pentru succes",
+      "description": "Dacă ai un restaurant, hotel sau o afacere care are nevoie de produse proaspete, creează cont B2B și începe să beneficiezi de prețuri speciale și livrare inclusă.",
+      "button": "Creează cont B2B",
+      "responseTime": "Răspundem la toate solicitările în maximum 24 de ore."
+    }
+  },
+  "megaMenu": {
+    "producers": {
+      "start": "Începe",
+      "portal": "Portal producători",
+      "more": "Și mai mult",
+      "why": {
+        "title": "De ce să vinzi pe farme.ro",
+        "description": "Află beneficiile"
+      },
+      "fees": {
+        "title": "Comisioane și taxe",
+        "description": "Model transparent"
+      },
+      "shipping": {
+        "title": "Ghid livrări & logistică",
+        "description": "Cum funcționează"
+      },
+      "guide": {
+        "title": "Ghid producător",
+        "description": "Începe aici"
+      },
+      "dashboard": {
+        "title": "Dashboard producător",
+        "description": "Panou de control"
+      },
+      "products": {
+        "title": "Gestionează produse",
+        "description": "Adaugă și editează"
+      },
+      "orders": {
+        "title": "Comenzi",
+        "description": "Gestionează comenzile"
+      },
+      "stats": {
+        "title": "Statistici & insight-uri",
+        "description": "Analizează performanța"
+      },
+      "subscriptions": {
+        "title": "Abonamente & beneficii",
+        "description": "Vizibilitate crescută"
+      },
+      "commissions": {
+        "title": "Comisioane în portal",
+        "description": "Detalii comisioane"
+      },
+      "support": {
+        "title": "Suport producători",
+        "description": "Ajutor și asistență"
+      },
+      "login": {
+        "title": "Autentificare producători",
+        "description": "Accesează portalul"
+      }
+    },
+    "businesses": {
+      "forBusiness": "Pentru afaceri",
+      "services": "Servicii",
+      "resources": "Resurse",
+      "why": {
+        "title": "De ce farme.ro pentru afacerea ta",
+        "description": "Beneficii pentru restaurante"
+      },
+      "bulk": {
+        "title": "Cumpărări în cantități mari",
+        "description": "Prețuri speciale B2B"
+      },
+      "scheduled": {
+        "title": "Livrări programate",
+        "description": "Logistică dedicată"
+      },
+      "invoicing": {
+        "title": "Facturare și contracte",
+        "description": "Soluții profesionale"
+      },
+      "account": {
+        "title": "Cont dedicat B2B",
+        "description": "Acces la portal business"
+      },
+      "payment": {
+        "title": "Plăți flexibile",
+        "description": "Termen de plată extins"
+      },
+      "reports": {
+        "title": "Rapoarte și analize",
+        "description": "Insight-uri pentru afacere"
+      },
+      "support": {
+        "title": "Suport dedicat",
+        "description": "Echipa pentru business"
+      },
+      "guide": {
+        "title": "Ghid pentru restaurante",
+        "description": "Cum să cumperi eficient"
+      },
+      "recommended": {
+        "title": "Producători recomandați",
+        "description": "Parteneri verificați"
+      },
+      "success": {
+        "title": "Cazuri de succes",
+        "description": "Povești de la parteneri"
+      },
+      "login": {
+        "title": "Autentificare B2B",
+        "description": "Accesează contul"
+      }
+    },
+    "customers": {
+      "account": "Contul tău",
+      "explore": "Explorează",
+      "help": "Ajutor",
+      "profile": {
+        "title": "Profilul meu",
+        "description": "Setări și preferințe"
+      },
+      "orders": {
+        "title": "Comenzile mele",
+        "description": "Istoric comenzi"
+      },
+      "favorites": {
+        "title": "Produse favorite",
+        "description": "Lista de favorite"
+      },
+      "payment": {
+        "title": "Metode de plată",
+        "description": "Carduri salvate"
+      },
+      "producers": {
+        "title": "Producători locali",
+        "description": "Descoperă producători"
+      },
+      "popular": {
+        "title": "Produse populare",
+        "description": "Cele mai vândute"
+      },
+      "recommended": {
+        "title": "Produse recomandate",
+        "description": "Pentru tine"
+      },
+      "special": {
+        "title": "Oferte speciale",
+        "description": "Reduceri și promoții"
+      },
+      "faq": {
+        "title": "Întrebări frecvente",
+        "description": "FAQ"
+      },
+      "howItWorks": {
+        "title": "Cum funcționează",
+        "description": "Ghid complet"
+      },
+      "delivery": {
+        "title": "Livrări și retururi",
+        "description": "Politici de livrare"
+      },
+      "settings": {
+        "title": "Setări cont",
+        "description": "Gestionează preferințele"
+      }
+    },
+    "importers": {
+      "forImporters": "Pentru importatori",
+      "services": "Servicii",
+      "resources": "Resurse",
+      "why": {
+        "title": "De ce farme.ro pentru importatori",
+        "description": "Beneficii și oportunități"
+      },
+      "products": {
+        "title": "Produse românești premium",
+        "description": "Calitate export"
+      },
+      "partnerships": {
+        "title": "Parteneriate strategice",
+        "description": "Colaborări pe termen lung"
+      },
+      "certifications": {
+        "title": "Documentație și certificări",
+        "description": "Conformitate export"
+      },
+      "logistics": {
+        "title": "Logistică internațională",
+        "description": "Livrări în UE și dincolo"
+      },
+      "pricing": {
+        "title": "Prețuri competitive",
+        "description": "Negocieri directe"
+      },
+      "volume": {
+        "title": "Volum și disponibilitate",
+        "description": "Cantități mari"
+      },
+      "support": {
+        "title": "Suport dedicat",
+        "description": "Echipa pentru importatori"
+      },
+      "guide": {
+        "title": "Ghid pentru importatori",
+        "description": "Cum funcționează"
+      },
+      "verified": {
+        "title": "Producători verificați",
+        "description": "Parteneri de încredere"
+      },
+      "opportunities": {
+        "title": "Oportunități de piață",
+        "description": "Tendințe și cerințe"
+      },
+      "contact": {
+        "title": "Contactează echipa",
+        "description": "Discută cu specialiștii"
+      }
+    },
+    "logistics": {
+      "services": "Servicii de logistică",
+      "partnership": "Parteneriat",
+      "resources": "Resurse",
+      "temperature": {
+        "title": "Livrări cu temperatură controlată",
+        "description": "Transport frigorific pentru produse proaspete"
+      },
+      "storage": {
+        "title": "Depozitare și cross-docking",
+        "description": "Soluții flexibile de stocare"
+      },
+      "packaging": {
+        "title": "Servicii de ambalare",
+        "description": "Ambalare profesională pentru siguranță"
+      },
+      "routes": {
+        "title": "Optimizare rute",
+        "description": "Eficiență maximă în livrări"
+      },
+      "why": {
+        "title": "De ce să devii partener",
+        "description": "Beneficii și oportunități de creștere"
+      },
+      "commission": {
+        "title": "Model de comisionare",
+        "description": "Structură transparentă și echitabilă"
+      },
+      "stats": {
+        "title": "Statistici și rapoarte",
+        "description": "Urmărește performanța ta"
+      },
+      "scheduled": {
+        "title": "Livrări programate",
+        "description": "Planificare și programare"
+      },
+      "portal": {
+        "title": "Portal parteneri logistică",
+        "description": "Gestionează livrările și contractele"
+      },
+      "commissions": {
+        "title": "Comisioane & extrase",
+        "description": "Vezi comisioanele și extrasele"
+      },
+      "contracts": {
+        "title": "Contracte logistică",
+        "description": "Accesează contractele tale"
+      },
+      "insurance": {
+        "title": "Asigurări și garanții",
+        "description": "Protecție pentru parteneri"
+      },
+      "support": {
+        "title": "Suport dedicat",
+        "description": "Echipa pentru parteneri logistici"
+      }
+    },
+    "becomePartner": {
+      "producers": "Pentru producători",
+      "businesses": "Pentru afaceri",
+      "other": "Alte oportunități",
+      "becomeProducer": {
+        "title": "Devino producător",
+        "description": "Vinde produsele tale online"
+      },
+      "fees": {
+        "title": "Comisioane și taxe",
+        "description": "Model transparent"
+      },
+      "howItWorks": {
+        "title": "Cum funcționează",
+        "description": "Ghid complet"
+      },
+      "register": {
+        "title": "Înregistrare producător",
+        "description": "Creează cont acum"
+      },
+      "restaurants": {
+        "title": "Pentru restaurante",
+        "description": "Cumpără direct de la producători"
+      },
+      "bulk": {
+        "title": "Cantități mari",
+        "description": "Prețuri speciale B2B"
+      },
+      "payment": {
+        "title": "Plăți flexibile",
+        "description": "Termen de plată extins"
+      },
+      "b2bAccount": {
+        "title": "Cont B2B",
+        "description": "Înregistrează afacerea"
+      },
+      "logistics": {
+        "title": "Logistică și transport",
+        "description": "Colaboratori livrare și depozitare"
+      },
+      "importers": {
+        "title": "Pentru importatori",
+        "description": "Produse românești premium"
+      },
+      "investors": {
+        "title": "Pentru investitori",
+        "description": "Oportunități de investiție"
+      },
+      "questions": {
+        "title": "Ai întrebări?",
+        "description": "Contactează-ne"
+      }
+    },
+    "investors": {
+      "forInvestors": "Pentru investitori",
+      "info": "Informații",
+      "contact": "Contact",
+      "opportunities": {
+        "title": "Oportunități de investiție",
+        "description": "Agricultură și tech"
+      },
+      "businessModel": {
+        "title": "Model de business",
+        "description": "Cum generăm valoare"
+      },
+      "financials": {
+        "title": "Proiecții financiare",
+        "description": "Potențial de creștere"
+      },
+      "team": {
+        "title": "Echipa și lideri",
+        "description": "Cine suntem"
+      },
+      "pitchDeck": {
+        "title": "Pitch deck",
+        "description": "Prezentare investitori"
+      },
+      "strategy": {
+        "title": "Strategie și viitor",
+        "description": "Planuri de expansiune"
+      },
+      "market": {
+        "title": "Piața și concurența",
+        "description": "Analiză de piață"
+      },
+      "faq": {
+        "title": "FAQ investitori",
+        "description": "Întrebări frecvente"
+      },
+      "meeting": {
+        "title": "Programează o întâlnire",
+        "description": "Discută cu fondatorii"
+      },
+      "partnerships": {
+        "title": "Parteneriate strategice",
+        "description": "Colaborări corporative"
+      },
+      "impact": {
+        "title": "Impact social",
+        "description": "Valoare pentru comunitate"
+      },
+      "about": {
+        "title": "Despre noi",
+        "description": "Misiune și valori"
+      }
+    },
+    "cta": {
+      "producers": {
+        "title": "Nu ești încă producător partener?",
+        "description": "Înregistrează-te acum și începe să vinzi produsele tale",
+        "button": "Devino producător",
+        "login": "Autentificare"
+      },
+      "businesses": {
+        "title": "Ai un restaurant sau o afacere?",
+        "description": "Creează cont B2B și beneficiază de prețuri speciale",
+        "button": "Creează cont B2B",
+        "contact": "Contactează-ne"
+      },
+      "importers": {
+        "title": "Ești importator sau distribuitor?",
+        "description": "Contactează echipa noastră pentru parteneriate",
+        "button": "Contactează echipa"
+      },
+      "logistics": {
+        "title": "Ești partener de logistică sau transport?",
+        "description": "Alătură-te rețelei noastre de parteneri logistici",
+        "button": "Devino partener logistic"
+      },
+      "becomePartner": {
+        "title": "Alege tipul de parteneriat potrivit pentru tine",
+        "description": "De la producători la restaurante, importatori sau investitori",
+        "producer": "Devino producător",
+        "b2b": "Cont B2B",
+        "logistics": "Logistică"
+      }
+    }
+  },
+  "seo": {
+    "products": {
+      "title": "Produse locale de la fermieri autentici | Farmero",
+      "description": "Descoperă produse proaspete, direct de la producători locali verificați. Susține economia locală cu Farmero."
+    },
+    "howItWorks": {
+      "title": "Cum funcționează Farmero | Comandă simplu de la fermieri",
+      "description": "Află cum funcționează platforma Farmero și cum poți comanda produse direct de la producători locali."
+    },
+    "whoWeAre": {
+      "title": "Cine suntem | Povestea Farmero",
+      "description": "Cunoaște misiunea Farmero și comunitatea care susține producătorii locali autentici din România."
+    },
+    "solutions": {
+      "title": "Soluțiile Farmero pentru producători locali",
+      "description": "Descoperă soluțiile disponibile pentru creșterea vizibilității și vânzărilor producătorilor locali."
+    },
+    "business": {
+      "title": "Soluții B2B pentru restaurante și afaceri locale | Farmero",
+      "description": "Produse proaspete cu livrare inclusă pentru afacerea ta. Simplu. Rapid. Local."
+    }
+  },
+  "logistics": {
+    "hero": {
+      "badge": "Colaboratori logistică și transport",
+      "title": "Devino partener în",
+      "titleHighlight": "logistica farme.ro",
+      "description": "Colaborează cu noi pentru livrări cu mașini frigorifice, depozitare și pachetomate. Oportunități de parteneriat pentru companii de logistică.",
+      "ctaPrimary": "Devino partener logistică",
+      "ctaSecondary": "Află mai multe"
+    },
+    "services": {
+      "title": "Servicii căutate",
+      "subtitle": "Căutăm parteneri pentru servicii de logistică și transport de calitate",
+      "temperature": {
+        "title": "Livrări cu mașini frigorifice",
+        "description": "Transport specializat pentru produse alimentare care necesită temperatură controlată",
+        "feature1": "Mașini frigorifice certificate",
+        "feature2": "Monitorizare temperatură în timp real",
+        "feature3": "Livrări programate"
+      },
+      "storage": {
+        "title": "Depozitare",
+        "description": "Spații de depozitare pentru produse agricole cu condiții optimale",
+        "feature1": "Depozite climatizate",
+        "feature2": "Control calitate",
+        "feature3": "Gestionare stocuri"
+      },
+      "packaging": {
+        "title": "Pachetomate",
+        "description": "Servicii de ambalare și pregătire comenzi pentru livrare",
+        "feature1": "Ambalare profesională",
+        "feature2": "Etichetare automată",
+        "feature3": "Verificare calitate"
+      }
+    },
+    "benefits": {
+      "title": "Beneficii pentru parteneri",
+      "coverage": {
+        "title": "Acoperire națională",
+        "description": "Oportunități de livrare în toată România"
+      },
+      "flexible": {
+        "title": "Program flexibil",
+        "description": "Adaptează-te la nevoile noastre și ale clienților"
+      },
+      "quality": {
+        "title": "Standarde de calitate",
+        "description": "Respectăm cele mai înalte standarde pentru produse alimentare"
+      }
+    },
+    "partnership": {
+      "title": "Cum funcționează parteneriatul",
+      "subtitle": "Proces simplu și transparent pentru a deveni partener de logistică",
+      "contracts": {
+        "title": "Contracte clare",
+        "description": "Acorduri transparente cu termeni și condiții definite"
+      },
+      "commission": {
+        "title": "Comisioane competitive",
+        "description": "Remunerație corectă pentru serviciile tale"
+      },
+      "longTerm": {
+        "title": "Parteneriat pe termen lung",
+        "description": "Relații stabile și oportunități de creștere"
+      },
+      "support": {
+        "title": "Suport dedicat",
+        "description": "Echipa noastră te ajută în fiecare etapă"
+      }
+    },
+    "cta": {
+      "title": "Devino partener în logistica farme.ro",
+      "description": "Dacă oferi servicii de livrare, depozitare sau pachetomate și vrei să colaborezi cu noi, suntem deschiși să discutăm despre oportunitățile de parteneriat.",
+      "button": "Aplică acum",
+      "responseTime": "Răspundem la toate solicitările în maximum 24 de ore."
+    },
+    "metadata": {
+      "title": "Pentru Logistică și Transport - farme.ro",
+      "description": "Devino partener în logistica farme.ro. Căutăm colaboratori pentru livrări cu mașini frigorifice, depozitare și pachetomate."
+    }
+  },
+  "importers": {
+    "hero": {
+      "badge": "Produse românești premium pentru export",
+      "title": "Importă produse",
+      "titleHighlight": "românești premium",
+      "titleSuffix": "în piața ta.",
+      "description": "Conectăm producătorii locali români cu importatorii internaționali, oferind produse de calitate superioară și parteneriate de lungă durată.",
+      "ctaPrimary": "Devino partener importator",
+      "ctaSecondary": "Află mai multe"
+    },
+    "services": {
+      "title": "Ce oferim importatorilor",
+      "subtitle": "O platformă dedicată pentru conectarea importatorilor cu producătorii români de calitate",
+      "products": {
+        "title": "Produse românești premium",
+        "description": "Acces la o selecție curată de produse agricole tradiționale de cea mai înaltă calitate",
+        "feature1": "Produse certificate",
+        "feature2": "Calitate garantată",
+        "feature3": "Selecție variată"
+      },
+      "partnerships": {
+        "title": "Parteneriate strategice",
+        "description": "Colaborări directe cu producătorii locali pentru volume mari și prețuri competitive",
+        "feature1": "Negocieri directe",
+        "feature2": "Contracte personalizate",
+        "feature3": "Relații pe termen lung"
+      },
+      "certifications": {
+        "title": "Certificări & standarde",
+        "description": "Produse care respectă standardele internaționale și certificările necesare",
+        "feature1": "Conformitate UE",
+        "feature2": "Certificări bio",
+        "feature3": "Documentație completă"
+      }
+    },
+    "benefits": {
+      "title": "Beneficii pentru importatori",
+      "quality": {
+        "title": "Calitate garantată",
+        "description": "Produse verificate și certificate"
+      },
+      "logistics": {
+        "title": "Logistică internațională",
+        "description": "Suport pentru transport și documentație"
+      },
+      "transparency": {
+        "title": "Transparență totală",
+        "description": "Informații complete despre producători și produse"
+      }
+    },
+    "partnership": {
+      "title": "Cum funcționează parteneriatul",
+      "subtitle": "Proces simplu și transparent pentru a deveni partener importator",
+      "coverage": {
+        "title": "Acoperire internațională",
+        "description": "Conectează-te cu producători din toată România"
+      },
+      "pricing": {
+        "title": "Prețuri competitive",
+        "description": "Negocieri directe pentru volume mari"
+      },
+      "documentation": {
+        "title": "Documentație completă",
+        "description": "Toate certificările și documentele necesare"
+      },
+      "support": {
+        "title": "Suport dedicat",
+        "description": "Echipa noastră te ajută în fiecare etapă"
+      }
+    },
+    "cta": {
+      "title": "Importă produse românești premium",
+      "description": "Dacă ești importator și cauți produse agricole de calitate din România, suntem aici să te conectăm cu producătorii potriviți.",
+      "button": "Aplică acum",
+      "responseTime": "Răspundem la toate solicitările în maximum 24 de ore."
+    },
+    "metadata": {
+      "title": "Pentru importatori - farme.ro",
+      "description": "Importă produse românești premium. Conectăm producătorii locali cu importatorii internaționali, oferind produse de calitate superioară și parteneriate de lungă durată."
+    }
+  },
+  "investors": {
+    "hero": {
+      "badge": "Oportunitate de investiție în agricultură și tech",
+      "title": "Investește în",
+      "titleHighlight": "viitorul alimentar",
+      "titleSuffix": "al României.",
+      "description": "farme.ro conectează producătorii locali cu consumatorii, generând valoare pentru toți și impact social măsurabil.",
+      "ctaPrimary": "Programează o întâlnire",
+      "ctaSecondary": "Află mai multe"
+    },
+    "businessModel": {
+      "title": "Model de business scalabil și sustenabil",
+      "subtitle": "Generăm valoare prin conectarea directă între producători și consumatori, eliminând intermediarii și creând un ecosistem profitabil pentru toți.",
+      "revenueStreams": {
+        "title": "Surse de venit",
+        "commissions": {
+          "title": "Comisioane de vânzare",
+          "description": "Comision transparent de 10-15% din fiecare vânzare, în funcție de abonament"
+        },
+        "subscriptions": {
+          "title": "Abonamente producători",
+          "description": "Planuri premium pentru producători care doresc vizibilitate crescută"
+        },
+        "b2b": {
+          "title": "Servicii B2B",
+          "description": "Conturi dedicate pentru restaurante și afaceri cu prețuri speciale"
+        }
+      },
+      "metrics": {
+        "title": "Metrici cheie",
+        "activeProducers": {
+          "label": "Producători activi",
+          "description": "Și în creștere constantă"
+        },
+        "ordersProcessed": {
+          "label": "Comenzi procesate",
+          "description": "Luna curentă"
+        },
+        "monthlyGrowth": {
+          "label": "Creștere lunară",
+          "description": "Venituri și comenzi"
+        },
+        "avgOrderValue": {
+          "label": "Valoare medie comandă",
+          "description": "Per client"
+        }
+      }
+    },
+    "financials": {
+      "title": "Proiecții financiare și potențial de creștere",
+      "subtitle": "Model de business scalabil cu potențial de creștere exponențială pe piața românească și europeană.",
+      "projections": {
+        "title": "Proiecții de venituri (RON)",
+        "2024": {
+          "description": "Lansare și primul an de operațiuni"
+        },
+        "2025": {
+          "description": "Expansiune națională și B2B"
+        },
+        "2026": {
+          "description": "Internaționalizare și noi servicii"
+        },
+        "2027": {
+          "description": "Consolidare și profitabilitate"
+        }
+      },
+      "highlights": {
+        "title": "Detalii investiție",
+        "currentRound": {
+          "title": "Runda actuală",
+          "description": "Seed round pentru expansiune"
+        },
+        "fundUsage": {
+          "title": "Utilizare fonduri",
+          "value": "60% Marketing",
+          "description": "40% Tech & Operațiuni"
+        },
+        "valuation": {
+          "title": "Valuation target",
+          "description": "Pre-money valuation"
+        },
+        "exitStrategy": {
+          "title": "Exit strategy",
+          "value": "5-7 ani",
+          "description": "Strategic acquisition sau IPO"
+        }
+      },
+      "disclaimer": "* Proiecțiile financiare sunt estimări bazate pe date actuale și ipoteze de piață. Rezultatele reale pot varia. Pentru informații detaliate, contactează echipa noastră."
+    },
+    "pitchDeck": {
+      "title": "Pitch Deck",
+      "subtitle": "Prezentare completă pentru investitori cu toate informațiile esențiale despre farme.ro",
+      "ctaLive": "Programează prezentare live",
+      "ctaDownload": "Descarcă PDF (disponibil la cerere)",
+      "contactNote": "Pentru acces la pitch deck complet sau pentru a programa o prezentare personalizată",
+      "contactButton": "Contactează echipa",
+      "sections": {
+        "problem": {
+          "title": "Problema",
+          "description": "Producătorii locali au dificultăți în a-și vinde produsele direct consumatorilor"
+        },
+        "solution": {
+          "title": "Soluția",
+          "description": "Platformă digitală care conectează producătorii cu clienții, eliminând intermediarii"
+        },
+        "market": {
+          "title": "Piața",
+          "description": "Piața alimentară românească: €15B+ anual, cu creștere constantă"
+        },
+        "businessModel": {
+          "title": "Model de business",
+          "description": "Comisioane transparente, abonamente producători, servicii B2B"
+        },
+        "traction": {
+          "title": "Traction",
+          "description": "500+ producători, 10,000+ comenzi/lună, creștere 25% lunară"
+        },
+        "competition": {
+          "title": "Competiție",
+          "description": "Avantaj competitiv prin focus pe producători locali și impact social"
+        },
+        "team": {
+          "title": "Echipa",
+          "description": "Fondatori cu experiență în tech, agricultură și business"
+        },
+        "financial": {
+          "title": "Financiar",
+          "description": "Proiecții de €50M venituri până în 2027, model scalabil"
+        }
+      }
+    },
+    "strategy": {
+      "title": "Strategie și planuri de expansiune",
+      "subtitle": "O viziune clară pentru creșterea sustenabilă și transformarea farme.ro într-un leader de piață.",
+      "phases": {
+        "title": "Faze de dezvoltare",
+        "phase1": {
+          "title": "Faza 1: Consolidare (2024)",
+          "goal1": "Expansiune națională în toate regiunile",
+          "goal2": "500+ producători activi",
+          "goal3": "Lansare servicii B2B",
+          "goal4": "Optimizare tehnologie și logistică"
+        },
+        "phase2": {
+          "title": "Faza 2: Expansiune (2025)",
+          "goal1": "1,500+ producători parteneri",
+          "goal2": "Expansiune în diaspora română",
+          "goal3": "Parteneriate cu restaurante mari",
+          "goal4": "Lansare aplicație mobilă"
+        },
+        "phase3": {
+          "title": "Faza 3: Internaționalizare (2026)",
+          "goal1": "Intrare pe piețe europene (Ungaria, Bulgaria)",
+          "goal2": "5,000+ producători",
+          "goal3": "Servicii pentru importatori",
+          "goal4": "Brand recunoscut regional"
+        },
+        "phase4": {
+          "title": "Faza 4: Consolidare & Profitabilitate (2027+)",
+          "goal1": "Profitabilitate sustenabilă",
+          "goal2": "10,000+ producători",
+          "goal3": "Leader de piață în regiune",
+          "goal4": "Oportunități de exit strategic"
+        }
+      },
+      "initiatives": {
+        "title": "Inițiative cheie",
+        "recruitment": {
+          "title": "Recrutare producători",
+          "description": "Programe dedicate pentru atragerea producătorilor locali de calitate"
+        },
+        "marketing": {
+          "title": "Marketing & Branding",
+          "description": "Campanii de conștientizare și construirea brandului farme.ro"
+        },
+        "technology": {
+          "title": "Tehnologie & Inovație",
+          "description": "Dezvoltare continuă a platformei și introducerea AI pentru recomandări"
+        },
+        "partnerships": {
+          "title": "Parteneriate strategice",
+          "description": "Colaborări cu organizații agricole, restaurante și distribuitori"
+        }
+      }
+    },
+    "market": {
+      "title": "Piața și concurența",
+      "subtitle": "O piață mare și în creștere, cu oportunități semnificative pentru un model de business inovator.",
+      "data": {
+        "title": "Date despre piață",
+        "marketSize": {
+          "title": "Dimensiunea pieței",
+          "description": "Piața alimentară românească anual"
+        },
+        "marketGrowth": {
+          "title": "Creștere piață",
+          "description": "Creștere anuală estimată",
+          "growth": "Sustenabilă"
+        },
+        "potentialClients": {
+          "title": "Potențial clienți",
+          "description": "Populație România + diaspora",
+          "growth": "Mare"
+        },
+        "targetMarket": {
+          "title": "Piața țintă",
+          "description": "Consumatori interesați de produse locale",
+          "growth": "În creștere"
+        }
+      },
+      "advantages": {
+        "title": "Avantaje competitive",
+        "localFocus": {
+          "title": "Focus pe producători locali",
+          "description": "Singura platformă dedicată exclusiv producătorilor români, cu suport și resurse specializate"
+        },
+        "socialImpact": {
+          "title": "Impact social măsurabil",
+          "description": "Fiecare comandă contribuie la susținerea producătorilor locali și la dezvoltarea comunităților rurale"
+        },
+        "activeCommunity": {
+          "title": "Comunitate activă",
+          "description": "Relații strânse cu producătorii și clienții, feedback continuu și îmbunătățiri bazate pe nevoile reale"
+        },
+        "scalableModel": {
+          "title": "Model scalabil",
+          "description": "Tehnologie modernă care permite creșterea rapidă fără compromisuri de calitate"
+        }
+      },
+      "trends": {
+        "title": "Tendințe de piață",
+        "trend1": "Creșterea interesului pentru produse locale și de sezon",
+        "trend2": "Tendința către alimentație sănătoasă și sustenabilă",
+        "trend3": "Digitalizarea crește în sectorul alimentar",
+        "trend4": "Consumatorii caută transparență și traceabilitate",
+        "trend5": "Diaspora română caută produse autentice de acasă"
+      }
+    },
+    "faq": {
+      "title": "Întrebări frecvente",
+      "subtitle": "Răspunsuri la cele mai comune întrebări despre oportunitatea de investiție în farme.ro",
+      "contactNote": "Ai alte întrebări? Suntem aici să răspundem.",
+      "contactButton": "Contactează echipa",
+      "q1": {
+        "question": "Ce tipuri de investiții căutați?",
+        "answer": "Căutăm investitori strategici pentru seed round (€500K - €1M) care să ne ajute cu expansiunea pe piața românească și dezvoltarea tehnologiei. Suntem deschiși și la parteneriate strategice cu investitori care pot aduce valoare în domeniul agricol sau retail."
+      },
+      "q2": {
+        "question": "Care este modelul de exit?",
+        "answer": "Viziunea noastră include fie un exit strategic prin achiziție de către un jucător major din retail sau tech, fie un IPO pe termen de 5-7 ani. Modelul de business scalabil și profitabilitatea anticipată fac farme.ro un candidat atractiv pentru ambele scenarii."
+      },
+      "q3": {
+        "question": "Cum veți utiliza fondurile?",
+        "answer": "Aproximativ 60% din fonduri vor fi alocate marketing și recrutare producători, 25% pentru dezvoltare tehnologică și infrastructură, iar 15% pentru operațiuni și echipă. Prioritățile includ expansiunea națională și lansarea serviciilor B2B."
+      },
+      "q4": {
+        "question": "Care este valuation-ul companiei?",
+        "answer": "Valuation-ul este negociabil și depinde de termenii investiției. Ne bazăm pe metrici de traction actuală, potențial de creștere și comparații cu companii similare din regiune. Discutăm detalii specifice în cadrul întâlnirilor cu investitori interesați."
+      },
+      "q5": {
+        "question": "Ce riscuri identificați?",
+        "answer": "Riscurile principale includ competiția din piață, dependența de recrutarea producătorilor de calitate, și schimbările în comportamentul consumatorilor. Avem strategii clare de mitigare pentru fiecare risc și un plan de continuitate robust."
+      },
+      "q6": {
+        "question": "Cum măsurăm succesul investiției?",
+        "answer": "Metrici cheie includ: numărul de producători activi, volumul de comenzi, venituri recurente, rata de retenție a clienților, și progresul către profitabilitate. Oferim rapoarte regulate și transparență completă asupra performanței."
+      },
+      "q7": {
+        "question": "Există oportunități de investiție ulterioare?",
+        "answer": "Da, planificăm runde ulterioare (Series A) pentru expansiunea internațională și dezvoltarea de noi servicii. Investitorii din runda actuală vor avea prioritate și termeni preferențiali în rundele viitoare."
+      },
+      "q8": {
+        "question": "Cum pot programa o întâlnire?",
+        "answer": "Poți ne contacta direct prin formularul de contact cu tipul \"investor\" sau prin email la investitori@farme.ro. Organizăm întâlniri personalizate unde prezentăm detalii complete despre oportunitate și răspundem la toate întrebările tale."
+      }
+    },
+    "cta": {
+      "title": "Hai să construim viitorul alimentar al României împreună.",
+      "description": "Dacă crezi în viziunea noastră și vrei să fii parte din această transformare, suntem deschiși să discutăm despre cum putem colabora.",
+      "button": "Programează o întâlnire",
+      "responseTime": "Răspundem la toate solicitările în maximum 24 de ore."
+    },
+    "metadata": {
+      "title": "Pentru investitori - farme.ro",
+      "description": "Oportunitate de investiție în viitorul alimentar al României. farme.ro conectează producătorii locali cu consumatorii, generând valoare și impact social măsurabil."
+    }
+  },
+  "journal": {
+    "hero": {
+      "title": "Jurnal de farme.ro",
+      "subtitle": "Povești adevărate despre oamenii care cresc mâncare cu sens. Descoperă tradițiile, metodele și oamenii din spatele produselor tale preferate."
+    },
+    "badge": "Jurnal de farme.ro",
+    "empty": {
+      "title": "Pregătim povești noi",
+      "description": "Pregătim povești noi în Jurnal de farme.ro 🌱"
+    },
+    "error": {
+      "loading": "Eroare la încărcarea articolelor"
+    },
+    "article": {
+      "notFound": "Articolul nu a fost găsit.",
+      "comingSoon": "Articolul este în pregătire.",
+      "error": "Eroare la încărcarea articolului",
+      "backToList": "Înapoi la jurnal",
+      "viewProducer": "Vezi producătorul",
+      "aboutProducer": "Despre producător",
+      "aboutProducerDescription": "Acest articol face parte din Jurnal de farme.ro, o secțiune editorială premium dedicată producătorilor care au planuri de promovare. Aici descoperi oamenii, procesele și poveștile din spatele produselor.",
+      "promotedProducer": "Producător promovat",
+      "viewProducerPage": "Vezi pagina producătorului",
+      "products": {
+        "title": "Produse din acest jurnal",
+        "description": "Descoperă toate produsele disponibile pe pagina producătorului.",
+        "cta": "Vezi toate produsele"
+      },
+      "cta": {
+        "title": "Descoperă produsele acestui producător",
+        "description": "Vizitează magazinul producătorului pentru a vedea toate produsele disponibile.",
+        "button": "Vezi produsele acestui producător"
+      }
+    }
+  },
+  "producers": {
+    "journal": {
+      "title": "În Jurnal de farme.ro",
+      "description": "Povești despre acest producător din Jurnal de farme.ro",
+      "viewAll": "Vezi toate"
+    }
+  },
+  "pwa": {
+    "installPrompt": {
+      "title": "Instalează Farmero pe dispozitivul tău",
+      "subtitle": "Acces rapid la producătorii tăi preferați, direct de pe ecranul principal.",
+      "installButton": "Instalează acum",
+      "installing": "Se instalează...",
+      "dismissButton": "Nu acum"
+    }
+  },
+  "notFound": {
+    "title": "Oops! Pagina nu a fost găsită",
+    "description": "Se pare că pagina pe care o cauți s-a rătăcit în câmp... Dar nu-ți face griji, te ajutăm să găsești drumul înapoi!",
+    "maybeInterested": "Poate te interesează:",
+    "home": "Acasă",
+    "products": "Produse",
+    "search": "Căutare",
+    "back": "Înapoi",
+    "funMessage": "P.S. Dacă ai văzut o legumă rătăcită, te rugăm să ne anunți! 🥕"
+  },
+  "growth": {
+    "nudge": {
+      "defaultMessage": "Sugestie pentru tine",
+      "learnMore": "Află mai multe"
+    },
+    "visibilitySuggestions": {
+      "title": "Sugestii pentru vizibilitate",
+      "defaultMessage": "Îmbunătățește-ți vizibilitatea",
+      "learnMore": "Află mai multe"
+    }
+  },
+  "ai": {
+    "launcher": {
+      "ariaLabel": "Deschide asistentul AI",
+      "title": "Asistentul Farmero"
+    },
+    "chat": {
+      "title": "Farmero Assistant",
+      "subtitle": "Cum te pot ajuta?",
+      "welcome": "Bună! Cum te pot ajuta?",
+      "inputPlaceholder": "Scrie întrebarea ta...",
+      "send": "Trimite",
+      "error": "Ne pare rău, a apărut o eroare. Te rugăm să încerci din nou.",
+      "disclaimer": "Asistentul oferă informații generale. Pentru probleme specifice, contactează suportul."
+    }
+  }
+}

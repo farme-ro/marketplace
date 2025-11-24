@@ -1,0 +1,28 @@
+/**
+ * Business Dashboard Layout Wrapper
+ * 
+ * Layout wrapper pentru toate paginile business portal cu sidebar
+ */
+
+'use client'
+
+import { BusinessSidebar } from './business-sidebar'
+
+export function BusinessDashboardLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="flex min-h-screen bg-background">
+      {/* Desktop Sidebar */}
+      <div className="hidden md:block">
+        <BusinessSidebar />
+      </div>
+      
+      {/* Main Content */}
+      <main className="flex-1 md:ml-64">
+        <div className="p-4 md:p-6 lg:p-8 xl:p-10">
+          {children}
+        </div>
+      </main>
+    </div>
+  )
+}
+

@@ -1,0 +1,3422 @@
+{
+  "common": {
+    "retry": "Erneut versuchen",
+    "loading": "@@AUTO@@ Se încarcă...",
+    "error": "@@AUTO@@ Eroare",
+    "success": "@@AUTO@@ Succes",
+    "cancel": "@@AUTO@@ Anulează",
+    "save": "@@AUTO@@ Salvează",
+    "delete": "@@AUTO@@ Șterge",
+    "edit": "@@AUTO@@ Editează",
+    "back": "@@AUTO@@ Înapoi",
+    "next": "@@AUTO@@ Următor",
+    "previous": "@@AUTO@@ Anterior",
+    "search": "@@AUTO@@ Caută",
+    "filter": "@@AUTO@@ Filtrează",
+    "sort": "@@AUTO@@ Sortează",
+    "products": "Produkte",
+    "producers": "@@AUTO@@ Producători",
+    "add": "@@AUTO@@ Adaugă",
+    "remove": "@@AUTO@@ Elimină",
+    "close": "@@AUTO@@ Închide",
+    "confirm": "@@AUTO@@ Confirmă",
+    "yes": "@@AUTO@@ Da",
+    "no": "@@AUTO@@ Nu",
+    "ok": "@@AUTO@@ OK",
+    "continue": "@@AUTO@@ Continuă",
+    "skip": "@@AUTO@@ Sari peste",
+    "viewAll": "@@AUTO@@ Vezi toate",
+    "download": "@@AUTO@@ Descarcă",
+    "skipToContent": "@@AUTO@@ Sari la conținut",
+    "always": "Immer",
+    "processing": "Wird verarbeitet...",
+    "backToHomepage": "Zurück zur Startseite",
+    "theme": {
+      "toggle": "Theme wechseln",
+      "toggleToLight": "Zum hellen Modus wechseln",
+      "toggleToDark": "Zum dunklen Modus wechseln"
+    },
+    "language": {
+      "select": "Sprache auswählen"
+    }
+  },
+  "navbar": {
+    "home": "Startseite",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "signIn": "Anmelden",
+    "signUp": "Registrieren",
+    "logout": "Abmelden",
+    "dashboard": "Dashboard",
+    "cart": "Warenkorb",
+    "orders": "Bestellungen",
+    "searchPlaceholder": "Produkte suchen...",
+    "yourArea": "Ihr Bereich",
+    "about": "Wer wir sind",
+    "howItWorks": "Wie es funktioniert",
+    "joinUs": "Unsere Lösungen",
+    "goToHome": "Zur Startseite",
+    "openMenu": "Menü öffnen",
+    "becomePartner": "Partner werden",
+    "forProducers": "Für Produzenten",
+    "forBusiness": "Für Ihr Unternehmen",
+    "forInvestors": "Für Investoren",
+    "forLogistics": "Logistik & Transport",
+    "forImporters": "Für Importeure",
+    "openCart": "Warenkorb öffnen"
+  },
+  "cart": {
+    "empty": "Ihr Warenkorb ist leer",
+    "startShopping": "Einkaufen beginnen",
+    "total": "Gesamt",
+    "subtotal": "Zwischensumme",
+    "shipping": "Versand",
+    "viewCart": "Warenkorb ansehen",
+    "checkout": "Zur Kasse",
+    "clearCart": "Warenkorb leeren",
+    "removeItem": "Artikel entfernen",
+    "addToCart": "In den Warenkorb",
+    "addedToCart": "Produkt zum Warenkorb hinzugefügt!",
+    "updateQuantity": "Menge aktualisieren",
+    "loading": "Warenkorb wird geladen...",
+    "confirmClear": "Sind Sie sicher, dass Sie den Warenkorb leeren möchten?",
+    "quantity": "Menge",
+    "price": "Preis",
+    "proceedToCheckout": "Zur Kasse gehen",
+    "inCart": "im Warenkorb",
+    "fromProducer": "von",
+    "decreaseQuantity": "Menge verringern",
+    "increaseQuantity": "Menge erhöhen",
+    "removeProduct": "Produkt entfernen",
+    "redirectToLogin": "Sie werden zur Anmeldung weitergeleitet",
+    "continueShopping": "Einkauf fortsetzen"
+  },
+  "home": {
+    "hero": {
+      "title": "Produkte direkt von",
+      "titleHighlight": "lokalen Erzeugern.",
+      "titleSubtitle": "Ohne Zwischenhändler.",
+      "description": "Faire Preise, authentischer Geschmack und echte Wirkung für rumänische Gemeinden.",
+      "ctaExplore": "Produkte erkunden",
+      "ctaProducers": "Erzeuger ansehen",
+      "badgeProducerPrice": "Erzeugerpreis",
+      "badgeLocal": "100% lokal",
+      "badgeSustainable": "Nachhaltig",
+      "ctaExploreAria": "Produkte von lokalen Erzeugern erkunden",
+      "ctaProducersAria": "Liste der lokalen Erzeuger ansehen",
+      "imagePlaceholder": "@@AUTO@@ Premium atmospheric image",
+      "imagePlaceholderSub": "@@AUTO@@ Natural product boxes, natural light"
+    },
+    "difference": {
+      "title": "Der Farme.ro Unterschied",
+      "subtitle": "Mehr als ein Marktplatz. Eine Plattform, die echte Erzeuger mit Menschen verbindet, die besser essen wollen.",
+      "card1": {
+        "title": "Vom Hof zu Ihnen",
+        "description": "Authentische Produkte, direkt von rumänischen Erzeugern. Keine komplexen Handelsketten, keine Händler, die die Preise in die Höhe treiben."
+      },
+      "card2": {
+        "title": "Sie unterstützen rumänische Erzeuger",
+        "description": "Geld bleibt in der Gemeinschaft. Wenn Sie bei Farme.ro kaufen, unterstützen Sie direkt kleine Erzeuger und die lokale Wirtschaft."
+      },
+      "card3": {
+        "title": "Sie reduzieren Lebensmittelverschwendung",
+        "description": "Nicht abgeholte Produkte werden an soziale Zentren gespendet, nicht weggeworfen. Jede Bestellung zählt für die Gemeinschaft."
+      }
+    },
+    "howItWorks": {
+      "title": "Wie es funktioniert",
+      "subtitle": "Einfacher, transparenter und effizienter Prozess. Von der Bestellung bis zur Lieferung ist alles klar.",
+      "step1": {
+        "title": "Produkte auswählen",
+        "description": "Durchsuchen Sie Produkte von lokalen Erzeugern. Filtern Sie nach Kategorie, Region oder Präferenzen."
+      },
+      "step2": {
+        "title": "Erzeuger bereitet vor",
+        "description": "Der Erzeuger erhält die Bestellung und bereitet frische Produkte mit Sorgfalt und Respekt vor."
+      },
+      "step3": {
+        "title": "Kurier liefert",
+        "description": "Schnelle und sichere Lieferung direkt zu Ihnen oder zu einem bequemen Abholpunkt."
+      },
+      "step4": {
+        "title": "Sie genießen",
+        "description": "Sie erhalten authentische, qualitativ hochwertige Produkte zu fairen Preisen. Und Sie wissen, dass Sie Gutes getan haben."
+      }
+    },
+    "steps": {
+      "title": "Wie farme.ro funktioniert",
+      "subtitle": "Einfacher 4-Schritte-Prozess zum Kauf traditioneller Produkte direkt von Erzeugern",
+      "step1": {
+        "title": "Lokale Erzeuger entdecken",
+        "description": "Erkunden Sie die vielfältige Palette traditioneller und biologischer Produkte von verifizierten Erzeugern in ganz Rumänien."
+      },
+      "step2": {
+        "title": "Online bestellen",
+        "description": "Fügen Sie Ihre Lieblingsprodukte zum Warenkorb hinzu und schließen Sie die Bestellung mit sicheren Zahlungen und schneller Bearbeitung ab."
+      },
+      "step3": {
+        "title": "Erzeuger bereitet Produkte vor",
+        "description": "Der lokale Erzeuger bereitet Ihre Bestellung mit Sorgfalt und Aufmerksamkeit für Details vor und gewährleistet Qualität und Frische."
+      },
+      "step4": {
+        "title": "Paket zu Hause erhalten",
+        "description": "Direktlieferung vom Erzeuger, die Frische und Qualität der Produkte bis zu Ihrer Tür gewährleistet."
+      }
+    },
+    "socialImpact": {
+      "badge": "Echte Wirkung",
+      "title": "Ihre Bestellung tut Gutes.",
+      "description": "Nicht abgeholte Produkte werden an soziale Zentren gespendet.",
+      "descriptionHighlight": "Sie helfen der Gemeinschaft und reduzieren Abfall.",
+      "cta": "Mehr erfahren",
+      "ctaAria": "Mehr über die soziale Wirkung von Bestellungen erfahren",
+      "statsDonated": "gespendete Produkte",
+      "statsCenters": "unterstützte Zentren",
+      "illustration": "@@AUTO@@ Illustration: hand offering food"
+    },
+    "testimonials": {
+      "title": "Was unsere Kunden sagen",
+      "subtitle": "Echte Geschichten über Kundenerfahrungen mit Erzeugern auf farme.ro",
+      "testimonial1": "Ausgezeichnete Produkte, direkt vom Erzeuger. Ich habe Honig und Käse bestellt und sie waren genau so, wie ich sie mir vorgestellt hatte. Schnelle Lieferung und faire Preise.",
+      "testimonial2": "Ich liebe es, dass ich lokale Erzeuger unterstützen und gleichzeitig qualitativ hochwertige Produkte erhalten kann. Das Spendersystem für nicht abgeholte Bestellungen ist eine ausgezeichnete Idee.",
+      "testimonial3": "Ich habe neue Erzeuger über die Plattform entdeckt. Die Produkte sind authentisch, traditionell, genau das, wonach ich gesucht habe. Sehr empfehlenswert!"
+    },
+    "newsletter": {
+      "title": "Erhalten Sie Angebote direkt von Erzeugern",
+      "subtitle": "Exklusive Rabatte, traditionelle Rezepte und Neuigkeiten über neue Erzeuger. Kein Spam, nur wertvoller Inhalt.",
+      "placeholder": "Ihre E-Mail-Adresse",
+      "submit": "Abonnieren",
+      "submitting": "Abonnieren...",
+      "submitted": "Abonniert!",
+      "success": "✓ Sie haben sich erfolgreich angemeldet!",
+      "privacy": "Wir senden keinen Spam. Sie können sich jederzeit abmelden."
+    },
+    "story": {
+      "title": "Die Geschichte von farme.ro",
+      "paragraph1": "farme.ro entstand aus dem Wunsch, lokale Erzeuger mit Kunden zu verbinden, die authentische und traditionelle Produkte suchen. Wir verstehen, dass traditionelle rumänische Lebensmittel mehr als Produkte sind - sie sind Teil unserer kulturellen Identität.",
+      "paragraph2": "Unsere Plattform bietet Erzeugern einen direkten Weg zum Markt, ohne Zwischenhändler, und gibt Kunden Zugang zu qualitativ hochwertigen, verifizierten und authentischen Produkten.",
+      "paragraph3": "Wir unterstützen die lokale Wirtschaft und fördern nachhaltige landwirtschaftliche Praktiken und schaffen eine Gemeinschaft, die rumänische Traditionen schätzt.",
+      "impactNote": "Ihre Bestellung unterstützt lokale Erzeuger und kann Lebensmittelverschwendung reduzieren.",
+      "cta": "Erfahren Sie unsere Geschichte"
+    },
+    "regions": {
+      "title": "Nach Region erkunden",
+      "subtitle": "Entdecken Sie lokale Erzeuger aus verschiedenen Regionen Rumäniens",
+      "regionAria": "Produkte der Region {{region}} ansehen"
+    },
+    "categories": {
+      "title": "Nach Kategorie durchsuchen",
+      "subtitle": "Entdecken Sie Produkte von lokalen Erzeugern",
+      "honey": "Honig & Imkerei",
+      "dairy": "Milchprodukte",
+      "vegetables": "Gemüse",
+      "fruits": "Obst",
+      "vegetablesFruits": "Gemüse & Obst",
+      "vegetablesFruitsDesc": "Frische Saisonprodukte",
+      "dairyDesc": "Lokale Milchprodukte und Käse",
+      "meatDesc": "Traditionelles Fleisch und Wurstwaren",
+      "sweetsDesc": "Traditionelle Süßigkeiten und Konserven",
+      "localDrinksDesc": "Natürliche Säfte und Getränke",
+      "otherDesc": "Andere lokale Produkte",
+      "selected": "Ausgewählt",
+      "preserves": "Konserven & Süßigkeiten",
+      "meat": "Fleisch & Wurstwaren",
+      "sweets": "Süßigkeiten",
+      "localDrinks": "Lokale Getränke",
+      "other": "Andere",
+      "cereals": "Getreide & Mehl",
+      "oils": "Öle & Butter",
+      "categoryAria": "Produkte der Kategorie {{category}} ansehen"
+    },
+    "subscriptions": {
+      "title": "Abonnements von Erzeugern",
+      "subtitle": "Periodische Körbe mit frischen Produkten, direkt von Ihren Lieblingserzeugern.",
+      "comingSoon": "Farmero-Abonnements werden bald verfügbar sein. Melden Sie sich für den Newsletter an, um zu erfahren, wann wir sie starten."
+    },
+    "producers": {
+      "title": "Empfohlene Erzeuger",
+      "subtitle": "Entdecken Sie unsere Partnererzeuger",
+      "viewAll": "Alle Erzeuger ansehen",
+      "viewAllAria": "Alle verfügbaren Erzeuger ansehen"
+    },
+    "products": {
+      "title": "Beliebte Produkte",
+      "subtitle": "Entdecken Sie die gefragtesten traditionellen Produkte",
+      "viewAll": "Alle Produkte ansehen",
+      "viewAllAria": "Alle verfügbaren Produkte ansehen"
+    }
+  },
+  "footer": {
+    "tagline": "farmero – fairer Marktplatz zwischen lokalen Produzenten und Menschen, die besser essen wollen.",
+    "subtitle": "Produzentenpreise, fairer Handel und null Abfall, wo wir helfen können.",
+    "forClients": "Für Kunden",
+    "forProducers": "Für Produzenten",
+    "aboutFarmero": "Über farmero",
+    "legal": "Rechtliches & Info",
+    "howItWorks": "Wie farmero funktioniert",
+    "localProducers": "Lokale Produzenten",
+    "products": "Produkte",
+    "socialImpact": "Soziale Auswirkungen & Spenden",
+    "faq": "Häufig gestellte Fragen (FAQ)",
+    "becomeProducer": "Produzentenpartner werden",
+    "producerLogin": "Produzenten-Anmeldung",
+    "commissions": "Provisionen & Gebühren",
+    "subscriptions": "Abonnements & Werbung",
+    "shippingGuide": "Versand- & Logistikleitfaden",
+    "whySell": "Warum auf farme.ro verkaufen",
+    "about": "Über uns",
+    "mission": "Mission & Werte",
+    "journal": "Farme.ro Journal",
+    "contact": "Kontakt",
+    "terms": "Allgemeine Geschäftsbedingungen",
+    "privacy": "Datenschutzrichtlinie",
+    "cookies": "Cookie-Richtlinie",
+    "anpc": "ANPC / Streitbeilegung",
+    "gdpr": "Datenschutz",
+    "supportFarmero": "Farmero unterstützen",
+    "copyright": "© {year} farmero. Alle Rechte vorbehalten.",
+    "madeWith": "Gemacht mit",
+    "inRomania": "in Rumänien",
+    "socialTitle": "Wir sind auch hier",
+    "newsletterTitle": "Erhalten Sie Neuigkeiten von Produzenten",
+    "newsletterDescription": "Rezepte, neue Produzenten und Angebote direkt in Ihrem Postfach. Kein Spam.",
+    "newsletterButton": "Abonnieren",
+    "trustDescription": "Sichere Zahlungen. Verifizierte Produzenten. Lieferung von jedem Produzenten verwaltet.",
+    "trustProducerPrice": "Produzentenpreise",
+    "trustVerifiedProducers": "Verifizierte Produzenten",
+    "trustNoHiddenContracts": "Keine versteckten Verträge",
+    "trustSupportLocal": "Lokale Wirtschaft unterstützen"
+  },
+  "ui": {
+    "currency": {
+      "symbol": "lei",
+      "code": "RON"
+    },
+    "payment": {
+      "method": {
+        "card": "Karte",
+        "cod": "Nachnahme",
+        "bankTransfer": "Banküberweisung",
+        "other": "Andere Methode"
+      }
+    },
+    "units": {
+      "piece": "Stk",
+      "kg": "kg",
+      "g": "g",
+      "l": "l",
+      "ml": "ml"
+    },
+    "price": {
+      "from": "ab"
+    },
+    "badges": {
+      "bio": "Bio",
+      "traditional": "Traditionell",
+      "limitedBatch": "Begrenzte Charge"
+    },
+    "loading": {
+      "default": "Laden...",
+      "saving": "Speichern...",
+      "processing": "Verarbeiten...",
+      "submitting": "Senden...",
+      "deleting": "Löschen...",
+      "updating": "Aktualisieren..."
+    }
+  },
+  "cookies": {
+    "banner": {
+      "title": "Wir verwenden Cookies, um Farmero benutzerfreundlicher und relevanter für dich zu machen",
+      "description": "Sie helfen uns, dir eine bessere und persönlichere Nutzererfahrung zu bieten. Du kannst auswählen, welche Arten von Cookies du zulässt.",
+      "acceptAll": "Alle akzeptieren",
+      "rejectAll": "Optionale ablehnen",
+      "customize": "Anpassen",
+      "learnMore": "Mehr über Cookies erfahren"
+    },
+    "modal": {
+      "title": "Deine Datenschutzeinstellungen",
+      "intro": "Wähle, welche Cookies du auf Farmero zulassen möchtest. Du kannst diese Auswahl jederzeit ändern.",
+      "necessary": {
+        "label": "Notwendig (erforderlich)",
+        "description": "Sorgen für die Grundfunktionen der Website, Anmeldung und Sicherheit. Diese Cookies können nicht deaktiviert werden."
+      },
+      "analytics": {
+        "label": "Analyse",
+        "description": "Helfen uns zu verstehen, wie die Plattform genutzt wird, damit wir sie verbessern können."
+      },
+      "functional": {
+        "label": "Funktional",
+        "description": "Speichern deine Einstellungen, z.B. Sprache oder Anzeigeoptionen."
+      },
+      "marketing": {
+        "label": "Marketing",
+        "description": "Ermöglichen es, relevantere Inhalte und personalisierte Angebote anzuzeigen."
+      },
+      "save": "Einstellungen speichern",
+      "acceptAll": "Alle akzeptieren"
+    },
+    "footer": {
+      "settings": "Cookie-Einstellungen"
+    },
+    "title": "Cookie-Richtlinie",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "section1": {
+      "title": "1. Was sind Cookies?",
+      "content": "Cookies sind kleine Textdateien, die auf deinem Gerät gespeichert werden, wenn du eine Website besuchst. Sie ermöglichen es der Website, sich an deine Präferenzen zu erinnern und dein Browsing-Erlebnis zu verbessern."
+    },
+    "section2": {
+      "title": "2. Verwendete Cookie-Typen",
+      "essential": {
+        "title": "Essenzielle Cookies",
+        "content": "Diese Cookies sind für das Funktionieren der Plattform erforderlich und können nicht deaktiviert werden. Sie umfassen Authentifizierung, Sicherheit und grundlegende Funktionalitäten."
+      },
+      "performance": {
+        "title": "Performance-Cookies",
+        "content": "Diese Cookies helfen uns zu verstehen, wie Benutzer mit der Plattform interagieren, und ermöglichen es uns, Funktionalität und Leistung zu verbessern."
+      },
+      "functionality": {
+        "title": "Funktionale Cookies",
+        "content": "Diese Cookies ermöglichen es der Plattform, sich an deine Präferenzen (wie die ausgewählte Sprache) zu erinnern, um ein personalisiertes Erlebnis zu bieten."
+      },
+      "marketing": {
+        "title": "Marketing-Cookies",
+        "content": "Diese Cookies werden verwendet, um relevante Inhalte anzuzeigen und die Wirksamkeit von Marketingkampagnen zu messen."
+      }
+    },
+    "section3": {
+      "title": "3. Verwaltung von Cookies",
+      "subtitle": "Du kannst Cookie-Präferenzen in den Einstellungen deines Browsers verwalten. Du kannst:",
+      "list1": "Alle Cookies blockieren",
+      "list2": "Nur Cookies von vertrauenswürdigen Websites zulassen",
+      "list3": "Vorhandene Cookies löschen",
+      "list4": "Benachrichtigungen konfigurieren, wenn Cookies gesetzt werden",
+      "note": "Hinweis: Das Blockieren bestimmter Cookies kann die Funktionalität der Plattform beeinträchtigen."
+    },
+    "section4": {
+      "title": "4. Cookies von Drittanbietern",
+      "subtitle": "Wir verwenden Drittanbieterdienste, die Cookies auf deinem Gerät setzen können:",
+      "list1": "Analyse: Um zu verstehen, wie die Plattform genutzt wird",
+      "list2": "Zahlungen: Für die Verarbeitung sicherer Zahlungen",
+      "list3": "Marketing: Um die Wirksamkeit von Kampagnen zu messen"
+    },
+    "section5": {
+      "title": "5. Kontakt",
+      "content": "Bei Fragen zur Cookie-Richtlinie kontaktiere uns bitte unter:",
+      "email": "contact@farme.ro"
+    }
+  },
+  "terms": {
+    "title": "Allgemeine Geschäftsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "section1": {
+      "title": "1. Annahme der Bedingungen",
+      "content": "Durch den Zugriff auf und die Nutzung der Plattform farme.ro erklärst du dich damit einverstanden, an diese Allgemeinen Geschäftsbedingungen gebunden zu sein. Wenn du mit einem dieser Bedingungen nicht einverstanden bist, verwende bitte die Plattform nicht."
+    },
+    "section2": {
+      "title": "2. Nutzung der Plattform",
+      "content": "farme.ro ist eine Online-Plattform, die Produzenten traditioneller landwirtschaftlicher Produkte mit Kunden verbindet. Die Plattform ist für die legale Nutzung und in Übereinstimmung mit allen geltenden Gesetzen und Vorschriften bestimmt.",
+      "list1": "Du darfst die Plattform nicht für illegale oder betrügerische Zwecke nutzen",
+      "list2": "Du darfst nicht versuchen, auf eingeschränkte Bereiche der Plattform zuzugreifen",
+      "list3": "Du darfst die Plattform nicht verwenden, um Malware oder schädlichen Code zu übertragen",
+      "list4": "Du bist verantwortlich für alle Aktivitäten, die unter deinem Konto stattfinden"
+    },
+    "section3": {
+      "title": "3. Benutzerkonten",
+      "content": "Um bestimmte Funktionen der Plattform zu nutzen, musst du möglicherweise ein Konto erstellen. Du bist verantwortlich für:",
+      "list1": "Die Vertraulichkeit der Anmeldeinformationen aufrechterhalten",
+      "list2": "Alle Aktivitäten, die unter deinem Konto stattfinden",
+      "list3": "Uns sofort über jede unbefugte Nutzung deines Kontos benachrichtigen"
+    },
+    "section4": {
+      "title": "4. Produkte und Bestellungen",
+      "content": "farme.ro fungiert als Vermittler zwischen Produzenten und Kunden. Wir sind nicht verantwortlich für:",
+      "list1": "Die Qualität der von Produzenten verkauften Produkte",
+      "list2": "Die Lieferung von Produkten (Verantwortung des Produzenten)",
+      "list3": "Jegliche Streitigkeiten zwischen Produzenten und Kunden",
+      "note": "Alle Bestellungen unterliegen der Verfügbarkeit der Produkte und der Bestätigung durch den Produzenten."
+    },
+    "section5": {
+      "title": "5. Zahlungen",
+      "content": "Zahlungen für Produkte werden über sichere Drittanbieterdienste abgewickelt. farme.ro speichert keine Kreditkarteninformationen oder Zahlungsmethoden."
+    },
+    "section6": {
+      "title": "6. Geistiges Eigentum",
+      "content": "Alle Inhalte der Plattform, einschließlich Texte, Bilder, Logos und Design, sind Eigentum von farme.ro oder seinen Lizenzgebern und sind durch Urheberrechtsgesetze geschützt."
+    },
+    "section7": {
+      "title": "7. Haftungsbeschränkung",
+      "content": "farme.ro ist nicht verantwortlich für:",
+      "list1": "Direkte, indirekte, zufällige oder Folgeschäden, die aus der Nutzung der Plattform resultieren",
+      "list2": "Datenverlust oder Dienstunterbrechungen",
+      "list3": "Handlungen Dritter, einschließlich Produzenten oder Dienstleister"
+    },
+    "section8": {
+      "title": "8. Änderungen der Bedingungen",
+      "content": "Wir behalten uns das Recht vor, diese Allgemeinen Geschäftsbedingungen jederzeit zu ändern. Änderungen treten sofort nach ihrer Veröffentlichung auf der Plattform in Kraft. Die fortgesetzte Nutzung der Plattform nach Änderungen stellt die Annahme der neuen Bedingungen dar."
+    },
+    "section9": {
+      "title": "9. Kontakt",
+      "content": "Bei Fragen zu diesen Allgemeinen Geschäftsbedingungen kontaktiere uns bitte unter:",
+      "email": "contact@farme.ro"
+    }
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "section1": {
+      "title": "1. Einführung",
+      "content": "farme.ro respektiert die Privatsphäre der Benutzer und verpflichtet sich, die über die Plattform gesammelten personenbezogenen Daten zu schützen. Diese Datenschutzrichtlinie erklärt, wie wir deine persönlichen Informationen sammeln, verwenden, speichern und schützen."
+    },
+    "section2": {
+      "title": "2. Daten, die wir sammeln",
+      "subtitle": "Wir sammeln die folgenden Datentypen:",
+      "identification": {
+        "title": "Identifikationsdaten",
+        "list1": "Vollständiger Name",
+        "list2": "E-Mail-Adresse",
+        "list3": "Telefonnummer (optional)"
+      },
+      "usage": {
+        "title": "Nutzungsdaten",
+        "list1": "Bestellverlauf",
+        "list2": "Produktpräferenzen",
+        "list3": "Navigationsdaten auf der Plattform"
+      },
+      "technical": {
+        "title": "Technische Daten",
+        "list1": "IP-Adresse",
+        "list2": "Browsertyp",
+        "list3": "Verwendetes Gerät"
+      }
+    },
+    "section3": {
+      "title": "3. Wie wir Daten verwenden",
+      "subtitle": "Wir verwenden deine Daten für:",
+      "list1": "Verarbeitung und Lieferung von Bestellungen",
+      "list2": "Kommunikation mit dir über Bestellungen und Dienstleistungen",
+      "list3": "Verbesserung deiner Plattformerfahrung",
+      "list4": "Betrugsprävention und Gewährleistung der Sicherheit",
+      "list5": "Einhaltung rechtlicher Verpflichtungen"
+    },
+    "section4": {
+      "title": "4. Datenweitergabe",
+      "content": "Wir verkaufen deine personenbezogenen Daten nicht an Dritte. Wir können Daten nur in den folgenden Situationen teilen:",
+      "list1": "Produzenten: Zur Verarbeitung und Lieferung von Bestellungen",
+      "list2": "Dienstleister: Zur Zahlungsabwicklung, Lieferung usw.",
+      "list3": "Rechtliche Verpflichtungen: Wenn gesetzlich erforderlich"
+    },
+    "section5": {
+      "title": "5. Datensicherheit",
+      "content": "Wir setzen technische und organisatorische Sicherheitsmaßnahmen um, um deine personenbezogenen Daten vor unbefugtem Zugriff, Verlust oder Zerstörung zu schützen."
+    },
+    "section6": {
+      "title": "6. Cookies",
+      "content": "Wir verwenden Cookies, um deine Plattformerfahrung zu verbessern. Für weitere Details siehe",
+      "link": "Cookie-Richtlinie"
+    },
+    "section7": {
+      "title": "7. Deine Rechte (DSGVO)",
+      "subtitle": "Unter der DSGVO hast du die folgenden Rechte:",
+      "right1": "Recht auf Zugang: Du kannst eine Kopie deiner personenbezogenen Daten anfordern",
+      "right2": "Recht auf Berichtigung: Du kannst die Korrektur falscher Daten anfordern",
+      "right3": "Recht auf Löschung: Du kannst die Löschung deiner Daten anfordern",
+      "right4": "Recht auf Widerspruch: Du kannst der Verarbeitung deiner Daten widersprechen",
+      "right5": "Recht auf Datenübertragbarkeit: Du kannst die Übertragung deiner Daten anfordern",
+      "moreInfo": "Für weitere Details siehe",
+      "link": "DSGVO-Seite"
+    },
+    "section8": {
+      "title": "8. Kontakt",
+      "content": "Bei Fragen zu dieser Datenschutzrichtlinie oder zur Ausübung deiner Rechte kontaktiere uns bitte unter:",
+      "email": "privacy@farme.ro"
+    }
+  },
+  "gdpr": {
+    "title": "Deine Rechte (DSGVO)",
+    "subtitle": "Gemäß der Datenschutz-Grundverordnung (DSGVO) hast du die folgenden Rechte bezüglich deiner personenbezogenen Daten",
+    "rights": {
+      "access": {
+        "title": "Recht auf Zugang",
+        "description": "Du hast das Recht, eine Kopie deiner personenbezogenen Daten zu erhalten, die wir haben."
+      },
+      "rectification": {
+        "title": "Recht auf Berichtigung",
+        "description": "Du kannst die Korrektur deiner personenbezogenen Daten anfordern, die falsch oder unvollständig sind."
+      },
+      "deletion": {
+        "title": "Recht auf Löschung",
+        "description": "Du kannst die Löschung deiner personenbezogenen Daten unter bestimmten Umständen anfordern (Recht auf Vergessenwerden)."
+      },
+      "opposition": {
+        "title": "Recht auf Widerspruch",
+        "description": "Du kannst der Verarbeitung deiner personenbezogenen Daten für bestimmte Zwecke, wie Direktmarketing, widersprechen."
+      },
+      "portability": {
+        "title": "Recht auf Datenübertragbarkeit",
+        "description": "Du kannst die Übertragung deiner personenbezogenen Daten in einem strukturierten und gebräuchlichen Format anfordern."
+      },
+      "restriction": {
+        "title": "Recht auf Einschränkung",
+        "description": "Du kannst die Einschränkung der Verarbeitung deiner personenbezogenen Daten unter bestimmten Umständen anfordern."
+      }
+    },
+    "howToExercise": {
+      "title": "Wie du deine Rechte ausübst",
+      "content": "Um eines dieser Rechte auszuüben, kontaktiere uns bitte unter:",
+      "email": "privacy@farmero.ro",
+      "response": "Wir werden auf deine Anfrage innerhalb von 30 Tagen antworten und dich über die ergriffenen Maßnahmen informieren. In einigen Fällen können wir zusätzliche Informationen anfordern, um deine Identität zu überprüfen."
+    }
+  },
+  "donations": {
+    "title": "Farmero unterstützen",
+    "subtitle": "Hilf uns, ein System aufzubauen, in dem lokale Produkte die Menschen leichter erreichen.",
+    "whySupport": "Warum deine Unterstützung wichtig ist",
+    "infrastructure": "Infrastruktur & Entwicklung",
+    "infrastructureDescription": "Wir unterstützen kontinuierlich die Entwicklung der Plattform, um eine bessere Erfahrung für Benutzer und Produzenten zu bieten.",
+    "smallProducers": "Unterstützung für kleine Produzenten",
+    "smallProducersDescription": "Wir helfen lokalen Produzenten, Kunden zu finden und ihr Geschäft auszubauen.",
+    "socialProjects": "Soziale & nachhaltige Projekte",
+    "socialProjectsDescription": "In Zukunft werden wir Projekte entwickeln, die die Gemeinschaft und Nachhaltigkeit unterstützen.",
+    "statistics": "Spendenstatistiken",
+    "thisMonth": "Diesen Monat hat die Farmero-Gemeinschaft gespendet",
+    "donors": "Personen haben sich entschieden, beizutragen.",
+    "systemInPreparation": "Das Spendersystem wird vorbereitet. Wir werden dich sofort informieren, sobald etwas verfügbar ist.",
+    "wantToDonate": "Ich möchte spenden",
+    "selectAmount": "Betrag auswählen",
+    "selectAmountAria": "Betrag von {{amount}} Lei auswählen",
+    "customAmount": "Oder einen benutzerdefinierten Betrag eingeben",
+    "amountPlaceholder": "Betrag in RON",
+    "customAmountAria": "Benutzerdefinierter Betrag",
+    "donate": "Spenden",
+    "donateAria": "Spenden",
+    "invalidAmountDescription": "Bitte gib einen gültigen Betrag ein.",
+    "developmentMessage": "Das Spendersystem befindet sich in der Entwicklung. Danke, dass du Farmero unterstützen möchtest.",
+    "error": "Fehler",
+    "errorDescription": "Ein Fehler ist aufgetreten. Bitte versuche es erneut.",
+    "supportLink": "Farmero unterstützen",
+    "supportLinkAria": "Farmero unterstützen",
+    "infoTitle": "Wichtige Informationen",
+    "infoDescription": "Spenden sind standardmäßig anonym und bieten keine kommerziellen Vorteile. Sie unterstützen die Entwicklung der Plattform und die Gemeinschaft.",
+    "privacyNote": "Spenden werden sicher verarbeitet. Wir werden deine Daten nur zur Zahlungsabwicklung und für rechtliche Verpflichtungen verwenden. Standardmäßig werden deine Spenden nicht öffentlich anderen Benutzern angezeigt.",
+    "privacyLink": "Datenschutzrichtlinie",
+    "preferences": {
+      "title": "Spendenpräferenzen",
+      "description": "Verwalte deine Spendenpräferenzen.",
+      "showNamePublicly": "Meinen Namen öffentlich anzeigen",
+      "showNamePubliclyDescription": "Wenn ich spende, stimme ich zu, dass mein Name in bestimmten öffentlichen Listen angezeigt werden kann (optional).",
+      "comingSoon": "Die Funktionalität für Spendenpräferenzen wird bald verfügbar sein."
+    }
+  },
+  "errors": {
+    "generic": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+    "network": "Verbindungsfehler. Bitte überprüfe deine Internetverbindung.",
+    "notFound": "Wir konnten nicht finden, wonach du suchst",
+    "unauthorized": "Du hast keine Berechtigung, auf diese Seite zuzugreifen",
+    "forbidden": "Zugriff eingeschränkt",
+    "serverError": "Serverfehler. Bitte versuche es später erneut.",
+    "validation": {
+      "required": "Dieses Feld ist erforderlich",
+      "email": "Bitte gib eine gültige E-Mail-Adresse ein",
+      "minLength": "Text ist zu kurz",
+      "maxLength": "Text ist zu lang",
+      "passwordMismatch": "Passwörter stimmen nicht überein"
+    },
+    "cart": {
+      "addFailed": "Wir konnten das Produkt nicht zu deinem Warenkorb hinzufügen. Bitte versuche es erneut.",
+      "updateFailed": "Wir konnten deinen Warenkorb nicht aktualisieren. Bitte versuche es erneut.",
+      "clearFailed": "Wir konnten deinen Warenkorb nicht leeren. Bitte versuche es erneut."
+    },
+    "orders": {
+      "loadFailed": "Wir konnten deine Bestellungen nicht laden. Bitte versuche es erneut.",
+      "createFailed": "Wir konnten deine Bestellung nicht aufgeben. Bitte versuche es erneut.",
+      "cancelFailed": "Wir konnten deine Bestellung nicht stornieren. Bitte versuche es erneut.",
+      "reorderFailed": "Wir konnten nicht erneut bestellen. Bitte versuche es erneut."
+    },
+    "products": {
+      "loadFailed": "Wir konnten die Produkte nicht laden. Bitte versuche es erneut.",
+      "notFound": "Produkt nicht gefunden"
+    },
+    "producers": {
+      "loadFailed": "Wir konnten die Produzenten nicht laden. Bitte versuche es erneut.",
+      "notFound": "Produzent nicht gefunden"
+    },
+    "boundary": {
+      "title": "Etwas ist schiefgelaufen",
+      "description": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuche es erneut.",
+      "details": "Fehlerdetails (Entwicklung)",
+      "retry": "Erneut versuchen",
+      "goHome": "Zur Startseite gehen"
+    }
+  },
+  "producers": {
+    "available": "Verfügbare Produzenten",
+    "chooseDescription": "Wählen Sie Ihre bevorzugten Produzenten und bestellen Sie direkt von ihren Höfen.",
+    "viewAll": "Alle Produzenten anzeigen",
+    "errors": {
+      "loadFailed": "Fehler beim Laden der Produzenten"
+    },
+    "filters": {
+      "ariaLabel": "Produzentenfilter",
+      "searchPlaceholder": "Produzent oder Produkt suchen…",
+      "allRegions": "Ganzes Land",
+      "regions": {
+        "transilvania": "Siebenbürgen",
+        "moldova": "Moldau",
+        "muntenia": "Münzenland",
+        "oltenia": "Oltenien",
+        "dobrogea": "Dobrudscha"
+      },
+      "types": {
+        "bio": "Bio",
+        "traditional": "Traditionell",
+        "artisanal": "Handwerklich",
+        "national": "Nationale Lieferung"
+      },
+      "sort": {
+        "relevance": "Relevanz",
+        "rating": "Bewertung",
+        "popular": "Beliebteste"
+      },
+      "bio": "Bio",
+      "traditional": "Traditionell",
+      "artisanal": "Handwerklich",
+      "sortLabel": "Sortieren nach",
+      "sortRelevance": "Relevanz",
+      "sortRating": "Bewertung",
+      "sortPopular": "Beliebteste",
+      "activeFilters": "Aktive Filter:",
+      "clearAll": "Alle Filter löschen"
+    },
+    "hero": {
+      "title": "Lokale Produzenten aus ganz Rumänien",
+      "description": "Entdecken Sie vertrauenswürdige Produzenten mit direkten Preisen ab Quelle und sorgfältig ausgewählten Produkten. Sie unterstützen lokale Höfe bei jeder Bestellung.",
+      "badge1": "Produzentenpreis",
+      "badge2": "Lokale & traditionelle Produkte",
+      "badge3": "Unterstützen Sie direkt Höfe in Rumänien",
+      "stats": {
+        "producers": "Produzenten",
+        "counties": "abgedeckte Landkreise",
+        "products": "aktive Produkte"
+      },
+      "example": {
+        "label": "Beispielproduzent",
+        "name": "Stâna de sub munte",
+        "location": "Brașov, Berggebiet",
+        "product1": "Gereifter Käse – ab 25 Lei",
+        "product2": "Hausgemachte Telemea – ab 22 Lei",
+        "product3": "Frische Urda – ab 18 Lei",
+        "note": "Produkte aus dem Hof, direkt zu Ihnen geliefert, ohne Zwischenhändler."
+      },
+      "title1": "Einfach verkaufen.",
+      "title2": "Gesund wachsen.",
+      "title3": "Keine Kompromisse.",
+      "subtitle": "farme.ro ist die Plattform, die Ihnen echte Kunden, Stabilität und Respekt für Ihre Produkte bringt.",
+      "cta1": "Erzeuger werden",
+      "cta2": "Sehen Sie, wie es funktioniert"
+    },
+    "card": {
+      "exampleProduct1": "Gereifter Ziegenkäse",
+      "exampleProduct2": "Polyfloraler Honig",
+      "deliveryCourier": "Kurierlieferung",
+      "deliveryLocal": "Lokale Abholung"
+    },
+    "detail": {
+      "storyTitle": "Geschichte des Produzenten",
+      "howWorksTitle": "Wie sie arbeiten",
+      "howWorks1": "Produkte, die auf dem Hof in begrenzten Mengen hergestellt werden.",
+      "howWorks2": "Traditionelle Rezepte und lokale Zutaten, wo möglich.",
+      "howWorks3": "Fokus auf Qualität, nicht Quantität – Vorräte können schnell ausgehen.",
+      "howWorksNote": "Hinweis: Die Produktverfügbarkeit kann je nach Saison und Produktion variieren. Wenn ein Produkt nicht vorrätig ist, kann der Produzent es schnell von der Plattform deaktivieren.",
+      "impactTitle": "Ihr sozialer Einfluss",
+      "impactDescription": "Wenn Sie bei diesem Produzenten bestellen:",
+      "impact1": "Sie unterstützen direkt einen lokalen Hof, keine Einzelhandelskette.",
+      "impact2": "Sie tragen zur Reduzierung von Lebensmittelverschwendung durch geplante Bestellungen bei.",
+      "impact3": "Sie helfen, traditionelle Rezepte und kulinarische Bräuche zu bewahren.",
+      "productsTitle": "Verfügbare Produkte",
+      "productsSubtitle": "Alle Preise sind direkt vom Produzenten.",
+      "deliveryTitle": "Lieferung & Verpackung",
+      "delivery1": "Die Lieferung erfolgt direkt durch den Produzenten oder durch einen Partnerkurier.",
+      "delivery2": "Empfindliche Produkte sind angemessen für den Transport verpackt.",
+      "delivery3": "Für bestimmte Bestellungen kann die Lieferung an Paketstation / Easybox erfolgen (wo verfügbar).",
+      "badgeProducerPrice": "Produzentenpreis",
+      "badgeSmallBatches": "Kleine Mengen, frisch",
+      "badgeSupportHousehold": "Unterstützen Sie direkt den Hof",
+      "backToProfile": "Zurück zum Produzentenprofil",
+      "productsFrom": "Produkte von {name}",
+      "partnerSince": "Partner seit {year}",
+      "productsCount": "{count} {count, plural, one {Produkt verfügbar} other {Produkte verfügbar}}",
+      "productsAvailable": "Verfügbare Produkte",
+      "productsEmpty": "Derzeit keine Produkte verfügbar."
+    },
+    "delivery": {
+      "home": "Hauslieferung",
+      "packageLocker": "Paketstation",
+      "easybox": "Easybox"
+    },
+    "metadata": {
+      "notFound": "Produzent nicht gefunden",
+      "notFoundDescription": "Der angeforderte Produzent wurde nicht gefunden.",
+      "producerLocal": "lokaler Produzent",
+      "discover": "Entdecken Sie Produkte von",
+      "from": "von",
+      "romania": "Rumänien",
+      "traditionalBio": "Traditionelle und biologische Produkte direkt von der Quelle geliefert.",
+      "productsFrom": "Produkte von",
+      "discoverAll": "Alle Produkte von entdecken",
+      "fromRomania": "aus Rumänien",
+      "keywords": {
+        "traditional": "traditionelle Produkte",
+        "bio": "biologische Produkte"
+      },
+      "producerLocalFrom": "Lokaler Produzent von"
+    },
+    "badge": "Speziell für rumänische lokale Erzeuger erstellt",
+    "problems": {
+      "title": "Wir wissen, was Sie durchmachen",
+      "problem1": {
+        "title": "Unvorhersehbare Verkäufe",
+        "description": "Sie wissen nicht, wann und wie viel Sie verkaufen werden. Die Abhängigkeit von Märkten und Veranstaltungen macht Sie verwundbar."
+      },
+      "problem2": {
+        "title": "Unzuverlässige Kunden",
+        "description": "Stornierte Bestellungen, Nichterscheinen, endlose Verhandlungen. Verschwendete Zeit und Energie."
+      },
+      "problem3": {
+        "title": "Zeitverschwendung in sozialen Medien",
+        "description": "Sie müssen ständig präsent sein, Inhalte erstellen, auf Nachrichten antworten. Sie haben keine Zeit für die Produktion."
+      },
+      "problem4": {
+        "title": "Zwischenhändler, die Ihren Gewinn reduzieren",
+        "description": "Jeder Zwischenhändler nimmt einen Teil Ihres Gewinns. Am Ende bleiben Sie mit niedrigen Preisen und niedrigen Margen zurück."
+      },
+      "footer": "farme.ro eliminiert diese Probleme und bietet Ihnen ein stabiles und vorhersehbares System."
+    },
+    "benefits": {
+      "title": "Was farme.ro Ihnen bietet",
+      "subtitle": "Eine Plattform, die für Sie entwickelt wurde, nicht für Zwischenhändler",
+      "benefit1": {
+        "title": "Zentralisierte Bestellungen",
+        "description": "Alle Bestellungen an einem Ort. Sie verschwenden keine Zeit mehr mit Telefonanrufen und Nachrichten auf mehreren Plattformen."
+      },
+      "benefit2": {
+        "title": "Vollständige Lagerkontrolle",
+        "description": "Sie können Produkte sofort aktivieren oder deaktivieren. Wenn Sie keinen Bestand mehr haben, können Kunden nicht bestellen."
+      },
+      "benefit3": {
+        "title": "Produkte sofort aktivieren/deaktivieren",
+        "description": "Kein Warten, keine Anrufe. Ein Klick und Ihr Produkt erscheint oder verschwindet aus der Liste."
+      },
+      "benefit4": {
+        "title": "Kunden, die im Voraus zahlen (Karte)",
+        "description": "Sichere Online-Zahlungen. Sie haben nicht mehr das Risiko von Nichtzahlung oder stornierten Bestellungen im letzten Moment."
+      },
+      "benefit5": {
+        "title": "Anti-Verschwendungssystem (nicht abgeholte Pakete → Spenden)",
+        "description": "Wenn ein Kunde die Bestellung nicht abholt, gehen die Produkte in Spenden. Sie erhalten das Geld, die Gemeinschaft erhält Nahrung."
+      },
+      "benefit6": {
+        "title": "Organisches Wachstum über die Plattform",
+        "description": "Kunden finden Sie, bestellen, kehren zurück. Sie bauen eine Basis wiederkehrender Kunden ohne Marketingaufwand auf."
+      },
+      "benefit7": {
+        "title": "Nationale Sichtbarkeit",
+        "description": "Ihre Produkte sind im ganzen Land sichtbar. Sie sind nicht mehr nur vom lokalen Markt abhängig."
+      }
+    },
+    "howItWorks": {
+      "title": "Wie es für Sie funktioniert",
+      "step1": {
+        "title": "Sie registrieren sich",
+        "description": "Erstellen Sie Ihr Konto in wenigen Minuten. Wir überprüfen schnell und Sie sind bereit zu verkaufen."
+      },
+      "step2": {
+        "title": "Fügen Sie Ihre Produkte hinzu",
+        "description": "Fügen Sie Produkte, Preise, Fotos und Bestand hinzu. Alles an einem Ort."
+      },
+      "step3": {
+        "title": "Erhalten Sie Bestellungen",
+        "description": "Kunden bestellen direkt. Sie erhalten Benachrichtigungen und sehen alles im Dashboard."
+      },
+      "step4": {
+        "title": "Liefern und verdienen",
+        "description": "Liefern Sie die Bestellung und erhalten Sie das Geld. Einfach, transparent, vorhersehbar."
+      },
+      "dashboard": {
+        "title": "Erzeuger-Dashboard",
+        "monthlySales": "Monatliche Verkäufe",
+        "activeOrders": "Aktive Bestellungen",
+        "paymentStatus": "Zahlungsstatus",
+        "onTime": "Pünktlich",
+        "footer": "Beispieloberfläche. Echte Daten werden in Ihrem Konto angezeigt."
+      }
+    },
+    "subscriptions": {
+      "title": "Abonnements, die Ihnen Stabilität und Sichtbarkeit bringen",
+      "recommended": "Empfohlen",
+      "plan1": {
+        "name": "START PLAN",
+        "price": "19€/Monat",
+        "feature1": "Produktauflistung",
+        "feature2": "Erzeugerprofil",
+        "feature3": "Unbegrenzte Bestellungen",
+        "feature4": "Tool für automatische Social-Media-Posts",
+        "feature5": "Basisstatistiken"
+      },
+      "plan2": {
+        "name": "PRO PLAN",
+        "price": "39€/Monat",
+        "feature1": "Promotion auf der Startseite",
+        "feature2": "Vorzugskommission",
+        "feature3": "Erweiterte Statistiken",
+        "feature4": "SEO-Empfehlungen",
+        "feature5": "Alle START-Funktionen"
+      },
+      "footer": "Die Provision sinkt, je mehr Sie verkaufen.",
+      "cta": "Vollständige Pläne ansehen"
+    },
+    "testimonial": {
+      "quote": "Seit ich auf farme.ro verkaufe, bin ich nicht mehr von Märkten und Zwischenhändlern abhängig. Ich verkaufe konstant und fair.",
+      "author": "Lokaler Erzeuger, Prahova"
+    },
+    "finalCta": {
+      "title": "Es ist Zeit, dass Ihre Produkte dorthin gelangen, wo sie es verdienen.",
+      "button": "Werden Sie farme.ro-Erzeuger",
+      "subtitle": "Die Registrierung dauert weniger als 5 Minuten."
+    },
+    "journal": {
+      "title": "Im Farme.ro Journal",
+      "description": "Geschichten über diesen Produzenten aus dem Farme.ro Journal",
+      "viewAll": "Alle anzeigen"
+    }
+  },
+  "emptyStates": {
+    "orders": {
+      "title": "Du hast noch keine Bestellungen aufgegeben",
+      "description": "Beginne mit dem Einkaufen, um deine Bestellungen hier zu sehen.",
+      "action": "Produkte erkunden"
+    },
+    "products": {
+      "title": "Wir konnten momentan keine Produkte finden",
+      "description": "Versuche, deine Filter anzupassen oder komm später wieder.",
+      "action": "Filter zurücksetzen"
+    },
+    "producers": {
+      "title": "Momentan sind keine Produzenten verfügbar",
+      "description": "Versuche, deine Filter anzupassen oder komm später wieder.",
+      "action": "Filter zurücksetzen",
+      "resetFilters": "Filter zurücksetzen"
+    },
+    "subscriptions": {
+      "title": "Du hast keine aktiven Abonnements",
+      "description": "Abonniere deine Lieblingsproduzenten, um regelmäßig Produkte zu erhalten.",
+      "action": "Abonnements erkunden"
+    },
+    "cart": {
+      "title": "Dein Warenkorb ist leer",
+      "description": "Füge Produkte zu deinem Warenkorb hinzu, um fortzufahren.",
+      "action": "Einkaufen beginnen"
+    },
+    "favorites": {
+      "title": "Du hast noch keine Favoriten",
+      "description": "Füge Produkte zu deinen Favoriten hinzu, um sie leichter zu finden.",
+      "action": "Produkte erkunden"
+    },
+    "campaigns": {
+      "title": "Du hast keine aktiven Kampagnen",
+      "description": "Erstelle deine erste Marketingkampagne, um deine Sichtbarkeit zu erhöhen.",
+      "action": "Kampagne erstellen"
+    }
+  },
+  "notifications": {
+    "success": {
+      "saved": "Deine Änderungen wurden gespeichert",
+      "deleted": "Element erfolgreich gelöscht",
+      "created": "Element erfolgreich erstellt",
+      "updated": "Element erfolgreich aktualisiert",
+      "orderPlaced": "Deine Bestellung wurde aufgegeben!",
+      "addedToCart": "Zu deinem Warenkorb hinzugefügt"
+    },
+    "error": {
+      "generic": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+      "saveFailed": "Wir konnten deine Änderungen nicht speichern. Bitte versuche es erneut.",
+      "deleteFailed": "Wir konnten dieses Element nicht löschen. Bitte versuche es erneut.",
+      "loadFailed": "Wir konnten die Daten nicht laden. Bitte versuche es erneut."
+    },
+    "warning": {
+      "unsavedChanges": "Du hast ungespeicherte Änderungen. Bist du sicher, dass du diese Seite verlassen möchtest?",
+      "itemUnavailable": "Einige Produkte in dieser Bestellung sind nicht mehr verfügbar"
+    },
+    "info": {
+      "newFeature": "Neue Funktion verfügbar",
+      "updateAvailable": "Update verfügbar"
+    }
+  },
+  "subscriptions": {
+    "frequency": {
+      "weekly": "Wöchentlich",
+      "biweekly": "Zweiwöchentlich",
+      "monthly": "Monatlich"
+    },
+    "recommended": "Empfohlen",
+    "byProducer": "Von",
+    "learnMore": "Mehr erfahren",
+    "product": "Produkt",
+    "products": "Produkte"
+  },
+  "producer": {
+    "dashboard": {
+      "loading": "Dashboard wird geladen...",
+      "errorLoading": "Wir konnten deine Dashboard-Daten nicht laden. Bitte versuche es erneut.",
+      "salesThisMonth": "Verkäufe diesen Monat",
+      "growthMonth": "{value}% im Vergleich zum letzten Monat",
+      "activeOrders": "Aktive Bestellungen",
+      "activeProducts": "Aktive Produkte",
+      "avgOrderValue": "Durchschnittlicher Bestellwert",
+      "inPreparation": "In Vorbereitung",
+      "notVisible": "Nicht sichtbar",
+      "lowStock": "Niedriger Lagerbestand"
+    },
+    "settings": {
+      "title": "Einstellungen & Profil",
+      "description": "Verwalte Informationen über deinen Hof und dein öffentliches Profil",
+      "loading": "Profil wird geladen...",
+      "errorLoading": "Wir konnten dein Profil nicht laden. Bitte versuche es erneut.",
+      "errorSaving": "Wir konnten dein Profil nicht speichern. Bitte versuche es erneut.",
+      "successUpdate": "Dein Profil wurde aktualisiert!",
+      "saving": "Speichern...",
+      "saveChanges": "Änderungen speichern",
+      "basicInfo": "@@AUTO@@ Basic information",
+      "brandName": "@@AUTO@@ Brand / Farm name",
+      "brandNamePlaceholder": "@@AUTO@@ E.g.: Popescu Farm",
+      "shortDescription": "@@AUTO@@ Short description",
+      "shortDescriptionPlaceholder": "@@AUTO@@ A short description of your farm (appears on your public page)",
+      "fullStory": "@@AUTO@@ Full story",
+      "fullStoryPlaceholder": "@@AUTO@@ The complete story of your farm, traditions, practices, etc. (appears on your public page)",
+      "location": "@@AUTO@@ Location",
+      "county": "@@AUTO@@ County",
+      "countyPlaceholder": "@@AUTO@@ E.g.: Cluj",
+      "city": "@@AUTO@@ City",
+      "cityPlaceholder": "@@AUTO@@ E.g.: Cluj-Napoca",
+      "address": "@@AUTO@@ Full address",
+      "addressPlaceholder": "@@AUTO@@ Street, number, etc.",
+      "contactInfo": "@@AUTO@@ Contact information",
+      "phone": "@@AUTO@@ Phone",
+      "phonePlaceholder": "@@AUTO@@ 07xxxxxxxx",
+      "email": "@@AUTO@@ Email (optional for public display)",
+      "emailPlaceholder": "@@AUTO@@ contact@farm.ro",
+      "emailNote": "@@AUTO@@ Your account email ({email}) is used for authentication and cannot be changed here.",
+      "website": "@@AUTO@@ Website",
+      "websitePlaceholder": "@@AUTO@@ https://farm.ro",
+      "socialMedia": "@@AUTO@@ Social media links",
+      "logoCover": "@@AUTO@@ Logo & Cover image",
+      "logo": "@@AUTO@@ Logo",
+      "changeLogo": "@@AUTO@@ Change logo",
+      "uploadLogo": "@@AUTO@@ Upload logo",
+      "logoNote": "@@AUTO@@ Logo upload functionality will be available when backend supports file upload.",
+      "coverImage": "@@AUTO@@ Cover image",
+      "changeCover": "@@AUTO@@ Change cover",
+      "uploadCover": "@@AUTO@@ Upload cover",
+      "coverNote": "@@AUTO@@ Cover image upload functionality will be available when backend supports file upload.",
+      "viewPublicPage": "@@AUTO@@ View public page"
+    },
+    "finances": {
+      "title": "Rechnungen & Finanzen",
+      "description": "Verwalte deine Rechnungen, Zahlungen und Einnahmen",
+      "loading": "Finanzdaten werden geladen...",
+      "errorLoading": "Wir konnten deine Finanzdaten nicht laden. Bitte versuche es erneut.",
+      "backToDashboard": "Zurück zum Dashboard"
+    },
+    "orders": {
+      "title": "Bestellungen",
+      "loading": "Bestellungen werden geladen...",
+      "empty": "Du hast noch keine Bestellungen.",
+      "errorLoading": "@@AUTO@@ We couldn't load your orders. Please try again.",
+      "errorAuth": "@@AUTO@@ You need to be logged in to view orders.",
+      "errorGeneric": "@@AUTO@@ We couldn't load your orders. Please try again.",
+      "successConfirmed": "@@AUTO@@ Order confirmed!",
+      "errorConfirm": "@@AUTO@@ We couldn't confirm the order. Please try again.",
+      "successPreparing": "@@AUTO@@ Order marked as preparing!",
+      "errorPreparing": "@@AUTO@@ We couldn't mark the order as preparing. Please try again.",
+      "successShipped": "@@AUTO@@ Order marked as shipped!",
+      "errorShip": "@@AUTO@@ We couldn't mark the order as shipped. Please try again.",
+      "successDelivered": "@@AUTO@@ Order marked as delivered!",
+      "errorDelivered": "@@AUTO@@ We couldn't mark the order as delivered. Please try again.",
+      "successCanceled": "@@AUTO@@ Order canceled!",
+      "errorCancel": "@@AUTO@@ We couldn't cancel the order. Please try again.",
+      "confirmCancel": "@@AUTO@@ Are you sure you want to cancel this order? This action cannot be undone.",
+      "status": {
+        "all": "@@AUTO@@ All",
+        "pending": "@@AUTO@@ Pending",
+        "confirmed": "@@AUTO@@ Confirmed",
+        "preparing": "@@AUTO@@ Preparing",
+        "shipped": "@@AUTO@@ Shipped",
+        "delivered": "@@AUTO@@ Delivered",
+        "canceled": "@@AUTO@@ Canceled",
+        "uncollected": "@@AUTO@@ Uncollected"
+      },
+      "titleDesktop": "@@AUTO@@ Your orders",
+      "description": "@@AUTO@@ Manage received orders and delivery status.",
+      "emptyFiltered": "@@AUTO@@ No orders found with status \"{status}\".",
+      "orderSingular": "@@AUTO@@ order",
+      "orderPlural": "@@AUTO@@ orders"
+    },
+    "products": {
+      "title": "Produkte",
+      "errorLoading": "Wir konnten deine Produkte nicht laden. Bitte versuche es erneut.",
+      "searchPlaceholder": "@@AUTO@@ Search by name, description...",
+      "statusAll": "@@AUTO@@ All statuses",
+      "statusActive": "@@AUTO@@ ✅ Active",
+      "statusInactive": "@@AUTO@@ ⏸️ Inactive",
+      "statusLowStock": "@@AUTO@@ ⚠️ Low stock",
+      "stockAll": "@@AUTO@@ All stock levels",
+      "stockInStock": "@@AUTO@@ In stock",
+      "stockLowStock": "@@AUTO@@ Low stock (<5)",
+      "stockOutOfStock": "@@AUTO@@ Out of stock",
+      "sortName": "@@AUTO@@ Sort: Name A-Z",
+      "sortNameDesc": "@@AUTO@@ Sort: Name Z-A",
+      "sortPrice": "@@AUTO@@ Sort: Price ↑",
+      "sortPriceDesc": "@@AUTO@@ Sort: Price ↓",
+      "sortStock": "@@AUTO@@ Sort: Stock ↑",
+      "sortStockDesc": "@@AUTO@@ Sort: Stock ↓",
+      "sortRecent": "@@AUTO@@ Most recent",
+      "advancedFilters": "@@AUTO@@ Advanced filters",
+      "resetFilters": "@@AUTO@@ Reset",
+      "addProduct": "@@AUTO@@ + Add product",
+      "showing": "@@AUTO@@ Showing {filtered} of {total} products",
+      "total": "@@AUTO@@ {total} products in total",
+      "categoryAll": "@@AUTO@@ All categories",
+      "categoryLactate": "@@AUTO@@ Dairy",
+      "categoryCarne": "@@AUTO@@ Meat",
+      "categoryLegume": "@@AUTO@@ Vegetables",
+      "categoryFructe": "@@AUTO@@ Fruits",
+      "categoryMiere": "@@AUTO@@ Honey",
+      "categoryOua": "@@AUTO@@ Eggs",
+      "priceRange": "@@AUTO@@ Price range",
+      "priceMin": "@@AUTO@@ Min",
+      "priceMax": "@@AUTO@@ Max",
+      "productType": "@@AUTO@@ Product type",
+      "productTypeBio": "@@AUTO@@ Organic",
+      "productTypeTraditional": "@@AUTO@@ Traditional",
+      "errorAuth": "@@AUTO@@ You need to be logged in to view products.",
+      "errorGeneric": "@@AUTO@@ We couldn't load your products. Please try again.",
+      "successActivated": "@@AUTO@@ Product activated!",
+      "successDeactivated": "@@AUTO@@ Product deactivated!",
+      "errorToggle": "@@AUTO@@ We couldn't change the product status. Please try again.",
+      "errorDelete": "@@AUTO@@ We couldn't delete the product. Please try again.",
+      "successDelete": "@@AUTO@@ Product deleted!",
+      "confirmDelete": "@@AUTO@@ Are you sure you want to delete this product? This action cannot be undone."
+    },
+    "support": {
+      "title": "Produzenten-Support",
+      "description": "Hilfe und Unterstützung für Produzenten",
+      "sendMessage": "Nachricht senden",
+      "subject": "Betreff",
+      "selectSubject": "Betreff auswählen",
+      "priority": "Priorität",
+      "priorityNormal": "Normal",
+      "priorityHigh": "Hoch",
+      "descriptionLabel": "Detaillierte Beschreibung",
+      "descriptionPlaceholder": "Beschreibe dein Problem oder deine Frage im Detail...",
+      "attachment": "Anhang (optional)",
+      "selectFile": "Datei auswählen",
+      "attachmentHint": "Du kannst Screenshots oder relevante Dokumente anhängen (max. 5MB)",
+      "submit": "Nachricht senden",
+      "submitting": "Wird gesendet...",
+      "submitted": "Nachricht gesendet!",
+      "submittedMessage": "Wir werden so schnell wie möglich antworten.",
+      "submitAnother": "Weitere Nachricht senden",
+      "errorRequired": "Bitte fülle alle Pflichtfelder aus.",
+      "errorSubmit": "Wir konnten deine Nachricht nicht senden. Bitte versuche es erneut.",
+      "emailSupport": "E-Mail-Support",
+      "emailResponse": "Wir antworten innerhalb von 24 Stunden",
+      "usefulResources": "Nützliche Ressourcen",
+      "faq": "Häufig gestellte Fragen",
+      "subjectOrderIssues": "Bestellprobleme",
+      "subjectPaymentIssues": "Zahlungsprobleme",
+      "subjectProductIssues": "Produktprobleme",
+      "subjectSuggestions": "Vorschläge / Feedback",
+      "subjectOther": "Sonstiges",
+      "faqAddProduct": {
+        "question": "Wie füge ich ein neues Produkt hinzu?",
+        "answer": "Gehe zum Bereich Produkte im Dashboard und klicke auf den Button \"Neues Produkt hinzufügen\". Fülle die Produktinformationen aus und speichere."
+      },
+      "faqManageOrders": {
+        "question": "Wie verwalte ich Bestellungen?",
+        "answer": "Alle deine Bestellungen erscheinen im Bereich Bestellungen. Du kannst bestätigen, als versendet oder geliefert markieren direkt vom Dashboard aus."
+      },
+      "faqCommission": {
+        "question": "Wie funktioniert die Provision?",
+        "answer": "Die Provision wird aus tatsächlich bezahlten Verkäufen berechnet. Je mehr du verkaufst, desto mehr sinkt die Provision. Siehe Details im Bereich Provisionen."
+      },
+      "faqUncollected": {
+        "question": "Was passiert mit nicht abgeholten Bestellungen?",
+        "answer": "Die Plattform verwaltet die Umleitung zu Spenden (wo möglich). Du bleibst nicht mit verdorbener Ware sitzen."
+      },
+      "linkHowItWorks": "Wie farme.ro funktioniert",
+      "linkShippingGuide": "Versand- & Logistik-Leitfaden",
+      "linkCommissions": "Provisionen & Abonnements",
+      "linkContact": "Allgemeiner Kontakt",
+      "uploadComingSoon": "Die Datei-Upload-Funktion wird bald verfügbar sein."
+    }
+  },
+  "nav": {
+    "contact": "Kontakt",
+    "contactPage": {
+      "title": "Kontaktiere uns",
+      "subtitle": "Hast du Fragen? Wir sind hier, um dir zu helfen. Sende uns eine Nachricht und wir werden dir so schnell wie möglich antworten.",
+      "email": "Email",
+      "schedule": "Öffnungszeiten",
+      "scheduleWeekdays": "Montag - Freitag: 9:00 - 18:00",
+      "scheduleWeekend": "Samstag - Sonntag: Geschlossen",
+      "response": "Antwort",
+      "responseTime": "Wir antworten auf alle Nachrichten innerhalb von 24 Stunden.",
+      "support": "Support",
+      "supportDescription": "Für Fragen zu Bestellungen, Produkten oder deinem Konto, verwende bitte das Kontaktformular.",
+      "supportProducers": "Für Produzenten:",
+      "supportProducersLink": "Siehe die Seite für Produzenten",
+      "formTitle": "Nachricht senden",
+      "formName": "Vollständiger Name",
+      "formNamePlaceholder": "Max Mustermann",
+      "formEmail": "Email",
+      "formEmailPlaceholder": "max@example.com",
+      "formSubject": "Betreff",
+      "formSubjectPlaceholder": "Worum geht es in deiner Nachricht?",
+      "formMessage": "Nachricht",
+      "formMessagePlaceholder": "Schreibe deine Nachricht hier...",
+      "formSubmit": "Nachricht senden",
+      "formSubmitting": "Wird gesendet...",
+      "formSuccess": "✓ Deine Nachricht wurde erfolgreich gesendet! Wir werden dir so schnell wie möglich antworten.",
+      "formError": "✗ Ein Fehler ist aufgetreten. Bitte versuche es erneut."
+    },
+    "fees": "Provisionen & Gebühren",
+    "producerDashboard": "Produzenten-Dashboard",
+    "manageProducts": "Produkte verwalten",
+    "producerSupport": "Produzenten-Support"
+  },
+  "howItWorks": {
+    "hero": {
+      "title": "Wie Farme.ro funktioniert und wie wir jede Bestellung in echten Impact verwandeln",
+      "title2": "Gesund wachsen.",
+      "title3": "Keine Kompromisse.",
+      "subtitle": "farme.ro ist die Plattform, die Ihnen echte Kunden, Stabilität und Respekt für Ihre Produkte bringt.",
+      "cta1": "Erzeuger werden",
+      "cta2": "Sehen Sie, wie es funktioniert"
+    },
+    "problems": {
+      "title": "Wir wissen, was Sie durchmachen",
+      "problem1": {
+        "title": "Unvorhersehbare Verkäufe",
+        "description": "Sie wissen nicht, wann und wie viel Sie verkaufen werden. Die Abhängigkeit von Märkten und Veranstaltungen macht Sie verwundbar."
+      },
+      "problem2": {
+        "title": "Unzuverlässige Kunden",
+        "description": "Stornierte Bestellungen, Nichterscheinen, endlose Verhandlungen. Verschwendete Zeit und Energie."
+      },
+      "problem3": {
+        "title": "Zeitverschwendung in sozialen Medien",
+        "description": "Sie müssen ständig präsent sein, Inhalte erstellen, auf Nachrichten antworten. Sie haben keine Zeit für die Produktion."
+      },
+      "problem4": {
+        "title": "Zwischenhändler, die Ihren Gewinn reduzieren",
+        "description": "Jeder Zwischenhändler nimmt einen Teil Ihres Gewinns. Am Ende bleiben Sie mit niedrigen Preisen und niedrigen Margen zurück."
+      },
+      "footer": "farme.ro eliminiert diese Probleme und bietet Ihnen ein stabiles und vorhersehbares System."
+    },
+    "benefits": {
+      "title": "Was farme.ro Ihnen bietet",
+      "subtitle": "Eine Plattform, die für Sie entwickelt wurde, nicht für Zwischenhändler",
+      "benefit1": {
+        "title": "Zentralisierte Bestellungen",
+        "description": "Alle Bestellungen an einem Ort. Sie verschwenden keine Zeit mehr mit Telefonanrufen und Nachrichten auf mehreren Plattformen."
+      },
+      "benefit2": {
+        "title": "Vollständige Lagerkontrolle",
+        "description": "Sie können Produkte sofort aktivieren oder deaktivieren. Wenn Sie keinen Bestand mehr haben, können Kunden nicht bestellen."
+      },
+      "benefit3": {
+        "title": "Produkte sofort aktivieren/deaktivieren",
+        "description": "Kein Warten, keine Anrufe. Ein Klick und Ihr Produkt erscheint oder verschwindet aus der Liste."
+      },
+      "benefit4": {
+        "title": "Kunden, die im Voraus zahlen (Karte)",
+        "description": "Sichere Online-Zahlungen. Sie haben nicht mehr das Risiko von Nichtzahlung oder stornierten Bestellungen im letzten Moment."
+      },
+      "benefit5": {
+        "title": "Anti-Verschwendungssystem (nicht abgeholte Pakete → Spenden)",
+        "description": "Wenn ein Kunde die Bestellung nicht abholt, gehen die Produkte in Spenden. Sie erhalten das Geld, die Gemeinschaft erhält Nahrung."
+      },
+      "benefit6": {
+        "title": "Organisches Wachstum über die Plattform",
+        "description": "Kunden finden Sie, bestellen, kehren zurück. Sie bauen eine Basis wiederkehrender Kunden ohne Marketingaufwand auf."
+      },
+      "benefit7": {
+        "title": "Nationale Sichtbarkeit",
+        "description": "Ihre Produkte sind im ganzen Land sichtbar. Sie sind nicht mehr nur vom lokalen Markt abhängig."
+      }
+    },
+    "howItWorks": {
+      "title": "Wie es für Sie funktioniert",
+      "step1": {
+        "title": "Sie registrieren sich",
+        "description": "Erstellen Sie Ihr Konto in wenigen Minuten. Wir überprüfen schnell und Sie sind bereit zu verkaufen."
+      },
+      "step2": {
+        "title": "Fügen Sie Ihre Produkte hinzu",
+        "description": "Fügen Sie Produkte, Preise, Fotos und Bestand hinzu. Alles an einem Ort."
+      },
+      "step3": {
+        "title": "Erhalten Sie Bestellungen",
+        "description": "Kunden bestellen direkt. Sie erhalten Benachrichtigungen und sehen alles im Dashboard."
+      },
+      "step4": {
+        "title": "Liefern und verdienen",
+        "description": "Liefern Sie die Bestellung und erhalten Sie das Geld. Einfach, transparent, vorhersehbar."
+      },
+      "dashboard": {
+        "title": "Erzeuger-Dashboard",
+        "monthlySales": "Monatliche Verkäufe",
+        "activeOrders": "Aktive Bestellungen",
+        "paymentStatus": "Zahlungsstatus",
+        "onTime": "Pünktlich",
+        "footer": "Beispieloberfläche. Echte Daten werden in Ihrem Konto angezeigt."
+      }
+    },
+    "subscriptions": {
+      "title": "Abonnements, die Ihnen Stabilität und Sichtbarkeit bringen",
+      "recommended": "Empfohlen",
+      "plan1": {
+        "name": "START PLAN",
+        "price": "19€/Monat",
+        "feature1": "Produktauflistung",
+        "feature2": "Erzeugerprofil",
+        "feature3": "Unbegrenzte Bestellungen",
+        "feature4": "Tool für automatische Social-Media-Posts",
+        "feature5": "Basisstatistiken"
+      },
+      "plan2": {
+        "name": "PRO PLAN",
+        "price": "39€/Monat",
+        "feature1": "Promotion auf der Startseite",
+        "feature2": "Vorzugskommission",
+        "feature3": "Erweiterte Statistiken",
+        "feature4": "SEO-Empfehlungen",
+        "feature5": "Alle START-Funktionen"
+      },
+      "footer": "Die Provision sinkt, je mehr Sie verkaufen.",
+      "cta": "Vollständige Pläne ansehen"
+    },
+    "testimonial": {
+      "quote": "Seit ich auf farme.ro verkaufe, bin ich nicht mehr von Märkten und Zwischenhändlern abhängig. Ich verkaufe konstant und fair.",
+      "author": "Lokaler Erzeuger, Prahova"
+    },
+    "finalCta": {
+      "title": "Es ist Zeit, dass Ihre Produkte dorthin gelangen, wo sie es verdienen.",
+      "button": "Werden Sie farme.ro-Erzeuger",
+      "subtitle": "Die Registrierung dauert weniger als 5 Minuten."
+    },
+    "filters": {
+      "searchPlaceholder": "@@AUTO@@ Caută producător sau produs…",
+      "bio": "@@AUTO@@ Bio",
+      "traditional": "@@AUTO@@ Tradițional",
+      "artisanal": "@@AUTO@@ Artizanal",
+      "sortLabel": "@@AUTO@@ Sortează după",
+      "sortRelevance": "@@AUTO@@ Relevanță",
+      "sortRating": "@@AUTO@@ Rating",
+      "sortPopular": "@@AUTO@@ Cele mai populare"
+    },
+    "available": "@@AUTO@@ Producători disponibili",
+    "chooseDescription": "@@AUTO@@ Alege producătorii preferați și comandă direct din gospodăriile lor.",
+    "card": {
+      "exampleProduct1": "@@AUTO@@ Brânză maturată de capră",
+      "exampleProduct2": "@@AUTO@@ Miere polifloră",
+      "deliveryCourier": "@@AUTO@@ Livrare curier",
+      "deliveryLocal": "@@AUTO@@ Ridicare locală"
+    },
+    "errors": {
+      "loadFailed": "@@AUTO@@ Eroare la încărcarea producătorilor"
+    },
+    "metadata": {
+      "notFound": "@@AUTO@@ Producător negăsit",
+      "notFoundDescription": "@@AUTO@@ Producătorul căutat nu a fost găsit.",
+      "producerLocal": "@@AUTO@@ producător local",
+      "discover": "@@AUTO@@ Descoperă produsele de la",
+      "from": "@@AUTO@@ din",
+      "romania": "@@AUTO@@ România",
+      "traditionalBio": "@@AUTO@@ Produse tradiționale și bio livrate direct de la sursă.",
+      "productsFrom": "@@AUTO@@ Produse de la",
+      "discoverAll": "@@AUTO@@ Descoperă toate produsele de la",
+      "fromRomania": "@@AUTO@@ din România",
+      "keywords": {
+        "traditional": "@@AUTO@@ produse tradiționale",
+        "bio": "@@AUTO@@ produse bio"
+      },
+      "producerLocalFrom": "Lokaler Produzent von"
+    }
+  },
+  "howItWorks": {
+    "hero": {
+      "title": "Wie Farme.ro funktioniert und wie wir jede Bestellung in echten Impact verwandeln",
+      "subtitle": "Der Marketplace, der lokale Erzeuger, verantwortungsbewusste Kunden und Gemeinschaften, die Unterstützung brauchen, verbindet.",
+      "chain": {
+        "producer": "Erzeuger",
+        "client": "Kunde",
+        "community": "Gemeinschaft"
+      },
+      "button1": "Sehen Sie, wie es funktioniert",
+      "button2": "Ihr sozialer Impact"
+    },
+    "steps": {
+      "step1": {
+        "title": "Wählen Sie lokale Produkte",
+        "description": "Entdecken Sie die große Auswahl an traditionellen und biologischen Produkten von verifizierten Erzeugern in ganz Rumänien."
+      },
+      "step2": {
+        "title": "Bestellen Sie direkt bei Erzeugern",
+        "description": "Ohne Zwischenhändler. Ihre Bestellung geht direkt an den Erzeuger und gewährleistet faire Preise und maximale Frische."
+      },
+      "step3": {
+        "title": "Die Lieferung wird von ihnen verwaltet",
+        "description": "Erzeuger verwalten ihre eigenen Lieferungen und gewährleisten die vollständige Kontrolle über Qualität und Frische der Produkte."
+      },
+      "step4": {
+        "title": "Sie tragen zur lokalen Wirtschaft bei",
+        "description": "Jede Bestellung unterstützt direkt lokale Landwirte und Erzeuger und schafft echten Impact in Gemeinschaften."
+      }
+    },
+    "howItWorksSection": {
+      "title": "Wie die Plattform funktioniert",
+      "subtitle": "Einfach und transparent",
+      "note": "Auf Farme.ro werden Produkte direkt von Erzeugern geliefert, was die lokale Wirtschaft unterstützt und die Frische der Lebensmittel erhält."
+    },
+    "uncollectedOrders": {
+      "title": "Wenn eine Bestellung nicht abgeholt wird, entsteht eine soziale Gelegenheit",
+      "intro": "Der Kunde wird beim Checkout klar über die Abholfrist informiert.",
+      "ifNotPicked": "Wenn das Produkt nicht rechtzeitig abgeholt wird:",
+      "point1": "wird es nicht weggeworfen",
+      "point2": "wird es nicht verschwendet",
+      "point3": "wird es an soziale Zentren / Kantinen / gefährdete Personen weitergeleitet",
+      "quote": "Manchmal kann eine nicht abgeholte Bestellung zu einer warmen Mahlzeit für jemanden werden, der sie wirklich braucht.",
+      "badge1": "Null Verschwendung",
+      "badge2": "Transparente Rückverfolgbarkeit",
+      "badge3": "Echter Impact"
+    },
+    "impact": {
+      "scenario1": {
+        "title": "Direkte Unterstützung",
+        "description": "Ihre Bestellungen unterstützen lokale Landwirte und ermöglichen es ihnen, Traditionen fortzusetzen und nachhaltige Unternehmen zu entwickeln."
+      },
+      "scenario2": {
+        "title": "Null Verschwendung",
+        "description": "Nicht abgeholte Produkte werden zur Unterstützung für andere. Wir verwandeln jede Bestellung in eine Gelegenheit der Solidarität."
+      },
+      "scenario3": {
+        "title": "Stärkere Gemeinschaften",
+        "description": "Verantwortungsvoller Konsum schafft Gemeinschaften. Jeder Kauf trägt zu einer widerstandsfähigeren lokalen Wirtschaft bei."
+      }
+    },
+    "socialImpact": {
+      "title": "Ihr Impact geht weiter"
+    },
+    "policy": {
+      "title": "Verantwortliche Politik zu nicht abgeholten Bestellungen",
+      "description1": "Um die Nachhaltigkeit der Plattform und das logistische Gleichgewicht zu erhalten, können nicht abgeholte Bestellungen vorübergehend eine zusätzliche Logistikgebühr bei nachfolgenden Bestellungen nach sich ziehen.",
+      "description2": "Diese Maßnahme ist nicht strafend, sondern soll Fairness für Erzeuger und Serviceeffizienz gewährleisten."
+    },
+    "producerBenefits": {
+      "title": "Warum Erzeuger Farme.ro wählen",
+      "benefit1": "Vollständige Lagerkontrolle",
+      "benefit2": "Möglichkeit, Produkte sofort zu deaktivieren",
+      "benefit3": "Transparenz über Bestellungen",
+      "benefit4": "Nationale Sichtbarkeit",
+      "benefit5": "Digitale Tools für Promotion"
+    },
+    "mission": {
+      "title": "Farme.ro Mission",
+      "description": "Farme.ro ist nicht nur eine Verkaufsplattform. Es ist eine Initiative, die fairen Handel, Lebensmittelnachhaltigkeit und soziale Solidarität kombiniert."
+    },
+    "cta": {
+      "title": "Bereit, Teil des Wandels zu sein?",
+      "button1": "Verantwortungsvoll einkaufen",
+      "button2": "Werden Sie Erzeugerpartner"
+    }
+  },
+  "faq": {
+    "categories": {
+      "platform": {
+        "title": "Über die Plattform",
+        "q1": {
+          "question": "Was ist farme.ro?",
+          "answer": "farme.ro ist ein Online-Marketplace, der lokale Erzeuger traditioneller landwirtschaftlicher Produkte mit Kunden verbindet, die authentische und qualitativ hochwertige Produkte suchen. Wir bieten eine direkte Plattform ohne Zwischenhändler, um die lokale Wirtschaft zu unterstützen und rumänische Traditionen zu fördern."
+        },
+        "q2": {
+          "question": "Wie funktioniert farme.ro?",
+          "answer": "Registrierte Erzeuger können ihre Produkte zur Plattform hinzufügen. Kunden können Produkte direkt bei Erzeugern suchen, filtern und bestellen. Jede Bestellung wird direkt vom Erzeuger zum Kunden verarbeitet und geliefert, was Frische und Qualität der Produkte gewährleistet."
+        },
+        "q3": {
+          "question": "Sind die Produkte verifiziert?",
+          "answer": "Ja, alle Erzeuger werden überprüft, bevor sie ihre Produkte auflisten können. Wir überprüfen Dokumente, Produktqualität und Einhaltung von Lebensmittelsicherheitsstandards."
+        },
+        "q4": {
+          "question": "Wie kann ich die Produkte finden, die ich suche?",
+          "answer": "Sie können Produkte mit der Suchleiste suchen, nach Kategorie, Region oder Preis filtern. Sie können auch Erzeuger und ihre Produkte direkt von den dedizierten Seiten aus erkunden."
+        }
+      },
+      "orders": {
+        "title": "Bestellungen und Lieferung",
+        "q1": {
+          "question": "Wie kann ich eine Bestellung aufgeben?",
+          "answer": "Sie können eine Bestellung aufgeben, indem Sie die gewünschten Produkte auswählen, sie zum Warenkorb hinzufügen und die Bestellung über den Checkout-Prozess abschließen. Sie erhalten eine Bestellbestätigung per E-Mail und werden vom Erzeuger für Lieferdetails kontaktiert."
+        },
+        "q2": {
+          "question": "Wie erfolgt die Lieferung?",
+          "answer": "Die Lieferung wird direkt vom Erzeuger verwaltet. Jeder Erzeuger hat seine eigenen Lieferoptionen und -kosten. Die Lieferdetails werden nach der Bestellung mitgeteilt."
+        },
+        "q3": {
+          "question": "Kann ich eine Bestellung stornieren?",
+          "answer": "Die Stornierung der Bestellung hängt von ihrem Status ab. Wenn die Bestellung noch nicht vom Erzeuger verarbeitet wurde, können Sie den Erzeuger direkt oder unser Support-Team für die Stornierung kontaktieren."
+        },
+        "q4": {
+          "question": "Wie lange dauert die Lieferung?",
+          "answer": "Die Lieferzeit variiert je nach Erzeuger und Ihrem Standort. Normalerweise werden Bestellungen innerhalb von 2-7 Werktagen geliefert. Der Erzeuger informiert Sie über die genaue Lieferzeit nach der Bestellung."
+        },
+        "q5": {
+          "question": "Kann ich meine Bestellung verfolgen?",
+          "answer": "Ja, Sie erhalten E-Mail-Benachrichtigungen über den Status Ihrer Bestellung. Sie können auch den Bestellstatus von Ihrem Konto auf der Plattform überprüfen."
+        }
+      },
+      "payments": {
+        "title": "Zahlungen",
+        "q1": {
+          "question": "Welche Zahlungsmethoden akzeptieren Sie?",
+          "answer": "Wir akzeptieren Zahlungen per Bankkarte, Banküberweisung und andere sichere Zahlungsmethoden. Alle Zahlungen werden über sichere und zertifizierte Drittanbieterdienste verarbeitet."
+        },
+        "q2": {
+          "question": "Wann wird die Zahlung verarbeitet?",
+          "answer": "Die Zahlung wird nach Bestätigung der Bestellung durch den Erzeuger verarbeitet. Bei Produkten mit Vorbestellungs-Lieferung kann die Zahlung je nach Politik des Erzeugers teilweise oder vollständig verarbeitet werden."
+        },
+        "q3": {
+          "question": "Ist es sicher, online zu zahlen?",
+          "answer": "Ja, alle Zahlungen werden über sichere und zertifizierte Drittanbieterdienste verarbeitet. Wir speichern keine Kreditkarteninformationen oder Zahlungsmethoden."
+        },
+        "q4": {
+          "question": "Kann ich eine Steuerrechnung erhalten?",
+          "answer": "Ja, Sie können beim Bestellen eine Steuerrechnung anfordern. Die Rechnung wird vom Erzeuger ausgestellt und zusammen mit den Produkten oder per E-Mail gesendet."
+        },
+        "q5": {
+          "question": "Was passiert, wenn die Zahlung nicht akzeptiert wird?",
+          "answer": "Wenn die Zahlung nicht akzeptiert wird, erhalten Sie eine Benachrichtigung und können es mit einer anderen Zahlungsmethode erneut versuchen. Die Bestellung wird nicht verarbeitet, bis die Zahlung bestätigt ist."
+        }
+      },
+      "producers": {
+        "title": "Für Erzeuger",
+        "q1": {
+          "question": "Wie kann ich mich als Erzeuger registrieren?",
+          "answer": "Sie können ein Erzeugerkonto erstellen, indem Sie auf die Seite \"Für Erzeuger\" zugreifen und das Registrierungsformular ausfüllen. Sie werden von unserem Team zur Überprüfung und Genehmigung kontaktiert."
+        },
+        "q2": {
+          "question": "Wie hoch sind die Provisionen?",
+          "answer": "Die Provisionen variieren je nach Produkttyp und Verkaufsvolumen. Vollständige Details zu Provisionen und Zahlungen sind nach der Registrierung im Erzeugerportal verfügbar."
+        },
+        "q3": {
+          "question": "Wie verwalte ich Bestellungen?",
+          "answer": "Nach der Registrierung haben Sie Zugriff auf ein dediziertes Portal, in dem Sie Produkte, Bestellungen, Lagerbestände und Zahlungen verwalten können. Sie erhalten Benachrichtigungen für jede neue Bestellung."
+        },
+        "q4": {
+          "question": "Wie erhalte ich die Zahlung für verkaufte Produkte?",
+          "answer": "Die Zahlung wird nach Abschluss und Lieferung der Bestellung auf Ihr Bankkonto überwiesen. Die Zahlungshäufigkeit kann im Erzeugerportal konfiguriert werden."
+        },
+        "q5": {
+          "question": "Welche Dokumente sind für die Registrierung erforderlich?",
+          "answer": "Um sich als Erzeuger zu registrieren, benötigen Sie Ausweisdokumente, Dokumente, die Ihre landwirtschaftliche Tätigkeit belegen, und gegebenenfalls Gesundheitsgenehmigungen für Ihre Produkte."
+        }
+      }
+    },
+    "hero": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Finden Sie schnelle Antworten auf die häufigsten Fragen zu farme.ro. Wenn Sie nicht finden, wonach Sie suchen, sind wir hier, um zu helfen.",
+      "button1": "Kontaktieren Sie uns",
+      "button2": "Für Erzeuger"
+    },
+    "cta": {
+      "title": "Benötigen Sie zusätzliche Hilfe?",
+      "description": "Wenn Sie spezifische Fragen haben oder persönliche Unterstützung benötigen, ist unser Team hier, um zu helfen. Kontaktieren Sie uns und wir werden so schnell wie möglich antworten.",
+      "button1": "Kontaktieren Sie uns",
+      "button2": "Erzeuger werden"
+    },
+    "stats": {
+      "responseTime": "Garantierte Antwort",
+      "dedicatedSupport": "Dedizierter Support"
+    },
+    "resources": {
+      "title": "Zusätzliche Ressourcen",
+      "description": "Erkunden Sie weitere Informationen über farme.ro und wie Sie von unserer Plattform profitieren können",
+      "about": {
+        "title": "Über uns",
+        "description": "Erfahren Sie mehr über die Mission und Werte von farme.ro"
+      },
+      "producers": {
+        "title": "Für Erzeuger",
+        "description": "Werden Sie Erzeuger und verkaufen Sie Ihre Produkte auf der Plattform"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "description": "Senden Sie uns eine Nachricht und wir werden schnell antworten"
+      }
+    }
+  },
+  "products": {
+    "header": {
+      "title": "Produkte von lokalen Erzeugern",
+      "description": "Wählen Sie aus saisonalen Produkten, direkt von den Erzeugern. Erzeugerpreis, kein Supermarkt zwischen Ihnen.",
+      "subtitle": "@@AUTO@@ Alege din produse de sezon, direct de la producători. Preț de producător, fără supermarket între voi."
+    },
+    "filters": {
+      "searchLabel": "Produkt / Erzeuger suchen",
+      "searchPlaceholder": "Produkt / Erzeuger suchen...",
+      "categoryLabel": "Kategorie",
+      "allCategories": "Alle Kategorien",
+      "categoryFruits": "Früchte",
+      "categoryVegetables": "Gemüse",
+      "categoryDairy": "Milchprodukte",
+      "categoryMeat": "Fleisch",
+      "categoryHoney": "Honig & Süßigkeiten",
+      "categoryMixed": "Gemischtes Paket",
+      "regionLabel": "Region",
+      "allRegions": "Alle Regionen",
+      "minPriceLabel": "Mindestpreis (RON)",
+      "minPricePlaceholder": "Min",
+      "maxPriceLabel": "Höchstpreis (RON)",
+      "maxPricePlaceholder": "Max",
+      "applyButton": "Filter anwenden",
+      "clearButton": "Filter löschen",
+      "activeFiltersLabel": "Aktive Filter:",
+      "priceRange": "Preis: {{min}} - {{max}} RON",
+      "category": {
+        "fruits": "Früchte",
+        "vegetables": "Gemüse",
+        "dairy": "Milchprodukte",
+        "meat": "Fleisch",
+        "honey": "Honig & Süßigkeiten",
+        "mixed": "Gemischtes Paket"
+      },
+      "applyFilters": "Filter anwenden",
+      "clearFilters": "Filter löschen",
+      "activeFilters": "Aktive Filter:"
+    },
+    "foundCount": "{count} Produkte gefunden",
+    "results": {
+      "count": "{{count}} {{label}}",
+      "product": "Produkt gefunden",
+      "products": "Produkte gefunden"
+    },
+    "errors": {
+      "loadFailed": "Fehler beim Laden der Produkte",
+      "title": "@@AUTO@@ Eroare"
+    },
+    "metadata": {
+      "producerLocal": "@@AUTO@@ producător local",
+      "buy": "@@AUTO@@ Cumpără",
+      "from": "@@AUTO@@ de la",
+      "onPlatform": "@@AUTO@@ pe farme.ro",
+      "bio": "@@AUTO@@ Produs bio",
+      "traditional": "@@AUTO@@ Produs tradițional",
+      "price": "@@AUTO@@ Preț",
+      "notFound": "@@AUTO@@ Produs negăsit",
+      "notFoundDescription": "@@AUTO@@ Produsul căutat nu a fost găsit.",
+      "keywords": {
+        "agricultural": "@@AUTO@@ produse agricole",
+        "traditional": "@@AUTO@@ produse tradiționale",
+        "bio": "@@AUTO@@ produse bio"
+      }
+    }
+  },
+  "fees": {
+    "hero": {
+      "badge": "Transparent für Kunden und Erzeuger",
+      "title": "Gebühren & Provisionen einfach erklärt",
+      "subtitle": "Auf farme.ro zahlen Sie Erzeugerpreise und sehen klar, was Lieferkosten und Plattformprovision bedeuten. Keine versteckten Überraschungen.",
+      "pill1": {
+        "title": "Erzeugerpreis",
+        "description": "Produkte werden von echten Erzeugern gelistet, und die Preise werden von ihnen festgelegt."
+      },
+      "pill2": {
+        "title": "Transparente Provision",
+        "description": "Ein kleiner Teil des Bestellwerts geht an farme.ro für den Betrieb und die Entwicklung der Plattform."
+      },
+      "pill3": {
+        "title": "Keine versteckten Kosten",
+        "description": "Sehen Sie die Endkosten vor der Bestätigung Ihrer Bestellung, einschließlich Lieferung."
+      }
+    },
+    "producerPrice": {
+      "title": "Was bedeutet \"Erzeugerpreis\"?",
+      "description": "farme.ro ist ein Marketplace. Das bedeutet, dass wir nicht die Produktpreise festlegen, sondern die Erzeuger. Sie setzen den richtigen Preis für ihre Arbeit, und Sie sehen diese Preise direkt auf der Plattform. farme.ro behält nur eine transparente Provision, um zu funktionieren und ihre Produkte zu bewerben.",
+      "forClient": {
+        "title": "Für Sie als Kunde",
+        "description": "Sie zahlen einen fairen Preis, direkt von der Quelle, ohne unklare Aufschläge auf dem Weg."
+      },
+      "forProducer": {
+        "title": "Für Erzeuger",
+        "description": "Erhält mehr vom endgültigen Warenkorbwert und kann Produktion und Lieferungen besser planen."
+      }
+    },
+    "orderBreakdown": {
+      "title": "Was Sie beim Bestellen zahlen",
+      "subtitle": "Struktur einer typischen Bestellung",
+      "products": {
+        "label": "1. Produktwert",
+        "destination": "→ Erzeuger",
+        "description": "Die Summe der Produkte, die Sie wählen. Dieses Geld geht größtenteils direkt an den Erzeuger."
+      },
+      "shipping": {
+        "label": "2. Lieferkosten",
+        "destination": "→ Kurier / Logistik",
+        "description": "Festgelegt basierend auf Entfernung, Gewicht und Liefermethode (Hauslieferung oder Abholpunkt, wo verfügbar)."
+      },
+      "commission": {
+        "label": "3. farme.ro Provision",
+        "destination": "→ Plattform",
+        "description": "Ein kleiner Prozentsatz des Bestellwerts, verwendet für Plattformbetrieb, Support, Entwicklung, Erzeugerwerbung und soziale Impact-Projekte."
+      },
+      "important": {
+        "title": "Wichtig:",
+        "points": {
+          "0": "Sie sehen immer die Endkosten vor der Bestätigung Ihrer Bestellung.",
+          "1": "Wir fügen keine versteckten Gebühren im letzten Schritt hinzu.",
+          "2": "Im Laufe der Zeit werden wir noch klarer anzeigen, wie viel an den Erzeuger und wie viel an die Plattform geht."
+        }
+      }
+    },
+    "payment": {
+      "title": "Kartenzahlung vs. Nachnahme",
+      "card": {
+        "title": "Kartenzahlung (empfohlen)",
+        "badge": "Empfohlen",
+        "description": "Es ist die sicherste und effizienteste Option für Sie und Erzeuger. Die Bestellung ist bestätigt, und das Risiko nicht abgeholter Produkte ist geringer.",
+        "points": {
+          "0": "Schnellerer Prozess bei der Lieferung.",
+          "1": "Weniger Risiko von Lebensmittelverschwendung.",
+          "2": "Kann in Zukunft mit zusätzlichen Vorteilen (Belohnungen, Angebote) kommen."
+        }
+      },
+      "cash": {
+        "title": "Nachnahme (wo verfügbar)",
+        "badge": "Begrenzt / nach Gebiet",
+        "description": "In bestimmten Situationen können Sie direkt bei der Lieferung zahlen. Um Erzeuger vor nicht abgeholten Bestellungen zu schützen, können für diese Zahlungsart zusätzliche Logistikgebühren anfallen.",
+        "points": {
+          "0": "Es können zusätzliche Bearbeitungs-/Transportgebühren für Nachnahme anfallen.",
+          "1": "Die Option kann für Benutzer mit vielen nicht abgeholten Bestellungen begrenzt sein.",
+          "2": "Die genauen Details werden klar auf der Checkout-Seite angezeigt."
+        }
+      }
+    },
+    "earnings": {
+      "title": "Wie Erzeuger verdienen. Wie farme.ro verdient.",
+      "producers": {
+        "title": "Erzeuger",
+        "description": "Erzeuger erhalten den Betrag der verkauften Produkte, abzüglich einer klaren Plattformprovision. Im Gegenzug erhalten sie Zugang zu neuen Kunden, Online-Sichtbarkeit, Bestellverwaltungstools und in Zukunft Werbeoptionen."
+      },
+      "platform": {
+        "title": "farme.ro",
+        "description": "Die Plattform verdient aus einer kleinen Provision pro Transaktion und möglicherweise aus Abonnements für Erzeuger oder zusätzliche Dienstleistungen. Das Ziel ist es, ein fairer und ausgewogener Ort für alle zu bleiben: Kunden, Erzeuger und Gemeinschaft."
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "q1": {
+        "question": "Zahle ich noch etwas anderes außer dem, was ich beim Checkout sehe?",
+        "answer": "Nein. Alles, was Sie auf der Checkout-Seite sehen, ist alles, was Sie zahlen. Wir fügen keine versteckten Gebühren oder zusätzlichen Steuern hinzu, nachdem Sie Ihre Bestellung bestätigt haben."
+      },
+      "q2": {
+        "question": "Warum kostet die Lieferung so viel?",
+        "answer": "Die Lieferkosten hängen von Entfernung, Gewicht und Liefermethode ab. Jeder Erzeuger verwaltet seine eigenen Lieferungen, und die Kosten werden von ihnen oder ihren Logistikpartnern festgelegt. Sie sehen die genauen Kosten vor der Bestätigung Ihrer Bestellung."
+      },
+      "q3": {
+        "question": "Kann ich sehen, wie viel der Erzeuger aus meiner Bestellung erhält?",
+        "answer": "Derzeit sehen Sie den Gesamtproduktwert und die Lieferkosten. Während wir die Plattform entwickeln, werden wir die genaue Verteilung noch klarer anzeigen: wie viel an den Erzeuger, wie viel an die Lieferung und wie viel an die Plattform geht."
+      },
+      "q4": {
+        "question": "Ändert sich die Provision für bestimmte Bestellungen?",
+        "answer": "Die Plattformprovision ist konsistent und transparent. Sie variiert nicht nach Produkttyp oder Bestellwert. Wenn es Unterschiede gibt (z. B. für Nachnahme), werden diese klar angezeigt, bevor Sie Ihre Bestellung bestätigen."
+      },
+      "q5": {
+        "question": "Gibt es versteckte Kosten oder zusätzliche Gebühren?",
+        "answer": "Nein. Alles, was Sie zahlen, ist klar auf der Checkout-Seite angezeigt: Produktwert, Lieferkosten und Plattformprovision. Es gibt keine versteckten Kosten oder zusätzlichen Gebühren, die nach der Bestätigung Ihrer Bestellung erscheinen."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Über farme.ro",
+      "subtitle": "Wir verbinden lokale Erzeuger mit Kunden, die authentische und traditionelle Produkte suchen, unterstützen die lokale Wirtschaft und fördern die Werte der nachhaltigen Landwirtschaft in Rumänien.",
+      "description": "Wir verbinden lokale Erzeuger mit Kunden, die authentische und traditionelle Produkte suchen, unterstützen die lokale Wirtschaft und fördern die Werte der nachhaltigen Landwirtschaft in Rumänien.",
+      "feature1": "Verifizierte Erzeuger",
+      "feature2": "Schnelle Lieferung",
+      "feature3": "Faire Preise",
+      "badge1": "Verifizierte Erzeuger",
+      "badge2": "Schnelle Lieferung",
+      "badge3": "Faire Preise"
+    },
+    "story": {
+      "title": "Unsere Geschichte",
+      "paragraph1": "farme.ro entstand aus der Beobachtung, dass es einen echten Bedarf gibt, lokale Erzeuger in Rumänien mit Kunden zu verbinden, die authentische, traditionelle und qualitativ hochwertige Produkte suchen. Viele Landwirte und kleine Erzeuger haben keinen Zugang zum Markt oder zu den notwendigen Ressourcen, um ihre Produkte zu bewerben.",
+      "paragraph2": "Gleichzeitig haben Kunden in großen Städten Schwierigkeiten, authentische traditionelle Produkte zu finden, ohne Zwischenhändler, die die Preise erhöhen oder die Qualität beeinträchtigen.",
+      "paragraph3": "Unsere Plattform löst dieses Problem, indem sie einen direkten, transparenten und benutzerfreundlichen Marktplatz bietet, auf dem Erzeuger direkt an Kunden verkaufen können und Kunden traditionelle rumänische Produkte mit Vertrauen entdecken und kaufen können."
+    },
+    "missionValues": {
+      "title": "Unsere Mission und Werte",
+      "subtitle": "Die Prinzipien, die uns bei der Schaffung einer nachhaltigen Gemeinschaft von Erzeugern und Kunden leiten, basierend auf Vertrauen, Transparenz und Respekt für rumänische Traditionen.",
+      "values": {
+        "0": {
+          "title": "Authentische Produkte",
+          "description": "Wir überprüfen und fördern nur traditionelle und biologische Produkte von verifizierten Erzeugern und gewährleisten die Authentizität und Qualität jedes Produkts."
+        },
+        "1": {
+          "title": "Unterstützung für lokale Erzeuger",
+          "description": "Wir bieten Erzeugern eine zugängliche Plattform, um ihre Produkte direkt an Kunden zu verkaufen, ohne kostspielige Zwischenhändler oder versteckte Provisionen."
+        },
+        "2": {
+          "title": "Transparenz und Qualität",
+          "description": "Jeder Erzeuger wird überprüft, und Produkte werden bewertet, um hohe Qualitätsstandards und vollständige Transparenz zu gewährleisten."
+        },
+        "3": {
+          "title": "Nachhaltige Landwirtschaft",
+          "description": "Wir fördern nachhaltige und umweltfreundliche landwirtschaftliche Praktiken und unterstützen Erzeuger, die solche verantwortungsvollen Methoden anwenden."
+        }
+      }
+    },
+    "howWeWork": {
+      "title": "Wie wir arbeiten",
+      "subtitle": "Unsere internen Prozesse, die die Qualität und Transparenz der Plattform gewährleisten",
+      "step1": {
+        "title": "Erzeugerüberprüfung",
+        "description": "Jeder Erzeuger wird überprüft, Dokumente werden analysiert und Produkte werden auf Qualität und Authentizität bewertet."
+      },
+      "step2": {
+        "title": "Produktauflistung",
+        "description": "Erzeuger können Produkte mit vollständigen Details, Bildern und transparenten Preisen hochladen, ohne versteckte Provisionen."
+      },
+      "step3": {
+        "title": "Sichere Zahlungen",
+        "description": "Sicheres Zahlungssystem, das sowohl Erzeuger als auch Kunden schützt, mit schneller und transparenter Abwicklung."
+      },
+      "step4": {
+        "title": "Logistik und Lieferung",
+        "description": "Wir koordinieren die direkte Lieferung vom Erzeuger zum Kunden und stellen sicher, dass Produkte frisch und in optimalem Zustand ankommen."
+      },
+      "step5": {
+        "title": "Kontinuierlicher Support",
+        "description": "Unser Team bietet sowohl Erzeugern als auch Kunden Support und gewährleistet eine positive Erfahrung für alle."
+      }
+    },
+    "cta": {
+      "client": {
+        "title": "Mit dem Einkaufen beginnen",
+        "description": "Entdecken Sie die große Auswahl an traditionellen und biologischen Produkten von verifizierten lokalen Erzeugern",
+        "button": "Produkte ansehen"
+      },
+      "producer": {
+        "title": "Erzeuger werden",
+        "description": "Treten Sie dem farme.ro-Programm bei und verkaufen Sie Ihre Produkte direkt an Kunden, ohne Zwischenhändler",
+        "button": "Mehr erfahren"
+      }
+    }
+  },
+  "anpc": {
+    "title": "Streitbeilegung / ANPC",
+    "subtitle": "Informationen über deine Verbraucherrechte und Methoden zur Streitbeilegung",
+    "consumerRights": {
+      "title": "Deine Verbraucherrechte",
+      "intro": "Gemäß rumänischem Recht hast du Anspruch auf:",
+      "list1": "Produkte, die der Beschreibung und versprochenen Qualität entsprechen",
+      "list2": "Klare Informationen über Preise, Eigenschaften und Lieferbedingungen",
+      "list3": "Schutz vor unlauteren Geschäftspraktiken",
+      "list4": "Rückgaberecht innerhalb der gesetzlichen Frist (14 Tage bei Fernabsatz)",
+      "list5": "Garantie für defekte Produkte"
+    },
+    "amicableResolution": {
+      "title": "Gütliche Einigung",
+      "intro": "Bitte kontaktiere uns direkt, bevor du die ANPC kontaktierst, um Probleme zu lösen:",
+      "contactLabel": "Kontakt farme.ro",
+      "responseTime": "Wir antworten innerhalb von 48 Stunden und bemühen uns, alle Probleme schnell und korrekt zu lösen."
+    },
+    "anpc": {
+      "title": "Nationale Behörde für Verbraucherschutz (ANPC)",
+      "intro": "Wenn wir das Problem nicht gütlich lösen konnten, kannst du die ANPC kontaktieren:",
+      "officialSite": "Offizielle ANPC-Website",
+      "odrPlatform": "ODR-Plattform (Online-Streitbeilegung)",
+      "odrDescription": "Europäische Plattform zur Online-Beilegung von Streitigkeiten zwischen Verbrauchern und Händlern."
+    },
+    "companyInfo": {
+      "title": "Informationen über farme.ro",
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "websiteLabel": "Website"
+    }
+  },
+  "b2b": {
+    "hero": {
+      "badge": "B2B-Lösungen für Restaurants, Hotels und Unternehmen",
+      "title": "Frische Produkte",
+      "titleHighlight": "für Ihr Unternehmen",
+      "titleSubtitle": "mit inklusiver Lieferung.",
+      "description": "Bestellen Sie Produkte direkt von lokalen Erzeugern, verwalten Sie Bestellungen für Mitarbeiter und profitieren Sie von speziellen B2B-Preisen mit inklusiver Lieferung.",
+      "feature1": "Warenkörbe für Mitarbeiter",
+      "feature2": "Zentralisierte Verwaltung",
+      "feature3": "Inklusive Lieferung",
+      "ctaCreate": "B2B-Konto erstellen",
+      "ctaLearnMore": "Mehr erfahren"
+    },
+    "benefits": {
+      "title": "Warum farme.ro für Ihr Unternehmen wählen?",
+      "subtitle": "Vollständige Lösungen für Restaurants, Hotels und andere Unternehmen, die frische Produkte benötigen",
+      "carts": {
+        "title": "Warenkörbe für Mitarbeiter",
+        "description": "Erstellen Sie personalisierte Warenkörbe für jeden Mitarbeiter oder jede Abteilung"
+      },
+      "management": {
+        "title": "Zentralisierte Verwaltung",
+        "description": "Kontrollieren Sie alle Bestellungen und Ausgaben an einem Ort"
+      },
+      "delivery": {
+        "title": "Inklusive Lieferung",
+        "description": "Kostenloser Versand für Bestellungen über einem bestimmten Wert"
+      },
+      "pricing": {
+        "title": "Spezielle B2B-Preise",
+        "description": "Profitieren Sie von Rabatten für große Volumen und wiederkehrende Bestellungen"
+      },
+      "fresh": {
+        "title": "Frische Produkte",
+        "description": "Direkter Zugang zu lokalen Erzeugern mit Produkten von höchster Qualität"
+      },
+      "scheduled": {
+        "title": "Geplante Lieferungen",
+        "description": "Planen Sie Lieferungen im Voraus für perfekte Organisation"
+      }
+    },
+    "howItWorks": {
+      "title": "Wie funktioniert es?",
+      "subtitle": "Einfacher 4-Schritte-Prozess, um farme.ro für Ihr Unternehmen zu nutzen",
+      "step1": {
+        "title": "B2B-Konto erstellen",
+        "description": "Registrieren Sie Ihr Unternehmen und erhalten Sie Zugang zur Plattform"
+      },
+      "step2": {
+        "title": "Produkte bestellen",
+        "description": "Wählen Sie Produkte und erstellen Sie Warenkörbe für Mitarbeiter oder Abteilungen"
+      },
+      "step3": {
+        "title": "Inklusive Lieferung",
+        "description": "Produkte werden direkt an Ihren Standort geliefert, mit inklusiver Lieferung"
+      },
+      "step4": {
+        "title": "Einfache Verwaltung",
+        "description": "Verfolgen Sie Bestellungen, Ausgaben und Verlauf an einem Ort"
+      }
+    },
+    "cta": {
+      "title": "Bereiten Sie Ihr Unternehmen auf den Erfolg vor",
+      "description": "Wenn Sie ein Restaurant, ein Hotel oder ein Unternehmen haben, das frische Produkte benötigt, erstellen Sie ein B2B-Konto und profitieren Sie von speziellen Preisen und inklusiver Lieferung.",
+      "button": "B2B-Konto erstellen",
+      "responseTime": "Wir antworten auf alle Anfragen innerhalb von 24 Stunden."
+    }
+  },
+  "megaMenu": {
+    "producers": {
+      "start": "Loslegen",
+      "portal": "Produzentenportal",
+      "more": "Mehr",
+      "why": {
+        "title": "Warum auf farme.ro verkaufen",
+        "description": "Vorteile kennenlernen"
+      },
+      "fees": {
+        "title": "Gebühren und Provisionen",
+        "description": "Transparentes Modell"
+      },
+      "shipping": {
+        "title": "Versand & Logistik-Leitfaden",
+        "description": "Wie es funktioniert"
+      },
+      "guide": {
+        "title": "Produzenten-Leitfaden",
+        "description": "Hier starten"
+      },
+      "dashboard": {
+        "title": "Produzenten-Dashboard",
+        "description": "Kontrollpanel"
+      },
+      "products": {
+        "title": "Produkte verwalten",
+        "description": "Hinzufügen und bearbeiten"
+      },
+      "orders": {
+        "title": "Bestellungen",
+        "description": "Bestellungen verwalten"
+      },
+      "stats": {
+        "title": "Statistiken & Einblicke",
+        "description": "Leistung analysieren"
+      },
+      "subscriptions": {
+        "title": "Abonnements & Vorteile",
+        "description": "Erhöhte Sichtbarkeit"
+      },
+      "commissions": {
+        "title": "Portal-Provisionen",
+        "description": "Provisionen-Details"
+      },
+      "support": {
+        "title": "Produzenten-Support",
+        "description": "Hilfe und Unterstützung"
+      },
+      "login": {
+        "title": "Produzenten-Login",
+        "description": "Portal zugreifen"
+      }
+    },
+    "businesses": {
+      "forBusiness": "Für Unternehmen",
+      "services": "Dienstleistungen",
+      "resources": "Ressourcen",
+      "why": {
+        "title": "Warum farme.ro für Ihr Unternehmen",
+        "description": "Vorteile für Restaurants"
+      },
+      "bulk": {
+        "title": "Großbestellungen",
+        "description": "Spezielle B2B-Preise"
+      },
+      "scheduled": {
+        "title": "Geplante Lieferungen",
+        "description": "Dedizierte Logistik"
+      },
+      "invoicing": {
+        "title": "Rechnungsstellung und Verträge",
+        "description": "Professionelle Lösungen"
+      },
+      "account": {
+        "title": "Dediziertes B2B-Konto",
+        "description": "Zugang zum Business-Portal"
+      },
+      "payment": {
+        "title": "Flexible Zahlungen",
+        "description": "Verlängerte Zahlungsfrist"
+      },
+      "reports": {
+        "title": "Berichte und Analysen",
+        "description": "Business-Einblicke"
+      },
+      "support": {
+        "title": "Dedizierter Support",
+        "description": "Team für Business"
+      },
+      "guide": {
+        "title": "Restaurant-Leitfaden",
+        "description": "Wie man effizient kauft"
+      },
+      "recommended": {
+        "title": "Empfohlene Produzenten",
+        "description": "Verifizierte Partner"
+      },
+      "success": {
+        "title": "Erfolgsgeschichten",
+        "description": "Geschichten von Partnern"
+      },
+      "login": {
+        "title": "B2B-Login",
+        "description": "Konto zugreifen"
+      }
+    },
+    "customers": {
+      "account": "Ihr Konto",
+      "explore": "Entdecken",
+      "help": "Hilfe",
+      "profile": {
+        "title": "Mein Profil",
+        "description": "Einstellungen und Präferenzen"
+      },
+      "orders": {
+        "title": "Meine Bestellungen",
+        "description": "Bestellverlauf"
+      },
+      "favorites": {
+        "title": "Lieblingsprodukte",
+        "description": "Favoritenliste"
+      },
+      "payment": {
+        "title": "Zahlungsmethoden",
+        "description": "Gespeicherte Karten"
+      },
+      "producers": {
+        "title": "Lokale Produzenten",
+        "description": "Produzenten entdecken"
+      },
+      "popular": {
+        "title": "Beliebte Produkte",
+        "description": "Bestseller"
+      },
+      "recommended": {
+        "title": "Empfohlene Produkte",
+        "description": "Für Sie"
+      },
+      "special": {
+        "title": "Sonderangebote",
+        "description": "Rabatte und Aktionen"
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "description": "FAQ"
+      },
+      "howItWorks": {
+        "title": "Wie es funktioniert",
+        "description": "Vollständiger Leitfaden"
+      },
+      "delivery": {
+        "title": "Lieferung und Rückgabe",
+        "description": "Lieferrichtlinien"
+      },
+      "settings": {
+        "title": "Kontoeinstellungen",
+        "description": "Präferenzen verwalten"
+      }
+    },
+    "importers": {
+      "forImporters": "Für Importeure",
+      "services": "Dienstleistungen",
+      "resources": "Ressourcen",
+      "why": {
+        "title": "Warum farme.ro für Importeure",
+        "description": "Vorteile und Möglichkeiten"
+      },
+      "products": {
+        "title": "Premium rumänische Produkte",
+        "description": "Exportqualität"
+      },
+      "partnerships": {
+        "title": "Strategische Partnerschaften",
+        "description": "Langfristige Zusammenarbeit"
+      },
+      "certifications": {
+        "title": "Dokumentation und Zertifizierungen",
+        "description": "Exportkonformität"
+      },
+      "logistics": {
+        "title": "Internationale Logistik",
+        "description": "Lieferungen in die EU und darüber hinaus"
+      },
+      "pricing": {
+        "title": "Wettbewerbsfähige Preise",
+        "description": "Direkte Verhandlungen"
+      },
+      "volume": {
+        "title": "Volumen und Verfügbarkeit",
+        "description": "Große Mengen"
+      },
+      "support": {
+        "title": "Dedizierter Support",
+        "description": "Team für Importeure"
+      },
+      "guide": {
+        "title": "Importeur-Leitfaden",
+        "description": "Wie es funktioniert"
+      },
+      "verified": {
+        "title": "Verifizierte Produzenten",
+        "description": "Vertrauenswürdige Partner"
+      },
+      "opportunities": {
+        "title": "Marktchancen",
+        "description": "Trends und Anforderungen"
+      },
+      "contact": {
+        "title": "Team kontaktieren",
+        "description": "Mit Spezialisten sprechen"
+      }
+    },
+    "logistics": {
+      "services": "Logistikdienstleistungen",
+      "partnership": "Partnerschaft",
+      "resources": "Ressourcen",
+      "temperature": {
+        "title": "Temperaturkontrollierte Lieferungen",
+        "description": "Kühltransport für frische Produkte"
+      },
+      "storage": {
+        "title": "Lagerung und Cross-Docking",
+        "description": "Flexible Lagerlösungen"
+      },
+      "packaging": {
+        "title": "Verpackungsdienstleistungen",
+        "description": "Professionelle Verpackung für Sicherheit"
+      },
+      "routes": {
+        "title": "Routenoptimierung",
+        "description": "Maximale Liefereffizienz"
+      },
+      "why": {
+        "title": "Warum Partner werden",
+        "description": "Vorteile und Wachstumschancen"
+      },
+      "commission": {
+        "title": "Provisionsmodell",
+        "description": "Transparente und faire Struktur"
+      },
+      "stats": {
+        "title": "Statistiken und Berichte",
+        "description": "Ihre Leistung verfolgen"
+      },
+      "scheduled": {
+        "title": "Geplante Lieferungen",
+        "description": "Planung und Terminierung"
+      },
+      "portal": {
+        "title": "Logistik-Partnerportal",
+        "description": "Lieferungen und Verträge verwalten"
+      },
+      "commissions": {
+        "title": "Provisionen & Kontoauszüge",
+        "description": "Provisionen und Kontoauszüge ansehen"
+      },
+      "contracts": {
+        "title": "Logistikverträge",
+        "description": "Auf Ihre Verträge zugreifen"
+      },
+      "insurance": {
+        "title": "Versicherungen und Garantien",
+        "description": "Schutz für Partner"
+      },
+      "support": {
+        "title": "Dedizierter Support",
+        "description": "Team für Logistikpartner"
+      }
+    },
+    "becomePartner": {
+      "producers": "Für Produzenten",
+      "businesses": "Für Unternehmen",
+      "other": "Weitere Möglichkeiten",
+      "becomeProducer": {
+        "title": "Produzent werden",
+        "description": "Verkaufen Sie Ihre Produkte online"
+      },
+      "fees": {
+        "title": "Gebühren und Provisionen",
+        "description": "Transparentes Modell"
+      },
+      "howItWorks": {
+        "title": "Wie es funktioniert",
+        "description": "Vollständiger Leitfaden"
+      },
+      "register": {
+        "title": "Produzenten-Registrierung",
+        "description": "Jetzt Konto erstellen"
+      },
+      "restaurants": {
+        "title": "Für Restaurants",
+        "description": "Direkt von Produzenten kaufen"
+      },
+      "bulk": {
+        "title": "Große Mengen",
+        "description": "Spezielle B2B-Preise"
+      },
+      "payment": {
+        "title": "Flexible Zahlungen",
+        "description": "Verlängerte Zahlungsfrist"
+      },
+      "b2bAccount": {
+        "title": "B2B-Konto",
+        "description": "Unternehmen registrieren"
+      },
+      "logistics": {
+        "title": "Logistik und Transport",
+        "description": "Liefer- und Lagerpartner"
+      },
+      "importers": {
+        "title": "Für Importeure",
+        "description": "Premium rumänische Produkte"
+      },
+      "investors": {
+        "title": "Für Investoren",
+        "description": "Investitionsmöglichkeiten"
+      },
+      "questions": {
+        "title": "Haben Sie Fragen?",
+        "description": "Kontaktieren Sie uns"
+      }
+    },
+    "investors": {
+      "forInvestors": "Für Investoren",
+      "info": "Informationen",
+      "contact": "Kontakt",
+      "opportunities": {
+        "title": "Investitionsmöglichkeiten",
+        "description": "Landwirtschaft und Tech"
+      },
+      "businessModel": {
+        "title": "Geschäftsmodell",
+        "description": "Wie wir Wert schaffen"
+      },
+      "financials": {
+        "title": "Finanzprognosen",
+        "description": "Wachstumspotenzial"
+      },
+      "team": {
+        "title": "Team und Führungskräfte",
+        "description": "Wer wir sind"
+      },
+      "pitchDeck": {
+        "title": "Pitch Deck",
+        "description": "Investoren-Präsentation"
+      },
+      "strategy": {
+        "title": "Strategie und Zukunft",
+        "description": "Expansionspläne"
+      },
+      "market": {
+        "title": "Markt und Wettbewerb",
+        "description": "Marktanalyse"
+      },
+      "faq": {
+        "title": "Investoren-FAQ",
+        "description": "Häufig gestellte Fragen"
+      },
+      "meeting": {
+        "title": "Termin vereinbaren",
+        "description": "Mit Gründern sprechen"
+      },
+      "partnerships": {
+        "title": "Strategische Partnerschaften",
+        "description": "Unternehmenskooperationen"
+      },
+      "impact": {
+        "title": "Soziale Auswirkungen",
+        "description": "Wert für Gemeinschaft"
+      },
+      "about": {
+        "title": "Über uns",
+        "description": "Mission und Werte"
+      }
+    },
+    "cta": {
+      "producers": {
+        "title": "Noch kein Partner-Produzent?",
+        "description": "Jetzt registrieren und Ihre Produkte verkaufen",
+        "button": "Produzent werden",
+        "login": "Anmelden"
+      },
+      "businesses": {
+        "title": "Haben Sie ein Restaurant oder ein Unternehmen?",
+        "description": "B2B-Konto erstellen und von speziellen Preisen profitieren",
+        "button": "B2B-Konto erstellen",
+        "contact": "Kontaktieren Sie uns"
+      },
+      "importers": {
+        "title": "Sind Sie Importeur oder Händler?",
+        "description": "Kontaktieren Sie unser Team für Partnerschaften",
+        "button": "Team kontaktieren"
+      },
+      "logistics": {
+        "title": "Sind Sie Logistik- oder Transportpartner?",
+        "description": "Treten Sie unserem Netzwerk von Logistikpartnern bei",
+        "button": "Logistikpartner werden"
+      },
+      "becomePartner": {
+        "title": "Wählen Sie den richtigen Partnerschaftstyp für Sie",
+        "description": "Von Produzenten zu Restaurants, Importeuren oder Investoren",
+        "producer": "Produzent werden",
+        "b2b": "B2B-Konto",
+        "logistics": "Logistik"
+      }
+    }
+  },
+  "seo": {
+    "products": {
+      "title": "Lokale Produkte direkt von Erzeugern | Farmero",
+      "description": "Entdecken Sie authentische Produkte direkt von lokalen Erzeugern."
+    },
+    "howItWorks": {
+      "title": "Wie Farmero funktioniert",
+      "description": "Erfahren Sie, wie Sie lokale Produkte einfach von Erzeugern bestellen."
+    },
+    "whoWeAre": {
+      "title": "Über Farmero",
+      "description": "Lernen Sie die Mission und Gemeinschaft hinter Farmero kennen."
+    },
+    "solutions": {
+      "title": "Farmero-Lösungen für Erzeuger",
+      "description": "Wachstums- und Sichtbarkeitstools für lokale Erzeuger."
+    },
+    "business": {
+      "title": "B2B-Lösungen für Ihr Unternehmen",
+      "description": "Lokale Produkte mit integrierter Logistik für Unternehmen."
+    }
+  },
+  "logistics": {
+    "hero": {
+      "badge": "Logistik- und Transportpartner",
+      "title": "Werden Sie Partner in der",
+      "titleHighlight": "farme.ro Logistik",
+      "description": "Arbeiten Sie mit uns zusammen für Kühllieferungen, Lagerung und Verpackung. Partnerschaftsmöglichkeiten für Logistikunternehmen.",
+      "ctaPrimary": "Logistikpartner werden",
+      "ctaSecondary": "Mehr erfahren"
+    },
+    "services": {
+      "title": "Gesuchte Dienstleistungen",
+      "subtitle": "Wir suchen Partner für qualitativ hochwertige Logistik- und Transportdienstleistungen",
+      "temperature": {
+        "title": "Kühllieferungen",
+        "description": "Spezialisierter Transport für Lebensmittelprodukte mit kontrollierter Temperatur",
+        "feature1": "Zertifizierte Kühlfahrzeuge",
+        "feature2": "Echtzeit-Temperaturüberwachung",
+        "feature3": "Geplante Lieferungen"
+      },
+      "storage": {
+        "title": "Lagerung",
+        "description": "Lagerräume für landwirtschaftliche Produkte mit optimalen Bedingungen",
+        "feature1": "Klimatisierte Lagerhäuser",
+        "feature2": "Qualitätskontrolle",
+        "feature3": "Bestandsverwaltung"
+      },
+      "packaging": {
+        "title": "Verpackung",
+        "description": "Verpackungs- und Auftragsvorbereitungsdienste für die Lieferung",
+        "feature1": "Professionelle Verpackung",
+        "feature2": "Automatische Etikettierung",
+        "feature3": "Qualitätsprüfung"
+      }
+    },
+    "benefits": {
+      "title": "Vorteile für Partner",
+      "coverage": {
+        "title": "Nationale Abdeckung",
+        "description": "Liefermöglichkeiten in ganz Rumänien"
+      },
+      "flexible": {
+        "title": "Flexibler Zeitplan",
+        "description": "Passen Sie sich unseren Bedürfnissen und denen unserer Kunden an"
+      },
+      "quality": {
+        "title": "Qualitätsstandards",
+        "description": "Wir respektieren die höchsten Standards für Lebensmittelprodukte"
+      }
+    },
+    "partnership": {
+      "title": "Wie die Partnerschaft funktioniert",
+      "subtitle": "Einfacher und transparenter Prozess, um Logistikpartner zu werden",
+      "contracts": {
+        "title": "Klare Verträge",
+        "description": "Transparente Vereinbarungen mit definierten Bedingungen"
+      },
+      "commission": {
+        "title": "Wettbewerbsfähige Provisionen",
+        "description": "Faire Vergütung für Ihre Dienstleistungen"
+      },
+      "longTerm": {
+        "title": "Langfristige Partnerschaft",
+        "description": "Stabile Beziehungen und Wachstumschancen"
+      },
+      "support": {
+        "title": "Dedizierter Support",
+        "description": "Unser Team hilft Ihnen in jeder Phase"
+      }
+    },
+    "cta": {
+      "title": "Werden Sie Partner in der farme.ro Logistik",
+      "description": "Wenn Sie Liefer-, Lager- oder Verpackungsdienste anbieten und mit uns zusammenarbeiten möchten, sind wir offen für Partnerschaftsmöglichkeiten.",
+      "button": "Jetzt bewerben",
+      "responseTime": "Wir antworten auf alle Anfragen innerhalb von 24 Stunden."
+    },
+    "metadata": {
+      "title": "Für Logistik und Transport - farme.ro",
+      "description": "Werden Sie Partner in der farme.ro Logistik. Wir suchen Mitarbeiter für Kühllieferungen, Lagerung und Verpackung."
+    }
+  },
+  "importers": {
+    "hero": {
+      "badge": "Premium rumänische Produkte für den Export",
+      "title": "Importieren Sie",
+      "titleHighlight": "premium rumänische Produkte",
+      "titleSuffix": "in Ihren Markt.",
+      "description": "Wir verbinden lokale rumänische Erzeuger mit internationalen Importeuren und bieten hochwertige Produkte und langfristige Partnerschaften.",
+      "ctaPrimary": "Importpartner werden",
+      "ctaSecondary": "Mehr erfahren"
+    },
+    "services": {
+      "title": "Was wir Importeuren bieten",
+      "subtitle": "Eine dedizierte Plattform zur Verbindung von Importeuren mit qualitativ hochwertigen rumänischen Erzeugern",
+      "products": {
+        "title": "Premium rumänische Produkte",
+        "description": "Zugang zu einer kuratierten Auswahl traditioneller landwirtschaftlicher Produkte höchster Qualität",
+        "feature1": "Zertifizierte Produkte",
+        "feature2": "Garantierte Qualität",
+        "feature3": "Vielfältige Auswahl"
+      },
+      "partnerships": {
+        "title": "Strategische Partnerschaften",
+        "description": "Direkte Zusammenarbeit mit lokalen Erzeugern für große Volumen und wettbewerbsfähige Preise",
+        "feature1": "Direkte Verhandlungen",
+        "feature2": "Maßgeschneiderte Verträge",
+        "feature3": "Langfristige Beziehungen"
+      },
+      "certifications": {
+        "title": "Zertifizierungen und Standards",
+        "description": "Produkte, die internationale Standards und erforderliche Zertifizierungen erfüllen",
+        "feature1": "EU-Konformität",
+        "feature2": "Bio-Zertifizierungen",
+        "feature3": "Vollständige Dokumentation"
+      }
+    },
+    "benefits": {
+      "title": "Vorteile für Importeure",
+      "quality": {
+        "title": "Garantierte Qualität",
+        "description": "Verifizierte und zertifizierte Produkte"
+      },
+      "logistics": {
+        "title": "Internationale Logistik",
+        "description": "Unterstützung für Transport und Dokumentation"
+      },
+      "transparency": {
+        "title": "Vollständige Transparenz",
+        "description": "Vollständige Informationen über Erzeuger und Produkte"
+      }
+    },
+    "partnership": {
+      "title": "Wie die Partnerschaft funktioniert",
+      "subtitle": "Einfacher und transparenter Prozess, um Importpartner zu werden",
+      "coverage": {
+        "title": "Internationale Abdeckung",
+        "description": "Verbinden Sie sich mit Erzeugern aus ganz Rumänien"
+      },
+      "pricing": {
+        "title": "Wettbewerbsfähige Preise",
+        "description": "Direkte Verhandlungen für große Volumen"
+      },
+      "documentation": {
+        "title": "Vollständige Dokumentation",
+        "description": "Alle erforderlichen Zertifizierungen und Dokumente"
+      },
+      "support": {
+        "title": "Dedizierter Support",
+        "description": "Unser Team hilft Ihnen in jeder Phase"
+      }
+    },
+    "cta": {
+      "title": "Importieren Sie premium rumänische Produkte",
+      "description": "Wenn Sie Importeur sind und qualitativ hochwertige landwirtschaftliche Produkte aus Rumänien suchen, sind wir hier, um Sie mit den richtigen Erzeugern zu verbinden.",
+      "button": "Jetzt bewerben",
+      "responseTime": "Wir antworten auf alle Anfragen innerhalb von 24 Stunden."
+    },
+    "metadata": {
+      "title": "Für Importeure - farme.ro",
+      "description": "Importieren Sie premium rumänische Produkte. Wir verbinden lokale Erzeuger mit internationalen Importeuren und bieten hochwertige Produkte und langfristige Partnerschaften."
+    }
+  },
+  "investors": {
+    "hero": {
+      "badge": "Investitionsmöglichkeit in Landwirtschaft und Tech",
+      "title": "Investieren Sie in",
+      "titleHighlight": "Rumäniens Lebensmittelzukunft",
+      "titleSuffix": ".",
+      "description": "farme.ro verbindet lokale Erzeuger mit Verbrauchern, schafft Wert für alle und messbaren sozialen Impact.",
+      "ctaPrimary": "Termin vereinbaren",
+      "ctaSecondary": "Mehr erfahren"
+    },
+    "businessModel": {
+      "title": "Skalierbares und nachhaltiges Geschäftsmodell",
+      "subtitle": "Wir schaffen Wert durch direkte Verbindung von Erzeugern und Verbrauchern, eliminieren Zwischenhändler und schaffen ein profitables Ökosystem für alle.",
+      "revenueStreams": {
+        "title": "Einnahmequellen",
+        "commissions": {
+          "title": "Verkaufsprovisionen",
+          "description": "Transparente Provision von 10-15% bei jedem Verkauf, je nach Abonnement"
+        },
+        "subscriptions": {
+          "title": "Erzeuger-Abonnements",
+          "description": "Premium-Pläne für Erzeuger, die erhöhte Sichtbarkeit wünschen"
+        },
+        "b2b": {
+          "title": "B2B-Services",
+          "description": "Dedizierte Konten für Restaurants und Unternehmen mit Sonderpreisen"
+        }
+      },
+      "metrics": {
+        "title": "Schlüsselmetriken",
+        "activeProducers": {
+          "label": "Aktive Erzeuger",
+          "description": "Und ständig wachsend"
+        },
+        "ordersProcessed": {
+          "label": "Verarbeitete Bestellungen",
+          "description": "Aktueller Monat"
+        },
+        "monthlyGrowth": {
+          "label": "Monatliches Wachstum",
+          "description": "Umsatz und Bestellungen"
+        },
+        "avgOrderValue": {
+          "label": "Durchschnittlicher Bestellwert",
+          "description": "Pro Kunde"
+        }
+      }
+    },
+    "financials": {
+      "title": "Finanzprognosen und Wachstumspotenzial",
+      "subtitle": "Skalierbares Geschäftsmodell mit exponentiellem Wachstumspotenzial auf dem rumänischen und europäischen Markt.",
+      "projections": {
+        "2024": {
+          "description": "Start und erstes Betriebsjahr"
+        },
+        "2025": {
+          "description": "Nationale Expansion und B2B"
+        },
+        "2026": {
+          "description": "Internationalisierung und neue Services"
+        },
+        "2027": {
+          "description": "Konsolidierung und Rentabilität"
+        },
+        "title": "Umsatzprognosen (RON)"
+      },
+      "highlights": {
+        "title": "Investitionsdetails",
+        "currentRound": {
+          "title": "Aktuelle Runde",
+          "description": "Seed-Runde für Expansion"
+        },
+        "fundUsage": {
+          "title": "Mittelverwendung",
+          "value": "60% Marketing",
+          "description": "40% Tech & Betrieb"
+        },
+        "valuation": {
+          "title": "Bewertungsziel",
+          "description": "Pre-Money-Bewertung"
+        },
+        "exitStrategy": {
+          "title": "Exit-Strategie",
+          "value": "5-7 Jahre",
+          "description": "Strategische Übernahme oder IPO"
+        }
+      },
+      "disclaimer": "* Finanzprognosen sind Schätzungen basierend auf aktuellen Daten und Marktannahmen. Tatsächliche Ergebnisse können variieren. Für detaillierte Informationen kontaktieren Sie unser Team."
+    },
+    "pitchDeck": {
+      "title": "Pitch Deck",
+      "subtitle": "Vollständige Präsentation für Investoren mit allen wesentlichen Informationen über farme.ro",
+      "ctaLive": "Live-Präsentation vereinbaren",
+      "ctaDownload": "PDF herunterladen (auf Anfrage verfügbar)",
+      "contactNote": "Für Zugang zum vollständigen Pitch Deck oder zur Vereinbarung einer personalisierten Präsentation",
+      "contactButton": "Team kontaktieren",
+      "sections": {
+        "problem": {
+          "title": "Problem",
+          "description": "Lokale Erzeuger haben Schwierigkeiten, ihre Produkte direkt an Verbraucher zu verkaufen"
+        },
+        "solution": {
+          "title": "Lösung",
+          "description": "Digitale Plattform, die Erzeuger mit Kunden verbindet und Zwischenhändler eliminiert"
+        },
+        "market": {
+          "title": "Markt",
+          "description": "Rumänischer Lebensmittelmarkt: €15B+ jährlich, mit stetigem Wachstum"
+        },
+        "businessModel": {
+          "title": "Geschäftsmodell",
+          "description": "Transparente Provisionen, Erzeuger-Abonnements, B2B-Services"
+        },
+        "traction": {
+          "title": "Traction",
+          "description": "500+ Erzeuger, 10,000+ Bestellungen/Monat, 25% monatliches Wachstum"
+        },
+        "competition": {
+          "title": "Wettbewerb",
+          "description": "Wettbewerbsvorteil durch Fokus auf lokale Erzeuger und sozialen Impact"
+        },
+        "team": {
+          "title": "Team",
+          "description": "Gründer mit Erfahrung in Tech, Landwirtschaft und Business"
+        },
+        "financial": {
+          "title": "Finanziell",
+          "description": "Prognosen von €50M Umsatz bis 2027, skalierbares Modell"
+        }
+      }
+    },
+    "strategy": {
+      "title": "Strategie und Expansionspläne",
+      "subtitle": "Eine klare Vision für nachhaltiges Wachstum und die Transformation von farme.ro zu einem Marktführer.",
+      "phases": {
+        "title": "Entwicklungsphasen",
+        "phase1": {
+          "title": "Phase 1: Konsolidierung (2024)",
+          "goal1": "Nationale Expansion in allen Regionen",
+          "goal2": "500+ aktive Erzeuger",
+          "goal3": "B2B-Services Start",
+          "goal4": "Technologie- und Logistikoptimierung"
+        },
+        "phase2": {
+          "title": "Phase 2: Expansion (2025)",
+          "goal1": "1,500+ Partner-Erzeuger",
+          "goal2": "Expansion in rumänische Diaspora",
+          "goal3": "Partnerschaften mit großen Restaurants",
+          "goal4": "Mobile App Start"
+        },
+        "phase3": {
+          "title": "Phase 3: Internationalisierung (2026)",
+          "goal1": "Eintritt in europäische Märkte (Ungarn, Bulgarien)",
+          "goal2": "5,000+ Erzeuger",
+          "goal3": "Services für Importeure",
+          "goal4": "Regional anerkannte Marke"
+        },
+        "phase4": {
+          "title": "Phase 4: Konsolidierung & Rentabilität (2027+)",
+          "goal1": "Nachhaltige Rentabilität",
+          "goal2": "10,000+ Erzeuger",
+          "goal3": "Marktführer in der Region",
+          "goal4": "Strategische Exit-Möglichkeiten"
+        }
+      },
+      "initiatives": {
+        "title": "Schlüsselinitiativen",
+        "recruitment": {
+          "title": "Erzeuger-Rekrutierung",
+          "description": "Dedizierte Programme zur Gewinnung qualitativ hochwertiger lokaler Erzeuger"
+        },
+        "marketing": {
+          "title": "Marketing & Branding",
+          "description": "Bewusstseinskampagnen und Aufbau der farme.ro Marke"
+        },
+        "technology": {
+          "title": "Technologie & Innovation",
+          "description": "Kontinuierliche Plattformentwicklung und Einführung von KI für Empfehlungen"
+        },
+        "partnerships": {
+          "title": "Strategische Partnerschaften",
+          "description": "Zusammenarbeit mit landwirtschaftlichen Organisationen, Restaurants und Händlern"
+        }
+      }
+    },
+    "market": {
+      "title": "Markt und Wettbewerb",
+      "subtitle": "Ein großer und wachsender Markt mit erheblichen Möglichkeiten für ein innovatives Geschäftsmodell.",
+      "data": {
+        "title": "Marktdaten",
+        "marketSize": {
+          "title": "Marktgröße",
+          "description": "Rumänischer Lebensmittelmarkt jährlich"
+        },
+        "marketGrowth": {
+          "title": "Marktwachstum",
+          "description": "Geschätztes jährliches Wachstum",
+          "growth": "Nachhaltig"
+        },
+        "potentialClients": {
+          "title": "Potenzielle Kunden",
+          "description": "Rumänien Bevölkerung + Diaspora",
+          "growth": "Groß"
+        },
+        "targetMarket": {
+          "title": "Zielmarkt",
+          "description": "Verbraucher interessiert an lokalen Produkten",
+          "growth": "Wachsend"
+        }
+      },
+      "advantages": {
+        "title": "Wettbewerbsvorteile",
+        "localFocus": {
+          "title": "Fokus auf lokale Erzeuger",
+          "description": "Die einzige Plattform, die ausschließlich rumänischen Erzeugern gewidmet ist, mit spezialisierter Unterstützung und Ressourcen"
+        },
+        "socialImpact": {
+          "title": "Messbarer sozialer Impact",
+          "description": "Jede Bestellung trägt zur Unterstützung lokaler Erzeuger und zur Entwicklung ländlicher Gemeinden bei"
+        },
+        "activeCommunity": {
+          "title": "Aktive Gemeinschaft",
+          "description": "Enge Beziehungen zu Erzeugern und Kunden, kontinuierliches Feedback und Verbesserungen basierend auf echten Bedürfnissen"
+        },
+        "scalableModel": {
+          "title": "Skalierbares Modell",
+          "description": "Moderne Technologie, die schnelles Wachstum ohne Qualitätskompromisse ermöglicht"
+        }
+      },
+      "trends": {
+        "title": "Markttrends",
+        "trend1": "Wachsendes Interesse an lokalen und saisonalen Produkten",
+        "trend2": "Trend zu gesunder und nachhaltiger Ernährung",
+        "trend3": "Digitalisierung nimmt im Lebensmittelsektor zu",
+        "trend4": "Verbraucher suchen Transparenz und Rückverfolgbarkeit",
+        "trend5": "Rumänische Diaspora sucht authentische Produkte von zu Hause"
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Antworten auf die häufigsten Fragen zur Investitionsmöglichkeit in farme.ro",
+      "contactNote": "Haben Sie weitere Fragen? Wir sind hier, um zu antworten.",
+      "contactButton": "Team kontaktieren",
+      "q1": {
+        "question": "Welche Arten von Investitionen suchen Sie?",
+        "answer": "Wir suchen strategische Investoren für Seed-Runde (€500K - €1M), um uns bei der Expansion auf dem rumänischen Markt und der Technologieentwicklung zu helfen. Wir sind auch offen für strategische Partnerschaften mit Investoren, die Wert im Agrar- oder Einzelhandelssektor bringen können."
+      },
+      "q2": {
+        "question": "Was ist das Exit-Modell?",
+        "answer": "Unsere Vision umfasst entweder einen strategischen Exit durch Übernahme durch einen großen Akteur im Einzelhandel oder Tech oder einen Börsengang innerhalb von 5-7 Jahren. Das skalierbare Geschäftsmodell und die erwartete Rentabilität machen farme.ro zu einem attraktiven Kandidaten für beide Szenarien."
+      },
+      "q3": {
+        "question": "Wie werden Sie die Mittel verwenden?",
+        "answer": "Etwa 60% der Mittel werden für Marketing und Erzeuger-Rekrutierung, 25% für technologische Entwicklung und Infrastruktur und 15% für Betrieb und Team bereitgestellt. Prioritäten umfassen nationale Expansion und B2B-Services Start."
+      },
+      "q4": {
+        "question": "Wie ist die Bewertung des Unternehmens?",
+        "answer": "Die Bewertung ist verhandelbar und hängt von den Investitionsbedingungen ab. Wir stützen uns auf aktuelle Traction-Metriken, Wachstumspotenzial und Vergleiche mit ähnlichen Unternehmen in der Region. Wir besprechen spezifische Details in Treffen mit interessierten Investoren."
+      },
+      "q5": {
+        "question": "Welche Risiken identifizieren Sie?",
+        "answer": "Hauptrisiken umfassen Marktwettbewerb, Abhängigkeit von der Rekrutierung qualitativ hochwertiger Erzeuger und Änderungen im Verbraucherverhalten. Wir haben klare Minderungsstrategien für jedes Risiko und einen robusten Kontinuitätsplan."
+      },
+      "q6": {
+        "question": "Wie messen wir den Erfolg der Investition?",
+        "answer": "Schlüsselmetriken umfassen: Anzahl aktiver Erzeuger, Bestellvolumen, wiederkehrende Einnahmen, Kundenbindungsrate und Fortschritt zur Rentabilität. Wir bieten regelmäßige Berichte und vollständige Transparenz über die Leistung."
+      },
+      "q7": {
+        "question": "Gibt es Möglichkeiten für nachfolgende Investitionen?",
+        "answer": "Ja, wir planen nachfolgende Runden (Series A) für internationale Expansion und Entwicklung neuer Services. Investoren aus der aktuellen Runde haben Priorität und bevorzugte Bedingungen in zukünftigen Runden."
+      },
+      "q8": {
+        "question": "Wie kann ich einen Termin vereinbaren?",
+        "answer": "Sie können uns direkt über das Kontaktformular mit Typ \"investor\" oder per E-Mail an investitori@farme.ro kontaktieren. Wir organisieren personalisierte Treffen, bei denen wir vollständige Details über die Gelegenheit präsentieren und alle Ihre Fragen beantworten."
+      }
+    },
+    "cta": {
+      "title": "Lassen Sie uns gemeinsam Rumäniens Lebensmittelzukunft aufbauen.",
+      "description": "Wenn Sie an unsere Vision glauben und Teil dieser Transformation sein möchten, sind wir offen, darüber zu diskutieren, wie wir zusammenarbeiten können.",
+      "button": "Termin vereinbaren",
+      "responseTime": "Wir antworten auf alle Anfragen innerhalb von 24 Stunden."
+    },
+    "metadata": {
+      "title": "Für Investoren - farme.ro",
+      "description": "Investitionsmöglichkeit in Rumäniens Lebensmittelzukunft. farme.ro verbindet lokale Erzeuger mit Verbrauchern, schafft Wert und messbaren sozialen Impact."
+    }
+  },
+  "actions": {
+    "addToCart": "@@AUTO@@ Add to cart",
+    "viewDetails": "@@AUTO@@ View details",
+    "viewProductDetails": "@@AUTO@@ View product details",
+    "viewOrderDetails": "@@AUTO@@ View order details",
+    "viewProducerPage": "@@AUTO@@ View producer page",
+    "buyNow": "@@AUTO@@ Buy now",
+    "save": "@@AUTO@@ Save",
+    "cancel": "@@AUTO@@ Cancel",
+    "delete": "@@AUTO@@ Delete",
+    "edit": "@@AUTO@@ Edit",
+    "continue": "@@AUTO@@ Continue",
+    "back": "@@AUTO@@ Back",
+    "close": "@@AUTO@@ Close",
+    "confirm": "@@AUTO@@ Confirm",
+    "login": "@@AUTO@@ Login",
+    "register": "@@AUTO@@ Register",
+    "logout": "@@AUTO@@ Logout",
+    "placeOrder": "@@AUTO@@ Place order",
+    "proceedToCheckout": "@@AUTO@@ Proceed to checkout",
+    "removeItem": "@@AUTO@@ Remove item",
+    "clearCart": "@@AUTO@@ Clear cart",
+    "addProduct": "@@AUTO@@ Add product",
+    "updateQuantity": "@@AUTO@@ Update quantity",
+    "viewCart": "@@AUTO@@ View cart",
+    "continueShopping": "@@AUTO@@ Continue shopping",
+    "reorder": "@@AUTO@@ Reorder",
+    "addToFavorites": "@@AUTO@@ Add to favorites",
+    "removeFromFavorites": "@@AUTO@@ Remove from favorites",
+    "exploreProducts": "@@AUTO@@ Explore products",
+    "seeProducers": "@@AUTO@@ See producers",
+    "learnMore": "@@AUTO@@ Learn more",
+    "startShopping": "@@AUTO@@ Start shopping",
+    "viewAll": "@@AUTO@@ View all",
+    "viewAllProducts": "@@AUTO@@ View all products",
+    "viewAllProducers": "@@AUTO@@ View all producers",
+    "viewAllOrders": "@@AUTO@@ View all orders",
+    "trackOrder": "@@AUTO@@ Track order",
+    "confirmDelete": "@@AUTO@@ Confirm deletion",
+    "confirmCancel": "@@AUTO@@ Confirm cancellation",
+    "confirmCancelOrder": "@@AUTO@@ Confirm order cancellation",
+    "confirmDeleteProduct": "@@AUTO@@ Confirm product deletion",
+    "confirmClearCart": "@@AUTO@@ Are you sure you want to clear the cart?",
+    "confirmDeleteTitle": "@@AUTO@@ Confirm deletion",
+    "confirmCancelTitle": "@@AUTO@@ Confirm cancellation",
+    "confirmCancelOrderTitle": "@@AUTO@@ Cancel order",
+    "confirmDeleteProductTitle": "@@AUTO@@ Delete product",
+    "confirmCancelOrderMessage": "@@AUTO@@ Are you sure you want to cancel this order? This action cannot be undone.",
+    "confirmDeleteProductMessage": "@@AUTO@@ Are you sure you want to delete this product? This action cannot be undone.",
+    "yesDelete": "@@AUTO@@ Yes, delete",
+    "yesCancel": "@@AUTO@@ Yes, cancel",
+    "noKeep": "@@AUTO@@ No, keep",
+    "subscribe": "@@AUTO@@ Subscribe",
+    "unsubscribe": "@@AUTO@@ Unsubscribe",
+    "download": "@@AUTO@@ Download",
+    "upload": "@@AUTO@@ Upload",
+    "search": "@@AUTO@@ Search",
+    "filter": "@@AUTO@@ Filter",
+    "reset": "@@AUTO@@ Reset",
+    "apply": "@@AUTO@@ Apply",
+    "clear": "@@AUTO@@ Clear",
+    "select": "@@AUTO@@ Select",
+    "create": "@@AUTO@@ Create",
+    "update": "@@AUTO@@ Update",
+    "submit": "@@AUTO@@ Submit",
+    "send": "@@AUTO@@ Send",
+    "retry": "@@AUTO@@ Try again",
+    "refresh": "@@AUTO@@ Refresh",
+    "loadMore": "@@AUTO@@ Load more",
+    "showMore": "@@AUTO@@ Show more",
+    "showLess": "@@AUTO@@ Show less"
+  },
+  "checkout": {
+    "title": "@@AUTO@@ Complete your order",
+    "deliveryMethod": "@@AUTO@@ Delivery method",
+    "paymentMethod": "@@AUTO@@ Payment method",
+    "shippingAddress": "@@AUTO@@ Shipping address",
+    "name": "@@AUTO@@ Full name",
+    "email": "@@AUTO@@ Email",
+    "phone": "@@AUTO@@ Phone",
+    "city": "@@AUTO@@ City",
+    "address": "@@AUTO@@ Address",
+    "postalCode": "@@AUTO@@ Postal code",
+    "notes": "@@AUTO@@ Notes (optional)",
+    "required": "@@AUTO@@ Required field",
+    "selectDelivery": "@@AUTO@@ Please select a delivery method",
+    "fillRequired": "@@AUTO@@ Please fill in all required fields",
+    "agreeTerms": "@@AUTO@@ Please confirm that you understand the terms",
+    "placeOrder": "@@AUTO@@ Place order",
+    "processing": "@@AUTO@@ Processing order...",
+    "orderPlaced": "@@AUTO@@ Order placed successfully!",
+    "errorPlacingOrder": "@@AUTO@@ An error occurred while placing the order. Please try again.",
+    "cartEmpty": "@@AUTO@@ Cart is empty. Add products before placing order.",
+    "fullAddress": "@@AUTO@@ Full address",
+    "notesPlaceholder": "@@AUTO@@ Special delivery instructions...",
+    "thankYou": "@@AUTO@@ Every order matters. Thank you.",
+    "confirmTerms": "@@AUTO@@ I confirm that I understand",
+    "termsLink": "@@AUTO@@ pickup terms and perishable food policy",
+    "header": {
+      "title": "@@AUTO@@ Your order supports local producers and vulnerable communities",
+      "subtitle": "@@AUTO@@ Every order placed on Farme.ro means fresher products for you and real support for the local economy."
+    },
+    "delivery": {
+      "title": "@@AUTO@@ Delivery method",
+      "address": {
+        "title": "@@AUTO@@ Home delivery",
+        "description": "@@AUTO@@ Products are delivered directly to your address"
+      },
+      "easybox": {
+        "title": "@@AUTO@@ Easybox / pickup point delivery",
+        "description": "@@AUTO@@ Pick up your order from the chosen pickup point",
+        "warning": "@@AUTO@@ Food products are sensitive. Please pick them up within the indicated timeframe to maintain quality."
+      }
+    },
+    "responsibility": {
+      "title": "@@AUTO@@ Your impact matters",
+      "description": "@@AUTO@@ If an order is not picked up on time, it can be redirected to social centers or vulnerable people.",
+      "highlight": "@@AUTO@@ We don't throw away food. We turn it into support.",
+      "zeroWaste": "@@AUTO@@ Zero waste",
+      "solidarity": "@@AUTO@@ Solidarity",
+      "community": "@@AUTO@@ Community",
+      "learnMore": "@@AUTO@@ Learn more about social impact →"
+    },
+    "paymentRules": {
+      "firstOrder": "@@AUTO@@ Your first order: For security, we only accept online card payments.",
+      "goodHistory": "@@AUTO@@ Positive history: You have access to all available payment methods.",
+      "restriction": "@@AUTO@@ To maintain service quality, certain payments may be temporarily available online only."
+    },
+    "impactBox": {
+      "title": "@@AUTO@@ You have had uncollected orders before",
+      "description": "@@AUTO@@ For transparency, the following orders may include a temporary additional logistics fee."
+    },
+    "impactSection": {
+      "title": "@@AUTO@@ Your impact in numbers",
+      "supportProducers": "@@AUTO@@ Support local producers",
+      "redirectWaste": "@@AUTO@@ Redirect food waste",
+      "contributeCommunity": "@@AUTO@@ Contribute to community support"
+    },
+    "impactSidebar": {
+      "title": "@@AUTO@@ Your order's impact",
+      "supportDirect": "@@AUTO@@ You directly support local producers",
+      "reduceWaste": "@@AUTO@@ You reduce food waste",
+      "contributeDonations": "@@AUTO@@ You contribute to social donations",
+      "pricesNote": "@@AUTO@@ Prices are set by producers, not by the platform.",
+      "securePayment": "@@AUTO@@ 100% secure payment"
+    },
+    "trustBar": {
+      "message1": "@@AUTO@@ Your order directly supports the producer",
+      "message2": "@@AUTO@@ Secure payment, no hidden fees",
+      "message3": "@@AUTO@@ Fair price, respected work"
+    },
+    "detailsTitle": "@@AUTO@@ Delivery details",
+    "payment": {
+      "title": "@@AUTO@@ Finalizează plata",
+      "stripeUnavailable": "@@AUTO@@ Plata Stripe nu este disponibilă momentan. Contactează administratorul.",
+      "errorCreatingSession": "@@AUTO@@ Eroare la crearea sesiunii de plată"
+    }
+  },
+  "orders": {
+    "title": "@@AUTO@@ Orders",
+    "noOrders": "@@AUTO@@ You have no orders",
+    "orderNumber": "@@AUTO@@ Order #{number}",
+    "status": {
+      "pending": "@@AUTO@@ Pending",
+      "confirmed": "@@AUTO@@ Confirmed",
+      "preparing": "@@AUTO@@ Preparing",
+      "shipped": "@@AUTO@@ Shipped",
+      "delivered": "@@AUTO@@ Delivered",
+      "cancelled": "@@AUTO@@ Cancelled"
+    },
+    "reorder": "@@AUTO@@ Reorder",
+    "viewDetails": "@@AUTO@@ View details"
+  },
+  "product": {
+    "addToCart": "@@AUTO@@ Adaugă în coș",
+    "inStock": "@@AUTO@@ În stoc",
+    "limitedStock": "@@AUTO@@ Stoc limitat",
+    "outOfStock": "@@AUTO@@ Stoc epuizat",
+    "quantity": "@@AUTO@@ Cantitate",
+    "producer": "@@AUTO@@ Producător",
+    "category": "@@AUTO@@ Categorie",
+    "description": "@@AUTO@@ Descriere",
+    "similarProducts": "@@AUTO@@ Produse similare de la alți producători",
+    "noSimilarProducts": "@@AUTO@@ Nu există produse similare disponibile",
+    "descriptionTitle": "@@AUTO@@ Descriere produs",
+    "aboutProducer": "@@AUTO@@ Despre producător",
+    "producerFrom": "@@AUTO@@ Producător din zona {region}",
+    "producerDescription": "@@AUTO@@ Producător local specializat în produse de calitate, direct de la sursă.",
+    "viewProducerPage": "@@AUTO@@ Vezi pagina producătorului",
+    "deliveryInfo": "@@AUTO@@ Info livrare",
+    "deliveryTime": "@@AUTO@@ Livrare în 2-3 zile lucrătoare",
+    "coveredArea": "@@AUTO@@ Zona acoperită",
+    "deliveryAvailable": "@@AUTO@@ Livrare disponibilă în toată România prin curier.",
+    "deliveryOptions": "@@AUTO@@ Opțiuni de livrare",
+    "deliveryHome": "@@AUTO@@ Livrare la adresă (curier)",
+    "deliveryEasybox": "@@AUTO@@ Easybox / Pachetomat (pentru anumite produse, acestea pot fi lăsate în pachetomat, în limita timpului de siguranță alimentară)",
+    "subscriptionsComing": "@@AUTO@@ Curând: abonamente recurente",
+    "subscriptionsDescription": "@@AUTO@@ Cosul tău preferat livrat automat, la intervalul ales de tine.",
+    "notifyWhenAvailable": "@@AUTO@@ Anunță-mă când e disponibil",
+    "reviews": "@@AUTO@@ Recenzii",
+    "reviewsComingSoon": "@@AUTO@@ Recenziile vor fi disponibile în curând.",
+    "priceProducer": "@@AUTO@@ Preț de producător (fără adaos de supermarket).",
+    "stockUpdate": "@@AUTO@@ Producătorul își actualizează stocurile înainte de comandă.",
+    "orderHelpsProducer": "@@AUTO@@ Comanda ta îl ajută pe producător să-și planifice mai bine producția.",
+    "addToFavorites": "@@AUTO@@ Adaugă la favorite"
+  },
+  "portal": {
+    "comingSoon": "@@AUTO@@ Coming soon",
+    "underConstruction": "@@AUTO@@ The {portal} portal is under construction. We'll be back soon!",
+    "underConstructionGeneric": "@@AUTO@@ This section is under construction. We'll be back soon!",
+    "backToHomepage": "@@AUTO@@ Back to homepage"
+  },
+  "thankYou": {
+    "title": "@@AUTO@@ Thank you for your order!",
+    "orderPlaced": "@@AUTO@@ Your order has been placed successfully",
+    "orderNumber": "@@AUTO@@ Order number",
+    "confirmationEmail": "@@AUTO@@ Thank you for your order. You will receive a confirmation email shortly.",
+    "trackOrder": "@@AUTO@@ Track order",
+    "viewOrders": "@@AUTO@@ View all orders",
+    "continueShopping": "@@AUTO@@ Continue shopping",
+    "orderDetails": "@@AUTO@@ Order details",
+    "status": "@@AUTO@@ Status",
+    "total": "@@AUTO@@ Total",
+    "deliveryTo": "@@AUTO@@ Delivery to:",
+    "products": "@@AUTO@@ Products:",
+    "trackOrderNumber": "@@AUTO@@ You can use this number to track your order status.",
+    "loading": "@@AUTO@@ Loading order confirmation..."
+  },
+  "pagination": {
+    "previous": "@@AUTO@@ Previous",
+    "next": "@@AUTO@@ Next",
+    "page": "@@AUTO@@ Page {current} of {total}",
+    "showing": "@@AUTO@@ Showing {from}-{to} of {total}"
+  },
+  "toast": {
+    "orderConfirmed": "@@AUTO@@ Order confirmed!",
+    "orderPreparing": "@@AUTO@@ Order marked as preparing!",
+    "orderShipped": "@@AUTO@@ Order marked as shipped!",
+    "orderDelivered": "@@AUTO@@ Order marked as delivered!",
+    "statusUpdated": "@@AUTO@@ Status updated successfully!",
+    "errorUpdatingOrder": "@@AUTO@@ Error updating order",
+    "errorConfirmingOrder": "@@AUTO@@ Error confirming order",
+    "errorUpdatingStatus": "@@AUTO@@ Error updating status",
+    "productAdded": "@@AUTO@@ Product added successfully!",
+    "productRemoved": "@@AUTO@@ Product removed!",
+    "cartCleared": "@@AUTO@@ Cart cleared!",
+    "profileUpdated": "@@AUTO@@ Profile updated!",
+    "errorLoading": "@@AUTO@@ Error loading",
+    "errorSaving": "@@AUTO@@ Error saving"
+  },
+  "forms": {
+    "required": "@@AUTO@@ This field is required",
+    "invalidEmail": "@@AUTO@@ Invalid email",
+    "passwordMinLength": "@@AUTO@@ Password must be at least {min} characters",
+    "passwordsDontMatch": "@@AUTO@@ Passwords don't match",
+    "allFieldsRequired": "@@AUTO@@ All fields are required"
+  },
+  "auth": {
+    "login": "Anmeldung",
+    "loginDescription": "Melden Sie sich an, um auf Ihr Konto zuzugreifen",
+    "email": "E-Mail",
+    "emailPlaceholder": "name@beispiel.de",
+    "password": "Passwort",
+    "passwordPlaceholder": "Ihr Passwort",
+    "forgotPassword": "Passwort vergessen?",
+    "forgotPasswordPage": {
+      "title": "Passwort zurücksetzen",
+      "description": "Geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen einen Link zum Zurücksetzen des Passworts.",
+      "error": "Fehler beim Senden des Reset-Links",
+      "sending": "Wird gesendet...",
+      "sendLink": "Reset-Link senden",
+      "linkSent": "Link gesendet!",
+      "linkSentDescription": "Wenn ein Konto mit dieser E-Mail existiert, erhalten Sie einen Link zum Zurücksetzen des Passworts. Überprüfen Sie Ihren Posteingang und folgen Sie den Anweisungen."
+    },
+    "loggingIn": "Anmeldung läuft...",
+    "noAccount": "Sie haben noch kein Konto?",
+    "register": "Registrieren",
+    "emailPasswordRequired": "E-Mail und Passwort sind erforderlich",
+    "loginError": "Fehler bei der Anmeldung. Bitte versuchen Sie es erneut.",
+    "backToLogin": "Zurück zur Anmeldung"
+  },
+  "selectAccount": {
+    "title": "Konto auswählen",
+    "description": "Sie haben Zugriff auf mehrere Konten. Wählen Sie eines aus, um fortzufahren.",
+    "select": "Auswählen",
+    "loading": "Wird geladen...",
+    "noRoles": "Sie haben keine verfügbaren Rollen. Bitte kontaktieren Sie den Support.",
+    "loadError": "Fehler beim Laden der Rollen. Bitte versuchen Sie es erneut.",
+    "roles": {
+      "client": {
+        "name": "Kunde",
+        "description": "Zugriff auf Ihr persönliches Konto"
+      },
+      "business": {
+        "name": "Business",
+        "description": "Portal für Ihr Unternehmen"
+      },
+      "producer": {
+        "name": "Produzent",
+        "description": "Produzenten-Portal"
+      },
+      "logistics": {
+        "name": "Logistik",
+        "description": "Logistik- und Transport-Portal"
+      },
+      "investor": {
+        "name": "Investor",
+        "description": "Investoren-Portal"
+      },
+      "importer": {
+        "name": "Importeur",
+        "description": "Importeure-Portal"
+      },
+      "admin": {
+        "name": "Administrator",
+        "description": "Administrations-Panel"
+      }
+    }
+  },
+  "register": {
+    "title": "Konto erstellen",
+    "description": "Wählen Sie den Kontotyp aus, den Sie erstellen möchten",
+    "select": "Auswählen",
+    "alreadyHaveAccount": "Sie haben bereits ein Konto?",
+    "options": {
+      "client": {
+        "name": "Kunde",
+        "description": "Konto erstellen, um Produkte direkt von lokalen Produzenten zu kaufen"
+      },
+      "producer": {
+        "name": "Produzent",
+        "description": "Werden Sie Partnerproduzent und verkaufen Sie Ihre Produkte direkt an Kunden"
+      },
+      "business": {
+        "name": "Business",
+        "description": "Konto für Restaurants, Hotels, Cafés und andere Unternehmen"
+      },
+      "logistics": {
+        "name": "Logistik",
+        "description": "Werden Sie Logistik- und Transportpartner"
+      },
+      "investor": {
+        "name": "Investor",
+        "description": "Investieren Sie in die Farme.ro-Plattform"
+      },
+      "importer": {
+        "name": "Importeur",
+        "description": "Importieren Sie Qualitätsprodukte nach Rumänien"
+      }
+    }
+  },
+  "business": {
+    "payments": {
+      "title": "@@AUTO@@ Plăți & Facturare",
+      "comingSoon": "@@AUTO@@ În curând vei putea vedea aici extrasele cu facturile plătite și comisioanele.",
+      "comingSoonDescription": "@@AUTO@@ Funcționalitatea este în curs de dezvoltare. Vom anunța când va fi disponibilă."
+    }
+  },
+  "investor": {
+    "dashboard": {
+      "title": "@@AUTO@@ Panou investitor",
+      "subtitle": "@@AUTO@@ Statistici agregate despre utilizarea platformei și evoluția Farmero.",
+      "welcome": "@@AUTO@@ Bun venit, {name}!",
+      "loading": "@@AUTO@@ Se încarcă dashboard-ul...",
+      "comingSoonTitle": "@@AUTO@@ Dashboard-ul de investitor este în curs de pregătire",
+      "comingSoonDescription": "@@AUTO@@ În curând vei vedea aici date agregate despre activitatea din platformă.",
+      "errorTitle": "@@AUTO@@ Eroare la încărcare",
+      "errorGeneric": "@@AUTO@@ A apărut o problemă la încărcarea datelor. Încearcă din nou mai târziu.",
+      "errorForbidden": "@@AUTO@@ Nu ai încă acces la acest dashboard. Verifică permisiunile contului tău.",
+      "noDataTitle": "@@AUTO@@ Nu există date disponibile",
+      "noDataDescription": "@@AUTO@@ Încă nu există suficientă activitate pentru a afișa statistici relevante.",
+      "totalRevenue": "@@AUTO@@ Venit total",
+      "totalTransactions": "@@AUTO@@ Tranzacții totale",
+      "totalOrders": "@@AUTO@@ Comenzi totale",
+      "totalGMV": "@@AUTO@@ GMV total",
+      "totalFees": "@@AUTO@@ Comisioane Farmero",
+      "activeProducers": "@@AUTO@@ Producători activi",
+      "activeClients": "@@AUTO@@ Clienți activi",
+      "activeUsers": "@@AUTO@@ Utilizatori activi",
+      "activeRegions": "@@AUTO@@ Regiuni active",
+      "platformCommission": "@@AUTO@@ Comision platformă",
+      "transactionVolume": "@@AUTO@@ Volume Tranzacții",
+      "orderEvolution": "@@AUTO@@ Evoluție Comenzi",
+      "topProducts": "@@AUTO@@ Top Produse",
+      "topRegions": "@@AUTO@@ Top Regiuni",
+      "topProducers": "@@AUTO@@ Top Producători",
+      "financialFlow": "@@AUTO@@ Flux Financiar",
+      "totalVolume": "@@AUTO@@ Volum total",
+      "completed": "@@AUTO@@ Finalizate",
+      "averageValue": "@@AUTO@@ Valoare medie",
+      "producers": "@@AUTO@@ producători",
+      "products": "@@AUTO@@ produse",
+      "producer": "@@AUTO@@ Producător",
+      "commission": "@@AUTO@@ Comision",
+      "payouts": "@@AUTO@@ Plăți producători",
+      "netRevenue": "@@AUTO@@ Venit net",
+      "growthTitle": "@@AUTO@@ Creștere & retenție",
+      "newClients": "@@AUTO@@ Clienți noi",
+      "returningClients": "@@AUTO@@ Clienți recurenți",
+      "repeatRate": "@@AUTO@@ Rata de revenire",
+      "averageOrderValue": "@@AUTO@@ Valoare medie comandă",
+      "newProducers": "@@AUTO@@ Producători noi",
+      "segmentsTitle": "@@AUTO@@ Segmente",
+      "regionsTitle": "@@AUTO@@ Regiuni",
+      "segment": "@@AUTO@@ Segment",
+      "region": "@@AUTO@@ Regiune",
+      "orders": "@@AUTO@@ Comenzi",
+      "gmv": "@@AUTO@@ GMV",
+      "fees": "@@AUTO@@ Fees",
+      "noSegments": "@@AUTO@@ Nu există date de segmente disponibile.",
+      "noRegions": "@@AUTO@@ Nu există date de regiuni disponibile."
+    },
+    "period": {
+      "daily": "@@AUTO@@ Zilnic",
+      "weekly": "@@AUTO@@ Săptămânal",
+      "monthly": "@@AUTO@@ Lunar"
+    }
+  },
+  "account": {
+    "title": "@@AUTO@@ Contul meu",
+    "description": "@@AUTO@@ Gestionează datele personale și adresele de livrare",
+    "loading": "@@AUTO@@ Se încarcă datele contului...",
+    "personalInfo": {
+      "title": "@@AUTO@@ Date personale",
+      "fullName": "@@AUTO@@ Nume complet",
+      "fullNamePlaceholder": "@@AUTO@@ Nume complet",
+      "email": "@@AUTO@@ Email",
+      "emailCannotBeChanged": "@@AUTO@@ Email-ul nu poate fi modificat",
+      "phone": "@@AUTO@@ Telefon",
+      "phonePlaceholder": "@@AUTO@@ 07xxxxxxxx"
+    },
+    "addresses": {
+      "title": "@@AUTO@@ Adrese de livrare",
+      "addButton": "@@AUTO@@ Adaugă",
+      "loading": "@@AUTO@@ Se încarcă adresele...",
+      "addTitle": "@@AUTO@@ Adaugă adresă nouă",
+      "editTitle": "@@AUTO@@ Editează adresa",
+      "namePlaceholder": "@@AUTO@@ Nume complet",
+      "phonePlaceholder": "@@AUTO@@ Telefon",
+      "emailPlaceholder": "@@AUTO@@ Email (opțional)",
+      "cityPlaceholder": "@@AUTO@@ Oraș",
+      "addressPlaceholder": "@@AUTO@@ Adresă completă",
+      "postalCodePlaceholder": "@@AUTO@@ Cod poștal (opțional)",
+      "notesPlaceholder": "@@AUTO@@ Notițe (opțional)",
+      "empty": "@@AUTO@@ Nu ai adrese de livrare salvate",
+      "emptyDescription": "@@AUTO@@ Adaugă o adresă pentru a accelera procesul de comandă",
+      "default": "@@AUTO@@ Adresă principală"
+    },
+    "subscriptions": {
+      "title": "@@AUTO@@ Abonamentele mele",
+      "empty": "@@AUTO@@ Nu ai încă abonamente active. În curând vei putea primi coșuri recurente direct de la producătorii tăi preferați.",
+      "plan": "@@AUTO@@ Plan abonament",
+      "fromProducer": "@@AUTO@@ De la",
+      "frequency": "@@AUTO@@ Frecvență",
+      "nextDelivery": "@@AUTO@@ Următoarea livrare",
+      "pause": "@@AUTO@@ Pauză",
+      "resume": "@@AUTO@@ Reluare",
+      "cancel": "@@AUTO@@ Anulează",
+      "confirmPause": "@@AUTO@@ Ești sigur că vrei să pui abonamentul în pauză?",
+      "confirmCancel": "@@AUTO@@ Ești sigur că vrei să anulezi abonamentul? Această acțiune nu poate fi anulată.",
+      "paused": "@@AUTO@@ Abonamentul a fost pus în pauză",
+      "resumed": "@@AUTO@@ Abonamentul a fost reluat",
+      "canceled": "@@AUTO@@ Abonamentul a fost anulat"
+    },
+    "points": {
+      "title": "@@AUTO@@ Farmero Points & Farm Rewards",
+      "yourPoints": "@@AUTO@@ Punctele tale",
+      "level": "@@AUTO@@ Nivel",
+      "levelBronze": "@@AUTO@@ Bronze",
+      "levelSilver": "@@AUTO@@ Silver",
+      "levelGold": "@@AUTO@@ Gold",
+      "progressToNext": "@@AUTO@@ Progres către următorul nivel",
+      "pointsNeeded": "@@AUTO@@ puncte până la următorul nivel",
+      "description": "@@AUTO@@ Primești Farmero Points când comanzi constant și ridici comenzile la timp. Un scor bun îți poate aduce mai multe beneficii în viitor."
+    },
+    "privacy": {
+      "title": "@@AUTO@@ Date & confidențialitate",
+      "description": "@@AUTO@@ Poți afla cum îți folosim datele în Politica de confidențialitate și în pagina dedicată protecției datelor.",
+      "privacyLink": "@@AUTO@@ Politica de confidențialitate",
+      "gdprLink": "@@AUTO@@ Drepturile tale (GDPR)",
+      "closeAccount": "@@AUTO@@ Închide contul",
+      "closeAccountDialog": {
+        "title": "@@AUTO@@ Închidere cont",
+        "content": "@@AUTO@@ Închiderea contului și ștergerea datelor se va face în baza unei cereri către echipa Farmero. Această funcționalitate va fi disponibilă direct din contul tău în curând.",
+        "ok": "@@AUTO@@ OK"
+      }
+    }
+  },
+  "contracts": {
+    "title": "@@AUTO@@ Contracte",
+    "subtitle": "@@AUTO@@ Vizualizează și gestionează contractele tale cu Farmero și partenerii.",
+    "empty": "@@AUTO@@ Nu ai contracte încă",
+    "emptyDescription": "@@AUTO@@ Contractele tale cu Farmero și partenerii vor apărea aici.",
+    "notSigned": "@@AUTO@@ Nesemnat",
+    "viewDetails": "@@AUTO@@ Vezi detalii",
+    "backToList": "@@AUTO@@ Înapoi la listă",
+    "download": "@@AUTO@@ Descarcă contractul",
+    "errorLoading": "@@AUTO@@ Eroare la încărcarea contractului",
+    "notFound": "@@AUTO@@ Contractul nu a fost găsit",
+    "types": {
+      "producerPlatform": "@@AUTO@@ Contract producător – Farmero",
+      "logisticsPlatform": "@@AUTO@@ Contract logistică – Farmero",
+      "businessPlatform": "@@AUTO@@ Contract business – Farmero",
+      "producerBusiness": "@@AUTO@@ Contract producător – Business",
+      "donorPlatform": "@@AUTO@@ Contract donator – Farmero"
+    },
+    "status": {
+      "active": "@@AUTO@@ Activ",
+      "suspended": "@@AUTO@@ Suspendat",
+      "terminated": "@@AUTO@@ Terminat",
+      "draft": "@@AUTO@@ Draft"
+    },
+    "table": {
+      "type": "@@AUTO@@ Tip contract",
+      "status": "@@AUTO@@ Status",
+      "signedAt": "@@AUTO@@ Data semnării",
+      "reference": "@@AUTO@@ Referință",
+      "actions": "@@AUTO@@ Acțiuni"
+    },
+    "details": {
+      "status": "@@AUTO@@ Status",
+      "parties": "@@AUTO@@ Părți contractante",
+      "signedAt": "@@AUTO@@ Data semnării",
+      "validFrom": "@@AUTO@@ Valabil de la",
+      "validUntil": "@@AUTO@@ Valabil până la",
+      "infoTitle": "@@AUTO@@ Informații",
+      "infoDescription": "@@AUTO@@ Acest contract este momentan doar pentru consultare. Pentru întrebări sau modificări, contactează echipa de suport."
+    },
+    "infoTitle": "@@AUTO@@ Informații importante",
+    "infoDescription": "@@AUTO@@ Contractele sunt momentan doar pentru consultare. Pentru întrebări despre contracte sau pentru a solicita modificări, contactează echipa de suport."
+  },
+  "status": {
+    "title": "@@AUTO@@ System Status",
+    "subtitle": "@@AUTO@@ Diagnostic page to check backend API and database connectivity",
+    "serviceStatus": "@@AUTO@@ Service Status",
+    "backendApi": "@@AUTO@@ Backend API",
+    "database": "@@AUTO@@ Database (Neon)",
+    "connectionStatus": "@@AUTO@@ Connection status from backend",
+    "responseTime": "@@AUTO@@ Response time",
+    "httpStatus": "@@AUTO@@ HTTP",
+    "checking": "@@AUTO@@ CHECKING...",
+    "ok": "@@AUTO@@ OK",
+    "error": "@@AUTO@@ ERROR",
+    "errorDetails": "@@AUTO@@ Error Details",
+    "solutions": "@@AUTO@@ Posibile soluții:",
+    "solution1": "@@AUTO@@ Verifică că backend-ul rulează și este accesibil la",
+    "solution2": "@@AUTO@@ Verifică că backend-ul are implementat un endpoint de health check (/status, /health sau /health/db)",
+    "solution3": "@@AUTO@@ Verifică configurația CORS pe backend pentru a permite request-uri de la frontend",
+    "solution4": "@@AUTO@@ Verifică în browser console (F12) pentru detalii despre eroarea de rețea",
+    "timestamp": "@@AUTO@@ Timestamp",
+    "allSystemsOk": "@@AUTO@@ Toate sistemele funcționează",
+    "allSystemsOkDesc": "@@AUTO@@ Backend API și baza de date sunt accesibile și funcționează corect.",
+    "lastCheck": "@@AUTO@@ Ultima verificare",
+    "environmentInfo": "@@AUTO@@ Environment Info",
+    "environment": "@@AUTO@@ Environment",
+    "apiUrl": "@@AUTO@@ API URL",
+    "frontend": "@@AUTO@@ Frontend",
+    "frontendValue": "@@AUTO@@ Next.js App Router",
+    "refreshStatus": "@@AUTO@@ Refresh Status",
+    "checkingStatus": "@@AUTO@@ Se verifică...",
+    "autoRefresh": "@@AUTO@@ Auto-refresh (30s)",
+    "autoRefreshDesc": "@@AUTO@@ Status-ul se va actualiza automat la fiecare 30 de secunde",
+    "couldNotConnect": "@@AUTO@@ Nu s-a putut conecta la server",
+    "checkAccessible": "@@AUTO@@ Verifică că {url} este accesibil."
+  },
+  "journal": {
+    "hero": {
+      "title": "Farme.ro Journal",
+      "subtitle": "Wahre Geschichten über Menschen, die mit Sinn Lebensmittel anbauen. Entdecken Sie die Traditionen, Methoden und Menschen hinter Ihren Lieblingsprodukten."
+    },
+    "badge": "Farme.ro Journal",
+    "empty": {
+      "title": "Neue Geschichten kommen bald",
+      "description": "Wir bereiten neue Geschichten für das Farme.ro Journal vor 🌱"
+    },
+    "error": {
+      "loading": "Fehler beim Laden der Artikel"
+    },
+    "article": {
+      "notFound": "Artikel nicht gefunden.",
+      "comingSoon": "Der Artikel wird vorbereitet.",
+      "error": "Fehler beim Laden des Artikels",
+      "backToList": "Zurück zum Journal",
+      "viewProducer": "Produzent anzeigen",
+      "aboutProducer": "Über den Produzenten",
+      "aboutProducerDescription": "Dieser Artikel ist Teil des Farme.ro Journal, einer Premium-Redaktionssektion für Produzenten mit Werbeplänen. Hier entdecken Sie die Menschen, Prozesse und Geschichten hinter den Produkten.",
+      "promotedProducer": "Beworbener Produzent",
+      "viewProducerPage": "Produzentenseite anzeigen",
+      "products": {
+        "title": "Produkte aus diesem Journal",
+        "description": "Entdecken Sie alle verfügbaren Produkte auf der Produzentenseite.",
+        "cta": "Alle Produkte anzeigen"
+      },
+      "cta": {
+        "title": "Entdecken Sie die Produkte dieses Produzenten",
+        "description": "Besuchen Sie den Shop des Produzenten, um alle verfügbaren Produkte zu sehen.",
+        "button": "Produkte dieses Produzenten anzeigen"
+      }
+    }
+  },
+  "pwa": {
+    "installPrompt": {
+      "title": "Farmero auf Ihrem Gerät installieren",
+      "subtitle": "Schneller Zugriff auf Ihre bevorzugten Produzenten, direkt vom Startbildschirm.",
+      "installButton": "Jetzt installieren",
+      "installing": "Wird installiert...",
+      "dismissButton": "Nicht jetzt"
+    }
+  },
+  "notFound": {
+    "title": "Ups! Seite nicht gefunden",
+    "description": "Es scheint, dass die Seite, die Sie suchen, auf dem Feld verloren gegangen ist... Aber keine Sorge, wir helfen Ihnen, den Weg zurückzufinden!",
+    "maybeInterested": "Sie könnten interessiert sein an:",
+    "home": "Startseite",
+    "products": "Produkte",
+    "search": "Suche",
+    "back": "Zurück",
+    "funMessage": "P.S. Wenn Sie ein verlorenes Gemüse gesehen haben, lassen Sie es uns bitte wissen! 🥕"
+  }
+}
