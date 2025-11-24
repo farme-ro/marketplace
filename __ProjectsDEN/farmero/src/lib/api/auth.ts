@@ -268,7 +268,8 @@ export async function getClientProfile(): Promise<ClientUser | null> {
   } catch (error) {
     if (error instanceof ApiError) {
       // 401 means not authenticated
-      if (error.status === 401) {
+      // 403 means authenticated but wrong role (also treat as not authenticated for this endpoint)
+      if (error.status === 401 || error.status === 403) {
         return null
       }
       // Network errors - assume not authenticated
@@ -373,7 +374,8 @@ export async function getProducerProfile(): Promise<ProducerUser | null> {
   } catch (error) {
     if (error instanceof ApiError) {
       // 401 means not authenticated
-      if (error.status === 401) {
+      // 403 means authenticated but wrong role (also treat as not authenticated for this endpoint)
+      if (error.status === 401 || error.status === 403) {
         return null
       }
       // Network errors - assume not authenticated
