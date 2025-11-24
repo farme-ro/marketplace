@@ -1,0 +1,264 @@
+{
+  "common": {
+    "save": "Salvează",
+    "cancel": "Anulează",
+    "delete": "Șterge",
+    "edit": "Editează",
+    "view": "Vezi",
+    "search": "Caută",
+    "filter": "Filtrează",
+    "loading": "Se încarcă...",
+    "error": "Eroare",
+    "success": "Succes",
+    "confirm": "Confirmă",
+    "close": "Închide",
+    "back": "Înapoi",
+    "next": "Următorul",
+    "previous": "Anterior",
+    "actions": "Acțiuni",
+    "status": "Status",
+    "createdAt": "Data creării",
+    "updatedAt": "Ultima actualizare",
+    "noData": "Nu există date",
+    "noResults": "Nu s-au găsit rezultate"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "journal": "Jurnal",
+    "journalArticles": "Articole",
+    "journalMetrics": "Metrici",
+    "producers": "Producători",
+    "orders": "Comenzi",
+    "allOrders": "Toate comenzile",
+    "disputes": "Dispute & Refunds",
+    "commerce": "Commerce",
+    "commissions": "Comisioane & Payout",
+    "users": "Utilizatori",
+    "support": "Support",
+    "supportUsers": "Utilizatori & timeline",
+    "aiInteractions": "AI Interactions",
+    "content": "Content",
+    "contentPages": "Pagini & Legal",
+    "contentFaq": "FAQ & Ajutor",
+    "contentI18n": "Texte & i18n",
+    "contentSeo": "Content & SEO",
+    "contentSeoOverview": "Overview",
+    "contentSeoPages": "Pagini & meta",
+    "contentSeoJournal": "Jurnal & articole",
+    "marketing": "Marketing & Growth",
+    "marketingOverview": "Overview",
+    "marketingFunnels": "Funnels & activare",
+    "marketingCampaigns": "Campanii & canale",
+    "growthEngine": "Growth Engine",
+    "security": "Security & Access",
+    "securityOverview": "Security overview",
+    "securityAccessLogs": "Access logs",
+    "securitySensitiveActions": "Sensitive changes",
+    "system": "System",
+    "systemStatus": "Status & Health",
+    "systemConfig": "Config & Flags",
+    "systemAuditLog": "Audit Log",
+    "systemGdpr": "GDPR & Date",
+    "systemContracts": "Contracte & Facturi",
+    "systemSubscriptions": "Abonamente promovare",
+    "systemMonitoring": "Monitorizare Post-Launch",
+    "systemPostLaunch": "Post-Launch Dashboard"
+  },
+  "postLaunch": {
+    "title": "Post-Launch Dashboard",
+    "subtitle": "Monitorizare, optimizare și testare post-launch",
+    "tabs": {
+      "monitoring": "Monitorizare",
+      "performance": "Performanță",
+      "analytics": "Analytics",
+      "security": "Securitate",
+      "qa": "QA"
+    },
+    "monitoring": {
+      "title": "Monitorizare & Stabilitate"
+    },
+    "performance": {
+      "title": "Optimizare Performanță & SEO",
+      "metrics": "Metrici Performanță",
+      "seo": "Metrici SEO",
+      "recommendations": "Recomandări Optimizare"
+    },
+    "analytics": {
+      "title": "Analytics & Conversii",
+      "conversions": "Metrici Conversii",
+      "funnel": "Funnel Conversii"
+    },
+    "security": {
+      "title": "Hardening & Security",
+      "metrics": "Metrici Securitate",
+      "runAudit": "Rulează Audit",
+      "auditResults": "Rezultate Audit Securitate",
+      "recommendations": "Recomandări Securitate"
+    },
+    "qa": {
+      "title": "Teste Funcționale Complete",
+      "runAll": "Rulează Toate Testele",
+      "functional": "Teste Funcționale",
+      "load": "Teste Load",
+      "regression": "Teste Regression",
+      "allTests": "Toate Testele"
+    }
+  },
+  "monitoring": {
+    "title": "Monitorizare Post-Launch",
+    "subtitle": "Monitorizare sistem pentru primele 72h după lansare",
+    "apiHealth": "API Health",
+    "apiHealthDesc": "Status API server",
+    "databaseHealth": "Database Health",
+    "databaseHealthDesc": "Status baza de date",
+    "errorRate": "Error Rate",
+    "errorRateDesc": "Erori per 1000 requests",
+    "activeUsers": "Active Users",
+    "activeUsersDesc": "Ultimele 24h",
+    "errorStats": "Statistici Erori",
+    "totalErrors": "Total Erori",
+    "criticalErrors": "Erori Critice",
+    "resolvedErrors": "Erori Rezolvate",
+    "errorsByType": "Erori pe tip",
+    "systemStability": "Stabilitate Sistem",
+    "uptime": "Uptime",
+    "availability": "Disponibilitate",
+    "downtime": "Downtime",
+    "recentIncidents": "Incidente Recente",
+    "autoRefresh": "Auto-refresh (30s)",
+    "testEvent": "Test Event",
+    "testEventRecorded": "Eveniment de test înregistrat cu succes!",
+    "testEventFailed": "Eroare la înregistrarea evenimentului de test.",
+    "errorLoadingData": "Eroare la încărcarea datelor de monitorizare."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Vizualizare generală platformă",
+    "kpis": {
+      "totalProducers": "Total producători",
+      "totalProducersDesc": "Producători înregistrați",
+      "totalClients": "Total clienți",
+      "totalClientsDesc": "Clienți înregistrați",
+      "ordersToday": "Comenzi azi",
+      "ordersTodayDesc": "Comenzi plasate astăzi",
+      "ordersValueThisMonth": "Valoare comenzi luna aceasta",
+      "ordersValueThisMonthDesc": "Valoare totală comenzi"
+    },
+    "note": "Notă",
+    "notePlaceholder": "Aceste valori sunt placeholder-uri. Integrează cu backend-ul folosind endpoint-urile documentate în",
+    "noteBackendGaps": "docs/ADMIN_BACKEND_GAPS.md"
+  },
+  "producers": {
+    "title": "Producători",
+    "subtitle": "Gestionează producătorii platformei",
+    "columns": {
+      "name": "Nume",
+      "region": "Regiune",
+      "status": "Status",
+      "createdAt": "Data înregistrării"
+    },
+    "status": {
+      "pending": "În așteptare",
+      "approved": "Aprobat",
+      "rejected": "Respins"
+    },
+    "filters": {
+      "status": "Filtrează după status",
+      "search": "Caută producători..."
+    },
+    "actions": {
+      "approve": "Aprobă",
+      "reject": "Respinge",
+      "viewDetails": "Vezi detalii"
+    },
+    "confirm": {
+      "approveTitle": "Aprobă producător",
+      "approveMessage": "Ești sigur că vrei să aprobi acest producător?",
+      "rejectTitle": "Respinge producător",
+      "rejectMessage": "Ești sigur că vrei să respingi acest producător?",
+      "reasonLabel": "Motiv",
+      "reasonPlaceholder": "Introdu motivul respingerii..."
+    },
+    "errors": {
+      "loadError": "Eroare la încărcarea producătorilor",
+      "updateError": "Eroare la actualizare"
+    }
+  },
+  "users": {
+    "title": "Utilizatori",
+    "subtitle": "Gestionează utilizatorii platformei",
+    "columns": {
+      "name": "Nume",
+      "role": "Rol",
+      "producer": "Producător",
+      "createdAt": "Data înregistrării"
+    },
+    "roles": {
+      "admin": "Admin",
+      "producer": "Producător",
+      "customer": "Client"
+    },
+    "filters": {
+      "search": "Caută utilizatori..."
+    },
+    "actions": {
+      "deactivate": "Dezactivează",
+      "reactivate": "Reactivează",
+      "viewDetails": "Vezi detalii"
+    }
+  },
+  "orders": {
+    "title": "Comenzi",
+    "subtitle": "Gestionează comenzile platformei",
+    "filters": {
+      "status": "Filtrează după status",
+      "dateFrom": "De la",
+      "dateTo": "Până la",
+      "producer": "Producător",
+      "client": "Client",
+      "search": "Caută comenzi..."
+    },
+    "status": {
+      "placed": "Plasată",
+      "confirmed": "Confirmată",
+      "shipped": "Expediată",
+      "delivered": "Livrată",
+      "canceled": "Anulată",
+      "refunded": "Rambursată"
+    }
+  },
+  "accessDenied": {
+    "title": "Acces interzis",
+    "message": "Nu ai permisiunea necesară pentru a accesa această pagină.",
+    "requiredPermission": "Permisiune necesară",
+    "contactAdmin": "Contactează un administrator dacă crezi că ar trebui să ai acces."
+  },
+  "confirmDialog": {
+    "defaultTitle": "Confirmă acțiunea",
+    "defaultMessage": "Ești sigur că vrei să continui?",
+    "confirm": "Confirmă",
+    "cancel": "Anulează"
+  },
+  "emptyState": {
+    "noData": "Nu există date",
+    "noResults": "Nu s-au găsit rezultate",
+    "tryAgain": "Încearcă din nou"
+  },
+  "contracts": {
+    "title": "Contracte & Facturi",
+    "subtitle": "Gestionează template-uri de contracte și facturi",
+    "tabs": {
+      "templates": "Template-uri Contracte",
+      "invoices": "Facturi"
+    },
+    "actions": {
+      "createTemplate": "Creează Template",
+      "createInvoice": "Creează Factură"
+    },
+    "empty": {
+      "templates": "Nu există template-uri de contracte.",
+      "invoices": "Nu există facturi."
+    }
+  }
+}
+

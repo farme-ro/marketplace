@@ -1,0 +1,223 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "confirm": "Confirm",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "actions": "Actions",
+    "status": "Status",
+    "createdAt": "Created at",
+    "updatedAt": "Last updated",
+    "noData": "No data",
+    "noResults": "No results found"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "journal": "Journal",
+    "journalArticles": "Articles",
+    "journalMetrics": "Metrics",
+    "producers": "Producers",
+    "orders": "Orders",
+    "allOrders": "All orders",
+    "disputes": "Disputes & Refunds",
+    "commerce": "Commerce",
+    "commissions": "Commissions & Payout",
+    "users": "Users",
+    "support": "Support",
+    "supportUsers": "Users & timeline",
+    "aiInteractions": "AI Interactions",
+    "content": "Content",
+    "contentPages": "Pages & Legal",
+    "contentFaq": "FAQ & Help",
+    "contentI18n": "Texts & i18n",
+    "contentSeo": "Content & SEO",
+    "contentSeoOverview": "Overview",
+    "contentSeoPages": "Pages & meta",
+    "contentSeoJournal": "Journal & articles",
+    "marketing": "Marketing & Growth",
+    "marketingOverview": "Overview",
+    "marketingFunnels": "Funnels & activation",
+    "marketingCampaigns": "Campaigns & channels",
+    "growthEngine": "Growth Engine",
+    "security": "Security & Access",
+    "securityOverview": "Security overview",
+    "securityAccessLogs": "Access logs",
+    "securitySensitiveActions": "Sensitive changes",
+    "system": "System",
+    "systemStatus": "Status & Health",
+    "systemConfig": "Config & Flags",
+    "systemAuditLog": "Audit Log",
+    "systemGdpr": "GDPR & Data",
+    "systemContracts": "Contracts & Invoices",
+    "systemSubscriptions": "Promotion subscriptions",
+    "systemMonitoring": "Post-Launch Monitoring"
+  },
+  "monitoring": {
+    "title": "Post-Launch Monitoring",
+    "subtitle": "System monitoring for first 72h after launch",
+    "apiHealth": "API Health",
+    "apiHealthDesc": "API server status",
+    "databaseHealth": "Database Health",
+    "databaseHealthDesc": "Database status",
+    "errorRate": "Error Rate",
+    "errorRateDesc": "Errors per 1000 requests",
+    "activeUsers": "Active Users",
+    "activeUsersDesc": "Last 24h",
+    "errorStats": "Error Statistics",
+    "totalErrors": "Total Errors",
+    "criticalErrors": "Critical Errors",
+    "resolvedErrors": "Resolved Errors",
+    "errorsByType": "Errors by Type",
+    "systemStability": "System Stability",
+    "uptime": "Uptime",
+    "availability": "Availability",
+    "downtime": "Downtime",
+    "recentIncidents": "Recent Incidents",
+    "autoRefresh": "Auto-refresh (30s)",
+    "testEvent": "Test Event",
+    "testEventRecorded": "Test event recorded successfully!",
+    "testEventFailed": "Error recording test event.",
+    "errorLoadingData": "Error loading monitoring data."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Platform overview",
+    "kpis": {
+      "totalProducers": "Total producers",
+      "totalProducersDesc": "Registered producers",
+      "totalClients": "Total clients",
+      "totalClientsDesc": "Registered clients",
+      "ordersToday": "Orders today",
+      "ordersTodayDesc": "Orders placed today",
+      "ordersValueThisMonth": "Orders value this month",
+      "ordersValueThisMonthDesc": "Total orders value"
+    },
+    "note": "Note",
+    "notePlaceholder": "These values are placeholders. Integrate with the backend using the endpoints documented in",
+    "noteBackendGaps": "docs/ADMIN_BACKEND_GAPS.md"
+  },
+  "producers": {
+    "title": "Producers",
+    "subtitle": "Manage platform producers",
+    "columns": {
+      "name": "Name",
+      "region": "Region",
+      "status": "Status",
+      "createdAt": "Registration date"
+    },
+    "status": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "filters": {
+      "status": "Filter by status",
+      "search": "Search producers..."
+    },
+    "actions": {
+      "approve": "Approve",
+      "reject": "Reject",
+      "viewDetails": "View details"
+    },
+    "confirm": {
+      "approveTitle": "Approve producer",
+      "approveMessage": "Are you sure you want to approve this producer?",
+      "rejectTitle": "Reject producer",
+      "rejectMessage": "Are you sure you want to reject this producer?",
+      "reasonLabel": "Reason",
+      "reasonPlaceholder": "Enter rejection reason..."
+    },
+    "errors": {
+      "loadError": "Error loading producers",
+      "updateError": "Update error"
+    }
+  },
+  "users": {
+    "title": "Users",
+    "subtitle": "Manage platform users",
+    "columns": {
+      "name": "Name",
+      "role": "Role",
+      "producer": "Producer",
+      "createdAt": "Registration date"
+    },
+    "roles": {
+      "admin": "Admin",
+      "producer": "Producer",
+      "customer": "Customer"
+    },
+    "filters": {
+      "search": "Search users..."
+    },
+    "actions": {
+      "deactivate": "Deactivate",
+      "reactivate": "Reactivate",
+      "viewDetails": "View details"
+    }
+  },
+  "orders": {
+    "title": "Orders",
+    "subtitle": "Manage platform orders",
+    "filters": {
+      "status": "Filter by status",
+      "dateFrom": "From",
+      "dateTo": "To",
+      "producer": "Producer",
+      "client": "Client",
+      "search": "Search orders..."
+    },
+    "status": {
+      "placed": "Placed",
+      "confirmed": "Confirmed",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "canceled": "Canceled",
+      "refunded": "Refunded"
+    }
+  },
+  "accessDenied": {
+    "title": "Access denied",
+    "message": "You do not have the required permission to access this page.",
+    "requiredPermission": "Required permission",
+    "contactAdmin": "Contact an administrator if you believe you should have access."
+  },
+  "confirmDialog": {
+    "defaultTitle": "Confirm action",
+    "defaultMessage": "Are you sure you want to continue?",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "emptyState": {
+    "noData": "No data",
+    "noResults": "No results found",
+    "tryAgain": "Try again"
+  },
+  "contracts": {
+    "title": "Contracts & Invoices",
+    "subtitle": "Manage contract templates and invoices",
+    "tabs": {
+      "templates": "Contract Templates",
+      "invoices": "Invoices"
+    },
+    "actions": {
+      "createTemplate": "Create Template",
+      "createInvoice": "Create Invoice"
+    },
+    "empty": {
+      "templates": "No contract templates.",
+      "invoices": "No invoices."
+    }
+  }
+}
+
