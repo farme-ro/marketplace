@@ -66,12 +66,25 @@ export default function RegisterClientPage() {
     try {
       // Combine firstName and lastName into fullName for API
       const fullName = `${firstName.trim()} ${lastName.trim()}`.trim()
-      await registerClient({ 
-        email, 
-        password, 
+      
+      // Build payload - only include phoneNumber if it's valid
+      const payload: { 
+        email: string
+        password: string
+        fullName: string
+        phoneNumber?: string
+      } = {
+        email,
+        password,
         fullName,
-        phoneNumber: cleanPhone
-      })
+      }
+      
+      // Only add phoneNumber if it's valid and not empty
+      if (cleanPhone && cleanPhone.length > 0) {
+        payload.phoneNumber = cleanPhone
+      }
+      
+      await registerClient(payload)
       // Redirect is handled by the registerClient function
     } catch (err: any) {
       // Handle different types of errors
