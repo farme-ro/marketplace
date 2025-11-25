@@ -7,8 +7,16 @@
 
 // Get API base URL - standardize on NEXT_PUBLIC_API_URL
 // In production: https://api.farme.ro
-// In development: http://localhost:4000 (local backend) or https://api.farme.ro (remote)
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:4000'
+// In development: http://localhost:3001 (local backend) or https://api.farme.ro (remote)
+// IMPORTANT: Backend-ul este într-un repo separat (api.farme.ro)
+// Note: Default port is 3001 to match common local development setup
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:3001'
+
+// Log in development for debugging
+if (typeof window !== 'undefined' && process.env.NODE_ENV === 'development') {
+  // eslint-disable-next-line no-console
+  console.debug('[API Client] Using API_BASE_URL:', API_BASE_URL)
+}
 
 export class ApiError extends Error {
   status?: number
@@ -72,7 +80,28 @@ export async function apiFetch<T>(path: string, init?: RequestInit): Promise<T> 
 
     // Handle 500+ - Server Error
     if (response.status >= 500) {
-      throw new ApiError('Eroare server', response.status)
+      // Try to extract detailed error message from backend response
+      let errorMessage = 'Eroare server'
+      try {
+        const errorData = await response.clone().json()
+        if (errorData && typeof errorData === 'object') {
+          if (errorData.message) {
+            errorMessage = errorData.message
+          } else if (errorData.error && typeof errorData.error === 'string') {
+            errorMessage = errorData.error
+          }
+        }
+      } catch {
+        // If response is not JSON, use default message
+      }
+      
+      // Log detailed error in development
+      if (process.env.NODE_ENV === 'development') {
+        // eslint-disable-next-line no-console
+        console.warn(`[apiFetch] Server error for ${normalizedPath}:`, response.status, errorMessage)
+      }
+      
+      throw new ApiError(errorMessage, response.status)
     }
 
     // Parse response
@@ -82,8 +111,20 @@ export async function apiFetch<T>(path: string, init?: RequestInit): Promise<T> 
 
       // Check for error in response body
       if (!response.ok) {
+        const errorMessage = data.error || data.message || 'Eroare necunoscută'
+        
+        // Log detailed error in development
+        if (process.env.NODE_ENV === 'development') {
+          // eslint-disable-next-line no-console
+          console.warn(`[apiFetch] Error for ${normalizedPath}:`, response.status, errorMessage)
+          if (data && typeof data === 'object') {
+            // eslint-disable-next-line no-console
+            console.warn('[apiFetch] Error details:', data)
+          }
+        }
+        
         throw new ApiError(
-          data.error || data.message || 'Eroare necunoscută',
+          errorMessage,
           response.status,
           data
         )
