@@ -1,7 +1,17 @@
 /** @type {import('next').NextConfig} */
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true',
-})
+// Make bundle analyzer optional - only use if available and ANALYZE env var is set
+let withBundleAnalyzer = (config) => config
+try {
+  if (process.env.ANALYZE === 'true') {
+    const bundleAnalyzer = require('@next/bundle-analyzer')
+    withBundleAnalyzer = bundleAnalyzer({
+      enabled: true,
+    })
+  }
+} catch (error) {
+  // Bundle analyzer not available, continue without it
+  console.warn('@next/bundle-analyzer not available, skipping bundle analysis')
+}
 
 const nextConfig = {
   transpilePackages: ['farme-ui'],
