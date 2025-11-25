@@ -254,7 +254,29 @@ export async function registerClient(payload: RegisterClientPayload): Promise<Au
   } catch (error) {
     if (error instanceof ApiError) {
       if (error.status === 400) {
-        throw new Error('Date invalide. Verifică că toate câmpurile sunt completate corect.')
+        // Extract detailed error message from backend
+        let errorMessage = 'Date invalide. Verifică că toate câmpurile sunt completate corect.'
+        
+        if (error.data && typeof error.data === 'object') {
+          const errorData = error.data as any
+          // Backend returns { error: string, details: ZodError.issues[], message: string }
+          if (errorData.message) {
+            errorMessage = errorData.message
+          } else if (errorData.error) {
+            errorMessage = errorData.error
+          } else if (errorData.details && Array.isArray(errorData.details)) {
+            // Format Zod validation errors
+            const zodErrors = errorData.details.map((issue: any) => {
+              const field = issue.path?.join('.') || 'câmp'
+              return `${field}: ${issue.message}`
+            }).join(', ')
+            if (zodErrors) {
+              errorMessage = `Erori de validare: ${zodErrors}`
+            }
+          }
+        }
+        
+        throw new Error(errorMessage)
       }
       if (error.status === 409) {
         throw new Error('Acest email este deja înregistrat.')
