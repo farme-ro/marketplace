@@ -20,9 +20,7 @@ import { PageContainer } from '@/components/layout/page-container'
 export default function RegisterClientPage() {
   const router = useRouter()
   const { registerClient, isLoading } = useAuth()
-  const [firstName, setFirstName] = useState('')
-  const [lastName, setLastName] = useState('')
-  const [phoneNumber, setPhoneNumber] = useState('')
+  const [fullName, setFullName] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
@@ -32,8 +30,7 @@ export default function RegisterClientPage() {
     e.preventDefault()
     setError(null)
 
-    // Validation
-    if (!firstName || !lastName || !phoneNumber || !email || !password || !confirmPassword) {
+    if (!email || !password || !confirmPassword || !fullName) {
       setError('Toate câmpurile sunt obligatorii')
       return
     }
@@ -48,30 +45,8 @@ export default function RegisterClientPage() {
       return
     }
 
-    // Basic phone validation (Romanian format)
-    const phoneRegex = /^(\+4|0)[0-9]{9}$/
-    const cleanPhone = phoneNumber.replace(/\s/g, '')
-    if (!phoneRegex.test(cleanPhone)) {
-      setError('Numărul de telefon trebuie să fie valid (ex: 0712345678 sau +40712345678)')
-      return
-    }
-
-    // Basic email validation
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-    if (!emailRegex.test(email)) {
-      setError('Email-ul nu este valid')
-      return
-    }
-
     try {
-      // Combine firstName and lastName into fullName for API
-      const fullName = `${firstName.trim()} ${lastName.trim()}`.trim()
-      await registerClient({ 
-        email, 
-        password, 
-        fullName,
-        phoneNumber: cleanPhone
-      })
+      await registerClient({ email, password, fullName })
       // Redirect is handled by the registerClient function
     } catch (err: any) {
       // Handle different types of errors
@@ -83,11 +58,6 @@ export default function RegisterClientPage() {
         errorMessage = 'Nu s-a putut conecta la server. Verifică conexiunea la internet sau încearcă din nou mai târziu.'
       } else if (err instanceof Error) {
         errorMessage = err.message
-      }
-      
-      // Log full error in development for debugging
-      if (process.env.NODE_ENV === 'development') {
-        console.error('Registration error details:', err)
       }
       
       setError(errorMessage)
@@ -289,148 +259,107 @@ export default function RegisterClientPage() {
                     )}
 
                     <form onSubmit={handleSubmit} className="space-y-6">
-                      {/* Group 1: Nume, Prenume */}
                       <motion.div
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.2 }}
-                        className="grid grid-cols-1 md:grid-cols-2 gap-4"
+                        className="space-y-2"
                       >
-                        <div className="space-y-2">
-                          <label
-                            htmlFor="firstName"
-                            className="block text-sm font-medium text-foreground"
-                          >
-                            Nume
-                          </label>
-                          <Input
-                            id="firstName"
-                            type="text"
-                            value={firstName}
-                            onChange={(e) => setFirstName(e.target.value)}
-                            required
-                            placeholder="Ion"
-                            disabled={isLoading}
-                            className="w-full"
-                            autoComplete="given-name"
-                          />
-                        </div>
-                        <div className="space-y-2">
-                          <label
-                            htmlFor="lastName"
-                            className="block text-sm font-medium text-foreground"
-                          >
-                            Prenume
-                          </label>
-                          <Input
-                            id="lastName"
-                            type="text"
-                            value={lastName}
-                            onChange={(e) => setLastName(e.target.value)}
-                            required
-                            placeholder="Popescu"
-                            disabled={isLoading}
-                            className="w-full"
-                            autoComplete="family-name"
-                          />
-                        </div>
+                        <label
+                          htmlFor="fullName"
+                          className="block text-sm font-medium text-foreground"
+                        >
+                          Nume complet
+                        </label>
+                        <Input
+                          id="fullName"
+                          type="text"
+                          value={fullName}
+                          onChange={(e) => setFullName(e.target.value)}
+                          required
+                          placeholder="Ion Popescu"
+                          disabled={isLoading}
+                          className="w-full"
+                          autoComplete="name"
+                        />
                       </motion.div>
 
-                      {/* Group 2: Telefon, Email */}
                       <motion.div
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.3 }}
-                        className="grid grid-cols-1 md:grid-cols-2 gap-4"
+                        className="space-y-2"
                       >
-                        <div className="space-y-2">
-                          <label
-                            htmlFor="phoneNumber"
-                            className="block text-sm font-medium text-foreground"
-                          >
-                            Număr telefon
-                          </label>
-                          <Input
-                            id="phoneNumber"
-                            type="tel"
-                            value={phoneNumber}
-                            onChange={(e) => setPhoneNumber(e.target.value)}
-                            required
-                            placeholder="0712345678"
-                            disabled={isLoading}
-                            className="w-full"
-                            autoComplete="tel"
-                          />
-                        </div>
-                        <div className="space-y-2">
-                          <label
-                            htmlFor="email"
-                            className="block text-sm font-medium text-foreground"
-                          >
-                            Email
-                          </label>
-                          <Input
-                            id="email"
-                            type="email"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                            required
-                            placeholder="you@example.com"
-                            disabled={isLoading}
-                            className="w-full"
-                            autoComplete="email"
-                          />
-                        </div>
+                        <label
+                          htmlFor="email"
+                          className="block text-sm font-medium text-foreground"
+                        >
+                          Email
+                        </label>
+                        <Input
+                          id="email"
+                          type="email"
+                          value={email}
+                          onChange={(e) => setEmail(e.target.value)}
+                          required
+                          placeholder="you@example.com"
+                          disabled={isLoading}
+                          className="w-full"
+                          autoComplete="email"
+                        />
                       </motion.div>
 
-                      {/* Group 3: Parolă, Confirmă parola */}
                       <motion.div
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.4 }}
-                        className="grid grid-cols-1 md:grid-cols-2 gap-4"
+                        className="space-y-2"
                       >
-                        <div className="space-y-2">
-                          <label
-                            htmlFor="password"
-                            className="block text-sm font-medium text-foreground"
-                          >
-                            Parolă
-                          </label>
-                          <Input
-                            id="password"
-                            type="password"
-                            value={password}
-                            onChange={(e) => setPassword(e.target.value)}
-                            required
-                            placeholder="••••••••"
-                            disabled={isLoading}
-                            className="w-full"
-                            autoComplete="new-password"
-                          />
-                          <p className="text-xs text-muted-foreground">
-                            Minim 6 caractere
-                          </p>
-                        </div>
-                        <div className="space-y-2">
-                          <label
-                            htmlFor="confirmPassword"
-                            className="block text-sm font-medium text-foreground"
-                          >
-                            Confirmă parola
-                          </label>
-                          <Input
-                            id="confirmPassword"
-                            type="password"
-                            value={confirmPassword}
-                            onChange={(e) => setConfirmPassword(e.target.value)}
-                            required
-                            placeholder="••••••••"
-                            disabled={isLoading}
-                            className="w-full"
-                            autoComplete="new-password"
-                          />
-                        </div>
+                        <label
+                          htmlFor="password"
+                          className="block text-sm font-medium text-foreground"
+                        >
+                          Parolă
+                        </label>
+                        <Input
+                          id="password"
+                          type="password"
+                          value={password}
+                          onChange={(e) => setPassword(e.target.value)}
+                          required
+                          placeholder="••••••••"
+                          disabled={isLoading}
+                          className="w-full"
+                          autoComplete="new-password"
+                        />
+                        <p className="text-xs text-muted-foreground">
+                          Minim 6 caractere
+                        </p>
+                      </motion.div>
+
+                      <motion.div
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: 0.5 }}
+                        className="space-y-2"
+                      >
+                        <label
+                          htmlFor="confirmPassword"
+                          className="block text-sm font-medium text-foreground"
+                        >
+                          Confirmă parola
+                        </label>
+                        <Input
+                          id="confirmPassword"
+                          type="password"
+                          value={confirmPassword}
+                          onChange={(e) => setConfirmPassword(e.target.value)}
+                          required
+                          placeholder="••••••••"
+                          disabled={isLoading}
+                          className="w-full"
+                          autoComplete="new-password"
+                        />
                       </motion.div>
 
                       <motion.div

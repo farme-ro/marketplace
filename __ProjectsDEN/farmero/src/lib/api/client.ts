@@ -11,10 +11,9 @@
 
 // Get API base URL - standardize on NEXT_PUBLIC_API_URL
 // In production: https://api.farme.ro
-// In development: http://localhost:3001 (local backend) or https://api.farme.ro (remote)
+// In development: http://localhost:4000 (local backend) or https://api.farme.ro (remote)
 // IMPORTANT: Backend-ul este într-un repo separat (api.farme.ro)
-// Note: Default port is 3001 to match common local development setup
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:3001'
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:4000'
 
 // Log in development for debugging
 if (typeof window !== 'undefined' && process.env.NODE_ENV === 'development') {
@@ -130,11 +129,6 @@ export async function apiFetch<T>(path: string, init?: RequestInit): Promise<T> 
       if (!isExpected && process.env.NODE_ENV === 'development') {
         // eslint-disable-next-line no-console
         console.warn(`[apiFetch] Unexpected error for ${normalizedPath}:`, response.status, response.statusText)
-        // Log detailed error data if available
-        if (data && typeof data === 'object') {
-          // eslint-disable-next-line no-console
-          console.warn('[apiFetch] Error details:', data)
-        }
       }
 
       throw error
