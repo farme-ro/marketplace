@@ -86,6 +86,13 @@ const nextConfig = {
         fs: false,
       }
     }
+    
+    // Explicitly configure path aliases for webpack
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@': require('path').resolve(__dirname, 'src'),
+    }
+    
     // Exclude old folders from build
     config.watchOptions = {
       ...config.watchOptions,
