@@ -16,10 +16,16 @@
 // Note: Default port is 3001 to match common local development setup
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:3001'
 
-// Log in development for debugging
-if (typeof window !== 'undefined' && process.env.NODE_ENV === 'development') {
+// Log in development and production for debugging
+if (typeof window !== 'undefined') {
   // eslint-disable-next-line no-console
   console.debug('[API Client] Using API_BASE_URL:', API_BASE_URL)
+  
+  // Warn if using localhost in production
+  if (API_BASE_URL.includes('localhost') && process.env.NODE_ENV === 'production') {
+    // eslint-disable-next-line no-console
+    console.error('⚠️ [API Client] WARNING: Using localhost in production! Set NEXT_PUBLIC_API_URL=https://api.farme.ro in Vercel environment variables.')
+  }
 }
 
 export class ApiError extends Error {

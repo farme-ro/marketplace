@@ -6,7 +6,7 @@
 
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -18,6 +18,14 @@ import { Alert } from 'farme-ui'
 import { PageContainer } from '@/components/layout/page-container'
 
 export default function RegisterClientPage() {
+  // Debug: Log environment in development
+  useEffect(() => {
+    if (process.env.NODE_ENV === 'development') {
+      console.log('🔍 Environment Check:')
+      console.log('API URL:', process.env.NEXT_PUBLIC_API_URL || 'NOT SET (will use localhost:3001)')
+      console.log('NODE_ENV:', process.env.NODE_ENV)
+    }
+  }, [])
   const router = useRouter()
   const { registerClient, isLoading } = useAuth()
   const [firstName, setFirstName] = useState('')
