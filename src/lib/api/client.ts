@@ -14,7 +14,9 @@
 // In development: http://localhost:3001 (local backend) or https://api.farme.ro (remote)
 // IMPORTANT: Backend-ul este într-un repo separat (api.farme.ro)
 // Note: Default port is 3001 to match common local development setup
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:3001'
+// Use getApiBaseUrl() from config.ts for better fallback handling
+import { getApiBaseUrl } from './config'
+const API_BASE_URL = getApiBaseUrl()
 
 // Log in development and production for debugging
 if (typeof window !== 'undefined') {
