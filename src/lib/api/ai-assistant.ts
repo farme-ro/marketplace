@@ -1,16 +1,35 @@
 /**
- * AI Assistant API Client (Admin)
+ * AI Assistant API
  * 
- * API functions for viewing AI interactions in admin
+ * API functions for AI Assistant interactions
  */
 
-import { apiFetch } from './admin'
+import { apiFetch, ApiError } from './client'
+import { isBackendSyncEnabled } from '@/lib/backend-sync/status'
 
 // ============================================================================
 // Types
 // ============================================================================
 
 export type AiRole = 'client' | 'producer' | 'support' | 'admin'
+
+export interface AiContext {
+  role: AiRole
+  locale: string
+  page?: string
+  userId?: string
+  metadata?: Record<string, any>
+}
+
+export interface SuggestedLink {
+  url: string
+  label: string
+}
+
+export interface AiAssistantResponse {
+  answer: string
+  suggestedLinks?: SuggestedLink[]
+}
 
 export interface AiInteraction {
   id: string
@@ -19,26 +38,8 @@ export interface AiInteraction {
   context: Record<string, any>
   question: string
   answer: string
-  suggestedLinks?: Array<{ url: string; label: string }>
+  suggestedLinks?: SuggestedLink[]
   createdAt: string
-}
-
-export interface GetAiInteractionsParams {
-  role?: AiRole
-  userId?: string
-  search?: string
-  page?: number
-  limit?: number
-}
-
-export interface GetAiInteractionsResponse {
-  data: AiInteraction[]
-  pagination: {
-    page: number
-    limit: number
-    total: number
-    totalPages: number
-  }
 }
 
 // ============================================================================
@@ -46,40 +47,55 @@ export interface GetAiInteractionsResponse {
 // ============================================================================
 
 /**
- * Get AI interactions (admin only)
+ * Send AI assistant message
  */
-export async function getAiInteractions(
-  params?: GetAiInteractionsParams
-): Promise<GetAiInteractionsResponse> {
-  try {
-    const queryParams = new URLSearchParams()
-    if (params?.role) queryParams.append('role', params.role)
-    if (params?.userId) queryParams.append('userId', params.userId)
-    if (params?.search) queryParams.append('search', params.search)
-    if (params?.page) queryParams.append('page', params.page.toString())
-    if (params?.limit) queryParams.append('limit', params.limit.toString())
+export async function sendAiMessage(
+  context: AiContext,
+  message: string
+): Promise<AiAssistantResponse> {
+  if (!isBackendSyncEnabled('aiAssistant')) {
+    // Return fallback response
+    return {
+      answer:
+        context.locale === 'ro'
+          ? 'Te rugăm să revii, asistentul este temporar indisponibil. Poți găsi răspunsuri în secțiunea de întrebări frecvente.'
+          : 'Please come back later, the assistant is temporarily unavailable. You can find answers in the FAQ section.',
+      suggestedLinks: [
+        { url: '/intrebari-frecvente', label: context.locale === 'ro' ? 'FAQ' : 'FAQ' },
+        { url: '/contact', label: context.locale === 'ro' ? 'Contact' : 'Contact' },
+      ],
+    }
+  }
 
-    const query = queryParams.toString()
-    const response = await apiFetch<{ success: boolean; data: GetAiInteractionsResponse }>(
-      `/admin/ai/interactions${query ? `?${query}` : ''}`
+  try {
+    const response = await apiFetch<{ success: boolean; data: AiAssistantResponse }>(
+      '/ai/assistant',
+      {
+        method: 'POST',
+        body: JSON.stringify({
+          context,
+          message,
+        }),
+      }
     )
 
     if (!response.success || !response.data) {
-      throw new Error('Failed to get AI interactions')
+      throw new ApiError('Failed to get AI response', 500)
     }
 
     return response.data
   } catch (error) {
-    console.warn('[AI Assistant API] Failed to get interactions:', error)
-    // Return empty response on error
+    // Return fallback response on error
+    console.warn('[AI Assistant] Failed to send message:', error)
     return {
-      data: [],
-      pagination: {
-        page: params?.page || 1,
-        limit: params?.limit || 50,
-        total: 0,
-        totalPages: 0,
-      },
+      answer:
+        context.locale === 'ro'
+          ? 'Te rugăm să revii, asistentul este temporar indisponibil. Poți găsi răspunsuri în secțiunea de întrebări frecvente.'
+          : 'Please come back later, the assistant is temporarily unavailable. You can find answers in the FAQ section.',
+      suggestedLinks: [
+        { url: '/intrebari-frecvente', label: context.locale === 'ro' ? 'FAQ' : 'FAQ' },
+        { url: '/contact', label: context.locale === 'ro' ? 'Contact' : 'Contact' },
+      ],
     }
   }
 }

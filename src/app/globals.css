@@ -4,54 +4,392 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* LIGHT THEME TOKENS - "Zi de piață, aer cald, sănătos" */
+    /* Main page background: verde foarte deschis cald (nu alb pur) */
+    --background: 104.54 23.48% 88.87%;  /* hsl(104.54deg 23.48% 88.87%) - light green background */
+    --foreground: 120 15% 12%;       /* hsl(120, 15%, 12%) ≈ #1D2420 - închis cald, nu negru pur */
+
+    /* Cards / surfaces - alb cald doar pentru carduri critice */
+    --card: 0 0% 100%;               /* #FFFFFF - alb pur doar pentru carduri critice */
+    --card-foreground: 120 15% 12%;  /* dark greenish text */
+
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-    --radius: 0.5rem;
+    --popover-foreground: 120 15% 12%;
+
+    /* Muted/secondary surfaces - verde deschis cald */
+    --muted: 95 20% 94%;             /* hsl(95, 20%, 94%) ≈ #E7F0EA - verde deschis cald */
+    --muted-foreground: 120 10% 33%; /* hsl(120, 10%, 33%) ≈ #4E5C54 - gri-verzui */
+
+    /* Borders / inputs */
+    --border: 95 15% 88%;            /* hsl(95, 15%, 88%) - light greenish border */
+    --input: 95 15% 88%;
+
+    /* Primary accent – verde Farmero (păstrat pentru titluri, link-uri, badge-uri) */
+    --primary: 136 53% 42%;         /* hsl(136, 53%, 42%) - fresh green */
+    --primary-foreground: 0 0% 100%; /* white text */
+    --primary-hover: 136 53% 38%;   /* darker green on hover */
+    --primary-soft: 136 30% 85%;    /* soft green for backgrounds */
+    --primary-bg: 136 25% 96%;      /* very light green background */
+
+    /* Secondary accent – terracotta soft pentru CTA-uri și hover states */
+    --secondary: 15 55% 55%;         /* hsl(15, 55%, 55%) ≈ #C86B4A - terracotta soft */
+    --secondary-foreground: 0 0% 100%; /* white text on terracotta */
+    --secondary-soft: 15 30% 85%;    /* soft terracotta for backgrounds */
+
+    /* Destructive */
+    --destructive: 0 84% 60%;        /* red */
+    --destructive-foreground: 0 0% 98%; /* light text */
+
+    --ring: 136 53% 42%;            /* focus ring - green */
+    --radius: 0.75rem;              /* border radius */
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-  }
-}
+    /* DARK THEME TOKENS - "Seară la fermă", verde de seară cald */
+    /* Main page background: verde de seară mai cald (nu foarte închis) */
+    --background: 245.77 25% 12%;     /* hsl(245.77deg 25% 12%) - dark purple-blue background */
+    --foreground: 120 15% 97%;       /* hsl(120, 15%, 97%) ≈ #F5FAF7 - text deschis */
 
-@layer base {
+    /* Cards / surfaces - verde mai deschis */
+    --card: 150 20% 15%;            /* hsl(150, 20%, 15%) ≈ #24352E - verde mai deschis */
+    --card-foreground: 120 15% 97%;
+
+    --popover: 150 20% 15%;
+    --popover-foreground: 120 15% 97%;
+
+    /* Muted/secondary surfaces - verde elevat */
+    --muted: 150 18% 18%;           /* hsl(150, 18%, 18%) ≈ #2C3F36 - verde elevat */
+    --muted-foreground: 120 10% 70%; /* hsl(120, 10%, 70%) ≈ #A3B7AA - text muted */
+
+    /* Borders / inputs */
+    --border: 150 15% 22%;          /* border color */
+    --input: 150 15% 22%;
+
+    /* Primary accent – TERRACOTTA (nu verde) pentru CTA-uri principale */
+    --primary: 15 55% 60%;          /* hsl(15, 55%, 60%) ≈ #D47A54 - terracotta principal */
+    --primary-foreground: 0 0% 98%;
+
+    /* Primary hover – terracotta mai deschis */
+    --primary-hover: 15 55% 65%;     /* hsl(15, 55%, 65%) ≈ #E08B66 - terracotta hover */
+    --primary-soft: 15 30% 25%;      /* soft terracotta for dark backgrounds */
+    --primary-bg: 15 20% 12%;        /* very dark terracotta background */
+
+    /* Secondary accent – verde pentru badge-uri eco, status confirmat */
+    --secondary: 136 50% 50%;        /* hsl(136, 50%, 50%) ≈ #4AB86A - verde accent minor */
+    --secondary-foreground: 0 0% 98%; /* light text on green */
+    --secondary-soft: 136 30% 25%;   /* soft green for dark backgrounds */
+
+    --destructive: 0 72% 50%;       /* red */
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 15 55% 60%;             /* focus ring - terracotta */
+  }
+
+  html {
+    min-height: 100vh;
+    /* Use clip instead of hidden to allow sticky positioning */
+    overflow-x: clip;
+    scroll-behavior: smooth;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
+    min-height: 100vh;
+    /* Use clip instead of hidden to allow sticky positioning */
+    overflow-x: clip;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+  }
+  
+  /* Fallback for browsers that don't support overflow-x: clip */
+  @supports not (overflow-x: clip) {
+    html, body {
+      overflow-x: hidden;
+    }
+  }
+  
+  /* Ensure Next.js root container doesn't create extra scroll */
+  /* Note: overflow-x: hidden can break sticky positioning, so we handle it differently */
+  #__next {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Removed overflow-x: hidden to allow sticky positioning to work */
+    position: relative;
+  }
+  
+  /* Prevent horizontal scroll without breaking sticky/fixed positioning */
+  /* Don't apply overflow to direct children - it breaks fixed positioning */
+  /* Instead, apply to specific elements that need it */
+  #__next > main,
+  #__next > section {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  /* Smooth theme transitions */
+  * {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 200ms;
+  }
+
+  /* Reduced Motion Support */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
   }
 }
 
+/* Farme.ro Premium Typography */
+.font-heading {
+  font-family: var(--font-body, 'Inter', 'Satoshi', 'Manrope', 'Poppins', sans-serif);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.font-body {
+  font-family: var(--font-body, 'Inter', 'Manrope', sans-serif);
+  font-weight: 400;
+}
+
+/* Typography Scale - Compact, Modern Headings */
+h1 {
+  font-weight: 700;
+  font-size: clamp(1.8rem, 2.5vw, 2.4rem); /* Responsive, compact */
+  line-height: 1.25; /* Tighter line height */
+  letter-spacing: -0.5px; /* Slightly tighter */
+}
+
+h2 {
+  font-weight: 600;
+  font-size: clamp(1.4rem, 2vw, 1.8rem); /* Responsive, compact */
+  line-height: 1.3; /* Tighter line height */
+  letter-spacing: -0.3px; /* Slightly tighter */
+}
+
+/* Body text */
+body {
+  font-size: 0.875rem; /* text-sm */
+  line-height: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1rem; /* md:text-base */
+    line-height: 1.625rem;
+  }
+}
+
+/* Text body color */
+.text-body {
+  color: hsl(var(--foreground));
+}
+
+/* Slate-600 for light mode, slate-300 for dark mode */
+.text-body-muted {
+  color: rgb(71 85 105); /* slate-600 */
+}
+
+.dark .text-body-muted {
+  color: rgb(203 213 225); /* slate-300 */
+}
+
+/* Ensure navbar is sticky/fixed and stays on top - Cross-browser support */
+/* Target nav elements that have sticky class applied or fixed positioning */
+nav.sticky,
+nav[class*="sticky"],
+nav[class*="top-0"],
+nav[class*="fixed"],
+nav[style*="sticky"],
+nav[style*="position: sticky"],
+nav[style*="position: fixed"],
+nav[style*="position:fixed"] {
+  /* Use fixed positioning for maximum compatibility */
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 100 !important;
+  width: 100% !important;
+  /* Ensure it stays in the document flow */
+  will-change: transform;
+  /* Backdrop blur support */
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+/* Ensure flex parent doesn't break sticky */
+.flex.flex-col > nav,
+div[class*="flex"][class*="flex-col"] > nav {
+  align-self: flex-start !important;
+  width: 100% !important;
+}
+
+/* Ensure parent containers don't interfere with sticky positioning */
+#__next,
+body,
+html {
+  /* Sticky positioning requires normal document flow */
+  position: relative;
+  /* Don't use overflow on parent containers - it breaks sticky */
+  overflow-x: clip; /* Modern alternative to overflow-x: hidden */
+  overflow-y: auto;
+}
+
+/* Fallback for browsers that don't support overflow-x: clip */
+@supports not (overflow-x: clip) {
+  #__next,
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  
+  /* But allow sticky to work by ensuring nav is direct child */
+  #__next > nav,
+  body > nav {
+    position: sticky !important;
+    -webkit-position: -webkit-sticky !important;
+  }
+}
+
+/* Ensure navbar container is centered above 1280px with max-w-8xl */
+@media (min-width: 1280px) {
+  nav > div:first-child {
+    max-width: 88rem !important; /* max-w-8xl = 1408px */
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+/* Under 1280px, ensure navbar elements align with page content */
+@media (max-width: 1279px) {
+  nav > div:first-child {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 1rem !important; /* px-4 */
+    padding-right: 1rem !important; /* px-4 */
+  }
+  
+  @media (min-width: 640px) {
+    nav > div:first-child {
+      padding-left: 1.5rem !important; /* sm:px-6 */
+      padding-right: 1.5rem !important; /* sm:px-6 */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    nav > div:first-child {
+      padding-left: 2rem !important; /* lg:px-8 */
+      padding-right: 2rem !important; /* lg:px-8 */
+    }
+  }
+}
+
+/* Scrollbar hide utility */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Section spacing utilities - mai mult aer vertical */
+.section-spacing {
+  margin-bottom: 4rem; /* 64px */
+}
+
+@media (min-width: 768px) {
+  .section-spacing {
+    margin-bottom: 6rem; /* 96px */
+  }
+}
+
+/* Card padding utilities - consistent spacing */
+.card-padding {
+  padding: 1rem 1.25rem; /* 16-20px */
+}
+
+@media (min-width: 768px) {
+  .card-padding {
+    padding: 1.25rem 1.5rem; /* 20-24px */
+  }
+}
+
+/* Card padding-top fix - prevent icon and text overflow */
+.bg-card,
+[class*="bg-card"] {
+  padding-top: 25px;
+}
+
+/* Apply to Card components specifically */
+div[class*="rounded"][class*="border"][class*="bg-card"],
+div[class*="rounded"][class*="shadow"][class*="bg-card"] {
+  padding-top: 25px;
+}
+
+/* Focus states - accesibilitate îmbunătățită */
+*:focus-visible {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
+  border-radius: 0.25rem;
+}
+
+/* Hover + Focus combined feedback */
+button:focus-visible:hover,
+a:focus-visible:hover {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
+}
+
+/* Ensure footer container is centered above 1280px */
+@media (min-width: 1280px) {
+  footer > div:first-child,
+  footer > div[class*="max-w"],
+  footer > div.container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+/* Under 1280px, ensure footer elements align with page content */
+@media (max-width: 1279px) {
+  footer > div:first-child,
+  footer > div[class*="max-w"],
+  footer > div.container {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 1rem !important; /* px-4 */
+    padding-right: 1rem !important; /* px-4 */
+  }
+  
+  @media (min-width: 640px) {
+    footer > div:first-child,
+    footer > div[class*="max-w"],
+    footer > div.container {
+      padding-left: 1.5rem !important; /* sm:px-6 */
+      padding-right: 1.5rem !important; /* sm:px-6 */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    footer > div:first-child,
+    footer > div[class*="max-w"],
+    footer > div.container {
+      padding-left: 2rem !important; /* lg:px-8 */
+      padding-right: 2rem !important; /* lg:px-8 */
+    }
+  }
+}
