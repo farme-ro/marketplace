@@ -217,6 +217,25 @@ export async function loginClient(payload: LoginPayload): Promise<AuthResponse> 
 }
 
 /**
+ * Extract detailed error message from API error response
+ */
+function extractErrorMessage(error: ApiError, defaultMessage: string): string {
+  if (error.status === 500 && error.data && typeof error.data === 'object') {
+    const errorData = error.data as any
+    // Check for detailed error message from backend
+    if (errorData.message) {
+      return errorData.message
+    } else if (errorData.error && typeof errorData.error === 'string') {
+      return errorData.error
+    } else if (errorData.details) {
+      // If there are validation details, include them
+      return `Eroare: ${JSON.stringify(errorData.details)}`
+    }
+  }
+  return defaultMessage
+}
+
+/**
  * Register client
  * 
  * @param payload - Registration data
@@ -244,7 +263,8 @@ export async function registerClient(payload: RegisterClientPayload): Promise<Au
         throw new Error('Prea multe încercări de înregistrare. Te rugăm să încerci din nou peste 15 minute.')
       }
       if (error.status === 500) {
-        throw new Error('Eroare pe server. Te rugăm să încerci mai târziu.')
+        const detailedMessage = extractErrorMessage(error, 'Eroare pe server. Te rugăm să încerci mai târziu.')
+        throw new Error(detailedMessage)
       }
       throw new Error(error.message || 'Eroare la înregistrare. Te rugăm să încerci din nou.')
     }
